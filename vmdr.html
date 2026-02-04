@@ -1,137 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VMDR | Qualys Hub</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style> :root { --qualys-red: #ED1C24; } </style>
-</head>
-<body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col">
-
-    <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-10">
-        <div class="flex items-center gap-3">
-            <img src="https://www.qualys.com/favicon.ico" class="h-7">
-            <h1 class="text-xl font-bold tracking-tight text-slate-800">QUALYS <span class="text-slate-400 font-light text-sm uppercase">Portal Hub</span></h1>
-        </div>
-    </nav>
-
-    <div class="flex flex-1 overflow-hidden">
-        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0"></aside>
-
-        <main class="flex-1 overflow-y-auto p-10">
-            <div class="max-w-5xl mx-auto">
-                <h2 class="text-3xl font-black text-slate-800">VMDR Dashboard</h2>
-                <p class="text-slate-500 mt-2 mb-10">Vulnerability Management, Detection, and Response.</p>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                    <a href="https://qualysguard.qualys.com" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-500 transition-all group">
-                        <i class="fa-solid fa-right-to-bracket text-red-500 mb-4 text-xl"></i>
-                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Platform Login</h3>
-                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Access the primary Qualys VMDR console.</p>
-                    </a>
-
-                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-500 transition-all group">
-                        <i class="fa-solid fa-book-open text-blue-500 mb-4 text-xl"></i>
-                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Documentation</h3>
-                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Official user guides and setup instructions.</p>
-                    </a>
-                </div>
-
-                <section class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
-                    <div class="px-8 py-6 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
-                        <h3 class="font-bold text-slate-800 flex items-center gap-2">
-                            <i class="fa-solid fa-list-ul text-red-500"></i> Reference Articles
-                        </h3>
-                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Self-Service Resources</span>
-                    </div>
-                    
-                    <div class="divide-y divide-slate-100">
-                        <a href="https://success.qualys.com/support/s/article/000002028" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">How Vulnerability Management scans work in the background</h4>
-                                </div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-
-                        <a href="https://success.qualys.com/support/s/article/000001056" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">Scanning Best Practices</h4>
-                                </div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-
-                        <a href="https://success.qualys.com/discussions/s/article/000006221" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">Purging: What, why, when, how, what happens to the data?</h4>
-                                </div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-
-                        <a href="https://success.qualys.com/discussions/s/article/000006881" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">Virtual Scanner Appliance Sizing</h4>
-                                </div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-
-                        <a href="https://notifications.qualys.com/product/2025/11/26/sizing-your-scanners-for-optimal-performance" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">Sizing Your Scanners for Optimal Performance</h4>
-                                </div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-
-                        <a href="https://docs.qualys.com/en/vm/latest/scanner_appliances/vscanner/win_virtual_scanner_user_guide.htm" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">Virtual Scanner Appliance User Guide</h4>
-                                </div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-                        
-                        </div>
-                    
-                    <div class="px-8 py-4 bg-slate-50 text-center">
-                        <p class="text-[10px] text-slate-400 font-medium tracking-tight italic">More articles will be added as they are documented.</p>
-                    </div>
-                </section>
-
-            </div>
-        </main>
+<section class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm mt-10">
+    <div class="px-8 py-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+        <h3 class="font-bold text-slate-800 flex items-center gap-2">
+            <i class="fa-solid fa-list-ul text-red-500"></i> Reference Articles
+        </h3>
+        <span id="link-count" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Loading...</span>
     </div>
+    
+    <div id="article-list-container" class="divide-y divide-slate-100">
+        </div>
+</section>
 
-    <script>
-        fetch('sidebar.html')
-            .then(res => res.text())
-            .then(data => {
-                document.getElementById('global-sidebar').innerHTML = data;
-                const page = window.location.pathname.split("/").pop() || "index.html";
-                document.querySelectorAll('.nav-item').forEach(link => {
-                    if (link.getAttribute('href') === page) {
-                        link.classList.add('bg-slate-50', 'text-red-600', 'border-red-600');
-                        link.classList.remove('border-transparent');
-                    }
-                });
+<script>
+    async function fetchVmdrLinks() {
+        try {
+            const response = await fetch('vmdr-links.csv');
+            const data = await response.text();
+            
+            // Split into lines and filter out empty ones
+            const rows = data.split('\n').filter(row => row.trim() !== '');
+            
+            // Remove the header row (title,link)
+            const contentRows = rows.slice(1);
+            
+            const container = document.getElementById('article-list-container');
+            const countLabel = document.getElementById('link-count');
+            
+            container.innerHTML = ''; 
+            countLabel.innerText = `${contentRows.length} Articles`;
+
+            contentRows.forEach(row => {
+                // Use a regex to split by the first comma only to protect URLs with commas
+                const firstCommaIndex = row.indexOf(',');
+                const title = row.substring(0, firstCommaIndex).trim();
+                const link = row.substring(firstCommaIndex + 1).trim();
+
+                if (title && link) {
+                    const rowHTML = `
+                        <a href="${link}" target="_blank" rel="noopener" class="flex items-center justify-between px-8 py-4 hover:bg-slate-50 transition-colors group">
+                            <div class="flex items-center gap-4">
+                                <i class="fa-solid fa-link text-slate-300 group-hover:text-red-500 transition-colors text-sm"></i>
+                                <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">${title}</span>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-slate-300 text-[10px] opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                        </a>
+                    `;
+                    container.innerHTML += rowHTML;
+                }
             });
-    </script>
-</body>
-</html>
+        } catch (error) {
+            console.error('CSV Load Error:', error);
+            document.getElementById('article-list-container').innerHTML = 
+                '<div class="p-8 text-red-500 text-sm">Error loading links. Ensure vmdr-links.csv is in the root folder.</div>';
+        }
+    }
+
+    // Run on page load
+    fetchVmdrLinks();
+</script>
