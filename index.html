@@ -26,12 +26,12 @@
             <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center gap-2">
                     <img src="https://www.qualys.com/favicon.ico" alt="Qualys" class="h-8 w-8">
-                    <span class="text-xl font-extrabold tracking-tight text-slate-800">QUALYS <span class="font-light text-slate-500">RESOURCES</span></span>
+                    <span class="text-xl font-extrabold tracking-tight text-slate-800 uppercase text-xs sm:text-lg">QUALYS <span class="font-light text-slate-500">RESOURCES</span></span>
                 </div>
-                <div class="hidden md:flex space-x-8 text-sm font-medium">
-                    <a href="https://status.qualys.com" class="text-slate-600 hover:text-qualys-red">System Status</a>
-                    <a href="https://community.qualys.com" class="text-slate-600 hover:text-qualys-red">Community</a>
-                    <a href="https://www.qualys.com/training/" class="text-slate-600 hover:text-qualys-red">Training</a>
+                <div class="flex space-x-4 md:space-x-8 text-xs md:text-sm font-medium">
+                    <a href="https://status.qualys.com" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-qualys-red">Status</a>
+                    <a href="https://community.qualys.com" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-qualys-red hidden sm:inline">Community</a>
+                    <a href="https://www.qualys.com/training/" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-qualys-red">Training</a>
                 </div>
             </div>
         </div>
@@ -39,88 +39,102 @@
 
     <header class="bg-slate-900 py-16 px-4">
         <div class="max-w-4xl mx-auto text-center">
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Centralized Module Hub</h1>
-            <p class="text-slate-400 text-lg">Direct access to public documentation, portals, and API guides for Qualys security modules.</p>
+            <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Qualys Module Hub</h1>
+            <p class="text-slate-400 text-sm md:text-lg max-w-2xl mx-auto">A curated directory of public-facing Qualys links, documentation, and tools for Security Architects.</p>
         </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             
-            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card group">
-                <div class="h-12 w-12 bg-red-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-shield-virus text-qualys-red text-2xl"></i>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card flex flex-col justify-between">
+                <div>
+                    <div class="h-12 w-12 bg-red-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-shield-virus text-qualys-red text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">VMDR</h3>
+                    <p class="text-slate-500 text-sm mb-6">Vulnerability Management, Detection, and Response. The core of risk assessment.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">VMDR</h3>
-                <p class="text-slate-500 text-sm mb-6">Vulnerability Management, Detection, and Response. The core of your risk assessment.</p>
                 <div class="flex flex-wrap gap-3">
-                    <a href="https://www.qualys.com/apps/vulnerability-management-detection-response/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors">Portal</a>
-                    <a href="https://docs.qualys.com/en/vmdr/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors">Docs</a>
+                    <a href="https://qualysguard.qualys.com" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors flex items-center gap-2">Portal <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-2">Docs <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
                 </div>
             </div>
 
-            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card">
-                <div class="h-12 w-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-chart-line text-blue-600 text-2xl"></i>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card flex flex-col justify-between">
+                <div>
+                    <div class="h-12 w-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-chart-line text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">ETM</h3>
+                    <p class="text-slate-500 text-sm mb-6">Enterprise TruRisk Management. Quantify and reduce risk across your entire estate.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">ETM</h3>
-                <p class="text-slate-500 text-sm mb-6">Enterprise TruRisk Management. Quantify and reduce risk across your entire estate.</p>
                 <div class="flex flex-wrap gap-3">
-                    <a href="https://www.qualys.com/apps/enterprise-trurisk-management/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors">Overview</a>
-                    <a href="https://docs.qualys.com/en/etm/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors">Docs</a>
+                    <a href="https://www.qualys.com/apps/enterprise-trurisk-management/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors flex items-center gap-2">Overview <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    <a href="https://docs.qualys.com/en/etm/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-2">Docs <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
                 </div>
             </div>
 
-            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card">
-                <div class="h-12 w-12 bg-amber-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-boxes-stacked text-amber-600 text-2xl"></i>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card flex flex-col justify-between">
+                <div>
+                    <div class="h-12 w-12 bg-amber-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-boxes-stacked text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">CSAM</h3>
+                    <p class="text-slate-500 text-sm mb-6">CyberSecurity Asset Management. Full visibility into your global asset inventory.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">CSAM</h3>
-                <p class="text-slate-500 text-sm mb-6">CyberSecurity Asset Management. Full visibility into your global asset inventory.</p>
                 <div class="flex flex-wrap gap-3">
-                    <a href="https://www.qualys.com/apps/cybersecurity-asset-management/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors">Resources</a>
-                    <a href="https://docs.qualys.com/en/csam/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors">Docs</a>
+                    <a href="https://www.qualys.com/apps/cybersecurity-asset-management/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors flex items-center gap-2">Resources <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    <a href="https://docs.qualys.com/en/csam/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-2">Docs <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
                 </div>
             </div>
 
-            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card">
-                <div class="h-12 w-12 bg-green-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-code text-green-600 text-2xl"></i>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card flex flex-col justify-between">
+                <div>
+                    <div class="h-12 w-12 bg-green-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-code text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">WAS</h3>
+                    <p class="text-slate-500 text-sm mb-6">Web Application Scanning. Automated crawling and testing for web apps.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">WAS</h3>
-                <p class="text-slate-500 text-sm mb-6">Web Application Scanning. Automated crawling and testing for web apps.</p>
                 <div class="flex flex-wrap gap-3">
-                    <a href="https://www.qualys.com/apps/web-application-scanning/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors">Product</a>
-                    <a href="https://docs.qualys.com/en/was/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors">Docs</a>
+                    <a href="https://www.qualys.com/apps/web-application-scanning/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors flex items-center gap-2">Product <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    <a href="https://docs.qualys.com/en/was/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-2">Docs <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
                 </div>
             </div>
 
-            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card">
-                <div class="h-12 w-12 bg-purple-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-terminal text-purple-600 text-2xl"></i>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-transparent transition-all duration-300 hover-card flex flex-col justify-between">
+                <div>
+                    <div class="h-12 w-12 bg-purple-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-terminal text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">API Center</h3>
+                    <p class="text-slate-500 text-sm mb-6">Automation and integration guides for all Qualys Platform APIs.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">API Center</h3>
-                <p class="text-slate-500 text-sm mb-6">Automation and integration guides for all Qualys Platform APIs.</p>
                 <div class="flex flex-wrap gap-3">
-                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors">V2 Guide</a>
-                    <a href="https://www.qualys.com/developer/" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors">Dev Portal</a>
+                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-qualys-red hover:text-white transition-colors flex items-center gap-2">V2 Guide <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    <a href="https://www.qualys.com/developer/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-100 text-slate-700 text-xs font-bold rounded-md hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-2">Dev Portal <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
                 </div>
             </div>
 
-            <div class="bg-slate-800 p-8 rounded-2xl shadow-lg transition-all duration-300 hover:bg-slate-700 text-white">
-                <div class="h-12 w-12 bg-slate-600 rounded-lg flex items-center justify-center mb-6 text-white">
-                    <i class="fa-solid fa-headset text-2xl"></i>
+            <div class="bg-slate-800 p-8 rounded-2xl shadow-lg transition-all duration-300 hover:bg-slate-700 text-white flex flex-col justify-between">
+                <div>
+                    <div class="h-12 w-12 bg-slate-600 rounded-lg flex items-center justify-center mb-6 text-white">
+                        <i class="fa-solid fa-headset text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Need Support?</h3>
+                    <p class="text-slate-300 text-sm mb-6">Connect with the technical team or check platform health status.</p>
                 </div>
-                <h3 class="text-xl font-bold mb-2 text-white">Need Support?</h3>
-                <p class="text-slate-300 text-sm mb-6">Connect with the technical team or check platform health status.</p>
-                <a href="https://status.qualys.com" class="inline-block w-full text-center px-4 py-3 bg-qualys-red text-white text-sm font-bold rounded-lg hover:opacity-90 transition-opacity">Check Status</a>
+                <a href="https://status.qualys.com" target="_blank" rel="noopener noreferrer" class="inline-block w-full text-center px-4 py-3 bg-qualys-red text-white text-sm font-bold rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                    Check Status <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                </a>
             </div>
 
         </div>
     </main>
 
     <footer class="max-w-7xl mx-auto py-12 px-4 text-center text-slate-400 text-xs">
-        <p>&copy; 2026 • Curated Qualys Links • Built for GitHub Pages</p>
+        <p>&copy; 2026 • Security Architect Portal • Built for GitHub Pages</p>
     </footer>
 
 </body>
