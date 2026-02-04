@@ -1,5 +1,7 @@
 title,link
-Configuring Authenticated Scans,https://docs.qualys.com/en/vmdr/scans.htm
-VMDR Prioritization Guide,https://docs.qualys.com/en/vmdr/prioritize.htm
-Qualys API v2 Guide,https://www.qualys.com/docs/api-v2.pdf
-Vulnerability Management Best Practices,https://community.qualys.com/docs/DOC-1011
+How Vulnerability Management scans work in the background,https://success.qualys.com/support/s/article/000002028
+Scanning Best Practices,https://success.qualys.com/support/s/article/000001056
+"Purging: What, why, when, how, what happens to the data?",https://success.qualys.com/discussions/s/article/000006221
+Virtual Scanner Appliance Sizing,https://success.qualys.com/discussions/s/article/000006881
+Sizing Your Scanners for Optimal Performance,https://notifications.qualys.com/product/2025/11/26/sizing-your-scanners-for-optimal-performance
+Virtual Scanner Appliance User Guide,https://docs.qualys.com/en/vm/latest/scanner_appliances/vscanner/win_virtual_scanner_user_guide.htm
