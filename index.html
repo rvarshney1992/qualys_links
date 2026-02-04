@@ -3,50 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualys Hub | Home</title>
+    <title>Qualys Hub | Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        :root { --qualys-red: #ED1C24; }
-        .sidebar-link:hover { border-left: 4px solid var(--qualys-red); background: #f8fafc; color: var(--qualys-red); }
-        .active-page { border-left: 4px solid var(--qualys-red); background: #f8fafc; color: var(--qualys-red) !important; }
-    </style>
+    <style> :root { --qualys-red: #ED1C24; } </style>
 </head>
 <body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col">
 
     <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-10">
         <div class="flex items-center gap-3">
             <img src="https://www.qualys.com/favicon.ico" class="h-7">
-            <h1 class="text-xl font-bold tracking-tight">QUALYS <span class="text-slate-400 font-light text-sm uppercase">Resource Portal</span></h1>
+            <h1 class="text-xl font-bold tracking-tight text-slate-800">QUALYS <span class="text-slate-400 font-light text-sm uppercase">Portal Hub</span></h1>
         </div>
     </nav>
 
     <div class="flex flex-1 overflow-hidden">
-        <aside class="w-64 bg-white border-r border-slate-200 py-6 shrink-0">
-            <nav class="space-y-1">
-                <a href="index.html" class="active-page flex items-center gap-3 px-6 py-4 font-bold text-slate-600">
-                    <i class="fa-solid fa-house w-5"></i> Dashboard
-                </a>
-                <a href="vmdr.html" class="sidebar-link flex items-center gap-3 px-6 py-4 font-bold text-slate-600">
-                    <i class="fa-solid fa-shield-halved w-5"></i> VMDR
-                </a>
-                <a href="etm.html" class="sidebar-link flex items-center gap-3 px-6 py-4 font-bold text-slate-600">
-                    <i class="fa-solid fa-gauge-high w-5"></i> ETM
-                </a>
-            </nav>
-        </aside>
+        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0"></aside>
 
-        <main class="flex-1 overflow-y-auto p-10">
-            <h2 class="text-4xl font-black text-slate-800 mb-2">Welcome, Rajat</h2>
-            <p class="text-slate-500 mb-10">Select a module from the sidebar to manage specific links and documentation.</p>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-slate-900 text-white p-8 rounded-3xl">
-                    <h3 class="text-xl font-bold mb-2">Quick Stats</h3>
-                    <p class="text-slate-400 text-sm">You have 2 modules currently active in this portal.</p>
+        <main class="flex-1 overflow-y-auto p-10 bg-slate-50">
+            <div class="max-w-5xl">
+                <header class="mb-10">
+                    <h2 class="text-4xl font-black text-slate-800 tracking-tight">System Overview</h2>
+                    <p class="text-slate-500 mt-2">Welcome to your curated Qualys resource architecture.</p>
+                </header>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-slate-900 text-white p-8 rounded-3xl shadow-xl col-span-2">
+                        <h3 class="text-xl font-bold mb-2">Centralized Command</h3>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">This portal organizes all public-facing Qualys links by module. Use the sidebar to navigate specific product documentation and portals.</p>
+                        <div class="flex gap-4">
+                            <span class="bg-white/10 px-4 py-2 rounded-lg text-xs font-mono">Status: Operational</span>
+                            <span class="bg-white/10 px-4 py-2 rounded-lg text-xs font-mono">Env: Production</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
     </div>
+
+    <script>
+        fetch('sidebar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('global-sidebar').innerHTML = data;
+                const page = window.location.pathname.split("/").pop() || "index.html";
+                document.querySelectorAll('.nav-item').forEach(link => {
+                    if (link.getAttribute('href') === page) {
+                        link.classList.add('bg-slate-50', 'text-red-600', 'border-red-600');
+                        link.classList.remove('border-transparent');
+                    }
+                });
+            });
+    </script>
 </body>
 </html>
