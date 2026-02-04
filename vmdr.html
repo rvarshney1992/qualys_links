@@ -21,22 +21,62 @@
         <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0"></aside>
 
         <main class="flex-1 overflow-y-auto p-10">
-            <div class="max-w-5xl">
-                <h2 class="text-3xl font-black text-slate-800">VMDR</h2>
-                <p class="text-slate-500 mt-2 mb-10 border-b border-slate-200 pb-4 italic">Vulnerability Management, Detection, and Response</p>
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl font-black text-slate-800">VMDR Dashboard</h2>
+                <p class="text-slate-500 mt-2 mb-10">Vulnerability Management, Detection, and Response.</p>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    
-                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-500 transition-all flex flex-col h-full group">
-                        <i class="fa-solid fa-book-open text-blue-500 mb-4 text-xl"></i>
-                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Documentation</h3>
-                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Official user guides, release notes, and setup instructions.</p>
-                        <div class="mt-auto pt-4 text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
-                            View Docs <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
-                        </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                    <a href="https://qualysguard.qualys.com" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-500 transition-all group">
+                        <i class="fa-solid fa-right-to-bracket text-red-500 mb-4 text-xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Platform Login</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Access the primary Qualys VMDR console.</p>
                     </a>
 
+                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-500 transition-all group">
+                        <i class="fa-solid fa-book-open text-blue-500 mb-4 text-xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Documentation</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Official user guides and setup instructions.</p>
+                    </a>
+                </div>
+
+                <section class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
+                    <div class="px-8 py-6 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+                        <h3 class="font-bold text-slate-800 flex items-center gap-2">
+                            <i class="fa-solid fa-list-ul text-red-500"></i> Reference Articles
+                        </h3>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Self-Service Resources</span>
                     </div>
+                    
+                    <div class="divide-y divide-slate-100">
+                        <a href="#" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
+                            <div class="flex items-center gap-4">
+                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">How to configure Authenticated Scans</h4>
+                                    <p class="text-xs text-slate-400 mt-0.5">Placeholder for scan configuration guide...</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="flex items-center justify-between px-8 py-5 hover:bg-slate-50 transition-colors group">
+                            <div class="flex items-center gap-4">
+                                <i class="fa-regular fa-file-lines text-slate-400 group-hover:text-red-500 transition-colors"></i>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">VMDR Prioritization Best Practices</h4>
+                                    <p class="text-xs text-slate-400 mt-0.5">Optimizing TruRisk for vulnerability remediation...</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-300 text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+
+                        </div>
+                    
+                    <div class="px-8 py-4 bg-slate-50 text-center">
+                        <p class="text-[10px] text-slate-400 font-medium tracking-tight italic">More articles will be added as they are documented.</p>
+                    </div>
+                </section>
+
             </div>
         </main>
     </div>
