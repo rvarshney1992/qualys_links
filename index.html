@@ -3,128 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualys Documentation Portal</title>
+    <title>Qualys Hub | Security Architect Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root { --qualys-red: #ED1C24; }
-        .text-qualys-red { color: var(--qualys-red); }
-        .bg-qualys-red { background-color: var(--qualys-red); }
-        .hover-card:hover { transform: translateY(-3px); border-color: var(--qualys-red); }
+        .active-tab { 
+            background-color: #f8fafc; 
+            border-left: 4px solid var(--qualys-red);
+            color: var(--qualys-red) !important;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; animation: fadeIn 0.3s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans">
+<body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col">
 
-    <nav class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-16 items-center">
-            <div class="flex items-center gap-2">
-                <img src="https://www.qualys.com/favicon.ico" alt="Qualys" class="h-6 w-6">
-                <span class="text-lg font-bold tracking-tight">Qualys <span class="text-slate-500 font-light">Docs Hub</span></span>
-            </div>
-            <div class="flex gap-4 text-xs font-bold uppercase tracking-widest">
-                <a href="https://status.qualys.com" target="_blank" rel="noopener" class="text-slate-500 hover:text-qualys-red">Status</a>
-                <a href="https://www.qualys.com/documentation" target="_blank" rel="noopener" class="text-slate-500 hover:text-qualys-red">Official Docs</a>
-            </div>
+    <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-10">
+        <div class="flex items-center gap-3">
+            <img src="https://www.qualys.com/favicon.ico" alt="Qualys" class="h-7 w-7">
+            <h1 class="text-xl font-bold tracking-tight">Qualys <span class="text-slate-400 font-light">Portal Hub</span></h1>
+        </div>
+        <div class="flex gap-6 items-center">
+            <a href="https://status.qualys.com" target="_blank" rel="noopener" class="text-xs font-bold text-slate-500 hover:text-red-600 transition-colors uppercase tracking-widest">System Status</a>
+            <div class="h-8 w-[1px] bg-slate-200"></div>
+            <span class="text-xs font-medium text-slate-400">Security Architect Console</span>
         </div>
     </nav>
 
-    <header class="bg-slate-900 py-12 px-4 text-center">
-        <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-3">Enterprise TruRisk Platform</h1>
-        <p class="text-slate-400 max-w-xl mx-auto text-sm md:text-base">Quick access to official documentation and portals for all Qualys Cloud Apps.</p>
-    </header>
-
-    <main class="max-w-7xl mx-auto px-4 py-10">
-
-        <section class="mb-12">
-            <div class="flex items-center gap-3 mb-6 border-b border-slate-200 pb-2">
-                <i class="fa-solid fa-gauge-high text-qualys-red"></i>
-                <h2 class="text-sm font-black uppercase tracking-widest text-slate-600">Risk Management</h2>
+    <div class="flex flex-1 overflow-hidden">
+        <aside class="w-72 bg-white border-r border-slate-200 overflow-y-auto py-6 shrink-0">
+            <div class="px-6 mb-4">
+                <p class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Security Modules</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">Enterprise TruRisk (ETM)</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Quantify risk across your entire estate with TruRisk scoring.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/etm/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+            <nav class="space-y-1">
+                <button onclick="showTab('vmdr')" id="btn-vmdr" class="tab-btn active-tab w-full text-left px-6 py-4 flex items-center gap-3 font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                    <i class="fa-solid fa-shield-halved w-5"></i> VMDR
+                </button>
+                <button onclick="showTab('etm')" id="btn-etm" class="tab-btn w-full text-left px-6 py-4 flex items-center gap-3 font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                    <i class="fa-solid fa-gauge-high w-5"></i> ETM
+                </button>
+                <button onclick="showTab('csam')" id="btn-csam" class="tab-btn w-full text-left px-6 py-4 flex items-center gap-3 font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                    <i class="fa-solid fa-boxes-stacked w-5"></i> CSAM
+                </button>
+                <button onclick="showTab('was')" id="btn-was" class="tab-btn w-full text-left px-6 py-4 flex items-center gap-3 font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                    <i class="fa-solid fa-code w-5"></i> WAS
+                </button>
+                <button onclick="showTab('api')" id="btn-api" class="tab-btn w-full text-left px-6 py-4 flex items-center gap-3 font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                    <i class="fa-solid fa-terminal w-5"></i> API Center
+                </button>
+            </nav>
+        </aside>
+
+        <main class="flex-1 overflow-y-auto bg-slate-50 p-10">
+            
+            <div id="vmdr" class="tab-content active">
+                <div class="max-w-4xl">
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-black text-slate-800">Vulnerability Management (VMDR)</h2>
+                        <p class="text-slate-500 mt-2">Discover, assess, prioritize, and patch critical vulnerabilities in one workflow.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <a href="https://qualysguard.qualys.com" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-400 transition-all group">
+                            <i class="fa-solid fa-right-to-bracket text-red-500 mb-4"></i>
+                            <h3 class="font-bold">Production Login</h3>
+                            <p class="text-slate-500 text-xs mt-1">Access the main VMDR dashboard.</p>
+                        </a>
+                        <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-400 transition-all">
+                            <i class="fa-solid fa-book text-blue-500 mb-4"></i>
+                            <h3 class="font-bold">Module Documentation</h3>
+                            <p class="text-slate-500 text-xs mt-1">Release notes and user guides.</p>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="mb-12">
-            <div class="flex items-center gap-3 mb-6 border-b border-slate-200 pb-2">
-                <i class="fa-solid fa-shield-halved text-blue-600"></i>
-                <h2 class="text-sm font-black uppercase tracking-widest text-slate-600">IT Security & Vulnerability</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">VMDR</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Vulnerability Management, Detection, and Response.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+            <div id="etm" class="tab-content">
+                <div class="max-w-4xl">
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-black text-slate-800">Enterprise TruRisk (ETM)</h2>
+                        <p class="text-slate-500 mt-2">Measure and manage risk with advanced scoring and business context.</p>
                     </div>
-                </div>
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">Patch Management (PM)</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Automated remediation and patching for vulnerabilities.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/pm/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <a href="https://docs.qualys.com/en/etm/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-400 transition-all">
+                            <i class="fa-solid fa-file-lines text-amber-500 mb-4"></i>
+                            <h3 class="font-bold">ETM Documentation</h3>
+                            <p class="text-slate-500 text-xs mt-1">Learn about TruRisk scoring algorithms.</p>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="mb-12">
-            <div class="flex items-center gap-3 mb-6 border-b border-slate-200 pb-2">
-                <i class="fa-solid fa-boxes-stacked text-amber-500"></i>
-                <h2 class="text-sm font-black uppercase tracking-widest text-slate-600">Asset Management</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">CyberSecurity Asset Mgmt (CSAM)</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Comprehensive inventory of all assets and security gaps.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/csam/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+            <div id="csam" class="tab-content">
+                <div class="max-w-4xl">
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-black text-slate-800">Asset Management (CSAM)</h2>
+                        <p class="text-slate-500 mt-2">Inventory every asset on your network, including unmanaged devices.</p>
                     </div>
-                </div>
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">External Attack Surface (EASM)</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Discovery and mapping of your internet-facing assets.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/easm/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <a href="https://docs.qualys.com/en/csam/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-400 transition-all">
+                            <i class="fa-solid fa-magnifying-glass text-emerald-500 mb-4"></i>
+                            <h3 class="font-bold">CSAM Documentation</h3>
+                            <p class="text-slate-500 text-xs mt-1">Discovery and inventory workflows.</p>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="mb-12">
-            <div class="flex items-center gap-3 mb-6 border-b border-slate-200 pb-2">
-                <i class="fa-solid fa-code text-emerald-600"></i>
-                <h2 class="text-sm font-black uppercase tracking-widest text-slate-600">Application Security</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">Web App Scanning (WAS)</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Scaleable and automated web application testing.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/was/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+            <div id="api" class="tab-content">
+                <div class="max-w-4xl">
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-black text-slate-800">API & Developer Center</h2>
+                        <p class="text-slate-500 mt-2">Automate your Qualys environment with REST APIs and SDKs.</p>
                     </div>
-                </div>
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover-card">
-                    <h3 class="font-bold text-slate-800 mb-2">TotalAppSec</h3>
-                    <p class="text-slate-500 text-xs mb-4 leading-relaxed">Integrated risk management for your applications.</p>
-                    <div class="flex gap-2">
-                        <a href="https://docs.qualys.com/en/totalappsec/" target="_blank" rel="noopener" class="text-[10px] bg-slate-100 px-3 py-1.5 rounded font-bold hover:bg-qualys-red hover:text-white transition-colors">DOCS <i class="fa-solid fa-external-link ml-1"></i></a>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-400 transition-all">
+                            <i class="fa-solid fa-code text-purple-500 mb-4"></i>
+                            <h3 class="font-bold">API V2 Guide (PDF)</h3>
+                            <p class="text-slate-500 text-xs mt-1">Standard reference for platform automation.</p>
+                        </a>
+                        <a href="https://www.qualys.com/developer/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-red-400 transition-all">
+                            <i class="fa-solid fa-laptop-code text-slate-700 mb-4"></i>
+                            <h3 class="font-bold">Developer Portal</h3>
+                            <p class="text-slate-500 text-xs mt-1">Python scripts, Postman collections, and more.</p>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
 
-    </main>
+        </main>
+    </div>
 
-    <footer class="text-center py-10 border-t border-slate-200 text-slate-400 text-[10px] uppercase tracking-widest">
-        &copy; 2026 • Curated Documentation Hub
-    </footer>
-
+    <script>
+        function showTab(tabId) {
+            // Hide all contents
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            // Remove active class from buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active-tab');
+            });
+            
+            // Show the selected tab content
+            document.getElementById(tabId).classList.add('active');
+            // Set the button to active
+            document.getElementById('btn-' + tabId).classList.add('active-tab');
+        }
+    </script>
 </body>
 </html>
