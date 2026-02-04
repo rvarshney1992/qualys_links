@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualys Public Links</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .qualys-red { color: #ED1C24; }
+        .bg-qualys-red { background-color: #ED1C24; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-white border-b border-gray-200 p-4">
+        <div class="max-w-6xl mx-auto flex items-center">
+            <img src="https://www.qualys.com/favicon.ico" class="h-8 mr-3" alt="Logo">
+            <h1 class="text-xl font-bold text-gray-800 tracking-tight">Qualys Resource Center</h1>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto py-12 px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <a href="https://docs.qualys.com/en/etm/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-red-200 transition-all">
+                <div class="text-3xl mb-4">🛡️</div>
+                <h3 class="text-lg font-bold group-hover:qualys-red">ETM</h3>
+                <p class="text-gray-500 text-sm mt-2">Enterprise TruRisk Management and risk scoring documentation.</p>
+                <span class="inline-block mt-4 text-xs font-semibold text-red-500 uppercase tracking-wider">Explore →</span>
+            </a>
+
+            <a href="https://www.qualys.com/apps/vulnerability-management-detection-response/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-red-200 transition-all">
+                <div class="text-3xl mb-4">🔍</div>
+                <h3 class="text-lg font-bold group-hover:qualys-red">VMDR</h3>
+                <p class="text-gray-500 text-sm mt-2">Discover, assess, prioritize, and patch critical vulnerabilities.</p>
+                <span class="inline-block mt-4 text-xs font-semibold text-red-500 uppercase tracking-wider">Explore →</span>
+            </a>
+
+            <a href="https://www.qualys.com/apps/cybersecurity-asset-management/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-red-200 transition-all">
+                <div class="text-3xl mb-4">📦</div>
+                <h3 class="text-lg font-bold group-hover:qualys-red">CSAM</h3>
+                <p class="text-gray-500 text-sm mt-2">Identify all assets and security gaps in your environment.</p>
+                <span class="inline-block mt-4 text-xs font-semibold text-red-500 uppercase tracking-wider">Explore →</span>
+            </a>
+
+        </div>
+    </main>
+
+</body>
+</html>
