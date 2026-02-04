@@ -1,4 +1,26 @@
-<main class="flex-1 overflow-y-auto p-10 bg-slate-50">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualys Hub | Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style> :root { --qualys-red: #ED1C24; } </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col">
+
+    <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-10">
+        <div class="flex items-center gap-3">
+            <img src="https://www.qualys.com/favicon.ico" class="h-7">
+            <h1 class="text-xl font-bold tracking-tight text-slate-800">QUALYS <span class="text-slate-400 font-light text-sm uppercase">Portal Hub</span></h1>
+        </div>
+    </nav>
+
+    <div class="flex flex-1 overflow-hidden">
+        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0"></aside>
+
+        <main class="flex-1 overflow-y-auto p-10 bg-slate-50">
             <div class="max-w-6xl mx-auto">
                 <header class="mb-10">
                     <h2 class="text-3xl font-black text-slate-800 tracking-tight">Qualys Central Hub</h2>
@@ -64,3 +86,21 @@
                 </div>
             </div>
         </main>
+    </div>
+
+    <script>
+        fetch('sidebar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('global-sidebar').innerHTML = data;
+                const page = window.location.pathname.split("/").pop() || "index.html";
+                document.querySelectorAll('.nav-item').forEach(link => {
+                    if (link.getAttribute('href') === page) {
+                        link.classList.add('bg-slate-50', 'text-red-600', 'border-red-600');
+                        link.classList.remove('border-transparent');
+                    }
+                });
+            });
+    </script>
+</body>
+</html>
