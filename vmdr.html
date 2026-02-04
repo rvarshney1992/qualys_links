@@ -1,59 +1,156 @@
-<section class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm mt-10">
-    <div class="px-8 py-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
-        <h3 class="font-bold text-slate-800 flex items-center gap-2">
-            <i class="fa-solid fa-list-ul text-red-500"></i> Reference Articles
-        </h3>
-        <span id="link-count" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Loading...</span>
-    </div>
-    
-    <div id="article-list-container" class="divide-y divide-slate-100">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMDR | Qualys Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root { --qualys-red: #ED1C24; }
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col">
+
+    <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-10">
+        <div class="flex items-center gap-3">
+            <img src="https://www.qualys.com/favicon.ico" alt="Qualys" class="h-7">
+            <h1 class="text-xl font-bold tracking-tight text-slate-800 uppercase">Qualys <span class="text-slate-400 font-light text-sm">Portal Hub</span></h1>
         </div>
-</section>
+        <div class="flex items-center gap-4">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest border border-slate-200 px-3 py-1 rounded-full">VMDR Module</span>
+        </div>
+    </nav>
 
-<script>
-    async function fetchVmdrLinks() {
-        try {
-            const response = await fetch('vmdr-links.csv');
-            const data = await response.text();
-            
-            // Split into lines and filter out empty ones
-            const rows = data.split('\n').filter(row => row.trim() !== '');
-            
-            // Remove the header row (title,link)
-            const contentRows = rows.slice(1);
-            
-            const container = document.getElementById('article-list-container');
-            const countLabel = document.getElementById('link-count');
-            
-            container.innerHTML = ''; 
-            countLabel.innerText = `${contentRows.length} Articles`;
+    <div class="flex flex-1 overflow-hidden">
+        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0 overflow-y-auto"></aside>
 
-            contentRows.forEach(row => {
-                // Use a regex to split by the first comma only to protect URLs with commas
-                const firstCommaIndex = row.indexOf(',');
-                const title = row.substring(0, firstCommaIndex).trim();
-                const link = row.substring(firstCommaIndex + 1).trim();
+        <main class="flex-1 overflow-y-auto p-10 bg-slate-50">
+            <div class="max-w-5xl mx-auto">
+                
+                <header class="mb-10">
+                    <h2 class="text-3xl font-black text-slate-800 tracking-tight">Vulnerability Management (VMDR)</h2>
+                    <p class="text-slate-500 mt-2">Unified vulnerability management, detection, and response dashboard.</p>
+                </header>
 
-                if (title && link) {
-                    const rowHTML = `
-                        <a href="${link}" target="_blank" rel="noopener" class="flex items-center justify-between px-8 py-4 hover:bg-slate-50 transition-colors group">
-                            <div class="flex items-center gap-4">
-                                <i class="fa-solid fa-link text-slate-300 group-hover:text-red-500 transition-colors text-sm"></i>
-                                <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">${title}</span>
-                            </div>
-                            <i class="fa-solid fa-arrow-up-right-from-square text-slate-300 text-[10px] opacity-0 group-hover:opacity-100 transition-opacity"></i>
-                        </a>
-                    `;
-                    container.innerHTML += rowHTML;
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                    <a href="https://qualysguard.qualys.com" target="_blank" rel="noopener" class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:border-red-500 hover:shadow-md transition-all group">
+                        <i class="fa-solid fa-right-to-bracket text-red-500 mb-4 text-2xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Platform Login</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Direct access to the VMDR console and vulnerability reports.</p>
+                    </a>
+
+                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:border-red-500 hover:shadow-md transition-all group">
+                        <i class="fa-solid fa-book-open text-blue-500 mb-4 text-2xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">User Guides</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Official documentation for scanning and prioritization.</p>
+                    </a>
+
+                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" rel="noopener" class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:border-red-500 hover:shadow-md transition-all group">
+                        <i class="fa-solid fa-terminal text-purple-600 mb-4 text-2xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">VMDR API</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">V2 endpoints for automation and asset integration.</p>
+                    </a>
+                </div>
+
+                <section class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+                    <div class="px-8 py-6 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+                        <h3 class="font-bold text-slate-800 flex items-center gap-2 text-sm uppercase tracking-wider">
+                            <i class="fa-solid fa-list-ul text-red-500"></i> Reference Articles
+                        </h3>
+                        <span id="link-count" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">0 Articles</span>
+                    </div>
+
+                    <div id="article-list-container" class="divide-y divide-slate-100">
+                        <div class="p-10 text-center text-slate-400 text-sm italic">
+                            Initializing and fetching resources...
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // 1. LOAD GLOBAL SIDEBAR
+        fetch('sidebar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('global-sidebar').innerHTML = data;
+                
+                // Highlight the active link in the sidebar
+                const currentPage = window.location.pathname.split("/").pop() || "index.html";
+                document.querySelectorAll('.nav-item').forEach(link => {
+                    if (link.getAttribute('href') === currentPage) {
+                        link.classList.add('bg-slate-50', 'text-red-600', 'border-red-600');
+                        link.classList.remove('border-transparent');
+                    }
+                });
+            })
+            .catch(err => console.error('Error loading sidebar:', err));
+
+        // 2. LOAD VMDR LINKS FROM CSV
+        async function fetchVmdrLinks() {
+            try {
+                const response = await fetch('vmdr-links.csv');
+                if (!response.ok) throw new Error('CSV not found');
+                
+                const data = await response.text();
+                const rows = data.split('\n').filter(row => row.trim() !== '');
+                
+                // Content starts after header (title,link)
+                const contentRows = rows.slice(1);
+                const container = document.getElementById('article-list-container');
+                const countLabel = document.getElementById('link-count');
+                
+                container.innerHTML = ''; 
+                countLabel.innerText = `${contentRows.length} Articles`;
+
+                contentRows.forEach(row => {
+                    // Splits by the first comma only to protect URLs with commas
+                    const firstCommaIndex = row.indexOf(',');
+                    if (firstCommaIndex === -1) return;
+
+                    const title = row.substring(0, firstCommaIndex).trim();
+                    const link = row.substring(firstCommaIndex + 1).trim();
+
+                    if (title && link) {
+                        const rowHTML = `
+                            <a href="${link}" target="_blank" rel="noopener" class="flex items-center justify-between px-8 py-4 hover:bg-slate-50 transition-colors group">
+                                <div class="flex items-center gap-4">
+                                    <div class="h-8 w-8 bg-slate-50 rounded-lg flex items-center justify-center group-hover:bg-white transition-colors border border-transparent group-hover:border-slate-100">
+                                        <i class="fa-solid fa-link text-slate-300 group-hover:text-red-500 text-xs"></i>
+                                    </div>
+                                    <span class="text-sm font-semibold text-slate-700 group-hover:text-slate-900">${title}</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <span class="text-[10px] text-slate-300 font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Read Article</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-slate-300 text-[10px]"></i>
+                                </div>
+                            </a>
+                        `;
+                        container.innerHTML += rowHTML;
+                    }
+                });
+
+                if (contentRows.length === 0) {
+                    container.innerHTML = '<div class="p-10 text-slate-400 text-center text-sm">No articles found in CSV.</div>';
                 }
-            });
-        } catch (error) {
-            console.error('CSV Load Error:', error);
-            document.getElementById('article-list-container').innerHTML = 
-                '<div class="p-8 text-red-500 text-sm">Error loading links. Ensure vmdr-links.csv is in the root folder.</div>';
-        }
-    }
 
-    // Run on page load
-    fetchVmdrLinks();
-</script>
+            } catch (error) {
+                console.error('CSV Load Error:', error);
+                document.getElementById('article-list-container').innerHTML = 
+                    '<div class="p-10 text-red-500 text-center text-sm">Failed to load articles. Ensure <b>vmdr-links.csv</b> is in the repository root.</div>';
+            }
+        }
+
+        fetchVmdrLinks();
+    </script>
+</body>
+</html>
