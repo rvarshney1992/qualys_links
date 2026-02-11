@@ -1,22 +1,22 @@
-title,link
-How Vulnerability Management scans work in the background,https://success.qualys.com/support/s/article/000002028
-Scanning Best Practices,https://success.qualys.com/support/s/article/000001056
-Purging: What-why-when-how-what happens to the data?,https://success.qualys.com/discussions/s/article/000006221
-Virtual Scanner Appliance Sizing,https://success.qualys.com/discussions/s/article/000006881
-Sizing Your Scanners for Optimal Performance,https://notifications.qualys.com/product/2025/11/26/sizing-your-scanners-for-optimal-performance
-Virtual Scanner Appliance User Guide,https://docs.qualys.com/en/vm/latest/scanner_appliances/vscanner/win_virtual_scanner_user_guide.htm
-Scanner Appliance Troubleshooting,https://docs.qualys.com/en/scanner/management/scanner_appliance/troubleshooting.htm
-Long Scan duration for single/multiple hosts,https://success.qualys.com/discussions/s/article/000002877
-Asset Tags: Are You Getting The Best Value?,https://success.qualys.com/support/s/article/000005819
-Qualys Performance Tuning Series: Remove Stale Assets for Best Performance,https://blog.qualys.com/product-tech/2022/10/05/qualys-performance-tuning-series-remove-stale-assets-for-best-performance
-How to purge host data,https://success.qualys.com/discussions/s/article/000001918
-User Roles Comparison (Vulnerability Management),https://docs.qualys.com/en/vm/10.32.1.0-old/user_accounts/user_roles_comparison_vm.htm
-Get Started with Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm
-Default Option Profile - Qualys Recommended Option Profile,https://docs.qualys.com/en/vm/latest/option_profiles/qualys_recommended_option_profile.htm
-Authentication Records,https://docs.qualys.com/en/vm/latest/authentication/system_created_records.htm
-Reporting on your Vulnerabilities and Assets,https://docs.qualys.com/en/vm/latest/reports/vulnerability_reports_lp.htm
-Qualys Unified Dashboards,https://docs.qualys.com/en/ud/latest/get_started/getting_started_with_unified_dashboard.htm
-How To Ignore A Vulnerability (individual or in bulk) and Report on Ignored Vulnerabilities,https://success.qualys.com/support/s/article/000006230
-Tell me about authentication status QIDs,https://docs.qualys.com/en/vm/latest/authentication/auth_stat_qids.htm
-Automate discovery-tagging and scanning of new assets,https://success.qualys.com/discussions/s/article/000006192
-Subscription Health Dashboard 2025 Update,https://blog.qualys.com/product-tech/2025/10/07/subscription-health-dashboard-2025-update
+title,link,category
+How Vulnerability Management scans work in the background,https://success.qualys.com/support/s/article/000002028,Scanning
+Scanning Best Practices,https://success.qualys.com/support/s/article/000001056,Scanning
+Purging: What-why-when-how-what happens to the data?,https://success.qualys.com/discussions/s/article/000006221,Purging
+Virtual Scanner Appliance Sizing,https://success.qualys.com/discussions/s/article/000006881,Scanner
+Sizing Your Scanners for Optimal Performance,https://notifications.qualys.com/product/2025/11/26/sizing-your-scanners-for-optimal-performance,Scanner
+Virtual Scanner Appliance User Guide,https://docs.qualys.com/en/vm/latest/scanner_appliances/vscanner/win_virtual_scanner_user_guide.htm,Scanner
+Scanner Appliance Troubleshooting,https://docs.qualys.com/en/scanner/management/scanner_appliance/troubleshooting.htm,Scanner
+Long Scan duration for single/multiple hosts,https://success.qualys.com/discussions/s/article/000002877,Scanning
+Asset Tags: Are You Getting The Best Value?,https://success.qualys.com/support/s/article/000005819,Tagging
+Qualys Performance Tuning Series: Remove Stale Assets for Best Performance,https://blog.qualys.com/product-tech/2022/10/05/qualys-performance-tuning-series-remove-stale-assets-for-best-performance,Purging
+How to purge host data,https://success.qualys.com/discussions/s/article/000001918,Purging
+User Roles Comparison (Vulnerability Management),https://docs.qualys.com/en/vm/10.32.1.0-old/user_accounts/user_roles_comparison_vm.htm,RBAC
+Get Started with Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Connectors
+Default Option Profile - Qualys Recommended Option Profile,https://docs.qualys.com/en/vm/latest/option_profiles/qualys_recommended_option_profile.htm,Scanning
+Authentication Records,https://docs.qualys.com/en/vm/latest/authentication/system_created_records.htm,Scanning
+Reporting on your Vulnerabilities and Assets,https://docs.qualys.com/en/vm/latest/reports/vulnerability_reports_lp.htm,Reports and Dashboards
+Qualys Unified Dashboards,https://docs.qualys.com/en/ud/latest/get_started/getting_started_with_unified_dashboard.htm,Reports and Dashboards
+How To Ignore A Vulnerability (individual or in bulk) and Report on Ignored Vulnerabilities,https://success.qualys.com/support/s/article/000006230,Scanning
+Tell me about authentication status QIDs,https://docs.qualys.com/en/vm/latest/authentication/auth_stat_qids.htm,Scanning
+Automate discovery-tagging and scanning of new assets,https://success.qualys.com/discussions/s/article/000006192,Tagging
+Subscription Health Dashboard 2025 Update,https://blog.qualys.com/product-tech/2025/10/07/subscription-health-dashboard-2025-update,Reports and Dashboards
