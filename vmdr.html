@@ -9,6 +9,10 @@
     <style>
         :root { --qualys-red: #ED1C24; }
         .section-header { background: linear-gradient(to right, #f8fafc, #ffffff); }
+        /* Smooth scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col">
@@ -25,13 +29,36 @@
 
         <main class="flex-1 overflow-y-auto p-10 bg-slate-50">
             <div class="max-w-5xl mx-auto">
+                
                 <header class="mb-10">
                     <h2 class="text-3xl font-black text-slate-800 tracking-tight">VMDR Knowledge Base</h2>
-                    <p class="text-slate-500 mt-2">Organized technical resources for Vulnerability Management.</p>
+                    <p class="text-slate-500 mt-2">Centralized resources for Vulnerability Management, Detection, and Response.</p>
                 </header>
 
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <a href="https://qualysguard.qualys.com" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-red-500 hover:shadow-md transition-all group">
+                        <i class="fa-solid fa-right-to-bracket text-red-500 mb-4 text-xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">Platform Login</h3>
+                        <p class="text-slate-500 text-[11px] mt-1">Access your Qualys instance.</p>
+                    </a>
+
+                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-red-500 hover:shadow-md transition-all group">
+                        <i class="fa-solid fa-book-open text-blue-500 mb-4 text-xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">User Guides</h3>
+                        <p class="text-slate-500 text-[11px] mt-1">Setup and configuration docs.</p>
+                    </a>
+
+                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" rel="noopener" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-red-500 hover:shadow-md transition-all group">
+                        <i class="fa-solid fa-terminal text-purple-600 mb-4 text-xl"></i>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600">VMDR API</h3>
+                        <p class="text-slate-500 text-[11px] mt-1">V2 automation endpoints.</p>
+                    </a>
+                </div>
+
                 <div id="article-sections-container" class="space-y-8">
-                    <div class="p-10 text-center text-slate-400 animate-pulse">Categorizing resources...</div>
+                    <div class="p-10 text-center text-slate-400 animate-pulse text-sm italic">
+                        Organizing resources by category...
+                    </div>
                 </div>
             </div>
         </main>
@@ -47,37 +74,46 @@
                 document.querySelectorAll('.nav-item').forEach(link => {
                     if (link.getAttribute('href') === page) {
                         link.classList.add('bg-slate-50', 'text-red-600', 'border-red-600');
+                        link.classList.remove('border-transparent');
                     }
                 });
             });
 
-        // 2. Dynamic CSV Grouping Logic
+        // 2. CSV Logic (3-Column Format: title, link, category)
         async function fetchAndOrganizeLinks() {
             try {
                 const response = await fetch('vmdr-links.csv');
                 const data = await response.text();
+                // Filter out empty rows and skip header
                 const rows = data.split('\n').filter(row => row.trim() !== '').slice(1);
                 
                 const sections = {};
 
-                // Grouping rows by the 3rd column (category)
                 rows.forEach(row => {
-                    const [title, link, category] = row.split(',').map(item => item.trim());
-                    const catName = category || 'General';
-                    if (!sections[catName]) sections[catName] = [];
-                    sections[catName].push({ title, link });
+                    // Split by first two commas to handle 3 columns
+                    const parts = row.split(',');
+                    const title = parts[0]?.trim();
+                    const link = parts[1]?.trim();
+                    const category = parts[2]?.trim() || 'General';
+
+                    if (title && link) {
+                        if (!sections[category]) sections[category] = [];
+                        sections[category].push({ title, link });
+                    }
                 });
 
                 const container = document.getElementById('article-sections-container');
                 container.innerHTML = '';
 
-                // Generate HTML for each section
+                // Sort categories alphabetically
                 Object.keys(sections).sort().forEach(category => {
                     let sectionHTML = `
                         <section class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
                             <div class="px-6 py-4 section-header border-b border-slate-100 flex items-center justify-between">
-                                <h3 class="font-black text-slate-700 text-xs uppercase tracking-widest">${category}</h3>
-                                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded text-slate-500 font-bold">${sections[category].length} Links</span>
+                                <h3 class="font-black text-slate-700 text-[10px] uppercase tracking-widest">
+                                    <i class="fa-solid fa-folder-open text-red-500 mr-2"></i> ${category}
+                                </h3>
+                                <span class="text-[9px] bg-slate-100 px-2 py-0.5 rounded text-slate-500 font-bold">${sections[category].length} ITEMS</span>
                             </div>
                             <div class="divide-y divide-slate-50">
                     `;
@@ -89,7 +125,7 @@
                                     <i class="fa-regular fa-file-lines text-slate-300 group-hover:text-red-500 text-sm"></i>
                                     <span class="text-sm font-medium text-slate-600 group-hover:text-slate-900">${item.title}</span>
                                 </div>
-                                <i class="fa-solid fa-arrow-up-right-from-square text-slate-200 text-[10px]"></i>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-slate-200 text-[10px] opacity-0 group-hover:opacity-100 transition-opacity"></i>
                             </a>
                         `;
                     });
@@ -98,8 +134,14 @@
                     container.innerHTML += sectionHTML;
                 });
 
+                if (Object.keys(sections).length === 0) {
+                    container.innerHTML = '<div class="p-10 text-center text-slate-400">No links found in CSV.</div>';
+                }
+
             } catch (err) {
-                document.getElementById('article-sections-container').innerHTML = `<div class="p-10 text-red-500">Error loading CSV. Make sure vmdr-links.csv has 3 columns (title, link, category).</div>`;
+                console.error(err);
+                document.getElementById('article-sections-container').innerHTML = 
+                    `<div class="p-10 text-red-500 text-center text-sm">Error loading CSV. Check if <b>vmdr-links.csv</b> has three columns: title, link, category.</div>`;
             }
         }
 
