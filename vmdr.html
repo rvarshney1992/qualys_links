@@ -8,17 +8,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         :root { --qualys-red: #ED1C24; }
-        /* Custom Light Sky Blue Background */
-        .bg-sky-blue { background-color: #f0f7ff; }
+        /* Light Sky Blue Global Background */
+        body { background-color: #f0f9ff; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
         .pill-active { background-color: var(--qualys-red) !important; color: white !important; border-color: var(--qualys-red) !important; }
-        /* Subtle tile shadow for better visibility */
-        .tile-shadow { shadow-sm; transition: all 0.3s ease; }
-        .tile-shadow:hover { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+        /* Elevated Tile Effect */
+        .tile-card { 
+            background-color: white; 
+            border: 1px solid #e0f2fe; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .tile-card:hover { 
+            transform: translateY(-4px);
+            box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.05);
+            border-color: #bae6fd;
+        }
     </style>
 </head>
-<body class="bg-sky-blue text-slate-900 font-sans h-screen flex flex-col text-[14px]">
+<body class="text-slate-900 font-sans h-screen flex flex-col text-[14px]">
 
     <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-20 shadow-sm">
         <div class="flex items-center gap-3">
@@ -28,52 +36,58 @@
     </nav>
 
     <div class="flex flex-1 overflow-hidden">
-        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0"></aside>
+        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0 shadow-sm"></aside>
 
         <main class="flex-1 overflow-y-auto p-8">
             <div class="max-w-6xl mx-auto">
                 
-                <header class="mb-8">
+                <header class="mb-10 text-center md:text-left">
                     <h2 class="text-3xl font-black text-slate-800 tracking-tight">VMDR Resource Library</h2>
-                    <p class="text-slate-600 mt-1">Search and filter technical documentation for Vulnerability Management.</p>
+                    <p class="text-slate-600 mt-2">Explore categorized technical documentation and tools.</p>
                 </header>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-                    <a href="https://qualysguard.qualys.com" target="_blank" class="bg-white p-6 rounded-2xl border border-blue-100 tile-shadow flex items-center gap-4">
-                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center text-red-500 text-xl"><i class="fa-solid fa-right-to-bracket"></i></div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <a href="https://qualysguard.qualys.com" target="_blank" class="tile-card p-6 rounded-3xl flex items-center gap-5 group">
+                        <div class="h-12 w-12 bg-red-50 rounded-2xl flex items-center justify-center text-red-500 text-xl group-hover:bg-red-500 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </div>
                         <div>
                             <h3 class="font-bold text-slate-800">Platform Login</h3>
-                            <p class="text-slate-500 text-[11px]">Cloud Console Access</p>
+                            <p class="text-slate-500 text-[11px]">Direct Cloud Access</p>
                         </div>
                     </a>
-                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" class="bg-white p-6 rounded-2xl border border-blue-100 tile-shadow flex items-center gap-4">
-                        <div class="h-12 w-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-500 text-xl"><i class="fa-solid fa-book"></i></div>
+                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" class="tile-card p-6 rounded-3xl flex items-center gap-5 group">
+                        <div class="h-12 w-12 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-500 text-xl group-hover:bg-blue-500 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
                         <div>
                             <h3 class="font-bold text-slate-800">User Guides</h3>
-                            <p class="text-slate-500 text-[11px]">Official PDF & Web Docs</p>
+                            <p class="text-slate-500 text-[11px]">Technical Documentation</p>
                         </div>
                     </a>
-                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" class="bg-white p-6 rounded-2xl border border-blue-100 tile-shadow flex items-center gap-4">
-                        <div class="h-12 w-12 bg-purple-50 rounded-xl flex items-center justify-center text-purple-500 text-xl"><i class="fa-solid fa-code"></i></div>
+                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" class="tile-card p-6 rounded-3xl flex items-center gap-5 group">
+                        <div class="h-12 w-12 bg-purple-50 rounded-2xl flex items-center justify-center text-purple-500 text-xl group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
                         <div>
                             <h3 class="font-bold text-slate-800">API Center</h3>
-                            <p class="text-slate-500 text-[11px]">V2 Endpoint Reference</p>
+                            <p class="text-slate-500 text-[11px]">V2 Automation Guide</p>
                         </div>
                     </a>
                 </div>
 
-                <div class="mb-8 space-y-4">
-                    <div class="relative max-w-md">
+                <div class="mb-8 space-y-5">
+                    <div class="relative max-w-md mx-auto md:mx-0">
                         <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
                         <input type="text" id="articleSearch" placeholder="Search by title or keyword..." 
-                               class="w-full pl-11 pr-4 py-3 rounded-2xl border border-blue-200 focus:border-red-500 focus:ring-4 focus:ring-red-500/10 shadow-sm outline-none transition-all">
+                               class="w-full pl-11 pr-4 py-4 rounded-2xl border border-blue-100 focus:border-blue-400 focus:ring-4 focus:ring-blue-400/10 shadow-sm outline-none transition-all">
                     </div>
                     
                     <div id="category-pills" class="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
                         </div>
                 </div>
 
-                <div id="article-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 pb-20">
+                <div id="article-grid" class="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-24">
                     </div>
 
             </div>
@@ -81,104 +95,103 @@
     </div>
 
     <script>
-        // 1. Sidebar Loader
+        // 1. Load Sidebar with Blue Theme Matching
         fetch('sidebar.html')
             .then(res => res.text())
             .then(data => {
                 document.getElementById('global-sidebar').innerHTML = data;
-                const page = window.location.pathname.split("/").pop() || "index.html";
+                const path = window.location.pathname.split("/").pop() || "index.html";
                 document.querySelectorAll('.nav-item').forEach(link => {
-                    if (link.getAttribute('href') === page) {
-                        link.classList.add('bg-blue-50', 'text-red-600', 'border-red-600');
+                    if (link.getAttribute('href') === path) {
+                        link.classList.add('bg-blue-50', 'text-blue-600', 'border-blue-600');
+                        link.classList.remove('border-transparent');
                     }
                 });
             });
 
-        // 2. Modern Library Logic
-        async function loadModernLibrary() {
+        // 2. Fetch and Render Library
+        async function initLibrary() {
             try {
                 const response = await fetch('vmdr-links.csv');
-                const csvData = await response.text();
-                const rows = csvData.split('\n').filter(row => row.trim() !== '').slice(1);
+                const text = await response.text();
+                const rows = text.split('\n').filter(r => r.trim() !== '').slice(1);
                 
-                const sections = {};
+                const data = {};
                 rows.forEach(row => {
-                    const parts = row.split(',');
-                    const title = parts[0]?.trim();
-                    const link = parts[1]?.trim();
-                    const category = parts[2]?.trim() || 'General';
+                    const [title, link, category] = row.split(',').map(s => s.trim());
                     if (title && link) {
-                        if (!sections[category]) sections[category] = [];
-                        sections[category].push({ title, link });
+                        const cat = category || 'General';
+                        if (!data[cat]) data[cat] = [];
+                        data[cat].push({ title, link });
                     }
                 });
 
                 const grid = document.getElementById('article-grid');
-                const pillContainer = document.getElementById('category-pills');
+                const pills = document.getElementById('category-pills');
                 grid.innerHTML = '';
-                pillContainer.innerHTML = `<button onclick="filterCategory('All', this)" class="pill-active px-5 py-2 rounded-full text-[11px] font-black uppercase tracking-wider border border-blue-200 bg-white text-slate-500 hover:border-red-500 shadow-sm transition-all">All</button>`;
+                
+                // Reset Pills
+                pills.innerHTML = `<button onclick="filterCat('All', this)" class="pill-active px-6 py-2 rounded-full text-[10px] font-black uppercase tracking-widest border border-blue-200 bg-white text-slate-500 shadow-sm transition-all">All</button>`;
 
-                Object.keys(sections).sort().forEach(cat => {
-                    pillContainer.innerHTML += `<button onclick="filterCategory('${cat}', this)" class="px-5 py-2 rounded-full text-[11px] font-black uppercase tracking-wider border border-blue-200 bg-white text-slate-500 hover:border-red-500 shadow-sm transition-all whitespace-nowrap">${cat}</button>`;
+                Object.keys(data).sort().forEach(cat => {
+                    // Add Category Pill
+                    pills.innerHTML += `<button onclick="filterCat('${cat}', this)" class="px-6 py-2 rounded-full text-[10px] font-black uppercase tracking-widest border border-blue-200 bg-white text-slate-500 hover:border-blue-400 shadow-sm transition-all whitespace-nowrap">${cat}</button>`;
 
-                    let cardHTML = `
-                        <div class="category-card bg-white rounded-3xl border border-blue-100 shadow-sm p-6 flex flex-col tile-shadow" data-category="${cat}">
-                            <div class="flex items-center justify-between mb-5">
-                                <h3 class="font-black text-slate-800 text-[11px] uppercase tracking-widest flex items-center gap-2">
-                                    <i class="fa-solid fa-folder text-blue-400"></i> ${cat}
+                    // Create Category Section
+                    let sectionHTML = `
+                        <div class="category-card tile-card rounded-3xl p-7 flex flex-col" data-category="${cat}">
+                            <div class="flex items-center justify-between mb-6">
+                                <h3 class="font-black text-slate-800 text-[11px] uppercase tracking-[0.2em] flex items-center gap-2">
+                                    <i class="fa-solid fa-folder-open text-blue-400"></i> ${cat}
                                 </h3>
-                                <span class="text-[10px] bg-blue-50 px-2 py-0.5 rounded border border-blue-100 text-blue-600 font-bold">${sections[cat].length}</span>
+                                <span class="text-[10px] bg-blue-50 px-2 py-1 rounded text-blue-600 font-bold border border-blue-100">${data[cat].length} ITEMS</span>
                             </div>
-                            <ul class="space-y-3 flex-1">
+                            <ul class="space-y-4 flex-1">
                     `;
 
-                    sections[cat].forEach(item => {
-                        cardHTML += `
+                    data[cat].forEach(item => {
+                        sectionHTML += `
                             <li>
-                                <a href="${item.link}" target="_blank" class="article-link flex items-start gap-3 group">
+                                <a href="${item.link}" target="_blank" class="article-item flex items-start gap-3 group">
                                     <i class="fa-regular fa-file-lines mt-1 text-slate-300 group-hover:text-red-500 transition-colors"></i>
-                                    <span class="text-slate-600 group-hover:text-slate-900 leading-tight transition-colors">${item.title}</span>
+                                    <span class="text-[13px] text-slate-600 group-hover:text-slate-900 leading-tight transition-colors">${item.title}</span>
                                 </a>
                             </li>
                         `;
                     });
 
-                    cardHTML += `</ul></div>`;
-                    grid.innerHTML += cardHTML;
+                    sectionHTML += `</ul></div>`;
+                    grid.innerHTML += sectionHTML;
                 });
 
-                // Search Logic
-                document.getElementById('articleSearch').addEventListener('input', function(e) {
+                // Live Search Logic
+                document.getElementById('articleSearch').addEventListener('input', (e) => {
                     const term = e.target.value.toLowerCase();
-                    document.querySelectorAll('.article-link').forEach(link => {
-                        const match = link.innerText.toLowerCase().includes(term);
-                        link.closest('li').style.display = match ? 'block' : 'none';
+                    document.querySelectorAll('.article-item').forEach(item => {
+                        const match = item.innerText.toLowerCase().includes(term);
+                        item.closest('li').style.display = match ? 'block' : 'none';
                     });
-                    refreshCardVisibility();
+                    
+                    document.querySelectorAll('.category-card').forEach(card => {
+                        const hasVisible = Array.from(card.querySelectorAll('li')).some(li => li.style.display !== 'none');
+                        card.style.display = hasVisible ? 'flex' : 'none';
+                    });
                 });
 
             } catch (err) {
-                console.error(err);
-                document.getElementById('article-grid').innerHTML = `<p class="col-span-full text-center text-red-500">Error: vmdr-links.csv not found.</p>`;
+                grid.innerHTML = `<div class="col-span-full p-12 text-center text-red-400 bg-white rounded-3xl border border-red-100 shadow-sm">CSV file not detected or formatted incorrectly.</div>`;
             }
         }
 
-        function filterCategory(cat, btn) {
+        function filterCat(cat, btn) {
             document.querySelectorAll('#category-pills button').forEach(b => b.classList.remove('pill-active'));
             btn.classList.add('pill-active');
             document.querySelectorAll('.category-card').forEach(card => {
-                card.style.display = (cat === 'All' || card.dataset.category === cat) ? 'block' : 'none';
+                card.style.display = (cat === 'All' || card.dataset.category === cat) ? 'flex' : 'none';
             });
         }
 
-        function refreshCardVisibility() {
-            document.querySelectorAll('.category-card').forEach(card => {
-                const visibleLinks = Array.from(card.querySelectorAll('li')).some(li => li.style.display !== 'none');
-                card.style.display = visibleLinks ? 'block' : 'none';
-            });
-        }
-
-        loadModernLibrary();
+        initLibrary();
     </script>
 </body>
 </html>
