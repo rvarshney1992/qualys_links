@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         :root { --qualys-red: #ED1C24; }
+        /* Custom Light Sky Blue Background */
+        .bg-sky-blue { background-color: #f0f7ff; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
         .pill-active { background-color: var(--qualys-red) !important; color: white !important; border-color: var(--qualys-red) !important; }
+        /* Subtle tile shadow for better visibility */
+        .tile-shadow { shadow-sm; transition: all 0.3s ease; }
+        .tile-shadow:hover { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans h-screen flex flex-col text-[14px]">
+<body class="bg-sky-blue text-slate-900 font-sans h-screen flex flex-col text-[14px]">
 
-    <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-20">
+    <nav class="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-6 shrink-0 z-20 shadow-sm">
         <div class="flex items-center gap-3">
             <img src="https://www.qualys.com/favicon.ico" class="h-7">
             <h1 class="text-xl font-bold tracking-tight text-slate-800 uppercase">Qualys <span class="text-slate-400 font-light text-sm">Portal Hub</span></h1>
@@ -25,45 +30,43 @@
     <div class="flex flex-1 overflow-hidden">
         <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-200 py-6 shrink-0"></aside>
 
-        <main class="flex-1 overflow-y-auto p-8 bg-slate-50">
+        <main class="flex-1 overflow-y-auto p-8">
             <div class="max-w-6xl mx-auto">
                 
                 <header class="mb-8">
                     <h2 class="text-3xl font-black text-slate-800 tracking-tight">VMDR Resource Library</h2>
-                    <p class="text-slate-500 mt-1">Search and filter technical documentation for Vulnerability Management.</p>
+                    <p class="text-slate-600 mt-1">Search and filter technical documentation for Vulnerability Management.</p>
                 </header>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-                    <a href="https://qualysguard.qualys.com" target="_blank" class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-red-500 transition-all group flex items-center gap-4">
-                        <div class="h-10 w-10 bg-red-50 rounded-xl flex items-center justify-center text-red-500"><i class="fa-solid fa-right-to-bracket"></i></div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                    <a href="https://qualysguard.qualys.com" target="_blank" class="bg-white p-6 rounded-2xl border border-blue-100 tile-shadow flex items-center gap-4">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center text-red-500 text-xl"><i class="fa-solid fa-right-to-bracket"></i></div>
                         <div>
-                            <h3 class="font-bold text-slate-800 group-hover:text-red-600">Platform Login</h3>
-                            <p class="text-slate-400 text-[11px]">Cloud Console Access</p>
+                            <h3 class="font-bold text-slate-800">Platform Login</h3>
+                            <p class="text-slate-500 text-[11px]">Cloud Console Access</p>
                         </div>
                     </a>
-                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-red-500 transition-all group flex items-center gap-4">
-                        <div class="h-10 w-10 bg-blue-50 rounded-xl flex items-center justify-center text-blue-500"><i class="fa-solid fa-book"></i></div>
+                    <a href="https://docs.qualys.com/en/vmdr/" target="_blank" class="bg-white p-6 rounded-2xl border border-blue-100 tile-shadow flex items-center gap-4">
+                        <div class="h-12 w-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-500 text-xl"><i class="fa-solid fa-book"></i></div>
                         <div>
-                            <h3 class="font-bold text-slate-800 group-hover:text-red-600">User Guides</h3>
-                            <p class="text-slate-400 text-[11px]">Official PDF & Web Docs</p>
+                            <h3 class="font-bold text-slate-800">User Guides</h3>
+                            <p class="text-slate-500 text-[11px]">Official PDF & Web Docs</p>
                         </div>
                     </a>
-                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-red-500 transition-all group flex items-center gap-4">
-                        <div class="h-10 w-10 bg-purple-50 rounded-xl flex items-center justify-center text-purple-500"><i class="fa-solid fa-code"></i></div>
+                    <a href="https://www.qualys.com/docs/qualys-api-v2-user-guide.pdf" target="_blank" class="bg-white p-6 rounded-2xl border border-blue-100 tile-shadow flex items-center gap-4">
+                        <div class="h-12 w-12 bg-purple-50 rounded-xl flex items-center justify-center text-purple-500 text-xl"><i class="fa-solid fa-code"></i></div>
                         <div>
-                            <h3 class="font-bold text-slate-800 group-hover:text-red-600">API Center</h3>
-                            <p class="text-slate-400 text-[11px]">V2 Endpoint Reference</p>
+                            <h3 class="font-bold text-slate-800">API Center</h3>
+                            <p class="text-slate-500 text-[11px]">V2 Endpoint Reference</p>
                         </div>
                     </a>
                 </div>
 
-                <hr class="border-slate-200 mb-10">
-
-                <div class="mb-6 space-y-4">
+                <div class="mb-8 space-y-4">
                     <div class="relative max-w-md">
                         <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
                         <input type="text" id="articleSearch" placeholder="Search by title or keyword..." 
-                               class="w-full pl-11 pr-4 py-3 rounded-2xl border border-slate-200 focus:border-red-500 focus:ring-4 focus:ring-red-500/5 outline-none transition-all">
+                               class="w-full pl-11 pr-4 py-3 rounded-2xl border border-blue-200 focus:border-red-500 focus:ring-4 focus:ring-red-500/10 shadow-sm outline-none transition-all">
                     </div>
                     
                     <div id="category-pills" class="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
@@ -71,11 +74,7 @@
                 </div>
 
                 <div id="article-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 pb-20">
-                    <div class="col-span-full py-20 text-center text-slate-400 animate-pulse">
-                        <i class="fa-solid fa-circle-notch fa-spin text-2xl mb-4"></i>
-                        <p>Building resource library...</p>
                     </div>
-                </div>
 
             </div>
         </main>
@@ -90,7 +89,7 @@
                 const page = window.location.pathname.split("/").pop() || "index.html";
                 document.querySelectorAll('.nav-item').forEach(link => {
                     if (link.getAttribute('href') === page) {
-                        link.classList.add('bg-slate-50', 'text-red-600', 'border-red-600');
+                        link.classList.add('bg-blue-50', 'text-red-600', 'border-red-600');
                     }
                 });
             });
@@ -104,29 +103,31 @@
                 
                 const sections = {};
                 rows.forEach(row => {
-                    const [title, link, category] = row.split(',').map(item => item.trim());
-                    const cat = category || 'General';
-                    if (!sections[cat]) sections[cat] = [];
-                    sections[cat].push({ title, link });
+                    const parts = row.split(',');
+                    const title = parts[0]?.trim();
+                    const link = parts[1]?.trim();
+                    const category = parts[2]?.trim() || 'General';
+                    if (title && link) {
+                        if (!sections[category]) sections[category] = [];
+                        sections[category].push({ title, link });
+                    }
                 });
 
                 const grid = document.getElementById('article-grid');
                 const pillContainer = document.getElementById('category-pills');
                 grid.innerHTML = '';
-                pillContainer.innerHTML = `<button onclick="filterCategory('All', this)" class="pill-active px-5 py-2 rounded-full text-[11px] font-black uppercase tracking-wider border border-slate-200 bg-white text-slate-500 hover:border-red-500 transition-all">All</button>`;
+                pillContainer.innerHTML = `<button onclick="filterCategory('All', this)" class="pill-active px-5 py-2 rounded-full text-[11px] font-black uppercase tracking-wider border border-blue-200 bg-white text-slate-500 hover:border-red-500 shadow-sm transition-all">All</button>`;
 
                 Object.keys(sections).sort().forEach(cat => {
-                    // Inject Pill
-                    pillContainer.innerHTML += `<button onclick="filterCategory('${cat}', this)" class="px-5 py-2 rounded-full text-[11px] font-black uppercase tracking-wider border border-slate-200 bg-white text-slate-500 hover:border-red-500 transition-all whitespace-nowrap">${cat}</button>`;
+                    pillContainer.innerHTML += `<button onclick="filterCategory('${cat}', this)" class="px-5 py-2 rounded-full text-[11px] font-black uppercase tracking-wider border border-blue-200 bg-white text-slate-500 hover:border-red-500 shadow-sm transition-all whitespace-nowrap">${cat}</button>`;
 
-                    // Create Section Card
                     let cardHTML = `
-                        <div class="category-card bg-white rounded-3xl border border-slate-200 shadow-sm p-6 flex flex-col" data-category="${cat}">
+                        <div class="category-card bg-white rounded-3xl border border-blue-100 shadow-sm p-6 flex flex-col tile-shadow" data-category="${cat}">
                             <div class="flex items-center justify-between mb-5">
-                                <h3 class="font-black text-slate-800 text-[11px] uppercase tracking-[0.15em] flex items-center gap-2">
-                                    <span class="h-1.5 w-1.5 rounded-full bg-red-500"></span> ${cat}
+                                <h3 class="font-black text-slate-800 text-[11px] uppercase tracking-widest flex items-center gap-2">
+                                    <i class="fa-solid fa-folder text-blue-400"></i> ${cat}
                                 </h3>
-                                <span class="text-[10px] bg-slate-50 px-2 py-0.5 rounded border border-slate-100 text-slate-400 font-bold">${sections[cat].length}</span>
+                                <span class="text-[10px] bg-blue-50 px-2 py-0.5 rounded border border-blue-100 text-blue-600 font-bold">${sections[cat].length}</span>
                             </div>
                             <ul class="space-y-3 flex-1">
                     `;
@@ -146,7 +147,7 @@
                     grid.innerHTML += cardHTML;
                 });
 
-                // SEARCH FUNCTIONALITY
+                // Search Logic
                 document.getElementById('articleSearch').addEventListener('input', function(e) {
                     const term = e.target.value.toLowerCase();
                     document.querySelectorAll('.article-link').forEach(link => {
@@ -157,17 +158,14 @@
                 });
 
             } catch (err) {
-                console.error("Library Error:", err);
-                document.getElementById('article-grid').innerHTML = `<p class="col-span-full text-center text-red-500">Failed to load CSV library.</p>`;
+                console.error(err);
+                document.getElementById('article-grid').innerHTML = `<p class="col-span-full text-center text-red-500">Error: vmdr-links.csv not found.</p>`;
             }
         }
 
         function filterCategory(cat, btn) {
-            // UI Toggle for pills
             document.querySelectorAll('#category-pills button').forEach(b => b.classList.remove('pill-active'));
             btn.classList.add('pill-active');
-
-            // Card Toggle
             document.querySelectorAll('.category-card').forEach(card => {
                 card.style.display = (cat === 'All' || card.dataset.category === cat) ? 'block' : 'none';
             });
