@@ -1,5 +1,5 @@
 title,link,category
-Get Started with Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Connectors
+Get-Started-with-Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Connectors
 Purging: What-why-when-how-what happens to the data?,https://success.qualys.com/discussions/s/article/000006221,Purging
 Qualys Performance Tuning Series: Remove Stale Assets for Best Performance,https://blog.qualys.com/product-tech/2022/10/05/qualys-performance-tuning-series-remove-stale-assets-for-best-performance,Purging
 How to purge host data,https://success.qualys.com/discussions/s/article/000001918,Purging
@@ -23,12 +23,13 @@ Automate discovery-tagging and scanning of new assets,https://success.qualys.com
 Get Started with Asset Tagging,https://docs.qualys.com/en/vm/latest/host_assets/tags_asset_tagging.htm,Tagging
 Creating Tag Sets,https://docs.qualys.com/en/csam/latest/Tags/create_tag_set.htm,Tagging
 Host Scan Time Management - Groovy tags and dashboard,https://qualys.my.site.com/discussions/s/article/000006172,Tagging
-In-Depth Look Into Data-Driven Science Behind Qualys TruRisk,https://blog.qualys.com/qualys-insights/2022/10/10/in-depth-look-into-data-driven-science-behind-qualys-trurisk,TriRisk
+In-Depth Look Into Data-Driven Science Behind Qualys TruRisk,https://blog.qualys.com/qualys-insights/2022/10/10/in-depth-look-into-data-driven-science-behind-qualys-trurisk,TruRisk
 Authentication vs Authorization vs insufficient privileges,https://success.qualys.com/discussions/s/article/000003111,Scanning
 Qualys TruRisk,https://docs.qualys.com/en/vmdr/getting-started-guide/features_of_vmdr/qualys_trurisk.htm,TruRisk
 A Deep Dive into VMDR 2.0 with Qualys TruRisk,https://blog.qualys.com/qualys-insights/2022/08/08/a-deep-dive-into-vmdr-2-0-with-qualys-trurisk,TruRisk
-Comprehensive Steps to TruRisk™: From Insight to Action Using VMDR,https://blog.qualys.com/product-tech/2024/12/18/steps-to-trurisk-insight-to-action-with-vmdr,TruRisk
-Steps to TruRisk™ – 2: Measure the Likelihood of Vulnerability Exploitation,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2025/04/07/steps-to-trurisk-2-measuring-the-likelihood-of-vulnerability-exploitation,TruRisk
-Steps to TruRisk™ – 3: Get started with Business-Driven Risk Prioritization,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2025/04/21/steps-to-trurisk-3-getting-started-assessing-business-consequences,TruRisk
-Steps to TruRisk™ – 4: Quantify Risk and Communicate Effectively,https://blog.qualys.com/product-tech/2025/06/25/how-to-quantify-risk-and-communicate-effectively-with-trurisk,TruRisk
-Steps to TruRisk™ – 1: Shift to Priority-Driven Strategies,https://blog.qualys.com/product-tech/2025/03/10/steps-to-trurisk-1-shift-to-priority-driven-strategies,TruRisk
+Comprehensive Steps to TruRisk: From Insight to Action Using VMDR,https://blog.qualys.com/product-tech/2024/12/18/steps-to-trurisk-insight-to-action-with-vmdr,TruRisk
+Steps to TruRisk â€“ 2: Measure the Likelihood of Vulnerability Exploitation,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2025/04/07/steps-to-trurisk-2-measuring-the-likelihood-of-vulnerability-exploitation,TruRisk
+Steps to TruRisk â€“ 3: Get started with Business-Driven Risk Prioritization,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2025/04/21/steps-to-trurisk-3-getting-started-assessing-business-consequences,TruRisk
+Steps to TruRisk â€“ 4: Quantify Risk and Communicate Effectively,https://blog.qualys.com/product-tech/2025/06/25/how-to-quantify-risk-and-communicate-effectively-with-trurisk,TruRisk
+Steps to TruRisk â€“ 1: Shift to Priority-Driven Strategies,https://blog.qualys.com/product-tech/2025/03/10/steps-to-trurisk-1-shift-to-priority-driven-strategies,TruRisk
+
