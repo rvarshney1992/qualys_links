@@ -11,7 +11,7 @@ Asset Tags: Are You Getting The Best Value?,https://success.qualys.com/support/s
 Qualys Performance Tuning Series: Remove Stale Assets for Best Performance,https://blog.qualys.com/product-tech/2022/10/05/qualys-performance-tuning-series-remove-stale-assets-for-best-performance,Purging
 How to purge host data,https://success.qualys.com/discussions/s/article/000001918,Purging
 User Roles Comparison (Vulnerability Management),https://docs.qualys.com/en/vm/10.32.1.0-old/user_accounts/user_roles_comparison_vm.htm,RBAC
-Get Started withConnectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Connectors
+Get Started with Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Connectors
 Default Option Profile - Qualys Recommended Option Profile,https://docs.qualys.com/en/vm/latest/option_profiles/qualys_recommended_option_profile.htm,Scanning
 Authentication Records,https://docs.qualys.com/en/vm/latest/authentication/system_created_records.htm,Scanning
 Reporting on your Vulnerabilities and Assets,https://docs.qualys.com/en/vm/latest/reports/vulnerability_reports_lp.htm,Reports and Dashboards
@@ -20,4 +20,5 @@ How To Ignore A Vulnerability (individual or in bulk) and Report on Ignored Vuln
 Tell me about authentication status QIDs,https://docs.qualys.com/en/vm/latest/authentication/auth_stat_qids.htm,Scanning
 Automate discovery-tagging and scanning of new assets,https://success.qualys.com/discussions/s/article/000006192,Tagging
 Subscription Health Dashboard 2025 Update,https://blog.qualys.com/product-tech/2025/10/07/subscription-health-dashboard-2025-update,Reports and Dashboards
+
 
