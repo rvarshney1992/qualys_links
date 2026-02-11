@@ -156,7 +156,7 @@
                             <ul class="space-y-4 flex-1">
                     `;
 
-                    data[cat].forEach(item => {
+                    data[cat].sort((a, b) => a.title.localeCompare(b.title)).forEach(item => {
                         sectionHTML += `
                             <li>
                                 <a href="${item.link}" target="_blank" class="article-item flex items-start gap-3 group">
