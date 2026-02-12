@@ -37,5 +37,9 @@ Gaining Control over Your Digital Certificates,https://blog.qualys.com/product-t
 Review Your Certificates,https://docs.qualys.com/en/vm/latest/host_assets/certificates.htm,CertView
 Grades Calculation Process,https://docs.qualys.com/en/certview/latest/scans/ssl_grading.htm,CertView
 SSL Server Rating Guide,https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide,CertView
+Qualys Dataflow for VMDR Connector,https://docs.qualys.com/en/conn/latest/integrations/vmdr_native_connector.htm,Connectors
+Qualys Connectors,https://docs.qualys.com/en/conn/2.15.0/welcome.htm,Connectors
+
+
 
 
