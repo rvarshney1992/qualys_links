@@ -1,0 +1,45 @@
+name: Weekly link refresh
+
+# Pulls new Qualys blog posts, notifications, newsletters and ThreatPROTECT
+# advisories into the link CSVs and logs them to links/whats-new.csv.
+on:
+  schedule:
+    - cron: '0 6 * * 6'   # Saturdays 06:00 UTC (11:30 IST, Fri 23:00 PT)
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Look back this many days (duplicates are skipped)'
+        default: '14'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-links
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch new links
+        run: python scripts/update_links.py --days "${{ github.event.inputs.days || '14' }}"
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain links/)" ]; then
+            echo "No new links this week."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add links/
+          added=$(git diff --cached --numstat links/whats-new.csv | awk '{print $1}')
+          git commit -m "Weekly link refresh: ${added:-0} new entries ($(date -u +%F))"
+          git push

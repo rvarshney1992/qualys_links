@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New | Qualys Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/hub.css">
+</head>
+<!-- What's New: rendered from links/whats-new.csv, which the weekly GitHub Action appends to. -->
+<body data-module="whats-new" class="text-slate-900 font-sans h-screen flex flex-col text-[14px]">
+
+    <nav class="bg-white border-b border-slate-300 h-16 flex items-center justify-between px-6 shrink-0 z-20 shadow-sm">
+        <div class="flex items-center gap-3">
+            <button id="nav-toggle" class="md:hidden text-slate-600 text-xl mr-1" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+            <img src="https://www.qualys.com/favicon.ico" class="h-7" alt="">
+            <h1 class="text-xl font-bold tracking-tight text-slate-800 uppercase">Qualys <span class="text-slate-400 font-light text-sm">Portal Hub</span></h1>
+        </div>
+    </nav>
+
+    <div class="flex flex-1 overflow-hidden">
+        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-300 py-6 shrink-0 shadow-md overflow-y-auto"></aside>
+
+        <main class="flex-1 overflow-y-auto p-8">
+            <div id="module-root" class="max-w-6xl mx-auto"></div>
+        </main>
+    </div>
+
+    <script src="assets/hub.js"></script>
+</body>
+</html>
