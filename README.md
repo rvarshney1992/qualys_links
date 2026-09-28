@@ -11,7 +11,9 @@ modules.csv          one row per module tab: drives the sidebar, the dashboard g
 links/<module>.csv   the resource library for one module
 links/public.csv     public Qualys links shown on the dashboard
 links/whats-new.csv  log of every link the weekly refresh added (drives whats-new.html)
+links/news.json      daily security news and ThreatPROTECT correlations (drives news.html; generated, don't edit)
 scripts/update_links.py  the weekly refresh script
+scripts/update_news.py   the daily news script
 assets/hub.js        shared page logic (CSV parser, sidebar, tiles, search, category filters)
 assets/hub.css       shared styles
 ```
@@ -42,6 +44,18 @@ title,link,category
 A link is never added twice. If a post lands in the wrong module, delete its row from that CSV; because it stays logged in `whats-new.csv`, it won't come back. To steer future matches, edit `MODULE_KEYWORDS`.
 
 Preview locally without writing anything: `python scripts/update_links.py --dry-run`.
+
+## Daily security news
+
+`.github/workflows/daily-news.yml` runs every day at 10:00 UTC (5:00 CT, 6:00 ET), and on demand from the Actions tab. It runs `scripts/update_news.py`, which:
+
+- reads The Hacker News, BleepingComputer, Dark Reading, Help Net Security, The Record, Krebs on Security, CISA advisories and the Qualys Blog (`NEWS_FEEDS` in the script);
+- tags each story with one or more topics: Vulnerability Management, Ransomware & Malware, Threat Intel & Actors, Data Breach, Cloud & Container, Identity & Access, AI Security, Supply Chain, OT & IoT, Compliance & Policy (`CATEGORIES`);
+- pulls the Qualys ThreatPROTECT advisories and links a story to an advisory when they share a CVE, or when they name the same vendor or product within 10 days of each other (`VENDORS`). Generic names like "Microsoft" only count when paired with a second shared name;
+- flags every CVE that is in the CISA Known Exploited Vulnerabilities catalog;
+- keeps a rolling 14 days in `links/news.json`. Each story remembers the morning it first appeared, so `news.html` can show each morning's briefing.
+
+If a feed is down, the run carries on without it and the page notes that a source was unavailable. Preview without writing: `python scripts/update_news.py --dry-run`.
 
 ## Run locally
 

@@ -1,0 +1,1263 @@
+{
+ "updated": "2026-09-28T18:27+00:00",
+ "edition": "2026-09-28",
+ "errors": [],
+ "news": [
+  {
+   "title": "New Mexico jury finds Meta deceived consumers about data privacy practices",
+   "link": "https://therecord.media/facebook-new-mexico-privacy",
+   "source": "The Record",
+   "published": "2026-09-28T17:15+00:00",
+   "summary": "A New Mexico jury found Facebook violated the law nearly 44 million times by lying to consumers about its data privacy practices.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
+   "link": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
+   "source": "Dark Reading",
+   "published": "2026-09-28T16:51+00:00",
+   "summary": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chrome",
+    "Google"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
+   "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+   "source": "The Record",
+   "published": "2026-09-28T16:19+00:00",
+   "summary": "Incident responders began warning of potential vulnerabilities in NetScaler Gateway products on Saturday before cybersecurity agencies in the Netherlands, U.S. and U.K. released advisories on Sunday confirming vulnerabilities. Citrix itself confirmed eight new vulnerabilities.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Citrix",
+      "NetScaler"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+   "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T15:49+00:00",
+   "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Azure"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+   "link": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
+   "source": "Dark Reading",
+   "published": "2026-09-28T15:33+00:00",
+   "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+   "categories": [
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Azure"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+   "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+   "source": "Krebs on Security",
+   "published": "2026-09-28T15:08+00:00",
+   "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [
+    "CVE-2026-35273"
+   ],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-35273": {
+     "added": "2026-06-12",
+     "due": "2026-06-15",
+     "ransomware": true
+    }
+   }
+  },
+  {
+   "title": "The Developer is the New Perimeter: How Supply Chain Attacks Are Becoming Cloud Breaches",
+   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/09/28/developer-new-perimeter-supply-chain-cloud-breaches",
+   "source": "Qualys Blog",
+   "published": "2026-09-28T15:00+00:00",
+   "summary": "A routine package install can open the door to a cloud breach. Learn how attackers exploit developer credentials. Discover practical steps to contain exposure and protect your cloud environment.",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "Cloud & Container",
+    "Identity & Access",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+   "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T14:00+00:00",
+   "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Citrix"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+   "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T14:00+00:00",
+   "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure…",
+   "categories": [
+    "Ransomware & Malware",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI job portals remain offline after ShinyHunters claims breach via PeopleSoft zero-day",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T13:56+00:00",
+   "summary": "The FBI’s online portals for job applicants (at apply.fbijobs.gov) and special agent applicants (at fbijobs.gov/special-agents) are still unavailable, following what appears to be successful compromises by the ShinyHunters cyber extortion group. Last week, the United States’…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "16-year-old researcher breaks into Microsoft analytics service with access to 17 trillion rows of data",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/microsoft-titan-jwt-signature-flaw/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T13:50+00:00",
+   "summary": "A flaw in Titan, an internal Microsoft analytics service, could have let an attacker read employee records and Bing search analytics, a 16-year-old security researcher has disclosed. The researcher, who goes by Faav, found that Titan did not verify the signature on login tokens…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cyberattack on Polish medical software provider exposes patient data",
+   "link": "https://therecord.media/poland-cyberattack-medical-medyc",
+   "source": "The Record",
+   "published": "2026-09-28T13:30+00:00",
+   "summary": "Hackers stole personal data from a Polish healthcare software provider in the latest cyberattack to hit the country’s medical sector in recent months.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Former US soldier gets nearly six-year sentence for hacking, extorting telecoms",
+   "link": "https://therecord.media/hacker-telecom-army-sentenced",
+   "source": "The Record",
+   "published": "2026-09-28T12:45+00:00",
+   "summary": "A former soldier in the U.S. Army was sentenced to more than five years in federal prison after pleading guilty to hacking into several telecommunications companies and leaking sensitive records.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Other users can watch your browsing and time your keystrokes through OS file notifications",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/cve-2025-68788-file-notification-attacks/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T12:14+00:00",
+   "summary": "Researchers at Graz University of Technology have used the file-notification systems in Windows, Linux, and macOS to spy on activity in other accounts. On Windows, a standard unprivileged account detected 95.7 percent of another user’s visits to popular websites in Firefox, and…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Firefox",
+    "Linux",
+    "Windows",
+    "macOS"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+   "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T11:58+00:00",
+   "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users. According to Okta’s Global CISO Insights 2026…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Okta"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+   "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T11:46+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then…",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Docker"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "NVIDIA wants AI agent safety enforced in silicon, not left to the agent",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/nvidia-open-agent-safety-platform/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T11:34+00:00",
+   "summary": "NVIDIA has introduced an open software platform and a hardware-based reference design intended to keep AI agents within the limits set by the organizations that use them. The Open Agent Safety Platform includes OpenShell, software that controls what an agent can access, and…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "NVIDIA"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "“Drunk” AI is terrible at keeping secrets",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/drunk-ai-models-jailbreak-research/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T11:30+00:00",
+   "summary": "AI models taught to write like drunk people became easier to jailbreak and more likely to leak secrets shared in confidence. That is the finding of UNSW Sydney researchers Anudeex Shetty, Aditya Joshi and Salil Kanhere, published in their paper “In Vino Veritas and…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Citrix NetScaler RCE zero-days exploited globally for weeks (CVE-2026-88771, CVE-2026-88772)",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T09:51+00:00",
+   "summary": "Citrix has patched eight critical and high-severity vulnerabilities in NetScaler ADC and NetScaler Gateway, two of which (CVE-2026-88771, CVE-2026-88772) have been exploited in zero-day attacks to plant webshells on compromised devices. Rumors about their existence and active…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    },
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+   "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T09:25+00:00",
+   "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+   "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T09:08+00:00",
+   "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Azure",
+    "Microsoft"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ex-US soldier gets 70 months for role in AT&T, Snowflake data thefts",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T08:45+00:00",
+   "summary": "A former U.S. Army soldier who was part of a group that stole data from telecom companies, including AT&T, has been sentenced to 70 months in prison. Cameron John Wagenius, 22, was part of the group that hacked Snowflake customer accounts in 2024. They took data from more than…",
+   "categories": [
+    "Cloud & Container",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "LinkedIn tests a way for connections to verify your work history",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/linkedin-profile-verification-features/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T08:20+00:00",
+   "summary": "LinkedIn is testing a way for members to verify the work and education history of people they know. The platform prompts verified members to confirm that they worked or studied with a connection. Once that person receives enough confirmations, LinkedIn adds a verification badge…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+   "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T07:30+00:00",
+   "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+   "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T07:21+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below -…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T06:24+00:00",
+   "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Citrix",
+      "NetScaler"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "If you do one security check this quarter, make it agent memory",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T06:00+00:00",
+   "summary": "In this interview with Help Net Security, Chris Latimer, CEO of Vectorize, talks about the security risks hiding in AI agent memory. He found coding agents storing API keys, credentials, and sensitive documents in plain text on developer machines and in cloud services. Latimer…",
+   "categories": [
+    "Cloud & Container",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Authorizer: Open-source authentication and authorization for your apps",
+   "link": "https://www.helpnetsecurity.com/2026/09/28/authorizer-open-source-authentication-server/",
+   "source": "Help Net Security",
+   "published": "2026-09-28T05:30+00:00",
+   "summary": "Authorizer is an open-source server for sign-in and access control in web and mobile apps. Teams run it on their own infrastructure and keep user accounts in a database they choose. Its maintainers have built a permissions engine and an interface for AI agents into the same Go…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+   "source": "BleepingComputer",
+   "published": "2026-09-27T23:40+00:00",
+   "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+   "source": "BleepingComputer",
+   "published": "2026-09-27T16:02+00:00",
+   "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    },
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+   "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+   "source": "BleepingComputer",
+   "published": "2026-09-27T14:13+00:00",
+   "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+   "source": "BleepingComputer",
+   "published": "2026-09-27T13:38+00:00",
+   "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+   "source": "CISA Advisories",
+   "published": "2026-09-27T12:00+00:00",
+   "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026-88773 , CVE-2026-88774 , CVE-2026-88775 , CVE-2026-88776 , CVE-2026-88777 , and CVE-2026-88778 …",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88772",
+    "CVE-2026-88773",
+    "CVE-2026-88774",
+    "CVE-2026-88775",
+    "CVE-2026-88776",
+    "CVE-2026-88777",
+    "CVE-2026-88778"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    },
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-27T12:00+00:00",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-88772 Citrix NetScaler Improper Restriction of Operations…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    },
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+   "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+   "source": "The Hacker News",
+   "published": "2026-09-27T07:47+00:00",
+   "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Citrix",
+      "NetScaler"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T19:03+00:00",
+   "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-35273"
+   ],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp3",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-35273": {
+     "added": "2026-06-12",
+     "due": "2026-06-15",
+     "ransomware": true
+    }
+   }
+  },
+  {
+   "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+   "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T18:22+00:00",
+   "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a…",
+   "categories": [
+    "Ransomware & Malware",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "AMD"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T16:26+00:00",
+   "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T15:50+00:00",
+   "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Office"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+   "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T14:19+00:00",
+   "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+   "categories": [
+    "Threat Intel & Actors",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T12:28+00:00",
+   "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+   "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T11:46+00:00",
+   "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-35273"
+   ],
+   "vendors": [
+    "Google",
+    "Oracle"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [
+    {
+     "id": "tp3",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-35273": {
+     "added": "2026-06-12",
+     "due": "2026-06-15",
+     "ransomware": true
+    }
+   }
+  },
+  {
+   "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+   "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T10:30+00:00",
+   "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+   "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T09:55+00:00",
+   "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF)…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+   "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T08:49+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-65660"
+   ],
+   "vendors": [
+    "Microsoft",
+    "Office",
+    "SharePoint"
+   ],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-65660": {
+     "added": "2026-09-25",
+     "due": "2026-09-28",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+   "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T07:48+00:00",
+   "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal…",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+   "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+   "source": "Krebs on Security",
+   "published": "2026-09-25T21:44+00:00",
+   "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [
+    "CVE-2023-45208"
+   ],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-09-25T21:41+00:00",
+   "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
+   "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
+   "source": "Dark Reading",
+   "published": "2026-09-25T20:28+00:00",
+   "summary": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
+   "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+   "source": "The Record",
+   "published": "2026-09-25T20:19+00:00",
+   "summary": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.”",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
+   "source": "Dark Reading",
+   "published": "2026-09-25T18:39+00:00",
+   "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-28",
+   "advisories": [],
+   "kev": {}
+  }
+ ],
+ "advisories": [
+  {
+   "title": "Citrix NetScaler ADC and Gateway Zero-day Vulnerabilities Exploited in Attacks (CVE-2026-88771 & CVE-2026-88772)",
+   "link": "https://threatprotect.qualys.com/2026/09/28/citrix-netscaler-adc-and-gateway-zero-day-vulnerabilities-exploited-in-attacks-cve-2026-88771-cve-2026-88772/",
+   "source": "ThreatPROTECT",
+   "published": "2026-09-28T15:21+00:00",
+   "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered agencies to secure their systems against two critical Citrix NetScaler vulnerabilities that have been exploited in attacks. CISA added CVE-2026-88771 and CVE-2026-88772 to its Known Exploited Vulnerabilities…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-28",
+   "id": "tp0",
+   "related": [
+    {
+     "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/",
+     "match": "cve"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+     "match": "cve"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+     "match": "vendor"
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    },
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "CISA Warns of Check Point Vulnerabilities Exploited in Attacks (CVE-2026-85102 & CVE-2026-93616)",
+   "link": "https://threatprotect.qualys.com/2026/09/23/cisa-warns-of-check-point-vulnerabilities-exploited-in-attacks-cve-2026-85102-cve-2026-93616/",
+   "source": "ThreatPROTECT",
+   "published": "2026-09-24T05:16+00:00",
+   "summary": "Check Point has two vulnerabilities that are being exploited in the wild, tracked as CVE-2026-85102 & CVE-2026-93616. The Cybersecurity and Infrastructure Security Agency (CISA) has added the vulnerabilities to its Known Exploited Vulnerabilities Catalog, urging users to patch…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-85102",
+    "CVE-2026-93616"
+   ],
+   "vendors": [
+    "Check Point"
+   ],
+   "edition": "2026-09-28",
+   "id": "tp1",
+   "related": [],
+   "kev": {
+    "CVE-2026-85102": {
+     "added": "2026-09-22",
+     "due": "2026-09-25",
+     "ransomware": false
+    },
+    "CVE-2026-93616": {
+     "added": "2026-09-22",
+     "due": "2026-09-25",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "CISA Warns of Cisco Identity Services Engine Authentication Bypass Vulnerability (CVE-2026-76460)",
+   "link": "https://threatprotect.qualys.com/2026/09/17/cisa-warns-of-cisco-identity-services-engine-authentication-bypass-vulnerability-cve-2026-76460/",
+   "source": "ThreatPROTECT",
+   "published": "2026-09-17T13:46+00:00",
+   "summary": "Cisco released security updates to address a critical severity vulnerability in Cisco Identity Services Engine. Tracked as CVE-2026-76460, successful exploitation of the vulnerability could allow an unauthenticated, remote attacker to bypass authentication. Cisco mentioned in…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-76460"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "edition": "2026-09-28",
+   "id": "tp2",
+   "related": [],
+   "kev": {
+    "CVE-2026-76460": {
+     "added": "2026-09-16",
+     "due": "2026-09-19",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Oracle Critical Security Patch Update, September 2026 Review",
+   "link": "https://threatprotect.qualys.com/2026/09/16/oracle-critical-security-patch-update-september-2026-review/",
+   "source": "ThreatPROTECT",
+   "published": "2026-09-16T14:15+00:00",
+   "summary": "Oracle released its September edition of Critical Security Patch Update. The update received patches for 673 security vulnerabilities. Some of the vulnerabilities addressed in this update impact more than one product. These patches address vulnerabilities in various product…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-09-28",
+   "id": "tp3",
+   "related": [
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+     "match": "vendor"
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Cisco Secure Email Gateway Vulnerability Exploited in Attacks (CVE-2026-76461)",
+   "link": "https://threatprotect.qualys.com/2026/09/15/cisco-secure-email-gateway-vulnerability-exploited-in-attacks-cve-2026-76461/",
+   "source": "ThreatPROTECT",
+   "published": "2026-09-15T13:37+00:00",
+   "summary": "Cisco released a security advisory about a critical-severity vulnerability in Cisco Secure Email Gateway. Tracked as CVE-2026-76461, the vulnerability is being exploited in the wild. Successful exploitation of the vulnerability may allow an attacker to execute arbitrary commands…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-76461"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "edition": "2026-09-28",
+   "id": "tp4",
+   "related": [],
+   "kev": {
+    "CVE-2026-76461": {
+     "added": "2026-09-14",
+     "due": "2026-09-17",
+     "ransomware": false
+    }
+   }
+  }
+ ]
+}
