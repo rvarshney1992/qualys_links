@@ -1,0 +1,81 @@
+title,link,category
+Introduction,https://docs.qualys.com/en/ta/latest/introduction/introduction.htm,Getting Started
+TotalAI Release Updates,https://docs.qualys.com/en/ta/latest/introduction/whats_new_ta.htm,Getting Started
+Welcome to TotalAI,https://docs.qualys.com/en/ta/latest/ta_home.html,Getting Started
+Overview,https://docs.qualys.com/en/ta/latest/inventory/overview.htm,Inventory
+Create Model,https://docs.qualys.com/en/ta/latest/inventory/create_model.htm,Inventory
+Create MCP Server,https://docs.qualys.com/en/ta/latest/inventory/create_mcp_server.htm,Inventory
+Model List,https://docs.qualys.com/en/ta/latest/inventory/view_models.htm,Inventory
+View AI Code,https://docs.qualys.com/en/ta/latest/inventory/view_ai_code.htm,Inventory
+View AI SaaS,https://docs.qualys.com/en/ta/latest/inventory/view_ai_saas.htm,Inventory
+View Software,https://docs.qualys.com/en/ta/latest/inventory/view_software.htm,Inventory
+Cloud Services,https://docs.qualys.com/en/ta/latest/inventory/view_cloud_services.htm,Inventory
+View AI Assets,https://docs.qualys.com/en/ta/latest/inventory/view_ai_assets.htm,Inventory
+View AI Images,https://docs.qualys.com/en/ta/latest/inventory/view_ai_images.htm,Inventory
+View MCP Servers,https://docs.qualys.com/en/ta/latest/inventory/view_mcp_servers.htm,Inventory
+View AI Workloads,https://docs.qualys.com/en/ta/latest/inventory/view_ai_workloads.htm,Inventory
+View AI Containers,https://docs.qualys.com/en/ta/latest/inventory/view_ai_containers.htm,Inventory
+View Asset Details,https://docs.qualys.com/en/ta/latest/inventory/asset_details.htm,Inventory
+Discover Asset Inventory,https://docs.qualys.com/en/ta/latest/inventory/discover_asset_inventory.htm,Inventory
+Policy,https://docs.qualys.com/en/ta/latest/policy/policy_overview.htm,Policy
+Policy Tab,https://docs.qualys.com/en/ta/latest/policy/policy_policies_tab.htm,Policy
+Controls Tab,https://docs.qualys.com/en/ta/latest/policy/policy_controls_tab.htm,Policy
+Posture,https://docs.qualys.com/en/ta/latest/posture/posture_overview.htm,Posture
+SaaS Posture Tab,https://docs.qualys.com/en/ta/latest/posture/posture_saas_tab.htm,Posture
+Cloud Posture Tab,https://docs.qualys.com/en/ta/latest/posture/posture_cloud_tab.htm,Posture
+Option Profiles,https://docs.qualys.com/en/ta/latest/configuration/option_profile/manage_configuration_profiles.htm,Configuration
+Create Option Profile,https://docs.qualys.com/en/ta/latest/configuration/option_profile/create_option_profile.htm,Configuration
+Scan Settings,https://docs.qualys.com/en/ta/latest/configuration/option_profile/scan_settings.htm,Configuration
+Scan Report,https://docs.qualys.com/en/ta/latest/reports/scan_report.htm,More Topics
+TotalAI Dashboard,https://docs.qualys.com/en/ta/latest/dashboard/ta_dashboard.htm,More Topics
+Discover and Manage Security Risks,https://docs.qualys.com/en/ta/latest/detections/manage_detections.htm,Detections
+Detection Details,https://docs.qualys.com/en/ta/latest/detections/detection_details.htm,Detections
+View Model Detections,https://docs.qualys.com/en/ta/latest/detections/view_model_detections.htm,Detections
+View AI Vulnerabilities,https://docs.qualys.com/en/ta/latest/detections/view_ai_vulnerabilities.htm,Detections
+View MCP Server Detections,https://docs.qualys.com/en/ta/latest/detections/view_mcp_detections.htm,Detections
+Launch Scan,https://docs.qualys.com/en/ta/latest/scans/launch_scan.htm,Scanning
+Evaluate Risk,https://docs.qualys.com/en/ta/latest/scans/assess_risk.htm,Scanning
+View Scan Details,https://docs.qualys.com/en/ta/latest/scans/view_scan_details.htm,Scanning
+External Scanner IPs,https://docs.qualys.com/en/ta/latest/scans/external_scanner_appliance.htm,Scanning
+All Scanners in TagSet,https://docs.qualys.com/en/ta/latest/scans/all_scanners_in_tagset.htm,Scanning
+Internal Scanner Appliance,https://docs.qualys.com/en/ta/latest/scans/internal_scanner_appliance.htm,Scanning
+Search Tokens,https://docs.qualys.com/en/ta/latest/search_tips/search_tokens.htm,Search & QQL
+Search Token Mappings,https://docs.qualys.com/en/ta/latest/search_tips/token_mapping.htm,Search & QQL
+Search Tokens for Scans,https://docs.qualys.com/en/ta/latest/search_tips/search_tokens_scans.htm,Search & QQL
+Search Tokens for IT Assets,https://docs.qualys.com/en/ta/latest/search_tips/search_tokens_assets.htm,Search & QQL
+Search Tokens for Detections,https://docs.qualys.com/en/ta/latest/search_tips/search_tokens_for_vulnerabilities.htm,Search & QQL
+Search Tokens for MCP Servers,https://docs.qualys.com/en/ta/latest/search_tips/search_mcp_servers.htm,Search & QQL
+Search Tokens for Option Profiles,https://docs.qualys.com/en/ta/latest/search_tips/search_tokens_option_profiles.htm,Search & QQL
+Get Started with TotalAI API,https://docs.qualys.com/en/ta/latest/mergedProjects/totalai_apis/introduction/get_started.htm,API
+Detection Count,https://docs.qualys.com/en/ta/latest/mergedProjects/totalai_apis/detections/detections_count.htm,API
+Launch New Scan,https://docs.qualys.com/en/ta/latest/mergedProjects/totalai_apis/scans/launch_new_scan.htm,API
+Search Detections,https://docs.qualys.com/en/ta/latest/mergedProjects/totalai_apis/detections/search_detections.htm,API
+Get Scan Details by id,https://docs.qualys.com/en/ta/latest/mergedProjects/totalai_apis/scans/get_scan_details_by_id.htm,API
+TotalAI 2.0 (September 2026),https://docs.qualys.com/en/ta/release-notes/total_ai/release_2_0.htm,Release Notes
+TotalAI 2.0 API (September 2026),https://docs.qualys.com/en/ta/release-notes/total_ai/release_2_0_api.htm,Release Notes
+TotalAI 1.7 (May 2026),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_7.htm,Release Notes
+TotalAI 1.6.2 (February 2026),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_6_2.htm,Release Notes
+TotalAI 1.6.1 (December 2025),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_6_1.htm,Release Notes
+TotalAI 1.6.1 API (December 2025),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_6_1_api.htm,Release Notes
+TotalAI 1.6 (October 2025),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_6.htm,Release Notes
+TotalAI 1.5 (August 2025),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_5.htm,Release Notes
+TotalAI 1.5 API (August 2025),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_5_api.htm,Release Notes
+TotalAI 1.4 (June 2025),https://docs.qualys.com/en/ta/release-notes/total_ai/release_1_4.htm,Release Notes
+Qualys TotalAI | AI Governance & Risk Management,https://www.qualys.com/apps/totalai,Product Overview
+Agent-Led Safe Exploit Validation | Qualys Agentic AI,https://www.qualys.com/apps/agentic-ai,Product Overview
+Generative AI and LLM Security,https://www.qualys.com/fundamentals/gen-ai-and-llm,Product Overview
+The End of Point-in-Time Compliance: Why Continuous Audit Readiness Matters to You in the AI Era,https://blog.qualys.com/product-tech/2026/09/17/end-of-point-in-time-compliance-continuous-audit-readiness,Blog
+When an AI Agent Turned Attacker: What Qualys Sees Across Every Phase of the Hugging Face Kubernetes Intrusion,https://blog.qualys.com/product-tech/2026/08/26/hugging-face-ai-agent-intrusion-qualys-detection-mapping,Blog
+"Operationalize AI Governance Across Shadow GenAI, MCP, and Agentic Workloads with Qualys TotalAI",https://blog.qualys.com/product-tech/2026/07/29/ai-governance-evidence-gap-totalai,Blog
+"The Sub-10-Minute Cloud Takeover: How Exposed IAM Keys, Misconfiguration and AI Are Rewriting the Rules of Cloud Breaches",https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches,Blog
+Manual Patching Can’t Outrun AI. Automated Remediation Can.,https://blog.qualys.com/product-tech/2026/07/21/ai-vulnerability-discovery-automated-remediation,Blog
+CERT-In’s AI Vulnerability Blueprint: Why Indian CISOs Need Machine-Speed Risk Operations in the Post-Mythos Era,https://blog.qualys.com/product-tech/2026/06/24/cert-in-ai-vulnerability-blueprint-machine-speed-risk-operations,Blog
+Advancing Cybersecurity in the Age of Frontier AI: Qualys Steps into Project Glasswing,https://blog.qualys.com/product-tech/2026/06/05/advancing-cybersecurity-in-the-age-of-frontier-ai-qualys-steps-into-project-glasswing,Blog
+Bringing AI Code Security into Qualys ETM,https://blog.qualys.com/product-tech/2026/05/11/bringing-ai-code-security-into-qualys-etm,Blog
+Qualys TotalAI Achieves FedRAMP Moderate (FedRAMP Certified Class C) Authorization,https://blog.qualys.com/product-tech/2026/05/05/qualys-totalai-achieves-fedramp-moderate-fedramp-certified-class-c-authorization,Blog
+Anatomy of an Autonomous AI Agent Risk: How Qualys ETM Connects the Dots on OpenClaw,https://blog.qualys.com/product-tech/2026/04/13/anatomy-autonomous-ai-agent-risk-qualys-etm-openclaw,Blog
+Scaling Modern AppSec: Moving from Static Profiles to AI-Powered Scan Optimization,https://blog.qualys.com/product-tech/2026/04/09/scaling-modern-appsec-moving-from-static-profiles-to-ai-powered-scan-optimization,Blog
+Meet Agent Val: Closing the Validation Gap in Exposure Management at Machine Speed with Agentic AI,https://blog.qualys.com/product-tech/2026/03/23/meet-agent-val-closing-the-validation-gap-in-exposure-management-at-machine-speed-with-agentic-ai,Blog
+MCP Servers Are the New Shadow IT for AI,https://blog.qualys.com/product-tech/2026/03/19/mcp-servers-shadow-it-ai-qualys-totalai-2026,Blog
+From Shadow Models to Audit-Ready AI Security: A Practical Path with Qualys TotalAI,https://blog.qualys.com/product-tech/2026/03/10/from-shadow-models-to-audit-ready-ai-security-a-practical-path-with-qualys-totalai,Blog
+New: AI-Powered Patch Reliability Scoring—Predict Patch Impact Before You Deploy,https://blog.qualys.com/product-tech/2026/02/18/new-ai-powered-patch-reliability-scoring-predict-patch-impact-before-you-deploy,Blog

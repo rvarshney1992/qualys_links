@@ -1,0 +1,109 @@
+title,link,category
+Introduction to QFlex and QLU,https://docs.qualys.com/en/admin/portal/latest/introduction_to_qlu.htm,Getting Started
+Get Started with Administration,https://docs.qualys.com/en/admin/portal/latest/welcome.htm,Getting Started
+Searching Activity Logs,https://docs.qualys.com/en/admin/portal/latest/search_activity_logs.htm,Getting Started
+Search in Administration,https://docs.qualys.com/en/admin/portal/latest/search_in_admin.htm,Getting Started
+User Roles FAQ,https://docs.qualys.com/en/admin/portal/latest/platform/user_roles_faq.htm,Platform
+Assigned User Roles,https://docs.qualys.com/en/admin/portal/latest/platform/assigned_user_roles.htm,Platform
+User Permissions by Role,https://docs.qualys.com/en/admin/portal/latest/platform/user_permissions_by_role.htm,Platform
+User Permissions by Object,https://docs.qualys.com/en/admin/portal/latest/platform/user_permissions_by_object.htm,Platform
+Tell me about the Action Log,https://docs.qualys.com/en/admin/portal/latest/action/action_log.htm,More Topics
+Patch Management,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/patch_management.htm,Default Roles And Permissions
+Vulnerability Management,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/vulnerability_management.htm,Default Roles And Permissions
+Enterprise TruRisk Management,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/enterprise_trurisk_management.htm,Default Roles And Permissions
+CyberSecurity Asset Management,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/cyber_security_asset_management.htm,Default Roles And Permissions
+VMDR OT,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/vmdr_ot.htm,Default Roles And Permissions
+Total AI,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/total_ai.htm,Default Roles And Permissions
+Isolation,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/isolation.htm,Default Roles And Permissions
+Mitigation,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/mitigation.htm,Default Roles And Permissions
+Cloud Agent,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/cloud_agent.htm,Default Roles And Permissions
+Qualys Flow,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/qualys_flow.htm,Default Roles And Permissions
+Total Cloud,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/total_cloud.htm,Default Roles And Permissions
+VMDR Mobile,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/vmdr_mobile.htm,Default Roles And Permissions
+ETM Identity,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/etm_identity.htm,Default Roles And Permissions
+Certificate View,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/certificate_view.htm,Default Roles And Permissions
+Global Asset View,https://docs.qualys.com/en/admin/portal/latest/default_roles_and_permissions/global__asset_view.htm,Default Roles And Permissions
+Global Permissions,https://docs.qualys.com/en/admin/portal/latest/global_permissions/global_permissions.htm,More Topics
+Manage User Roles,https://docs.qualys.com/en/admin/portal/latest/user/role_management1.htm,User
+Overview of User Accounts,https://docs.qualys.com/en/admin/portal/latest/user/user_management.htm,User
+Overview of Roles and Permissions,https://docs.qualys.com/en/admin/portal/latest/user/role_management.htm,User
+Managing Users,https://docs.qualys.com/en/admin/portal/latest/user/managing_users.htm,User
+Creating a Role,https://docs.qualys.com/en/admin/portal/latest/user/creating_a_role.htm,User
+Creating a User,https://docs.qualys.com/en/admin/portal/latest/user/creating_a_user.htm,User
+Edit Role Permissions,https://docs.qualys.com/en/admin/portal/latest/user/edit_permissions.htm,User
+Global Template Permissions,https://docs.qualys.com/en/admin/portal/latest/user/global_template_permissions.htm,User
+Global Dashboard Permissions,https://docs.qualys.com/en/admin/portal/latest/user/global_dashboard_permissions.htm,User
+Managing Roles and Permissions,https://docs.qualys.com/en/admin/portal/latest/user/managing_roles_and_permissions.htm,User
+Malware Protection Services,https://docs.qualys.com/en/admin/portal/latest/user_management/malware_protection_services.htm,More Topics
+Create Tag,https://docs.qualys.com/en/am/api/tags/create_tag.htm,Tagging API
+JSON Support,https://docs.qualys.com/en/am/api/get_started/json_support.htm,Tagging API
+Making API calls,https://docs.qualys.com/en/am/api/get_started/api_usage.htm,Tagging API
+Create Host Asset,https://docs.qualys.com/en/am/api/host_assets/create_host_asset.htm,Tagging API
+Available operators,https://docs.qualys.com/en/am/api/get_started/available_ops.htm,Tagging API
+Qualys user account,https://docs.qualys.com/en/am/api/get_started/user_account.htm,Tagging API
+Create AWS Connector,https://docs.qualys.com/en/am/api/aws_asset_data_connector/create_aws_connector.htm,Tagging API
+Create Azure Connector,https://docs.qualys.com/en/am/api/azure_asset_data_connector/create_azure_connector.htm,Tagging API
+Create AWS Connector 3.0,https://docs.qualys.com/en/am/api/aws_3/create_aws_connector_3.0.html,Tagging API
+Create GCP Connector 3.0,https://docs.qualys.com/en/am/api/gcp_3/create_gcp_connector_3.0.htm,Tagging API
+Know your portal version,https://docs.qualys.com/en/am/api/get_started/portal_version.htm,Tagging API
+URL to Qualys API server,https://docs.qualys.com/en/am/api/get_started/url_api_server.htm,Tagging API
+Create Azure Connector 3.0,https://docs.qualys.com/en/am/api/azure_3/create_azure_connector_3.0.htm,Tagging API
+Tracking API usage by user,https://docs.qualys.com/en/am/api/get_started/tracking_api_usage.htm,Tagging API
+Asset Management & Tagging API,https://docs.qualys.com/en/am/api/get_started/get_started.htm,Tagging API
+Create Global Scan Configuration,https://docs.qualys.com/en/am/api/global_scan_config/create_global_scan_config.htm,Tagging API
+Advantages of CSAM Host Asset APIs,https://docs.qualys.com/en/am/api/get_started/adv_csam_apis.htm,Tagging API
+Count Tags,https://docs.qualys.com/en/am/api/tags/count_tags.htm,Tagging API
+Delete Tag,https://docs.qualys.com/en/am/api/tags/delete_tag.htm,Tagging API
+Tag Fields,https://docs.qualys.com/en/am/api/tags/tag_fields.htm,Tagging API
+Get Started,https://docs.qualys.com/en/qlu/latest/introduction_to_qlu/get_started.htm,QFlex & QLU
+Manage QLUs,https://docs.qualys.com/en/qlu/latest/qlu_management/qlu_management.htm,QFlex & QLU
+Activity Logs,https://docs.qualys.com/en/qlu/latest/qlu_management/view_activity_logs.htm,QFlex & QLU
+Notifications,https://docs.qualys.com/en/qlu/latest/qlu_management/notifications.htm,QFlex & QLU
+Application Overview,https://docs.qualys.com/en/qlu/latest/subscription_management/application_subscription_overview.htm,QFlex & QLU
+Subscription Overview,https://docs.qualys.com/en/qlu/latest/subscription_management/subscription_overview.htm,QFlex & QLU
+Subscription Management,https://docs.qualys.com/en/qlu/latest/subscription_management/subscription_management.htm,QFlex & QLU
+Frequently Asked Questions,https://docs.qualys.com/en/qlu/latest/faq/frequently_asked_questions.htm,QFlex & QLU
+Manage Roles and Permissions,https://docs.qualys.com/en/qlu/latest/introduction_to_qlu/manage_roles_and_permissions.htm,QFlex & QLU
+Introduction to QFlex and QLU,https://docs.qualys.com/en/qlu/latest/introduction_to_qlu/introduction_to_qlu.htm,QFlex & QLU
+Asset Definition and QLU Calculation,https://docs.qualys.com/en/qlu/latest/introduction_to_qlu/product_based_qlu_calculation.htm,QFlex & QLU
+Manage Your Tags,https://docs.qualys.com/en/av/portal/latest/tags/manage_your_tags.htm,AssetView (Legacy)
+Create a role for cross-account access,https://docs.qualys.com/en/av/portal/latest/connectors/create_role.htm,AssetView (Legacy)
+Qualys Cloud Platform,https://docs.qualys.com/en/av/portal/latest/index.htm,AssetView (Legacy)
+Date Format,https://docs.qualys.com/en/av/portal/latest/assets/dates.htm,AssetView (Legacy)
+EC2 Details,https://docs.qualys.com/en/av/portal/latest/connectors/details.htm,AssetView (Legacy)
+EC2 Regions,https://docs.qualys.com/en/av/portal/latest/connectors/regions.htm,AssetView (Legacy)
+Base Account,https://docs.qualys.com/en/av/portal/latest/connectors/base_account.htm,AssetView (Legacy)
+Tag Settings,https://docs.qualys.com/en/av/portal/latest/tags/tag_settings.htm,AssetView (Legacy)
+How To Search,https://docs.qualys.com/en/av/portal/latest/assets/asset_search_samples.htm,AssetView (Legacy)
+API doc online,https://docs.qualys.com/en/av/portal/latest/api_doc/index_hold.htm,AssetView (Legacy)
+Administration API User Guide,https://docs.qualys.com/en/admin/api/#t=administration_api%2Fgetting_started_with_admin_api.htm,Official Guides
+Asset Management and Tagging v2 API,https://docs.qualys.com/en/am/api/index.htm#t=get_started%2Fget_started.htm,Official Guides
+Community Discussions: Cloud Platform,https://success.qualys.com/discussions/s/topic/0TO2L000000HIRAWA4/qualys-cloud-platform,Community
+Enterprise TruRisk™ Platform 3.25 (August 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_25.htm,Release Notes
+Enterprise TruRisk™ Platform 3.25 API (August 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_25_api.htm,Release Notes
+Enterprise TruRisk™ Platform 3.24.1 API (July 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_24_1_api.htm,Release Notes
+Enterprise TruRisk™ Platform 3.24.1 (July 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_24_1.htm,Release Notes
+Enterprise TruRisk™ Platform 3.24 (May 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_24.htm,Release Notes
+Enterprise TruRisk™ Platform 3.24 API (May 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_24_api.htm,Release Notes
+Enterprise TruRisk™ Platform 3.23.2 (April 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_23_2.htm,Release Notes
+Enterprise TruRisk™ Platform Release 3.23.1 (March 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_23_1.htm,Release Notes
+Enterprise TruRisk™ Platform 3.23.0.0-2 (January 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_23_0_0_2.htm,Release Notes
+Enterprise TruRisk™ Platform 3.23.0.0-2 API (January 2026),https://docs.qualys.com/en/portal-cloud-platform-rn/cloud_platform/release_3_23_0_0_2_api.htm,Release Notes
+Training Course: Administration,https://www.qualys.com/training/course/administration,Training
+Training Course: Qualys Query Language (QQL),https://www.qualys.com/training/course/qualys-query-language-qql,Training
+Video Library: Enterprise TruRisk Platform Foundations,https://success.qualys.com/customersupport/s/video-library?product=etp-foundations,Training
+Video Library: Apps Overview,https://success.qualys.com/customersupport/s/video-library?product=apps-overview,Training
+Video Library: Administration,https://success.qualys.com/customersupport/s/video-library?product=administration,Training
+Video Library: QQL,https://success.qualys.com/customersupport/s/video-library?product=qql,Training
+Video Library: Subscription Health,https://success.qualys.com/customersupport/s/video-library?product=subscription-health,Training
+Subscription Plans | Flexible Cybersecurity Solutions,https://www.qualys.com/subscriptions,Product Overview
+Enterprise Cybersecurity Solutions for Risk Reduction,https://www.qualys.com/subscriptions/enterprise,Product Overview
+Flexible Subscription Using Qualys Units (QLU),https://www.qualys.com/qlu-pricing,Product Overview
+QualysGuard is the Enterprise TruRisk Platform,https://www.qualys.com/qualysguard,Product Overview
+Subscription Health Dashboard 2025 Update,https://blog.qualys.com/product-tech/2025/10/07/subscription-health-dashboard-2025-update,Blog
+"Introducing the Qualys App Picker: Easier, Faster Navigation for All Your Security Applications",https://blog.qualys.com/product-tech/2025/08/25/qualys-module-picker-streamlined-security-module-management,Blog
+Qualys Performance Tuning Series: Removing Stale Compliance Data for Optimal Performance,https://blog.qualys.com/product-tech/2024/12/12/qualys-performance-tuning-series-remove-stale-compliance-data-for-the-best-performance,Blog
+Subscription Health Dashboard Update: Optimize Deployments and Identify Issues,https://blog.qualys.com/product-tech/2024/08/09/subscription-health-dashboard-update-optimize-deployments-and-identify-issues,Blog
+Qualys Performance Tuning Series: Qualys Cloud Agent Configuration Best Practice,https://blog.qualys.com/product-tech/2023/07/06/qualys-performance-tuning-series-qualys-cloud-agent-configuration-best-practice,Blog
+Augment Security Asset Tagging with Custom Assessment and Remediation (CAR),https://blog.qualys.com/product-tech/2023/04/03/augment-security-asset-tagging-with-custom-assessment-and-remediation-car,Blog
+Qualys Performance Tuning Series: Remove Stale Assets for Best Performance,https://blog.qualys.com/product-tech/2022/10/05/qualys-performance-tuning-series-remove-stale-assets-for-best-performance,Blog

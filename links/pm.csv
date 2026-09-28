@@ -1,0 +1,177 @@
+title,link,category
+Best Practices for Patch Management,https://docs.qualys.com/en/pm/latest/best_practices/best_practices.htm,More Topics
+Frequently Asked Questions,https://docs.qualys.com/en/pm/latest/faq/faq.htm,FAQ & Troubleshooting
+Other Troubleshooting Issues,https://docs.qualys.com/en/pm/latest/troubleshooting/other_troubleshooting_issues.htm,FAQ & Troubleshooting
+Patch Management Troubleshooting,https://docs.qualys.com/en/pm/latest/troubleshooting/pm_troubleshoot.htm,FAQ & Troubleshooting
+Troubleshooting Jobs Stuck in Pending Status,https://docs.qualys.com/en/pm/latest/troubleshooting/troubleshooting_jobs_pending_status.htm,FAQ & Troubleshooting
+Troubleshooting Microsoft Patches Deployment Failure,https://docs.qualys.com/en/pm/latest/troubleshooting/troubleshooting_microsoft_patches_dep_failure.htm,FAQ & Troubleshooting
+About TruRisk Eliminate,https://docs.qualys.com/en/pm/latest/about_tre.htm,Getting Started
+Welcome to TruRisk Eliminate,https://docs.qualys.com/en/pm/latest/welcome_tre.html,Getting Started
+What's New,https://docs.qualys.com/en/pm/latest/get_started/whats_new.htm,Getting Started
+Get Started,https://docs.qualys.com/en/pm/latest/get_started/get_started_old.htm,Getting Started
+Manage TE Licenses,https://docs.qualys.com/en/pm/latest/get_started/licenses.htm,Getting Started
+TruRisk​™ Eliminate APIs,https://docs.qualys.com/en/pm/latest/get_started/pm_api.htm,Getting Started
+TruRisk Eliminate™ Widgets,https://docs.qualys.com/en/pm/latest/get_started/pm_widgets.htm,Getting Started
+TruRisk Eliminate™ Overview,https://docs.qualys.com/en/pm/latest/get_started/get_started.htm,Getting Started
+Patch Management Online Help,https://docs.qualys.com/en/pm/latest/get_started/pm_online_help.htm,Getting Started
+Patch Download Using Cloud Agents,https://docs.qualys.com/en/pm/latest/get_started/patch_download_using_cloud_agents.htm,Getting Started
+Generate Vulnerability Report in VMDR,https://docs.qualys.com/en/pm/latest/get_started/generate_vuln_report_in_vmdr.htm,Getting Started
+Isolation Overview,https://docs.qualys.com/en/pm/latest/isolation/isl_overview.htm,Isolation
+View Quick Actions,https://docs.qualys.com/en/pm/latest/isolation/view_quick_actions.htm,Isolation
+Create Isolation Job,https://docs.qualys.com/en/pm/latest/isolation/create_isolation_job.htm,Isolation
+Manage Isolation Jobs,https://docs.qualys.com/en/pm/latest/isolation/manage_isolation_jobs.htm,Isolation
+Isolation Rollback Overview,https://docs.qualys.com/en/pm/latest/isolation/isolation_rollback_overview.htm,Isolation
+Create Isolation Rollback Job,https://docs.qualys.com/en/pm/latest/isolation/create_isl_rollback_job.htm,Isolation
+User Roles and Permissions for Isolation,https://docs.qualys.com/en/pm/latest/isolation/isolation_roles_overview.htm,Isolation
+Supported Operating Systems S for Isolation,https://docs.qualys.com/en/pm/latest/isolation/supported_allowlists_for_isolation.htm,Isolation
+Managing Views,https://docs.qualys.com/en/pm/latest/isolation/managing_views.htm,Isolation
+Creating a View,https://docs.qualys.com/en/pm/latest/isolation/creating_a_view.htm,Isolation
+Isolation Online Help,https://docs.qualys.com/en/pm/latest/isolation/isolation_online_help.htm,Isolation
+Isolation Job Statuses,https://docs.qualys.com/en/pm/latest/isolation/isolation_job_statuses.htm,Isolation
+Automate Asset Isolation,https://docs.qualys.com/en/pm/latest/isolation/automate_asset_isolation.htm,Isolation
+Viewing Isolation Licenses,https://docs.qualys.com/en/pm/latest/isolation/viewing_isl_license.htm,Isolation
+Asset Isolation Exception Settings,https://docs.qualys.com/en/pm/latest/isolation/isl_subscription_level_settings.htm,Isolation
+Job Approval Overview,https://docs.qualys.com/en/pm/latest/job_approval/job_approval_overview.htm,Job Approval
+Submit and Approve Jobs,https://docs.qualys.com/en/pm/latest/job_approval/approve_or_reject_a_job.htm,Job Approval
+View Job Approval History,https://docs.qualys.com/en/pm/latest/job_approval/view_job_approval_history.htm,Job Approval
+View Quick Actions,https://docs.qualys.com/en/pm/latest/mitigation/view_quick_actions.htm,Mitigation
+Mitigation Overview,https://docs.qualys.com/en/pm/latest/mitigation/mitigation_overview.htm,Mitigation
+Create Mitigation Job,https://docs.qualys.com/en/pm/latest/mitigation/create_mtg_job.htm,Mitigation
+Manage Mitigation Jobs,https://docs.qualys.com/en/pm/latest/mitigation/manage_mitigation_jobs.htm,Mitigation
+Mitigation Jobs Overview,https://docs.qualys.com/en/pm/latest/mitigation/mtg_job_overview.htm,Mitigation
+Mitigation Rollback Overview,https://docs.qualys.com/en/pm/latest/mitigation/mitigation_rollback_overview.htm,Mitigation
+Create Mitigation Rollback Job,https://docs.qualys.com/en/pm/latest/mitigation/create_mitigation_rollback_job.htm,Mitigation
+Role Based Access Control - Mitigation,https://docs.qualys.com/en/pm/latest/mitigation/roles_overview_mtg.htm,Mitigation
+Managing Users,https://docs.qualys.com/en/pm/latest/mitigation/managing_users.htm,Mitigation
+Managing Views,https://docs.qualys.com/en/pm/latest/mitigation/managing_views.htm,Mitigation
+Creating a Role,https://docs.qualys.com/en/pm/latest/mitigation/creating_a_role.htm,Mitigation
+Creating a View,https://docs.qualys.com/en/pm/latest/mitigation/creating_a_view.htm,Mitigation
+Mitigation Online Help,https://docs.qualys.com/en/pm/latest/mitigation/mitigation_online_help.htm,Mitigation
+Viewing Mitigation Licenses,https://docs.qualys.com/en/pm/latest/mitigation/viewing_mtg_license.htm,Mitigation
+Managing Roles and Permissions,https://docs.qualys.com/en/pm/latest/mitigation/managing_roles_and_permissions.htm,Mitigation
+Risk Elimination Overview,https://docs.qualys.com/en/pm/latest/other_resources/risk_elimination_overview.htm,Training
+Training Videos,https://docs.qualys.com/en/pm/latest/other_resources/training_videos.htm,Training
+Dashboards in PM,https://docs.qualys.com/en/pm/latest/other_resources/unified_dashboard.htm,Training
+Knowledge Articles,https://docs.qualys.com/en/pm/latest/other_resources/knowledge_articles.htm,Training
+Patch Blocking Rules Overview,https://docs.qualys.com/en/pm/latest/patch_blocking_rules/patch_blocking_rules_overview.htm,More Topics
+Creating Patch Block Rule,https://docs.qualys.com/en/pm/latest/patch_blocking_rules/creating_patch_block_rule.htm,More Topics
+Create Remediation Job,https://docs.qualys.com/en/pm/latest/patches/create_remediation_job.htm,Patches
+Maintenance Windows Overview,https://docs.qualys.com/en/pm/latest/patches/about_maintenance_window.htm,Patches
+Creating a Maintenance Window,https://docs.qualys.com/en/pm/latest/patches/create_maintenance_window.htm,Patches
+Overview of Run Script Actions,https://docs.qualys.com/en/pm/latest/patches/overview_of_run_script_actions.htm,Patches
+Creating Custom Assessment Profiles,https://docs.qualys.com/en/pm/latest/patches/create_an_assessment_profile.htm,Patches
+Patch Management - Managing Patch Deployment Jobs,https://docs.qualys.com/en/pm/latest/patches/manage_pm_deployment_jobs_in_pm.htm,Patches
+Cloning a Job,https://docs.qualys.com/en/pm/latest/patches/clone_jobs.htm,Patches
+Scheduling Jobs,https://docs.qualys.com/en/pm/latest/patches/schedule_job_settings.htm,Patches
+Rollback Actions,https://docs.qualys.com/en/pm/latest/patches/rollback_actions.htm,Patches
+Patch QID Mapping,https://docs.qualys.com/en/pm/latest/patches/patch_qid_mapping.htm,Patches
+Viewing your Jobs,https://docs.qualys.com/en/pm/latest/patches/view_your_jobs.htm,Patches
+Patching from VMDR,https://docs.qualys.com/en/pm/latest/patches/patching_from_vmdr.htm,Patches
+Edit and Clone Jobs,https://docs.qualys.com/en/pm/latest/patches/edit_clone_job.htm,Patches
+Generate Hash Value,https://docs.qualys.com/en/pm/latest/patches/generate_hash_value.htm,Patches
+Types of Patch Jobs,https://docs.qualys.com/en/pm/latest/patches/patch_job_types.htm,Patches
+TruRisk Eliminate Role-Based Access Control Overview,https://docs.qualys.com/en/pm/latest/role_based_access/pm_role_based_access_controol_overview.htm,Role Based Access
+Changing Job Owners,https://docs.qualys.com/en/pm/latest/role_based_access/change_ownership.htm,Role Based Access
+User Roles and Permissions for PM,https://docs.qualys.com/en/pm/latest/role_based_access/user_roles_permissions.htm,Role Based Access
+Supported Mac Products,https://docs.qualys.com/en/pm/latest/supported_product_versions/supp_mac_products.htm,Supported Product Versions
+Supported Windows Products,https://docs.qualys.com/en/pm/latest/supported_product_versions/supp_windows_product.htm,Supported Product Versions
+Supported Linux Operating Systems,https://docs.qualys.com/en/pm/latest/supported_product_versions/linux_os.htm,Supported Product Versions
+Supported Windows Operating Systems,https://docs.qualys.com/en/pm/latest/supported_product_versions/supported_pm_win_os.htm,Supported Product Versions
+NSU Supported Linux Operating Systems,https://docs.qualys.com/en/pm/latest/supported_product_versions/nsu_supported_linux_os.htm,Supported Product Versions
+Patch Management and Mitigation Supported Product Versions,https://docs.qualys.com/en/pm/latest/supported_product_versions/pm_supported_product_versions.htm,Supported Product Versions
+Patch Management Onboarding,https://docs.qualys.com/en/pm/latest/configuration/pm_onboarding.htm,Configuration
+Subscription Level Settings,https://docs.qualys.com/en/pm/latest/configuration/subscription_level_settings.htm,Configuration
+Installing Cloud Agents for PM,https://docs.qualys.com/en/pm/latest/configuration/install_agents.htm,Configuration
+Creating a CA Configuration Profile,https://docs.qualys.com/en/pm/latest/configuration/enable_pm_in_ca_config_profile.htm,Configuration
+Configure Internal Server Repository URL,https://docs.qualys.com/en/pm/latest/configuration/internal_server_repo_url.htm,Configuration
+Adding URLs to Allowlist for Patch Download,https://docs.qualys.com/en/pm/latest/configuration/url_whitelisting.htm,Configuration
+TruRisk Eliminate Onboarding and Configuration,https://docs.qualys.com/en/pm/latest/configuration/te_onboarding_and_config.htm,Configuration
+Feature Dependencies,https://docs.qualys.com/en/pm/latest/dependencies/dependencies.htm,More Topics
+Generating Job Progress Reports,https://docs.qualys.com/en/pm/latest/reports/create_job_progress_reports.htm,Reports and Dashboards
+Reports in Patch Management,https://docs.qualys.com/en/pm/latest/reports/pm_reports.htm,Reports and Dashboards
+Generating Patch Insights Report,https://docs.qualys.com/en/pm/latest/reports/patch_insight_report.htm,Reports and Dashboards
+Generating Aggregated Job Progress Report-Windows,https://docs.qualys.com/en/pm/latest/reports/aggregated_job_progress_report.htm,Reports and Dashboards
+Report Creation from Reports Tab in Patch Management,https://docs.qualys.com/en/pm/latest/reports/report_creation_from_reports_tab.htm,Reports and Dashboards
+Step-by-Step Search Tutorial,https://docs.qualys.com/en/pm/latest/search/tutorial.htm,Search & QQL
+How to Search,https://docs.qualys.com/en/pm/latest/search/language.htm,Search & QQL
+Using Filters,https://docs.qualys.com/en/pm/latest/search/using_filters.htm,Search & QQL
+Search Actions,https://docs.qualys.com/en/pm/latest/search/actions_search_query.htm,Search & QQL
+Search for Views,https://docs.qualys.com/en/pm/latest/search_tips/search_views.htm,Search & QQL
+Search Linux Jobs,https://docs.qualys.com/en/pm/latest/search_tips/search_linux_jobs.htm,Search & QQL
+Search for Mac Jobs,https://docs.qualys.com/en/pm/latest/search_tips/search_mac_jobs.htm,Search & QQL
+Search for Mac Assets,https://docs.qualys.com/en/pm/latest/search_tips/search_mac_assets.htm,Search & QQL
+Search for Mac Patches,https://docs.qualys.com/en/pm/latest/search_tips/search_mac_patches.htm,Search & QQL
+More on Boolean Queries,https://docs.qualys.com/en/pm/latest/search/boolean.htm,Search & QQL
+Search for Linux Assets,https://docs.qualys.com/en/pm/latest/search_tips/search_linux_assets.htm,Search & QQL
+Search for Windows Jobs,https://docs.qualys.com/en/pm/latest/search_tips/ui_jobs_list.htm,Search & QQL
+Search for Linux Patches,https://docs.qualys.com/en/pm/latest/search_tips/search_linux_patches.htm,Search & QQL
+Search for Windows Assets,https://docs.qualys.com/en/pm/latest/search_tips/ui_assets.htm,Search & QQL
+Search for Mac Job Results,https://docs.qualys.com/en/pm/latest/search_tips/search_mac_job_results.htm,Search & QQL
+Job Statuses List,https://docs.qualys.com/en/pm/latest/status/job_level_statuses.htm,Status
+Asset Statuses List,https://docs.qualys.com/en/pm/latest/status/asset_status_list.htm,Status
+Job Result Statuses List,https://docs.qualys.com/en/pm/latest/status/job_status_list.htm,Status
+Patch Failure Reason Codes for Mac,https://docs.qualys.com/en/pm/latest/status/patch_failure_error_codes_for_mac.htm,Status
+Patch Failure Reason Codes for Windows,https://docs.qualys.com/en/pm/latest/status/failed_reason_codes_list.htm,Status
+Viewing Patch Failure Error Code Details,https://docs.qualys.com/en/pm/latest/status/win_patch_failure_error_details.htm,Status
+Error Codes Details for Mac Patch Failure,https://docs.qualys.com/en/pm/latest/status/error_code_details_mac.htm,Status
+Patch Management Statuses and Error Codes,https://docs.qualys.com/en/pm/latest/status/pm_statuses_error_codes.htm,Status
+Error Codes Details for Windows Patch Failure,https://docs.qualys.com/en/pm/latest/status/error_code_details_windows.htm,Status
+Vendor Patch and OS Patch Failure Error Codes,https://docs.qualys.com/en/pm/latest/status/patch_failure_error_codes.htm,Status
+Job Statuses for Individual Asset from the Job Details Page,https://docs.qualys.com/en/pm/latest/status/asset_level_status_job.htm,Status
+Vendor Side Known Issues and Workarounds,https://docs.qualys.com/en/pm/latest/vendor_known_issues/vendor_known_issues_workarounds.htm,More Topics
+View Quick Actions,https://docs.qualys.com/en/pm/latest/views/view_quick_actions.htm,Views
+Managing Views,https://docs.qualys.com/en/pm/latest/views/managing_views.htm,Views
+Creating a View,https://docs.qualys.com/en/pm/latest/views/creating_view.htm,Views
+Get Started,https://docs.qualys.com/en/pm/api/get_started/get_started.htm,API
+Create Deployment Job,https://docs.qualys.com/en/pm/api/deployment_job_resource/create_deployment_job.htm,API
+Create Mitigation Job,https://docs.qualys.com/en/pm/api/mitigation_apis/create_mitigation_job.htm,API
+Create Patch Blocking Rule,https://docs.qualys.com/en/pm/api/patch_blocking_rules/create_patch_blocking_rule.htm,API
+Assigning the PM API Permission,https://docs.qualys.com/en/pm/api/get_started/assigning_permission.htm,API
+Generating the JSON Web Token (JWT) for Authentication,https://docs.qualys.com/en/pm/api/get_started/generating_jwt_token.htm,API
+Get Patch Count,https://docs.qualys.com/en/pm/api/scan_result_patch_resource/get_patch_count.htm,API
+Get Assets Report,https://docs.qualys.com/en/pm/api/patch_report_resource/get_assets_report.htm,API
+Get Patches Report,https://docs.qualys.com/en/pm/api/patch_report_resource/get_patches_report.htm,API
+List of Time Zones,https://docs.qualys.com/en/pm/api/deployment_job_resource/time_zones.htm,API
+Get a List of Assets,https://docs.qualys.com/en/pm/api/scan_result_asset_resource/get_pm_assets.htm,API
+Update Deployment Job,https://docs.qualys.com/en/pm/api/deployment_job_resource/update_deployment_jobs.htm,API
+Update Mitigation Job,https://docs.qualys.com/en/pm/api/mitigation_apis/update_mitigation_job.htm,API
+Delete Deployment Jobs,https://docs.qualys.com/en/pm/api/deployment_job_resource/delete_deployment_jobs.htm,API
+Delete Mitigation Jobs,https://docs.qualys.com/en/pm/api/mitigation_apis/delete_mitigation_jobs.htm,API
+Patch Management Online Help,https://docs.qualys.com/en/pm/latest/#t=get_started%2Fget_started.htm,Official Guides
+Patch Management API,https://docs.qualys.com/en/pm/api/#t=get_started%2Fget_started.htm,Official Guides
+Release Notes (qualys.com),https://www.qualys.com/documentation/release-notes#patch-management,Release Notes
+TruRisk™ Eliminate Release 4.2 (September 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_4_2.htm,Release Notes
+TruRisk™ Eliminate Release 4.2 API (September 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_4_2_api.htm,Release Notes
+TruRisk™ Eliminate Release 4.1 (September 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_4_1.htm,Release Notes
+Patch Management Release 4.0 API (July 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_4_0_api.htm,Release Notes
+Patch Management Release 4.0 (July 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_4_0.htm,Release Notes
+Patch Management Release 3.14 (May 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_3_14.htm,Release Notes
+Patch Management Release 3.14 API (May 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_3_14_api.htm,Release Notes
+Patch Management Release 3.13 (March 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_3_13.htm,Release Notes
+Patch Management Release 3.13 API (March 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_3_13_api.htm,Release Notes
+Patch Management Release 3.11 (January 2026),https://docs.qualys.com/en/pm/release-notes/patch_management/release_3_11.htm,Release Notes
+Training Course: TruRisk Eliminate,https://www.qualys.com/training/course/trurisk-eliminate,Training
+Video Library: TruRisk Eliminate,https://success.qualys.com/customersupport/s/video-library?product=TE,Training
+VMDR with Patch Management,https://www.qualys.com/apps/vmdr-patch,Product Overview
+Eliminate Cyber Risks with TruRisk Eliminate by Qualys,https://www.qualys.com/apps/trurisk-eliminate,Product Overview
+Qualys Automated Patch Management Security software,https://www.qualys.com/apps/patch-management,Product Overview
+Getting started with your Patch Management trial,https://www.qualys.com/apps/patch-management/getting-started,Product Overview
+Mitigate Threat Vulnerability With Trurisk Mitigate Solution,https://www.qualys.com/apps/trurisk-mitigate,Product Overview
+Resources Patch Management,https://www.qualys.com/fundamentals/resources-patch-management,Product Overview
+Mythos Vulnerability Management & Autonomous Remediation,https://www.qualys.com/post-mythos-autonomous-remediation,Product Overview
+Say Goodbye to Manual Patching,https://www.qualys.com/whitepapers/fix-vulnerabilities-fast-integrated-patch-management,Whitepapers & Reports
+"The Autonomous Engine Behind Remediation, and What Finally Makes It Safe",https://blog.qualys.com/product-tech/2026/09/17/the-autonomous-engine-behind-remediation-and-what-finally-makes-it-safe,Blog
+Before You Patch. Why Patch Reliability Matters for Confident Deployment,https://blog.qualys.com/product-tech/2026/09/15/before-you-patch-why-patch-reliability-matters-for-confident-deployment,Blog
+Automate Asset Isolation: Your Last Resort to Meet Remediation Deadlines,https://blog.qualys.com/product-tech/2026/09/15/automate-asset-isolation-cisa-kev-deadlines,Blog
+Beyond Patching: What IT Teams Need to Know About Unpatchable Exposures,https://blog.qualys.com/product-tech/2026/08/26/beyond-patching-unpatchable-exposures-it-ops,Blog
+"CVE-2026-69414 ShieldBreak Zero-Day: No Patch, and CISA BOD 26-04 Gives You 14 Days",https://blog.qualys.com/product-tech/2026/08/24/shieldbreak-the-windows-defender-zero-day-with-no-patch-detect-it-mitigate-it-with-qualys,Blog
+Qualys Introduces Real-Time Cloud Security Posture Management (CSPM) for Faster Risk Detection and Remediation,https://blog.qualys.com/product-tech/2026/08/12/qualys-introduces-real-time-cloud-security-posture-management-cspm-for-faster-risk-detection-and-remediation,Blog
+Zero-Day Remediation Meets Operational Resiliency,https://blog.qualys.com/product-tech/2026/08/03/zero-day-remediation-operational-resiliency-trurisk-eliminate,Blog
+Manual Patching Can’t Outrun AI. Automated Remediation Can.,https://blog.qualys.com/product-tech/2026/07/21/ai-vulnerability-discovery-automated-remediation,Blog
+How to Meet a 3-Day Remediation SLA & Comply with CISA BOD 26-04,https://blog.qualys.com/product-tech/2026/07/09/cisa-bod-26-04-3-day-remediation-sla,Blog
+CNAPP’s New Normal: Hyper-Prioritization and Autonomous Remediation at Cloud Scale,https://blog.qualys.com/product-tech/2026/06/22/cnapps-new-normal-hyper-prioritization-and-autonomous-remediation-at-cloud-scale,Blog
+Stop Patching at Human Speed: Peer-to-Peer (P2P) Distribution Closes the Remediation Gap Before Attackers Strike,https://blog.qualys.com/product-tech/2026/06/03/stop-patching-at-human-speed-peer-to-peer-p2p-distribution-closes-the-remediation-gap-before-attackers-strike,Blog
+Optimizing Risk Discovery and Remediation with Qualys Gateway Service (QGS),https://blog.qualys.com/product-tech/2026/03/30/optimizing-risk-discovery-and-remediation-with-qualys-gateway-service-qgs,Blog
+New: AI-Powered Patch Reliability Scoring—Predict Patch Impact Before You Deploy,https://blog.qualys.com/product-tech/2026/02/18/new-ai-powered-patch-reliability-scoring-predict-patch-impact-before-you-deploy,Blog
+ShadyPanda: The Silent Browser Takeover Threat and How Qualys TruRisk Eliminate Helps You Stop It,https://blog.qualys.com/product-tech/patch-management/2025/12/17/shadypanda-malicious-browser-extensions-prevention,Blog
+Active Exploitation of 7-Zip RCE Vulnerability Shows Why Manual Patching is No Longer an Option,https://blog.qualys.com/product-tech/2025/12/04/active-exploitation-of-7-zip-rce-vulnerability-shows-why-manual-patching-is-no-longer-an-option,Blog

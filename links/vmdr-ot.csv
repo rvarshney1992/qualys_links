@@ -1,0 +1,88 @@
+title,link,category
+VMDR OT Overview,https://docs.qualys.com/en/vmdr-ot/latest/about_vmdr_ot.htm,Getting Started
+Welcome to VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/welcome_vmdr_ot.html,Getting Started
+Prerequisites,https://docs.qualys.com/en/vmdr-ot/latest/get_started/prerequisites.htm,Getting Started
+TruRisk™ Score,https://docs.qualys.com/en/vmdr-ot/latest/get_started/trurisk_score.htm,Getting Started
+Asset Inventory,https://docs.qualys.com/en/vmdr-ot/latest/get_started/asset_inventory.htm,Getting Started
+VMDR OT Overview,https://docs.qualys.com/en/vmdr-ot/latest/get_started/vmdrot_overview.htm,Getting Started
+Creating Asset Tags,https://docs.qualys.com/en/vmdr-ot/latest/get_started/creating_asset_tags.htm,Getting Started
+VMDR OT Online Help,https://docs.qualys.com/en/vmdr-ot/latest/get_started/get_started_with_vmdr_ot.htm,Getting Started
+Asset Tags in VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/get_started/asset_tags.htm,Getting Started
+What's New in VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/get_started/whats_new_in_vmdrot.htm,Getting Started
+Get Started with VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/get_started/get_started.htm,Getting Started
+Importing Assets to VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/get_started/importing_assets.htm,Getting Started
+Asset Criticality Score (ACS),https://docs.qualys.com/en/vmdr-ot/latest/get_started/acs_score.htm,Getting Started
+Viewing Asset Tags in VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/get_started/tag_assets.htm,Getting Started
+Managing Asset Tags in VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/get_started/manage_asset_tags.htm,Getting Started
+QQL Best Practices,https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/qql_best_practices.htm,Qql Topics
+Qualys Query Language (QQL),https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/qql_overview.htm,Qql Topics
+QQL Syntax,https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/qualys_query_language_syntax.htm,Qql Topics
+QQL Query Examples,https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/build_query_example.htm,Qql Topics
+Maximum Query Depth,https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/maximum_query_depth.htm,Qql Topics
+Components of a QQL Query,https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/components_of_a_qql_query.htm,Qql Topics
+QQL User Interface Elements,https://docs.qualys.com/en/vmdr-ot/latest/qql_topics/qql_user_interface_elements.htm,Qql Topics
+Process Integrity Monitoring in VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/monitor/monitor_process.htm,More Topics
+External IP Reputation,https://docs.qualys.com/en/vmdr-ot/latest/network/ip_reputation.htm,More Topics
+View Network Traffic in VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/network/viewing_network_traffic.htm,More Topics
+OT Device Scan,https://docs.qualys.com/en/vmdr-ot/latest/ot_scan/ot_device_scan.htm,More Topics
+Knowledge Base Articles for VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/other_resources/vmdrot_knowledge_articles.htm,Training
+Create Asset Details Report,https://docs.qualys.com/en/vmdr-ot/latest/reports/create_asset_report.htm,Reports and Dashboards
+Create Network Details Report,https://docs.qualys.com/en/vmdr-ot/latest/reports/create_network_details_report.htm,Reports and Dashboards
+Create Vulnerability Details Report,https://docs.qualys.com/en/vmdr-ot/latest/reports/create_vulnerability_details_report.htm,Reports and Dashboards
+VMDR OT Reports,https://docs.qualys.com/en/vmdr-ot/latest/reports/viewing_reports.htm,Reports and Dashboards
+Create Monitoring Details Report,https://docs.qualys.com/en/vmdr-ot/latest/reports/monitoring_details.htm,Reports and Dashboards
+Monitor Alerts,https://docs.qualys.com/en/vmdr-ot/latest/responses/manage_alerts.htm,Responses & Alerts
+Create Rule,https://docs.qualys.com/en/vmdr-ot/latest/responses/rule.htm,Responses & Alerts
+Create Action,https://docs.qualys.com/en/vmdr-ot/latest/responses/action.htm,Responses & Alerts
+Configure Responses,https://docs.qualys.com/en/vmdr-ot/latest/responses/responses.htm,Responses & Alerts
+Search Tutorial,https://docs.qualys.com/en/vmdr-ot/latest/search/search_tutorial.htm,Search & QQL
+Search Actions,https://docs.qualys.com/en/vmdr-ot/latest/search/search_actions.htm,Search & QQL
+Boolean Queries,https://docs.qualys.com/en/vmdr-ot/latest/search/boolean_queries.htm,Search & QQL
+Assets Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/assets_search_tokens.htm,Search & QQL
+Events Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/event_search_tokens.htm,Search & QQL
+Network Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/network_search_tokens.htm,Search & QQL
+Reports Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/report_search_tokens.htm,Search & QQL
+Open Ports Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/open_ports_search_tokens.htm,Search & QQL
+Search Tokens for VMDR OT,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/search_tokens_for_vmdr_ot.htm,Search & QQL
+Import Asset Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/import_asset_search_tokens.htm,Search & QQL
+Traffic Summary Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/traffic_summary_search_tokens.htm,Search & QQL
+Vulnerabilities Search Tokens,https://docs.qualys.com/en/vmdr-ot/latest/search_tokens/vulnerabilities_search_tokens.htm,Search & QQL
+Old and New Search Token Mappings,https://docs.qualys.com/en/vmdr-ot/latest/search/old_new_token_map.htm,Search & QQL
+How to enter dates in your queries,https://docs.qualys.com/en/vmdr-ot/latest/search/dates_queries.htm,Search & QQL
+Create Users,https://docs.qualys.com/en/vmdr-ot/latest/users/create_user.htm,Users & Roles
+Assign Roles to Users,https://docs.qualys.com/en/vmdr-ot/latest/users/assign_role.htm,Users & Roles
+Manage Access for Users,https://docs.qualys.com/en/vmdr-ot/latest/users/user_roles.htm,Users & Roles
+User Permission for Role Creation,https://docs.qualys.com/en/vmdr-ot/latest/users/permission_roles.htm,Users & Roles
+Managing Dashboard,https://docs.qualys.com/en/vmdr-ot/latest/vmdr_ot_dashboard/managing_dashboard.htm,More Topics
+Viewing KnowledgeBase,https://docs.qualys.com/en/vmdr-ot/latest/vulnerabilities/viewing_knowledgebase.htm,Scanning
+Viewing Vulnerabilities,https://docs.qualys.com/en/vmdr-ot/latest/vulnerabilities/viewing_vulnerabilities.htm,Scanning
+Vulnerabilities on Assets,https://docs.qualys.com/en/vmdr-ot/latest/vulnerabilities/vulnerabilities.htm,Scanning
+Get Started with VMDR OT API,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/ch01/get_started.htm,API
+APIs,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/ch01/api.htm,API
+Appendices,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/appendix/apx.htm,API
+List OT Host Assets,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/ch02/list_assets.htm,API
+List Project Files API,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/ch04/list_project.htm,API
+List OT Vulnerabilities,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/ch03/list_vulnerability.htm,API
+Appendix A - Tokens Supported for List OT Host Asset,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/appendix/appendix_a.htm,API
+Appendix C - Tokens Supported for List Project Files,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/appendix/appendix_c.htm,API
+Appendix B - Tokens Supported for List OT Vulnerabilities,https://docs.qualys.com/en/vmdr-ot/api/vmdrot_api/appendix/appendix_b.htm,API
+Get Started with VMDR OT API,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/ch01/get_started.htm,API
+APIs,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/ch01/api.htm,API
+Appendices,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/appendix/apx.htm,API
+List OT Host Assets,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/ch02/list_assets.htm,API
+List Project Files API,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/ch04/list_project.htm,API
+List OT Vulnerabilities,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/ch03/list_vulnerability.htm,API
+Appendix A - Tokens Supported for List OT Host Asset,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/appendix/appendix_a.htm,API
+Appendix C - Tokens Supported for List Project Files,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/appendix/appendix_c.htm,API
+Appendix B - Tokens Supported for List OT Vulnerabilities,https://docs.qualys.com/en/vmdr-ot/latest/mergedProjects/vmdr-ot-api/vmdrot_api/appendix/appendix_b.htm,API
+VMDR OT API,https://docs.qualys.com/en/vmdr-ot/api/#t=vmdrot_api%2Fch01%2Fget_started.htm,Official Guides
+VMDR OT 1.7 (August 2026),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_7.htm,Release Notes
+VMDR OT 1.6.1 (May 2026),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_6_1.htm,Release Notes
+VMDR OT 1.6 (April 2026),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_6.htm,Release Notes
+VMDR OT 1.5 (March 2026),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_5.htm,Release Notes
+VMDR OT 1.5 API (March 2026),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_5_api.htm,Release Notes
+VMDR OT 1.4 (January 2026),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_4.htm,Release Notes
+VMDR OT 1.3.1 (October 2025),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_3_1.htm,Release Notes
+VMDR OT 1.3 (September 2025),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_3.htm,Release Notes
+VMDR OT 1.2.1 (June 2025),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_2_1.htm,Release Notes
+VMDR OT 1.2.1 API (June 2025),https://docs.qualys.com/en/vmdr-ot/release-notes/vmdr-ot/release_1_2_1_api.htm,Release Notes

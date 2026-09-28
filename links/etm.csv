@@ -1,0 +1,173 @@
+title,link,category
+Best Practices for Using Agent Sid,https://docs.qualys.com/en/etm/latest/agentic_ai/best_practices_sid.htm,Agentic AI
+Best Practices for Using Agent Val,https://docs.qualys.com/en/etm/latest/agentic_ai/best_practices_val.htm,Agentic AI
+Best Practices for Using Agent Nyra,https://docs.qualys.com/en/etm/latest/agentic_ai/best_practices_nyra.htm,Agentic AI
+Best Practices for Using Agent Sara,https://docs.qualys.com/en/etm/latest/agentic_ai/best_practices_sara.htm,Agentic AI
+FAQs and Troubleshooting: Agent Sid,https://docs.qualys.com/en/etm/latest/agentic_ai/faqs_troubleshooting_sid.htm,Agentic AI
+FAQs and Troubleshooting: Agent Val,https://docs.qualys.com/en/etm/latest/agentic_ai/faqs_troubleshooting_val.htm,Agentic AI
+Best Practices for Using Agent Insta,https://docs.qualys.com/en/etm/latest/agentic_ai/best_practices_insta.htm,Agentic AI
+FAQs and Troubleshooting: Agent Nyra,https://docs.qualys.com/en/etm/latest/agentic_ai/faqs_troubleshooting_nyra.htm,Agentic AI
+FAQs and Troubleshooting: Agent Sara,https://docs.qualys.com/en/etm/latest/agentic_ai/faqs_troubleshooting_sara.htm,Agentic AI
+Best Practices for Using Agent Sophia,https://docs.qualys.com/en/etm/latest/agentic_ai/best_practices_sophia.htm,Agentic AI
+FAQs and Troubleshooting: Agent Insta,https://docs.qualys.com/en/etm/latest/agentic_ai/faqs_troubleshooting_insta.htm,Agentic AI
+FAQs and Troubleshooting: Agent Sophia,https://docs.qualys.com/en/etm/latest/agentic_ai/faqs_troubleshooting_sophia.htm,Agentic AI
+Agent Sid,https://docs.qualys.com/en/etm/latest/agentic_ai/agent_sid.htm,Agentic AI
+Agent Val,https://docs.qualys.com/en/etm/latest/agentic_ai/agent_val.htm,Agentic AI
+Agent Nyra,https://docs.qualys.com/en/etm/latest/agentic_ai/agent_nyra.htm,Agentic AI
+View Supported Connectors,https://docs.qualys.com/en/etm/latest/configuration/view_supported_connectors.htm,More Topics
+View or Edit Company Profile,https://docs.qualys.com/en/etm/latest/configuration/view_or_edit_company_profile.htm,More Topics
+Quick-Start Options,https://docs.qualys.com/en/etm/latest/cyber_risk_assistant/quick_start.htm,Cyber Risk Assistant
+Getting Started with ROCky,https://docs.qualys.com/en/etm/latest/cyber_risk_assistant/getting_started_rocky.htm,Cyber Risk Assistant
+Cyber Risk AI Assistant ROCky,https://docs.qualys.com/en/etm/latest/cyber_risk_assistant/ai_assistant.htm,Cyber Risk Assistant
+Additional Help to Support ROCky,https://docs.qualys.com/en/etm/latest/cyber_risk_assistant/appendix_agentic_ai.htm,Cyber Risk Assistant
+Optimization and Support for ROCky,https://docs.qualys.com/en/etm/latest/cyber_risk_assistant/optimization_support_rocky.htm,Cyber Risk Assistant
+Connectors,https://docs.qualys.com/en/etm/latest/faq/connectors.htm,FAQ & Troubleshooting
+Company Profile,https://docs.qualys.com/en/etm/latest/faq/company_profile.htm,FAQ & Troubleshooting
+Business Entities,https://docs.qualys.com/en/etm/latest/faq/business_entities.htm,FAQ & Troubleshooting
+Welcome to Enterprise TruRisk Management,https://docs.qualys.com/en/etm/latest/welcome_etm.htm,Getting Started
+Introduction,https://docs.qualys.com/en/etm/latest/introduction/introduction.htm,Getting Started
+What's New in ETM,https://docs.qualys.com/en/etm/latest/introduction/whats_new.htm,Getting Started
+Configure Connectors,https://docs.qualys.com/en/etm/latest/onboarding/configure_connector.htm,Getting Started
+Risk Operations Center (ROC) with ETM,https://docs.qualys.com/en/etm/latest/introduction/overview.htm,Getting Started
+Prepare your Environment for the ETM Journey,https://docs.qualys.com/en/etm/latest/introduction/prerequisites.htm,Getting Started
+Onboard ETM,https://docs.qualys.com/en/etm/latest/onboarding/onboard_etm.htm,Getting Started
+Define Business Entities,https://docs.qualys.com/en/etm/latest/onboarding/define_business_entity.htm,Getting Started
+Set up Enterprise Profile,https://docs.qualys.com/en/etm/latest/onboarding/set_up_company_profile.htm,Getting Started
+TruConfirm Overview,https://docs.qualys.com/en/etm/latest/truconfirm/overview_truconfirm.htm,TruConfirm
+Launch Scans from Risk Management,https://docs.qualys.com/en/etm/latest/truconfirm/launch_scans_risk_management.htm,TruConfirm
+Use Cases,https://docs.qualys.com/en/etm/latest/truconfirm/use_cases_truconfirm.htm,TruConfirm
+Getting Started,https://docs.qualys.com/en/etm/latest/truconfirm/getting_started_truconfirm.htm,TruConfirm
+Understand TruConfirm,https://docs.qualys.com/en/etm/latest/truconfirm/truconfirm_features.htm,TruConfirm
+Launch Scan from TruConfirm,https://docs.qualys.com/en/etm/latest/truconfirm/launch_scan_truconfirm.htm,TruConfirm
+TruLens Overview,https://docs.qualys.com/en/etm/latest/trulens/trulens_overview.htm,TruLens
+View CVEs,https://docs.qualys.com/en/etm/latest/trulens/cves_tab.htm,TruLens
+Threat Actors,https://docs.qualys.com/en/etm/latest/trulens/threat_actors.htm,TruLens
+Understand Trulens Home,https://docs.qualys.com/en/etm/latest/trulens/trulens_homepage.htm,TruLens
+Exposure Metrics,https://docs.qualys.com/en/etm/latest/appendix/exposure_metrics.htm,Reference
+TruRisk™ Score Model,https://docs.qualys.com/en/etm/latest/appendix/calculating_trurisk_score.htm,Reference
+TruRisk Formula Use Cases,https://docs.qualys.com/en/etm/latest/appendix/trurisk_formula_use_cases.htm,Reference
+Things to Change After ETM Adoption,https://docs.qualys.com/en/etm/latest/appendix/things_to_change.htm,Reference
+Platform Level TruRisk Score Formula,https://docs.qualys.com/en/etm/latest/appendix/platform_level_trurisk_score.htm,Reference
+Qualys Vulnerability Scoring System (QVSS),https://docs.qualys.com/en/etm/latest/appendix/qvss.htm,Reference
+Data Flow in ETM,https://docs.qualys.com/en/etm/latest/concepts/data_workflow.htm,More Topics
+Core ETM Concepts,https://docs.qualys.com/en/etm/latest/concepts/etm_concepts.htm,More Topics
+Customizable ETM Widgets,https://docs.qualys.com/en/etm/latest/dashboard/customizable_etm_widgets.htm,More Topics
+Working with ETM Dashboard,https://docs.qualys.com/en/etm/latest/dashboard/etm_dashboard.htm,More Topics
+Identify Your Finding with Rules for UAI,https://docs.qualys.com/en/etm/latest/finding_rules/finding_rules.htm,More Topics
+ETM Integration with WAS,https://docs.qualys.com/en/etm/latest/integration_qualys_apps/etm_was.htm,Integrations
+ETM Integration with CSAM,https://docs.qualys.com/en/etm/latest/integration_qualys_apps/etm_csam.htm,Integrations
+ETM Integration with EASM,https://docs.qualys.com/en/etm/latest/integration_qualys_apps/etm_easm.htm,Integrations
+ETM Integration with PA/SCA,https://docs.qualys.com/en/etm/latest/integration_qualys_apps/etm_pc.htm,Integrations
+ETM Integration with Qualys Applications,https://docs.qualys.com/en/etm/latest/integration_qualys_apps/etm_integration_apps.htm,Integrations
+Create Port Rule,https://docs.qualys.com/en/etm/latest/inventory/rules/create_port_rule.htm,Inventory
+Manage Port Rule,https://docs.qualys.com/en/etm/latest/inventory/rules/manage_port_rule.htm,Inventory
+Create Software Rule,https://docs.qualys.com/en/etm/latest/inventory/rules/create_software_rule.htm,Inventory
+Manage Software Rule,https://docs.qualys.com/en/etm/latest/inventory/rules/manage_software_rule.htm,Inventory
+View Software,https://docs.qualys.com/en/etm/latest/inventory/view_software.htm,Inventory
+View Open Port,https://docs.qualys.com/en/etm/latest/inventory/port.htm,Inventory
+View Certificates,https://docs.qualys.com/en/etm/latest/inventory/view_certificates.htm,Inventory
+View Business Apps,https://docs.qualys.com/en/etm/latest/inventory/business_apps.htm,Inventory
+View Asset Inventory,https://docs.qualys.com/en/etm/latest/inventory/view_asset_inventory.htm,Inventory
+Discover Asset Inventory,https://docs.qualys.com/en/etm/latest/inventory/discover_asset_inventory.htm,Inventory
+View or Create Asset Tags,https://docs.qualys.com/en/etm/latest/inventory/asset_tags.htm,Inventory
+View Organization/Subsidiary,https://docs.qualys.com/en/etm/latest/inventory/org_sub.htm,Inventory
+View Web Application Details,https://docs.qualys.com/en/etm/latest/inventory/view_was.htm,Inventory
+View All Defined Business Entities,https://docs.qualys.com/en/etm/latest/inventory/view_all_business_entities.htm,Inventory
+Asset Criticality Score Recomputing,https://docs.qualys.com/en/etm/latest/inventory/acs_score_recomputing.htm,Inventory
+ETM Blogs,https://docs.qualys.com/en/etm/latest/other_resources/etm_blogs.htm,Training
+ETM Training Videos,https://docs.qualys.com/en/etm/latest/other_resources/training_videos.htm,Training
+User Roles and Permissions for ETM,https://docs.qualys.com/en/etm/latest/rbac-etm/enterprise_trurisk_management.htm,Users & Roles
+Managing Users,https://docs.qualys.com/en/etm/latest/rbac-etm/managing_users.htm,Users & Roles
+Creating a Role,https://docs.qualys.com/en/etm/latest/rbac-etm/creating_a_role.htm,Users & Roles
+Creating a User,https://docs.qualys.com/en/etm/latest/rbac-etm/creating_a_user.htm,Users & Roles
+Viewing Activity Logs,https://docs.qualys.com/en/etm/latest/rbac-etm/activity_logs.htm,Users & Roles
+Managing Roles and Permissions,https://docs.qualys.com/en/etm/latest/rbac-etm/managing_roles_and_permissions.htm,Users & Roles
+Create Alert Rules and Actions,https://docs.qualys.com/en/etm/latest/responses/create_rules_and_actions.htm,Responses & Alerts
+Creating a New Rule from Rule Manager,https://docs.qualys.com/en/etm/latest/responses/creating_a_new_rule_from_rule_manager.htm,Responses & Alerts
+Manage Responses to Security Findings,https://docs.qualys.com/en/etm/latest/responses/manage_responses.htm,Responses & Alerts
+Managing Actions,https://docs.qualys.com/en/etm/latest/responses/managing_actions.htm,Responses & Alerts
+Risk Acceptance Rules,https://docs.qualys.com/en/etm/latest/responses/risk_acceptance_rules.htm,Responses & Alerts
+View Response Activity Log,https://docs.qualys.com/en/etm/latest/responses/view_activity_log.htm,Responses & Alerts
+Risk Acceptance Rule in ETM,https://docs.qualys.com/en/etm/latest/responses/risk_acceptance_in_etm.htm,Responses & Alerts
+View Findings Based on Risk Acceptance,https://docs.qualys.com/en/etm/latest/responses/findings_risk_acceptance_rule.htm,Responses & Alerts
+Merge Rules,https://docs.qualys.com/en/etm/latest/risk_management/merge._rules.htm,Risk Management
+View Findings,https://docs.qualys.com/en/etm/latest/risk_management/view_all_findings.htm,Risk Management
+Prioritization,https://docs.qualys.com/en/etm/latest/risk_management/prioritization.htm,Risk Management
+Enrich Findings,https://docs.qualys.com/en/etm/latest/risk_management/enrich_findings.htm,Risk Management
+Ingest Findings,https://docs.qualys.com/en/etm/latest/risk_management/ingest_findings.htm,Risk Management
+Manage Findings,https://docs.qualys.com/en/etm/latest/risk_management/discover_security_risks.htm,Risk Management
+Correlate Findings,https://docs.qualys.com/en/etm/latest/risk_management/correlate_findings.htm,Risk Management
+Normalize Findings,https://docs.qualys.com/en/etm/latest/risk_management/normalize_findings.htm,Risk Management
+MITRE ATT&CK Matrix,https://docs.qualys.com/en/etm/latest/risk_management/mitre_attack.htm,Risk Management
+Understand Findings,https://docs.qualys.com/en/etm/latest/risk_management/understand_findings.htm,Risk Management
+Prioritization Workflow,https://docs.qualys.com/en/etm/latest/risk_management/prioritization_workflow.htm,Risk Management
+Create Findings Purge Rules,https://docs.qualys.com/en/etm/latest/risk_management/purge_findings.htm,Risk Management
+Finding Deduplication and Merge,https://docs.qualys.com/en/etm/latest/risk_management/finding_deduplication_merge.htm,Risk Management
+Identify Your Finding with Rules,https://docs.qualys.com/en/etm/latest/risk_management/view_finding_rules.htm,Risk Management
+View Findings Using Custom Attributes,https://docs.qualys.com/en/etm/latest/risk_management/custom_attributes.htm,Risk Management
+Search Tokens,https://docs.qualys.com/en/etm/latest/search_tips/search_tokens.htm,Search & QQL
+Search Tokens for TruLens,https://docs.qualys.com/en/etm/latest/search_tips/search_tokens_trulens.htm,Search & QQL
+Search Tokens for Findings,https://docs.qualys.com/en/etm/latest/search_tips/search_tokens_findings.htm,Search & QQL
+Search Tokens for Connectors,https://docs.qualys.com/en/etm/latest/search_tips/search_for_integrations.htm,Search & QQL
+Search Tokens for Purge Rules,https://docs.qualys.com/en/etm/latest/search_tips/search_tokens_for_purge_rules.htm,Search & QQL
+Old and New Search Tokens Mapping,https://docs.qualys.com/en/etm/latest/search_tips/old_new_token_mapping.htm,Search & QQL
+Search Tokens for Business Entities,https://docs.qualys.com/en/etm/latest/search_tips/search_tokens_for_business_entities.htm,Search & QQL
+ETM Findings – QQL Token Mapping Reference,https://docs.qualys.com/en/etm/latest/search_tips/search_tokens_for_etm_finding_and_data_model_mapping.htm,Search & QQL
+Search Tokens for IT Assets,https://docs.qualys.com/en/etm/latest/search_tips/csam-import/search_ui.htm,Search & QQL
+Understand TruRisk™,https://docs.qualys.com/en/etm/latest/trurisk_summary/understand_trurisk.htm,TruRisk
+View TruRisk™ Summary,https://docs.qualys.com/en/etm/latest/trurisk_summary/view_trurisk_summary.htm,TruRisk
+TruRisk™ Customization,https://docs.qualys.com/en/etm/latest/trurisk_summary/trurisk_customization.htm,TruRisk
+Unified Asset Inventory,https://docs.qualys.com/en/etm/latest/uai/unified_asset_inventory.htm,More Topics
+Create Export API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/export/create_export_api.htm,API
+Get Started with ETM API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/introduction/get_started.htm,API
+Assets API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/assets_api/assets_apis.htm,API
+Export APIs,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/export/export_apis.htm,API
+Reports API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/reports/reports_api.htm,API
+Findings APIs,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/findings/findings_apis.htm,API
+Count Asset API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/assets_api/count_asset_api.htm,API
+Group Asset API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/assets_api/group_assets_api.htm,API
+List Assets API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/assets_api/list_assets_api.htm,API
+Export Status API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/export/export_status_api.htm,API
+List Findings API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/findings/list_findings_api.htm,API
+Count Findings API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/findings/count_findings_api.htm,API
+Group Findings API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/findings/group_findings_api.htm,API
+Export Download API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/export/export_download_api.htm,API
+Get Asset by ID API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/assets_api/get_asset_id_api.htm,API
+Common Error Responses,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/appendix/common_error_responses.htm,API
+Get Findings by ID API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/findings/get_findings_by_id_api.htm,API
+Get Report Details API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/reports/get_report_details.htm,API
+Bulk Delete Reports API,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/reports/bulk_delete_reports.htm,API
+Findings Export Columns,https://docs.qualys.com/en/etm/latest/mergedProjects/etm_apis/export/export_columns.htm,API
+Enterprise TruRisk Management 1.13 (September 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_13.htm,Release Notes
+Enterprise TruRisk Management 1.12 (August 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_12.htm,Release Notes
+Enterprise TruRisk Management 1.11 (July 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_11.htm,Release Notes
+Enterprise TruRisk Management 1.10 (June 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_10.htm,Release Notes
+Enterprise TruRisk Management 1.9 (June 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_9.htm,Release Notes
+Enterprise TruRisk Management 1.8.1 (April 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_8_1.htm,Release Notes
+Enterprise TruRisk Management 1.8 (March 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_8.htm,Release Notes
+Enterprise TruRisk Management 1.7 (March 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_7.htm,Release Notes
+Enterprise TruRisk Management 1.6.1 (February 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_6_1.htm,Release Notes
+Enterprise TruRisk Management 1.6 (January 2026),https://docs.qualys.com/en/etm/release-notes/etm/release_1_6.htm,Release Notes
+Training Course: Enterprise TruRisk Management,https://www.qualys.com/training/course/enterprise-trurisk-management,Training
+Video Library: ETM,https://success.qualys.com/customersupport/s/video-library?product=etm,Training
+Qualys Enterprise Risk Management Software & Software,https://www.qualys.com/apps/enterprise-trurisk-management,Product Overview
+Qualys Enterprise TruRisk Management Demo,https://www.qualys.com/demo/enterprise-trurisk-management,Product Overview
+What is Exposure Management?,https://www.qualys.com/fundamentals/what-is-exposure-management,Product Overview
+What is CTEM? Complete Guide to Threat Exposure Management,https://www.qualys.com/fundamentals/what-is-ctem-threat-exposure-management,Product Overview
+What Is Attack Path Analysis,https://www.qualys.com/fundamentals/what-is-attack-path-analysis,Product Overview
+"Cybersecurity Risk Management: Process, Benefits & Key Frameworks",https://www.qualys.com/fundamentals/cybersecurity-risk-management,Product Overview
+4 Questions to Ask When Evaluating an Exposure Management Platform,https://blog.qualys.com/product-tech/2026/09/08/questions-evaluating-exposure-management-platform,Blog
+Say Hello to Agent Insta: Closing the Detection Gap in Exposure Management at Machine Speed,https://blog.qualys.com/product-tech/2026/08/03/instascan-agent-insta-scanless-detection,Blog
+How Qualys ETM Identity Detects Identity-Based Attacks Faster,https://blog.qualys.com/product-tech/2026/07/14/how-qualys-etm-identity-detects-responds-to-identity-based-attacks,Blog
+CERT-In’s AI Vulnerability Blueprint: Why Indian CISOs Need Machine-Speed Risk Operations in the Post-Mythos Era,https://blog.qualys.com/product-tech/2026/06/24/cert-in-ai-vulnerability-blueprint-machine-speed-risk-operations,Blog
+Bringing AI Code Security into Qualys ETM,https://blog.qualys.com/product-tech/2026/05/11/bringing-ai-code-security-into-qualys-etm,Blog
+Anatomy of an Autonomous AI Agent Risk: How Qualys ETM Connects the Dots on OpenClaw,https://blog.qualys.com/product-tech/2026/04/13/anatomy-autonomous-ai-agent-risk-qualys-etm-openclaw,Blog
+The Rise of Managed Risk Operations: How the New Qualys mROC Portal Helps Partners Scale the Risk Operations Center,https://blog.qualys.com/product-tech/2026/03/24/the-rise-of-managed-risk-operations-how-the-new-qualys-mroc-portal-helps-partners-scale-the-risk-operations-center,Blog
+Meet Agent Val: Closing the Validation Gap in Exposure Management at Machine Speed with Agentic AI,https://blog.qualys.com/product-tech/2026/03/23/meet-agent-val-closing-the-validation-gap-in-exposure-management-at-machine-speed-with-agentic-ai,Blog
+From Vision to Real-time Threat Intelligence: TruLens for ETM,https://blog.qualys.com/product-tech/2026/03/23/from-vision-to-real-time-threat-intelligence-trulens-for-etm,Blog
+Navigating Change: Evolving Your Exposure Management Strategy in a Post-Kenna World with Qualys,https://blog.qualys.com/product-tech/2025/12/16/navigating-change-evolving-your-exposure-management-strategy-in-a-post-kenna-world-with-qualys,Blog
+The Future of Cloud Security: A New Act for Cyber Risk Operations,https://blog.qualys.com/product-tech/2025/11/24/the-future-of-cloud-security-a-new-act-for-cyber-risk-operations,Blog
+Qualys ETM Identity — The First True Quantification of the Identity Perimeter,https://blog.qualys.com/product-tech/2025/10/15/qualys-etm-identity-the-first-true-quantification-of-the-identity-perimeter,Blog
+Qualys Named a Leader in the 2025 IDC MarketScape: Worldwide Exposure Management Vendor Assessment,https://blog.qualys.com/product-tech/2025/09/30/qualys-named-a-leader-in-the-2025-idc-marketscape-worldwide-exposure-management-vendor-assessment,Blog
+Qualys Launches Enterprise TruRisk™ Management: The Industry’s First Cloud-Based Risk Operations Center,https://blog.qualys.com/product-tech/2024/10/09/qualys-launches-enterprise-trurisk-management-the-industrys-first-cloud-based-risk-operations-center,Blog
+Introducing Enterprise TruRisk Management from Qualys,https://blog.qualys.com/product-tech/2023/02/08/introducing-enterprise-trurisk-management-from-qualys,Blog

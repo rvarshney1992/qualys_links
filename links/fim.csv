@@ -1,0 +1,113 @@
+title,link,category
+Troubleshooting,https://docs.qualys.com/en/fim/latest/configuration/troubleshooting_topic.htm,Configuration
+Create a Profile,https://docs.qualys.com/en/fim/latest/configuration/create_a_profile.htm,Configuration
+Create New Action,https://docs.qualys.com/en/fim/latest/configuration/create_action.htm,Configuration
+Manage alert rules,https://docs.qualys.com/en/fim/latest/configuration/manage_rules.htm,Configuration
+Miscellaneous Issues,https://docs.qualys.com/en/fim/latest/configuration/troubleshooting.htm,Configuration
+Create New Alert Rule,https://docs.qualys.com/en/fim/latest/configuration/create_alert_rule.htm,Configuration
+Configure FIM Profiles,https://docs.qualys.com/en/fim/latest/configuration/configure_fim_profiles.htm,Configuration
+Configure Correlation Rules to Auto Create Incidents,https://docs.qualys.com/en/fim/latest/configuration/configure_correlation_rules.htm,Configuration
+Configure Rule Based Alerts for Events and Incidents,https://docs.qualys.com/en/fim/latest/configuration/configure_alert_rules.htm,Configuration
+Clone a Profile,https://docs.qualys.com/en/fim/latest/configuration/clone_profile.htm,Configuration
+Queries Library,https://docs.qualys.com/en/fim/latest/configuration/queries_library.htm,Configuration
+Delete a Profile,https://docs.qualys.com/en/fim/latest/configuration/delete_profile.htm,Configuration
+File Trust Status,https://docs.qualys.com/en/fim/latest/configuration/file_trust_status.htm,Configuration
+Install FIM agents,https://docs.qualys.com/en/fim/latest/configuration/install_agent.htm,Configuration
+Roles and Permissions,https://docs.qualys.com/en/fim/latest/configuration/roles_permissions.htm,Configuration
+Welcome to File Integrity Monitoring,https://docs.qualys.com/en/fim/latest/welcome_fim.html,Getting Started
+Welcome to File Integrity Monitoring (FIM),https://docs.qualys.com/en/fim/latest/about_qualys_fim.htm,Getting Started
+Get Started with FIM,https://docs.qualys.com/en/fim/latest/get_started/get_started_with_fim.htm,Getting Started
+File Integrity Monitoring Overview,https://docs.qualys.com/en/fim/latest/get_started/get_started.htm,Getting Started
+What's New in File Integrity Monitoring,https://docs.qualys.com/en/fim/latest/get_started/whats_new.htm,Getting Started
+Activity Logs in FIM,https://docs.qualys.com/en/fim/latest/activity_logs/activity_logs.htm,More Topics
+Reporting,https://docs.qualys.com/en/fim/latest/reports/reporting.htm,Reports and Dashboards
+FIM Dashboards,https://docs.qualys.com/en/fim/latest/dashboard/fim_dashboards.htm,Reports and Dashboards
+UD Permissions,https://docs.qualys.com/en/fim/latest/dashboard/ud_permissions.htm,Reports and Dashboards
+Download Reports,https://docs.qualys.com/en/fim/latest/reports/download_report.htm,Reports and Dashboards
+Compliance Report,https://docs.qualys.com/en/fim/latest/reports/compliance_report.htm,Reports and Dashboards
+Creating Report Rules,https://docs.qualys.com/en/fim/latest/reports/creating_report_rules.htm,Reports and Dashboards
+File Access Monitoring,https://docs.qualys.com/en/fim/latest/reports/fam.htm,Reports and Dashboards
+Customize Your Dashboard,https://docs.qualys.com/en/fim/latest/dashboard/customize_dashboard.htm,Reports and Dashboards
+Creating Reports on FIM Assets,https://docs.qualys.com/en/fim/latest/reports/creating_reports.htm,Reports and Dashboards
+Creating Reports on FIM Events,https://docs.qualys.com/en/fim/latest/reports/creating_reports_on_fim_Events.htm,Reports and Dashboards
+Managing Events,https://docs.qualys.com/en/fim/latest/events/events.htm,Events
+Database Monitoring with FIM,https://docs.qualys.com/en/fim/latest/events/fim_on_database.htm,Events
+"Events, Incidents, and Rules",https://docs.qualys.com/en/fim/latest/events/events_incidents_correlation.htm,Events
+Viewing Container Based Events,https://docs.qualys.com/en/fim/latest/events/container_based.htm,Events
+FIM Assets,https://docs.qualys.com/en/fim/latest/fim_assets/fim_assets.htm,Fim Assets
+Viewing Assets,https://docs.qualys.com/en/fim/latest/fim_assets/viewing_assets.htm,Fim Assets
+Network Devices,https://docs.qualys.com/en/fim/latest/fim_assets/scan_based_assets.htm,Fim Assets
+Platform Availability Matrix for Agent-less FIM,https://docs.qualys.com/en/fim/latest/fim_assets/fim_4.0.htm,Fim Assets
+Managing Incidents,https://docs.qualys.com/en/fim/latest/incidents/fim_3.htm,Incidents
+Viewing Event Insights,https://docs.qualys.com/en/fim/latest/incidents/event_insights.htm,Incidents
+File Reputation Service,https://docs.qualys.com/en/fim/latest/incidents/file_reputation_service.htm,Incidents
+Automatic Incident Creation for Malicious Events,https://docs.qualys.com/en/fim/latest/incidents/automatic_incident_creation_for_malicious_events.htm,Incidents
+Training Videos for File Integrity Monitoring,https://docs.qualys.com/en/fim/latest/other_resources/training_videos.htm,Training
+KnowledgeBase Articles for File Integrity Monitoring,https://docs.qualys.com/en/fim/latest/other_resources/kb_articles.htm,Training
+Responses,https://docs.qualys.com/en/fim/latest/responses/responses.htm,More Topics
+Managing Actions,https://docs.qualys.com/en/fim/latest/responses/managing_actions.htm,More Topics
+Search Tutorial,https://docs.qualys.com/en/fim/latest/search/tutorial.htm,Search & QQL
+Assets fields,https://docs.qualys.com/en/fim/latest/search/tokens.htm,Search & QQL
+How to search,https://docs.qualys.com/en/fim/latest/search/language.htm,Search & QQL
+Search Actions,https://docs.qualys.com/en/fim/latest/search/search_actions.htm,Search & QQL
+Group By Option,https://docs.qualys.com/en/fim/latest/search/group.htm,Search & QQL
+Search Asset Tokens,https://docs.qualys.com/en/fim/latest/search_tips/search_asset_tokens.htm,Search & QQL
+Search Events Tokens,https://docs.qualys.com/en/fim/latest/search_tips/search_ui.htm,Search & QQL
+Search Token for FIM,https://docs.qualys.com/en/fim/latest/search/search_token_for_fim.htm,Search & QQL
+Search Incidents Tokens,https://docs.qualys.com/en/fim/latest/search_tips/search_ui_incidents.htm,Search & QQL
+Search Correlation Rules,https://docs.qualys.com/en/fim/latest/search_tips/searching_correlation_rules.htm,Search & QQL
+Learn about nested queries,https://docs.qualys.com/en/fim/latest/search/nested.htm,Search & QQL
+Search Activity Logs Tokens,https://docs.qualys.com/en/fim/latest/search_tips/search_activity_tokens.htm,Search & QQL
+Search Configuration Tokens,https://docs.qualys.com/en/fim/latest/search_tips/search_configuration_tokens.htm,Search & QQL
+Old and New Search Token Mappings,https://docs.qualys.com/en/fim/latest/search_tips/old_new_token_mappings.htm,Search & QQL
+Full text search on certain fields,https://docs.qualys.com/en/fim/latest/search/full_text.htm,Search & QQL
+Create Manual Incident,https://docs.qualys.com/en/fim/api/incidents_apis/create_manual_incident.htm,API
+Create Correlation Rules,https://docs.qualys.com/en/fim/api/correlation_apis/create_correlation_rules.htm,API
+Get Started with FIM API,https://docs.qualys.com/en/fim/api/get_started/get_started.htm,API
+Appendix: HTTP Response Codes,https://docs.qualys.com/en/fim/api/get_started/appendix.htm,API
+Fetch Events,https://docs.qualys.com/en/fim/api/events_apis/fetch_event.htm,API
+FIM Incidents,https://docs.qualys.com/en/fim/api/incidents_apis/fim_incidents_api.htm,API
+Search Assets,https://docs.qualys.com/en/fim/api/asset_apis/search_assets.htm,API
+FIM Asset APIs,https://docs.qualys.com/en/fim/api/asset_apis/fim_assets.htm,API
+Fetch Incidents,https://docs.qualys.com/en/fim/api/incidents_apis/fetch_incidentsv3.htm,API
+Get Event Count,https://docs.qualys.com/en/fim/api/events_apis/get_event_count.htm,API
+Count the Assets,https://docs.qualys.com/en/fim/api/asset_apis/count_assets.htm,API
+FIM Alerting API,https://docs.qualys.com/en/fim/api/alerting_apis/fim_alerting_api.htm,API
+FIM Profile APIs,https://docs.qualys.com/en/fim/api/fim_profile_apis/fim_profile_api.htm,API
+Fetch Events API,https://docs.qualys.com/en/fim/api/events_apis/fetch_events.htm,API
+Search a Profile,https://docs.qualys.com/en/fim/api/fim_profile_apis/search_profile.htm,API
+Troubleshooting,https://docs.qualys.com/en/fim/latest/mergedProjects/intergration_with_teams/teams/troubleshooting.htm,Integrations
+Create Teams Workflow,https://docs.qualys.com/en/fim/latest/mergedProjects/intergration_with_teams/teams/create_workflow.htm,Integrations
+Edit Workflow to Post Adaptive Card,https://docs.qualys.com/en/fim/latest/mergedProjects/intergration_with_teams/teams/edit_workflow.htm,Integrations
+Limitations,https://docs.qualys.com/en/fim/latest/mergedProjects/intergration_with_teams/teams/limitations.htm,Integrations
+Response on MS Teams Channel,https://docs.qualys.com/en/fim/latest/mergedProjects/intergration_with_teams/teams/responses.htm,Integrations
+Get Started with MS Teams Alerting,https://docs.qualys.com/en/fim/latest/mergedProjects/intergration_with_teams/teams/ms_teams_integration.htm,Integrations
+File Integrity Monitoring (FIM) API v2,https://docs.qualys.com/en/fim/api/index.htm#t=get_started%2Fget_started.htm,Official Guides
+File Integrity Monitoring 4.9.4 (September 2026),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_9_4.htm,Release Notes
+File Integrity Monitoring 4.9.3 (August 2026),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_9_3.htm,Release Notes
+File Integrity Monitoring 4.9.3 API (August 2026),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_9_3_api.htm,Release Notes
+File Integrity Monitoring 4.9.2 (June 2026),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_9_2.htm,Release Notes
+File Integrity Monitoring 4.9.1 (April 2026),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_9_1.htm,Release Notes
+File Integrity Monitoring 4.9 (October 2025),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_9.htm,Release Notes
+File Integrity Monitoring 4.8.1 (September 2025),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_8_1.htm,Release Notes
+File Integrity Monitoring 4.8.1 API (September 2025),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_8_1_api.htm,Release Notes
+File Integrity Monitoring 4.8 (July 2025),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_8.htm,Release Notes
+File Integrity Monitoring 4.8 API (July 2025),https://docs.qualys.com/en/fim/release-notes/file_integrity_monitoring/release_4_8_api.htm,Release Notes
+Training Course: File Integrity Monitoring,https://www.qualys.com/training/course/file-integrity-monitoring,Training
+Video Library: FIM,https://success.qualys.com/customersupport/s/video-library?product=fim,Training
+Qualys Real-Time File Integrity Monitoring Software for Compliance,https://www.qualys.com/apps/file-integrity-monitoring,Product Overview
+FAQs & Resources: File Integrity Monitoring (FIM),https://www.qualys.com/faqs-resources-file-integrity-monitoring,Product Overview
+Qualys vs Tripwire: Cloud-Based File Integrity Monitoring,https://www.qualys.com/qualys-vs-tripwire,Product Overview
+Ensure PCI 4.0 Readiness with File Integrity Monitoring for Containers,https://blog.qualys.com/product-tech/2025/06/05/ensure-pci-4-0-readiness-with-integrated-file-monitoring-for-containers,Blog
+Qualys Enterprise TruRisk™ Platform Extends FIM with Real-Time Monitoring of Unauthorized Access to Sensitive Data and Configuration Change Detection on Network Devices,https://blog.qualys.com/product-tech/2024/05/17/introducing-fim-4-0-with-file-access-monitoring-fam-and-agentless-fim,Blog
+Agentless FIM for Detecting Network Configuration Changes,https://blog.qualys.com/product-tech/2024/05/02/agentless-fim-for-detecting-network-configuration-changes,Blog
+Real-time File Access Monitoring (FAM) with Qualys FIM,https://blog.qualys.com/product-tech/2024/04/10/real-time-file-access-monitoring-fam-with-qualys-fim,Blog
+Qualys FIM Playbook for PCI 4.0,https://blog.qualys.com/product-tech/2023/10/13/qualys-fim-playbook-for-pci-4-0,Blog
+PCI DSS 4.0 FIM Requirements Simplified with Qualys File Integrity Monitoring,https://blog.qualys.com/product-tech/2023/10/04/pci-dss-4-0-fim-requirements-simplified-with-qualys-file-integrity-monitoring,Blog
+How Qualys Drives PCI DSS 4.0 Compliance for File Integrity Monitoring,https://blog.qualys.com/product-tech/2023/07/06/how-qualys-drives-pci-dss-4-0-compliance-for-file-integrity-monitoring,Blog
+Is your FIM Solution Cost and Time Efficient?,https://blog.qualys.com/product-tech/2023/02/03/is-your-fim-solution-cost-and-time-efficient,Blog
+Not Your Average FIM: Why Customers Choose Qualys FIM,https://blog.qualys.com/product-tech/2022/10/13/not-your-average-fim-why-customers-choose-qualys-fim,Blog
+"Qualys FIM: Be Compliance Ready with Intuitive, Ready-to-Use File Monitoring Profiles",https://blog.qualys.com/product-tech/2022/05/26/qualys-fim-be-compliance-ready-with-intuitive-ready-to-use-file-monitoring-profiles,Blog
+Upgrade Your FIM Program to Detect Risk and Streamline Compliance,https://blog.qualys.com/product-tech/2022/05/16/how-to-get-useful-monitoring-of-file-level-security,Blog
+Monitor Windows Registry Changes with Qualys File Integrity Monitoring,https://blog.qualys.com/product-tech/2021/05/25/windows-registry-integrity-monitoring-with-qualys-fim,Blog
+Reinforce Defense with File Reputation and Trusted Source Intelligence in Qualys FIM,https://blog.qualys.com/product-tech/2021/05/24/reinforce-defense-with-file-reputation-and-trusted-source-intelligence-in-qualys-fim,Blog

@@ -1,0 +1,79 @@
+title,link,category
+Dashboard FAQs,https://docs.qualys.com/en/ud/latest/dashboards/ud_dashboard_faq.htm,Reports and Dashboards
+Create Dashboard using Templates,https://docs.qualys.com/en/ud/latest/dashboards/create_dashboard_using_templates.htm,Reports and Dashboards
+Pin Dashboard,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/pin_dashboard.htm,Reports and Dashboards
+Print Dashboard,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/print_dashboard.htm,Reports and Dashboards
+Version History,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/version_history_in_dashboard.htm,Reports and Dashboards
+Delete Dashboard,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/delete_dashboard.htm,Reports and Dashboards
+Knowing Dashboards,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/ud_knowing_dashboards.htm,Reports and Dashboards
+Reporting Schedule,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/report_scheduling_and_report_schedule.htm,Reports and Dashboards
+View Dashboard List,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/view_dashboard_list.htm,Reports and Dashboards
+Edit Dashboard Layout,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/edit_dashboard_layout.htm,Reports and Dashboards
+Search Your Dashboard,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/search_your_dashboard.htm,Reports and Dashboards
+Edit Dashboard Details,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/edit_dashboard_details.htm,Reports and Dashboards
+Manage Your Dashboards,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/manage_your_dashboards.htm,Reports and Dashboards
+Open Multiple Dashboards,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/open_multiple_dashboards.htm,Reports and Dashboards
+Set as Default Dashboard,https://docs.qualys.com/en/ud/latest/dashboards/manage_your_dashboards/set_as_default_dashboard.htm,Reports and Dashboards
+Unified Dashboard FAQs,https://docs.qualys.com/en/ud/latest/frequently_asked_questions/ud_faqs.htm,More Topics
+Welcome to Unified Dashboard,https://docs.qualys.com/en/ud/latest/about_qualys_ud.htm,Getting Started
+Welcome to Unified Dashboard,https://docs.qualys.com/en/ud/latest/welcome_ud.html,Getting Started
+What's New in Unified Dashboard,https://docs.qualys.com/en/ud/latest/introduction/what_s_new_in_unified_dashboard.htm,Getting Started
+Introduction to Unified Dashboard,https://docs.qualys.com/en/ud/latest/introduction/introduction_to_unified_dashboard.htm,Getting Started
+Get Started with Unified Dashboard,https://docs.qualys.com/en/ud/latest/get_started/get_started_with_unified_dashboard.htm,Getting Started
+Using Filters,https://docs.qualys.com/en/ud/latest/using_filters.htm,Getting Started
+QQL Best Practices,https://docs.qualys.com/en/ud/latest/qql_topics/qql_best_practices.htm,Qql Topics
+Qualys Query Language (QQL),https://docs.qualys.com/en/ud/latest/qql_topics/qql_overview.htm,Qql Topics
+QQL Syntax,https://docs.qualys.com/en/ud/latest/qql_topics/qualys_query_language_syntax.htm,Qql Topics
+Token List,https://docs.qualys.com/en/ud/latest/qql_topics/list_of_all_tokens.htm,Qql Topics
+Query Evaluation,https://docs.qualys.com/en/ud/latest/qql_topics/query_evaluation.htm,Qql Topics
+QQL Query Examples,https://docs.qualys.com/en/ud/latest/qql_topics/build_query_example.htm,Qql Topics
+Maximum Query Depth,https://docs.qualys.com/en/ud/latest/qql_topics/maximum_query_depth.htm,Qql Topics
+Components of a QQL Query,https://docs.qualys.com/en/ud/latest/qql_topics/components_of_a_qql_query.htm,Qql Topics
+QQL User Interface Elements,https://docs.qualys.com/en/ud/latest/qql_topics/qql_user_interface_elements.htm,Qql Topics
+Widgets FAQs,https://docs.qualys.com/en/ud/latest/widgets/ud_widget_faq.htm,Widgets
+Create Widgets using Templates,https://docs.qualys.com/en/ud/latest/widgets/create_widgets_using_templates.htm,Widgets
+Import Widgets,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/import_widgets.htm,Widgets
+Manage Widgets,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/ud_manage_widgets.htm,Widgets
+Refresh Widget,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/refresh_widget.htm,Widgets
+Search Widgets,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/search_widgets.htm,Widgets
+Resize Widget Layout,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/resize_widget_layout.htm,Widgets
+Add Widget to Dashboard,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/add_widget_to_dashboard.htm,Widgets
+Mark Widget as Favorite,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/mark_widget_as_favorite.htm,Widgets
+Customize Existing Widgets,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/customize_existing_widgets.htm,Widgets
+Customize Widget Templates,https://docs.qualys.com/en/ud/latest/widgets/manage_widgets/customize_widget_templates.htm,Widgets
+Bar Widget,https://docs.qualys.com/en/ud/latest/widgets/bar_widget_type.htm,Widgets
+Pie Widget,https://docs.qualys.com/en/ud/latest/widgets/pie_widget_type.htm,Widgets
+Venn Widget,https://docs.qualys.com/en/ud/latest/widgets/venn_widget.htm,Widgets
+Table Widget,https://docs.qualys.com/en/ud/latest/widgets/table_widget_type.htm,Widgets
+Create Schedule,https://docs.qualys.com/en/ud/latest/report_schedules/create_schedule.htm,Report Schedules
+Edit Schedule,https://docs.qualys.com/en/ud/latest/report_schedules/edit_schedule.htm,Report Schedules
+Clone Schedule,https://docs.qualys.com/en/ud/latest/report_schedules/clone_schedule.htm,Report Schedules
+Delete Schedule,https://docs.qualys.com/en/ud/latest/report_schedules/delete_schedule.htm,Report Schedules
+Download Scheduled Report,https://docs.qualys.com/en/ud/latest/report_schedules/download_schdeuled_report.htm,Report Schedules
+Activate or Deactivate Schedule,https://docs.qualys.com/en/ud/latest/report_schedules/activate_deactivate_schedule.htm,Report Schedules
+Search Tutorial,https://docs.qualys.com/en/ud/latest/search/search_tutorial.htm,Search & QQL
+Nested Search,https://docs.qualys.com/en/ud/latest/search/ud_search_nested.htm,Search & QQL
+Search Actions,https://docs.qualys.com/en/ud/latest/search/search_actions.htm,Search & QQL
+Boolean Queries,https://docs.qualys.com/en/ud/latest/search/ud_boolean_queries.htm,Search & QQL
+How to enter dates in your queries,https://docs.qualys.com/en/ud/latest/search/ud_dates_queries.htm,Search & QQL
+Template Permissions,https://docs.qualys.com/en/ud/latest/user_roles_and_permissions_in_ud/template_permissions.htm,User Roles And Permissions In Ud
+Dashboard Permissions,https://docs.qualys.com/en/ud/latest/user_roles_and_permissions_in_ud/dashboard_permissions.htm,User Roles And Permissions In Ud
+User Roles and Permissions,https://docs.qualys.com/en/ud/latest/user_roles_and_permissions_in_ud/global_dash_permissions.htm,User Roles And Permissions In Ud
+Report Schedule Permissions,https://docs.qualys.com/en/ud/latest/user_roles_and_permissions_in_ud/report_schedule_permissions.htm,User Roles And Permissions In Ud
+Unified Dashboard 2.16 (September 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_16.htm,Release Notes
+Unified Dashboard 2.15.1 (August 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_15_1.htm,Release Notes
+Unified Dashboard 2.15 (August 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_15.htm,Release Notes
+Unified Dashboard Release 2.14.2 (July 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_14_2.htm,Release Notes
+Unified Dashboard 2.14.1 (July 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_14_1.htm,Release Notes
+Unified Dashboard 2.13.1 (May 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_13_1.htm,Release Notes
+Unified Dashboard 2.13 (May 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_13.htm,Release Notes
+Unified Dashboard 2.12.0 (March 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_12.htm,Release Notes
+Unified Dashboard 2.11.0 (March 2026),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_11.htm,Release Notes
+Unified Dashboard 2.10 (December 2025),https://docs.qualys.com/en/ud/release-notes/unified_dashboard/release_2_10.htm,Release Notes
+Training Course: Reporting Strategies,https://www.qualys.com/training/course/reporting-strategies,Training
+Video Library: Reporting Strategies,https://success.qualys.com/customersupport/s/video-library?product=reporting-strategies,Training
+"Scale AI Securely with Qualys TotalAI’s Streamlined Onboarding, Deeper Risk Detection, and Compliance-Ready Reporting",https://blog.qualys.com/product-tech/2025/12/11/totalai-ai-security-onboarding-and-risk-insights,Blog
+Subscription Health Dashboard 2025 Update,https://blog.qualys.com/product-tech/2025/10/07/subscription-health-dashboard-2025-update,Blog
+Subscription Health Dashboard Update: Optimize Deployments and Identify Issues,https://blog.qualys.com/product-tech/2024/08/09/subscription-health-dashboard-update-optimize-deployments-and-identify-issues,Blog
+Developing a Repeatable and Sustainable Security Exploitable Risk Reporting Program,https://blog.qualys.com/product-tech/2021/12/13/developing-a-repeatable-and-sustainable-security-exploitable-risk-reporting-program,Blog
+Unified Dashboard Preview for Enhanced Security Visualization,https://blog.qualys.com/product-tech/2021/03/23/unified-dashboard,Blog

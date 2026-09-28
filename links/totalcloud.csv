@@ -1,0 +1,171 @@
+title,link,category
+Configure AWS Guard Duty,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/configure_aws_guard_duty.htm,Cloud Detection & Response
+Configure Azure VNET Flow Logs,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/configure_vnet_flowlogs.htm,Cloud Detection & Response
+Troubleshooting of Qualys TotalCloud CDR,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/troubleshoot_cdr.htm,Cloud Detection & Response
+Events,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/events.htm,Cloud Detection & Response
+Detections,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/detections.htm,Cloud Detection & Response
+Investigate,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/investigate.htm,Cloud Detection & Response
+CDR Process Alerts,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/cdr_process_alerts.htm,Cloud Detection & Response
+Onboard CDR for GCP,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/onboarding_cdr_for_gcp.htm,Cloud Detection & Response
+Onboard CDR for Azure,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/cdr_for_azure.htm,Cloud Detection & Response
+Configure AWS Flow Logs,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/deploy_flow_logs.htm,Cloud Detection & Response
+CDR Ipv6 Support for AWS,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/cdr_ipv6_support_for_aws.htm,Cloud Detection & Response
+Onboard CDR for AWS (New),https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/onboard_cdr_for_aws_new.htm,Cloud Detection & Response
+Qualys CDR Official AWS AMI,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/qualys_cdr_official_aws_ami.htm,Cloud Detection & Response
+Cloud Detection and Response,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/cloud_detection_and_response.htm,Cloud Detection & Response
+Configure Azure NSG Flow Logs,https://docs.qualys.com/en/cloudview/latest/cloud_detection_and_response/onboard_cdr_for_azure.htm,Cloud Detection & Response
+Snapshot Scan Logs,https://docs.qualys.com/en/cloudview/latest/cloud_security_posture_management/snapshot_scan_logs.htm,More Topics
+Supported Cloud Regions,https://docs.qualys.com/en/cloudview/latest/cloud_security_posture_management/supported_cloud_regions.htm,More Topics
+Configure FlexScan,https://docs.qualys.com/en/cloudview/latest/cloud_workload_protection/configure_flexscan.htm,Cloud Workload Protection
+Prerequisites for FlexScan,https://docs.qualys.com/en/cloudview/latest/cloud_workload_protection/prerequisites_for_flexscan.htm,Cloud Workload Protection
+Integrations for TotalCloud,https://docs.qualys.com/en/cloudview/latest/cloud_workload_protection/integrations_for_totalcloud.htm,Cloud Workload Protection
+Prioritize Threats using TruRisk,https://docs.qualys.com/en/cloudview/latest/cloud_workload_protection/prioritize_vulnerabilities.htm,Cloud Workload Protection
+ServiceNow CC Integration with CSPM,https://docs.qualys.com/en/cloudview/latest/cloud_workload_protection/snow_cc.htm,Cloud Workload Protection
+Welcome to TotalCloud,https://docs.qualys.com/en/cloudview/latest/welcome_tc.htm,Getting Started
+What's New,https://docs.qualys.com/en/cloudview/latest/get_started/whats_new.htm,Getting Started
+Knowledge Articles,https://docs.qualys.com/en/cloudview/latest/get_started/kb_articles_tc.htm,Getting Started
+Concepts and Terminologies,https://docs.qualys.com/en/cloudview/latest/get_started/concepts.htm,Getting Started
+Download Datalist in CSV format,https://docs.qualys.com/en/cloudview/latest/get_started/download_datalist.htm,Getting Started
+TotalCloud Training Video Library,https://docs.qualys.com/en/cloudview/latest/get_started/training_videos.htm,Getting Started
+Get Started with Qualys TotalCloud,https://docs.qualys.com/en/cloudview/latest/get_started/get_started.htm,Getting Started
+Qualys Unit (QLU) – A Flexible Subscription Model,https://docs.qualys.com/en/cloudview/latest/get_started/subscription.htm,Getting Started
+Microsoft Azure Onboarding,https://docs.qualys.com/en/cloudview/latest/onboarding/azure_onboarding.htm,Getting Started
+Amazon Web Services Onboarding,https://docs.qualys.com/en/cloudview/latest/onboarding/aws_onboarding.htm,Getting Started
+Google Cloud Platform Onboarding,https://docs.qualys.com/en/cloudview/latest/onboarding/gcp_onboarding.htm,Getting Started
+Oracle Cloud Infrastructure Onboarding,https://docs.qualys.com/en/cloudview/latest/onboarding/oci_onboarding.htm,Getting Started
+Cloud Inventory Overview,https://docs.qualys.com/en/cloudview/latest/resources/cloud_inventory_overview.htm,Inventory
+Resource Inventory,https://docs.qualys.com/en/cloudview/latest/resources/resource_inventory.htm,Inventory
+AWS Resource Inventory,https://docs.qualys.com/en/cloudview/latest/resources/aws_resources.htm,Inventory
+GCP Resource Inventory,https://docs.qualys.com/en/cloudview/latest/resources/gcp_resources.htm,Inventory
+OCI Resource Inventory,https://docs.qualys.com/en/cloudview/latest/resources/oci_resource_inventory.htm,Inventory
+Azure Resource Inventory,https://docs.qualys.com/en/cloudview/latest/resources/azure_resources.htm,Inventory
+Resource Misconfiguration,https://docs.qualys.com/en/cloudview/latest/resources/resource_misconfig.htm,Inventory
+Host Vulnerability Details,https://docs.qualys.com/en/cloudview/latest/resources/host_vuln_details.htm,Inventory
+Cloud Security Posture Management,https://docs.qualys.com/en/cloudview/latest/resources/cspm.htm,Inventory
+Compliance Policies and Control Evaluations,https://docs.qualys.com/en/cloudview/latest/resources/monitor_policies.htm,Inventory
+Trending Unsupported Tokens,https://docs.qualys.com/en/cloudview/latest/search_tips/trending_unsupported_tokens.htm,Search & QQL
+Step by Step Search Tutorial,https://docs.qualys.com/en/cloudview/latest/search/tutorial.htm,Search & QQL
+How to Search,https://docs.qualys.com/en/cloudview/latest/search/language.htm,Search & QQL
+Search Tokens,https://docs.qualys.com/en/cloudview/latest/search_tips/search_tokens.htm,Search & QQL
+Search Exceptions,https://docs.qualys.com/en/cloudview/latest/search_tips/search_ui_exceptions.htm,Search & QQL
+Search for Secrets,https://docs.qualys.com/en/cloudview/latest/search_tips/searching_for_secrets.htm,Search & QQL
+Search for Insights,https://docs.qualys.com/en/cloudview/latest/search_tips/search_for_insights.htm,Search & QQL
+Search for Mandates,https://docs.qualys.com/en/cloudview/latest/search_tips/search_ui_mandates.htm,Search & QQL
+Search AWS Resources,https://docs.qualys.com/en/cloudview/latest/search_tips/search_aws_resources.htm,Search & QQL
+Search GCP Resources,https://docs.qualys.com/en/cloudview/latest/search_tips/search_gcp_resources.htm,Search & QQL
+Search Query Samples,https://docs.qualys.com/en/cloudview/latest/search/search_queries.htm,Search & QQL
+Search for Connectors,https://docs.qualys.com/en/cloudview/latest/search_tips/search_ui_config.htm,Search & QQL
+Searching for Reports,https://docs.qualys.com/en/cloudview/latest/search_tips/search_tokens_reports.htm,Search & QQL
+Search for Investigate,https://docs.qualys.com/en/cloudview/latest/search_tips/search_for_investigate.htm,Search & QQL
+Search for Unified View,https://docs.qualys.com/en/cloudview/latest/search_tips/search_for_unified_view.htm,Search & QQL
+Cloud Identity Entitlement Management for TotalCloud,https://docs.qualys.com/en/cloudview/latest/cloud_entity_entitlement_management/ciem.htm,More Topics
+Configure AWS Connectors,https://docs.qualys.com/en/cloudview/latest/connector/aws_v1/configure_aws_connectors.htm,Connectors
+Configure GCP Connectors,https://docs.qualys.com/en/cloudview/latest/connector/gcp_v1/configure_gcp_connectors.htm,Connectors
+Configure Azure Connectors,https://docs.qualys.com/en/cloudview/latest/connector/azure_v1/configure_azure_connectors.htm,Connectors
+Inventory Permissions AWS,https://docs.qualys.com/en/cloudview/latest/inventory_permissions/inventory_permissions_aws.htm,Permissions
+Inventory Permissions GCP,https://docs.qualys.com/en/cloudview/latest/inventory_permissions/inventory_permissions_gcp.htm,Permissions
+Control Permissions for AWS,https://docs.qualys.com/en/cloudview/latest/control_permissions/control_permissions_aws.htm,Permissions
+Control Permissions for GCP,https://docs.qualys.com/en/cloudview/latest/control_permissions/control_permissions_gcp.htm,Permissions
+Control Permissions for OCI,https://docs.qualys.com/en/cloudview/latest/control_permissions/control_permissions_oci.htm,Permissions
+Inventory Permissions Azure,https://docs.qualys.com/en/cloudview/latest/inventory_permissions/inventory_permissions_azure.htm,Permissions
+Control Permissions for Azure,https://docs.qualys.com/en/cloudview/latest/control_permissions/control_permissions_azure.htm,Permissions
+Manage Exceptions,https://docs.qualys.com/en/cloudview/latest/controls/manage_exceptions.htm,Controls
+Manage Custom Control Permissions,https://docs.qualys.com/en/cloudview/latest/controls/manage_custom_control_permissions.htm,Controls
+Create Customized Controls using QFlows,https://docs.qualys.com/en/cloudview/latest/controls/create_customized_controls_using_qflows.htm,Controls
+IaC Posture,https://docs.qualys.com/en/cloudview/latest/controls/monitor_iac_posture.htm,Controls
+Cloud Posture,https://docs.qualys.com/en/cloudview/latest/controls/monitor_cloud_posture.htm,Controls
+Build Your Policy,https://docs.qualys.com/en/cloudview/latest/controls/policy.htm,Controls
+Customize Controls,https://docs.qualys.com/en/cloudview/latest/controls/custom_control.htm,Controls
+Control Evaluations,https://docs.qualys.com/en/cloudview/latest/controls/control_eval.htm,Controls
+Exceptions Management for Cloud Security Controls,https://docs.qualys.com/en/cloudview/latest/controls/exceptions.htm,Controls
+Manage Assessment Reports,https://docs.qualys.com/en/cloudview/latest/reports/manage_assessment_reports.htm,Reports and Dashboards
+Manage Your On-Screen Reports,https://docs.qualys.com/en/cloudview/latest/reports/manage_reports.htm,Reports and Dashboards
+Reports,https://docs.qualys.com/en/cloudview/latest/reports/reports.htm,Reports and Dashboards
+CDR Reports,https://docs.qualys.com/en/cloudview/latest/reports/cdr_reports.htm,Reports and Dashboards
+Policy Reports,https://docs.qualys.com/en/cloudview/latest/reports/policy_report.htm,Reports and Dashboards
+Insights Widget,https://docs.qualys.com/en/cloudview/latest/dashboard/insights_widget.htm,Reports and Dashboards
+Mandate Reports,https://docs.qualys.com/en/cloudview/latest/reports/mandate_report.htm,Reports and Dashboards
+List of Mandates,https://docs.qualys.com/en/cloudview/latest/reports/list_of_mandates.htm,Reports and Dashboards
+Assessment Reports,https://docs.qualys.com/en/cloudview/latest/reports/assessment_report.htm,Reports and Dashboards
+Reporting_Permission,https://docs.qualys.com/en/cloudview/latest/reports/Reporting_Permission.htm,Reports and Dashboards
+Code,https://docs.qualys.com/en/cloudview/latest/iac_integrations/code_github_files.htm,More Topics
+Secure Infrastructure-as-Code,https://docs.qualys.com/en/cloudview/latest/securing_infrastructure_as_code/secure_infrastructure-as-code.htm,More Topics
+List of Insights,https://docs.qualys.com/en/cloudview/latest/insights/list_of_insights.htm,Insights
+View Your Insights,https://docs.qualys.com/en/cloudview/latest/insights/view_your_insights.htm,Insights
+Visualize the Attack Path of Your Insight,https://docs.qualys.com/en/cloudview/latest/insights/insight_attack_path.htm,Insights
+Cloud Configuration (BETA),https://docs.qualys.com/en/cloudview/latest/investigate/cloud_configuration.htm,More Topics
+Mandates,https://docs.qualys.com/en/cloudview/latest/mandates/mandates.htm,More Topics
+Configuring Remediation for AWS,https://docs.qualys.com/en/cloudview/latest/remediation/configure_aws_remediation.htm,Remediation
+Remediable Controls,https://docs.qualys.com/en/cloudview/latest/remediation/remediable_control_list.htm,Remediation
+Remediation Permissions,https://docs.qualys.com/en/cloudview/latest/remediation/remediation_permissions.htm,Remediation
+View Remediation Activity,https://docs.qualys.com/en/cloudview/latest/remediation/view_remediation_activity.htm,Remediation
+Remediating Cloud Resources,https://docs.qualys.com/en/cloudview/latest/remediation/remediating_cloud_resources.htm,Remediation
+Configuring Remediation for GCP,https://docs.qualys.com/en/cloudview/latest/remediation/config_remediation_gcp.htm,Remediation
+Actions for Cloud Resources (AWS),https://docs.qualys.com/en/cloudview/latest/remediation/remediation_actions.htm,Remediation
+Remediating Cloud Misconfigurations,https://docs.qualys.com/en/cloudview/latest/remediation/enable_remediation.htm,Remediation
+Configuring Remediation for Microsoft Azure,https://docs.qualys.com/en/cloudview/latest/remediation/config_azure_remediation.htm,Remediation
+Configure Rule-based Alerts,https://docs.qualys.com/en/cloudview/latest/responses/configure_alerts.htm,Responses & Alerts
+Manage Alerts,https://docs.qualys.com/en/cloudview/latest/responses/activity.htm,Responses & Alerts
+Trigger Criteria,https://docs.qualys.com/en/cloudview/latest/responses/trigger_criteria.htm,Responses & Alerts
+Risk Acceptance Rules,https://docs.qualys.com/en/cloudview/latest/responses/risk_acceptance_rules.htm,Responses & Alerts
+Create and Manage Rules,https://docs.qualys.com/en/cloudview/latest/responses/rules.htm,Responses & Alerts
+Create and Manage Actions,https://docs.qualys.com/en/cloudview/latest/responses/actions.htm,Responses & Alerts
+Create User,https://docs.qualys.com/en/cloudview/latest/users/create_user.htm,Users & Roles
+Manage Scope for Users,https://docs.qualys.com/en/cloudview/latest/users/manage_scope.htm,Users & Roles
+Tagging Connectors to Configure Access,https://docs.qualys.com/en/cloudview/latest/users/manage_access.htm,Users & Roles
+Assign Role to Users,https://docs.qualys.com/en/cloudview/latest/users/assign_role.htm,Users & Roles
+Sub User with Full Access,https://docs.qualys.com/en/cloudview/latest/users/subuser_full_access.htm,Users & Roles
+Scope Based Access Control,https://docs.qualys.com/en/cloudview/latest/users/scope_based_access.htm,Users & Roles
+User Roles and Permissions,https://docs.qualys.com/en/cloudview/latest/users/user_roles.htm,Users & Roles
+Sub User (Reader Permissions),https://docs.qualys.com/en/cloudview/latest/users/reader_role.htm,Users & Roles
+TotalCloud API,https://docs.qualys.com/en/tc/api/#t=get_started%2Fget_started.htm,Official Guides
+Community Discussions: Cloud & Container Security,https://success.qualys.com/discussions/s/topic/0TO2L000000HIRnWAO/cloud-container,Community
+TotalCloud Release 2.27 (August 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_27.htm,Release Notes
+TotalCloud Release 2.27 API (August 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_27_api.htm,Release Notes
+TotalCloud Release 2.26 API (July 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_26_api.htm,Release Notes
+TotalCloud Release 2.26 (July 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_26.htm,Release Notes
+TotalCloud Release 2.25 API (June 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_25_api.htm,Release Notes
+TotalCloud Release 2.25 (June 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_25.htm,Release Notes
+TotalCloud Release 2.24 (May 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_24.htm,Release Notes
+TotalCloud Release 2.24 API (May 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_24_api.htm,Release Notes
+TotalCloud 2.23 (March 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_23.htm,Release Notes
+TotalCloud 2.22 (March 2026),https://docs.qualys.com/en/tc/release-notes/totalcloud/release_2_22.htm,Release Notes
+Training Course: TotalCloud,https://www.qualys.com/training/course/totalcloud,Training
+Video Library: Totalcloud Onboarding,https://success.qualys.com/customersupport/s/video-library?product=totalcloud-onboarding,Training
+Qualys TotalCloud: CNAPP & Cloud Security Software,https://www.qualys.com/apps/totalcloud,Product Overview
+Your Cloud. De-risked.,https://www.qualys.com/cloud-security,Product Overview
+Cloud Security Solutions & Platform for Compliance,https://www.qualys.com/solutions/cloud,Product Overview
+Continuous CSPM for Cloud Security Posture Management,https://www.qualys.com/apps/cloud-security-posture-management,Product Overview
+Cloud Workload Protection Platform for Containers & VMs,https://www.qualys.com/apps/cloud-workload-protection,Product Overview
+Real-Time Cloud Detection & Response Solutions,https://www.qualys.com/apps/cloud-detection-response,Product Overview
+Cloud Infrastructure and Entitlements Management(CIEM),https://www.qualys.com/apps/cloud-infrastructure-entitlement-management,Product Overview
+Data Security Posture Management,https://www.qualys.com/apps/data-security-posture-management,Product Overview
+Cloud-Native Application Protection Platform (CNAPP),https://www.qualys.com/fundamentals/cloud-native-application-protection-platform,Product Overview
+What is a CNAPP? The Ultimate Guide to Cloud-Native Application Protection,https://www.qualys.com/fundamentals/what-is-cnapp-guide,Product Overview
+Resource Cloud Security,https://www.qualys.com/fundamentals/resources-cloud-security,Product Overview
+Resources Infrastructure as Code,https://www.qualys.com/fundamentals/resources-infrastructure-as-code,Product Overview
+What Is CDR? Cloud Detection and Response Explained,https://www.qualys.com/fundamentals/what-is-cloud-detection-and-response-cdr,Product Overview
+What is Runtime Security,https://www.qualys.com/fundamentals/what-is-runtime-security,Product Overview
+Public Cloud Security Solutions for Compliance,https://www.qualys.com/public-cloud,Product Overview
+Private Cloud Platform for Enhanced Security,https://www.qualys.com/private-cloud,Product Overview
+Modern Cloud Security Starts with the Right Foundation,https://www.qualys.com/whitepapers/modern-cloud-security-starts-with-the-right-foundation,Whitepapers & Reports
+"The Harsh Realities of Cloud Security: Misconfigurations, Lack of Oversight and Little Visibility",https://www.qualys.com/whitepapers/harsh-realities-cloud-security,Whitepapers & Reports
+Cloud & SaaS Security in 2025: Getting Ahead of the Breach,https://www.qualys.com/whitepapers/dark-reading-state-cloud-saas-security-report,Whitepapers & Reports
+10 Cloud Security Fallacies,https://www.qualys.com/whitepapers/cloud-security-fallacies,Whitepapers & Reports
+5 Questions To Ask Your Cloud Security Provider Before It’s Too Late,https://www.qualys.com/whitepapers/5-questions-to-ask-your-cloud-security-provider,Whitepapers & Reports
+2023 Qualys TotalCloud Security Insights Whitepaper,https://www.qualys.com/whitepapers/2023-totalcloud-security-insights,Whitepapers & Reports
+Qualys Introduces Real-Time Cloud Security Posture Management (CSPM) for Faster Risk Detection and Remediation,https://blog.qualys.com/product-tech/2026/08/12/qualys-introduces-real-time-cloud-security-posture-management-cspm-for-faster-risk-detection-and-remediation,Blog
+Qualys Expands Serverless Security with Vulnerability Scanning for AWS Lambda,https://blog.qualys.com/product-tech/2026/07/27/aws-lambda-vulnerability-scanning-serverless-security,Blog
+CNAPP’s New Normal: Hyper-Prioritization and Autonomous Remediation at Cloud Scale,https://blog.qualys.com/product-tech/2026/06/22/cnapps-new-normal-hyper-prioritization-and-autonomous-remediation-at-cloud-scale,Blog
+FedRAMP High Authorized: Qualys TotalCloud CNAPP – From Compliance to Defense,https://blog.qualys.com/product-tech/2026/05/14/qualys-totalcloud-achieves-fedramp-high-authorization-for-cloud-security-and-compliance-assurance,Blog
+Qualys VMDR and TotalCloud™ Now Available on Oracle Cloud Marketplace,https://blog.qualys.com/product-tech/2026/04/15/qualys-vmdr-totalcloud-now-available-oracle-cloud-marketplace,Blog
+12 Best Practices for Securing AWS Cloud in 2026,https://blog.qualys.com/product-tech/2026/04/09/1aws-cloud-security-best-practices-guide,Blog
+Qualys Recognized as a Leader in the 2026 Forrester Wave™ for CNAPP,https://blog.qualys.com/product-tech/2026/02/17/qualys-recognized-as-a-leader-in-the-2026-forrester-wave-for-cnapp,Blog
+Qualys Named a Leader and Outperformer in the 2025 GigaOm Radar for CNAPP,https://blog.qualys.com/product-tech/2026/01/21/qualys-named-a-leader-and-outperformer-in-the-2025-gigaom-radar-for-cnapp,Blog
+Why Serverless Risk Demands Identity-Aware Security at Cloud Scale,https://blog.qualys.com/product-tech/2026/01/15/serverless-security-risks-identity-ssrf-rce,Blog
+The Future of Cloud Security: A New Act for Cyber Risk Operations,https://blog.qualys.com/product-tech/2025/11/24/the-future-of-cloud-security-a-new-act-for-cyber-risk-operations,Blog
+Inside an Automotive Giant’s Data Leak — A Cloud Misconfiguration Lesson for AWS Users,https://blog.qualys.com/product-tech/2025/11/03/inside-an-automotive-giants-data-leak-a-cloud-misconfiguration-lesson-for-aws-users,Blog
+Navigating SEBI’s Cloud Security Requirements: A Guide for Regulated Entities,https://blog.qualys.com/product-tech/2025/09/16/navigating-sebis-cloud-security-requirements-a-guide-for-regulated-entities,Blog
+Qualys Named an Overall Leader in CNAPP by KuppingerCole,https://blog.qualys.com/product-tech/2025/07/01/qualys-named-an-overall-leader-in-cnapp-by-kuppingercole,Blog
+Qualys TotalCloud Wins “Best Cloud Security Product” at 2025 SC Awards Europe,https://blog.qualys.com/product-tech/2025/06/16/qualys-totalcloud-wins-best-cloud-security-product-at-2025-sc-awards-europe,Blog
+What is CSPM (Cloud Security Posture Management)? Explained by Qualys,https://blog.qualys.com/product-tech/2025/04/17/what-is-cspm-cloud-security-posture-management-explained-by-qualys,Blog

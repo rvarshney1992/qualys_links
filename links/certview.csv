@@ -1,0 +1,92 @@
+title,link,category
+Welcome to Certificate View,https://docs.qualys.com/en/certview/latest/about_qualys_certificate_view.htm,Getting Started
+Welcome to Certificate View,https://docs.qualys.com/en/certview/latest/welcome_certificate_view.html,Getting Started
+Certificate View Overview,https://docs.qualys.com/en/certview/latest/get_started/introduction.htm,Getting Started
+What's New in Certificate View,https://docs.qualys.com/en/certview/latest/get_started/whats_new.htm,Getting Started
+Get Started with Certificate View,https://docs.qualys.com/en/certview/latest/get_started/get_started.htm,Getting Started
+User Permissions for Certificate View,https://docs.qualys.com/en/certview/latest/get_started/user_permissions.htm,Getting Started
+Tag-based User Scoping in Certificate View,https://docs.qualys.com/en/certview/latest/get_started/tag_based_user_scoping.htm,Getting Started
+View Vulnerability tests (QIDs) for CertView Scans,https://docs.qualys.com/en/certview/latest/get_started/certview_qids.htm,Getting Started
+Get Started with Certificate View API,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch01/get_started.htm,API
+Appendices,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/appendix/apx.htm,API
+Endpoint API,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch04/endpointapi.htm,API
+Ch02- Certificate API,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch02/certificateapi.htm,API
+List Server Instances,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch02/list_server_instances.htm,API
+List DigiCert Products,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch05/list_digicert_products.htm,API
+Add Bulk External Sites,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch07/add_bulk_external_sites.htm,API
+Analyze Certificate API,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch03/analyze_api.htm,API
+Import Leaf Certificate,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch06/import_leaf_certificate.htm,API
+Ch06- External Sites API,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch07/external_sites_api.htm,API
+View Certificate Request,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch05/view_certificate_request.htm,API
+Get List of External Sites,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch07/get_list_external_sites.htm,API
+List Digicert EV Approvers,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch05/list_digicert_ev_approvers.htm,API
+Update Certificate Request,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch05/list_digicert_organizations.htm,API
+List DigiCert Organizations,https://docs.qualys.com/en/certview/latest/mergedProjects/api/certview_api/ch05/list_digicert.htm,API
+Add Sites in Certificate View,https://docs.qualys.com/en/certview/latest/add_sites/adding_sites.htm,Add Sites
+Add Sites from VM/VMDR Account,https://docs.qualys.com/en/certview/latest/add_sites/add_sites_vmdr.htm,Add Sites
+Add External Sites from Certificate View,https://docs.qualys.com/en/certview/latest/add_sites/add_sites_cv.htm,Add Sites
+Upload External Sites in Bulk from Certificate View,https://docs.qualys.com/en/certview/latest/add_sites/upload_bulk_sites.htm,Add Sites
+Manage Alerts in Certificate View,https://docs.qualys.com/en/certview/latest/alerting_rules/manage_alerts.htm,Alerting Rules
+Create and Manage Rules in Certificate View,https://docs.qualys.com/en/certview/latest/alerting_rules/create_rule.htm,Alerting Rules
+Manage Alerts and Rules in Certificate View,https://docs.qualys.com/en/certview/latest/alerting_rules/manage_rules_alerts.htm,Alerting Rules
+Create and Manage Actions in Certificate View,https://docs.qualys.com/en/certview/latest/alerting_rules/create_action.htm,Alerting Rules
+Configure Rule-based Alerts in Certificate View,https://docs.qualys.com/en/certview/latest/alerting_rules/configure_rules.htm,Alerting Rules
+View PQC Support Details,https://docs.qualys.com/en/certview/latest/assets_certificates/pqc_details.htm,Assets Certificates
+View Asset Details in Certificate View,https://docs.qualys.com/en/certview/latest/assets_certificates/asset_details.htm,Assets Certificates
+View Certificate Details in Certificate View,https://docs.qualys.com/en/certview/latest/assets_certificates/certificate_details.htm,Assets Certificates
+View Assets and Certificate Details in Certificate View,https://docs.qualys.com/en/certview/latest/assets_certificates/assets_and_certificates.htm,Assets Certificates
+Manage Certificates,https://docs.qualys.com/en/certview/latest/certificates/manage_certificate.htm,Certificates
+Manage Distrust Certificates,https://docs.qualys.com/en/certview/latest/certificates/distrust_certificates.htm,Certificates
+Enroll Certificates in Certificate View,https://docs.qualys.com/en/certview/latest/certificates/enroll_renew_certs.htm,Certificates
+Renew your Certificates in Certificate View,https://docs.qualys.com/en/certview/latest/certificates/renew_certificates.htm,Certificates
+Import Leaf Certificates in Certificate View,https://docs.qualys.com/en/certview/latest/certificates/import_leaf_certs.htm,Certificates
+Configure Certificate Authorities in Certificate View,https://docs.qualys.com/en/certview/latest/certificates/certificate_authorities.htm,Certificates
+Create Reports in Certificate View,https://docs.qualys.com/en/certview/latest/dashboard/create_reports.htm,More Topics
+View Certificates in Certificate View Dashboard,https://docs.qualys.com/en/certview/latest/dashboard/view_certificates_dashboard.htm,More Topics
+Delete Sites from Certificate View,https://docs.qualys.com/en/certview/latest/delete_sites/delete_sites.htm,Delete Sites
+Delete External Sites in Bulk from Certificate View,https://docs.qualys.com/en/certview/latest/delete_sites/delete_bulk_sites.htm,Delete Sites
+Delete a Single External Sites from Certificate View,https://docs.qualys.com/en/certview/latest/delete_sites/delete_external_sites.htm,Delete Sites
+Knowledge Base Articles,https://docs.qualys.com/en/certview/latest/kb/knowledgebase_article.htm,More Topics
+Run Scans from VM/VMDR,https://docs.qualys.com/en/certview/latest/scans/run_scans_vmdr.htm,Scanning
+Grades Calculation Process,https://docs.qualys.com/en/certview/latest/scans/ssl_grading.htm,Scanning
+Run Scans from Cloud Agent,https://docs.qualys.com/en/certview/latest/scans/discover_certs_ca.htm,Scanning
+Run Scans from Certificate View,https://docs.qualys.com/en/certview/latest/scans/scan_certview.htm,Scanning
+Run Scans to Discover Certificates,https://docs.qualys.com/en/certview/latest/scans/run_scans.htm,Scanning
+Search Tutorial for Certificate View,https://docs.qualys.com/en/certview/latest/search/tutorial.htm,Search & QQL
+Group By Option,https://docs.qualys.com/en/certview/latest/search/group.htm,Search & QQL
+Download Search Results,https://docs.qualys.com/en/certview/latest/search/export.htm,Search & QQL
+Search Tokens for Assets,https://docs.qualys.com/en/certview/latest/search_tips/search_ui_assets.htm,Search & QQL
+Search Tokens for Jobs Tab,https://docs.qualys.com/en/certview/latest/search_tips/searching_cert_req_jobs.htm,Search & QQL
+How to Enter Dates in Queries,https://docs.qualys.com/en/certview/latest/search/dates.htm,Search & QQL
+Search Tokens for Certificates,https://docs.qualys.com/en/certview/latest/search_tips/search_ui.htm,Search & QQL
+Search Tokens for Asset Details,https://docs.qualys.com/en/certview/latest/search_tips/ui_search_tips_asset.htm,Search & QQL
+Search Tokens for Deployed Jobs,https://docs.qualys.com/en/certview/latest/search_tips/searching_jobs.htm,Search & QQL
+Search Tokens for External Sites,https://docs.qualys.com/en/certview/latest/search_tips/searching_external_sites_in_certificate_view.htm,Search & QQL
+How to Search in Certificate View,https://docs.qualys.com/en/certview/latest/search/language.htm,Search & QQL
+Full Text Search on Certain Fields,https://docs.qualys.com/en/certview/latest/search/full_text.htm,Search & QQL
+Search Tokens for Certificate View,https://docs.qualys.com/en/certview/latest/search_tips/search_tokens.htm,Search & QQL
+Search Tokens for Configuration Tab,https://docs.qualys.com/en/certview/latest/search_tips/searching_tokens_configuration.htm,Search & QQL
+Search Tokens for Details of Certificates,https://docs.qualys.com/en/certview/latest/search_tips/search_ui_certificate_details.htm,Search & QQL
+Training Videos,https://docs.qualys.com/en/certview/latest/training/training_videos.htm,Training
+Certificate View API,https://docs.qualys.com/en/certview/api/index.htm#t=certview_api%2Fch01%2Fget_started.htm,Official Guides
+Community Discussions: Certificate Security & SSL Labs,https://success.qualys.com/discussions/s/topic/0TO2L000000HIRfWAO/certificate-security,Community
+Certificate View 4.8.1 (June 2026),https://docs.qualys.com/en/certview/release-notes/certview/release_4_8_1.htm,Release Notes
+Certificate View 4.8 (February 2026),https://docs.qualys.com/en/certview/release-notes/certview/release_4_8.htm,Release Notes
+Certificate View 4.7 (November 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_7.htm,Release Notes
+Certificate View 4.7 API (November 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_7_api.htm,Release Notes
+Certificate View 4.6 (September 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_6.htm,Release Notes
+Certificate View 4.6 API (September 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_6_api.htm,Release Notes
+Certificate View 4.5 (July 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_5.htm,Release Notes
+Certificate View 4.5 API (July 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_5_api.htm,Release Notes
+Certificate View 4.4 (June 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_4.htm,Release Notes
+Certificate View 4.4 API (June 2025),https://docs.qualys.com/en/certview/release-notes/certview/release_4_4_api.htm,Release Notes
+Video Library: CertView,https://success.qualys.com/customersupport/s/video-library?product=certview,Training
+Qualys CertView - Certificate Management & SSL/TLS Monitoring,https://www.qualys.com/certview,Product Overview
+Qualys CertView,https://www.qualys.com/certview/data-enriched,Product Overview
+Certificate Inventory & Management Solutions,https://www.qualys.com/apps/certificate-inventory,Product Overview
+Certificate Assessment & Management Solutions,https://www.qualys.com/apps/certificate-assessment,Product Overview
+Google Chrome to Distrust Chunghwa & Netlock Certificates: How Qualys Certificate View Helps You Respond,https://blog.qualys.com/product-tech/2025/07/10/google-chrome-distrust-chunghwa-netlock-certificates,Blog
+"Shrinking Lifespans, Growing Risk: The Final Certificate Countdown",https://blog.qualys.com/product-tech/2025/04/24/shrinking-lifespans-growing-risk-the-final-certificate-countdown,Blog
+Enhancing Certificate Management with Qualys CertView: Automated Renewal and Awareness,https://blog.qualys.com/product-tech/2025/01/15/certificate-awareness-automated-renewal-with-qualys-certview,Blog
+How to Detect Issuer Certificates and Comply with Google Chrome’s New Entrust Certificate Policy Using Qualys Certificate View,https://blog.qualys.com/product-tech/2024/07/12/how-to-detect-issuer-certificates-and-comply-with-google-chromes-new-entrust-certificate-policy-using-qualys-certificate-view,Blog
+Assessing Certificate Risk with Qualys VMDR,https://blog.qualys.com/product-tech/2022/04/21/assessing-certificate-risk-with-qualys-vmdr,Blog

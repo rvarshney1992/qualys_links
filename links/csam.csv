@@ -1,0 +1,182 @@
+title,link,category
+Cloud Agent as Passive Sensor User Guide,https://docs.qualys.com/en/ca/caps-user-guide/introduction/introduction.htm,CAPS
+Configure CAPS Settings,https://docs.qualys.com/en/ca/caps-user-guide/configure_caps/caps_configuration.htm,CAPS
+Closing the Visibility Gap: How Qualys Cloud Agent Passive Sensor (CAPS) Eliminates Blind Spots Without the Hassle,https://blog.qualys.com/product-tech/2023/11/26/closing-the-visibility-gap-how-qualys-cloud-agent-passive-sensor-caps-eliminates-blind-spots-without-the-hassle,CAPS
+Demo- Cloud Agent Passive Sensor,https://vimeo.com/1070249454,CAPS
+Frequently Asked Questions,https://docs.qualys.com/en/csam/latest/faq/csam_faq.htm,More Topics
+Welcome to CyberSecurity Asset Management,https://docs.qualys.com/en/csam/latest/welcome_csam.html,Getting Started
+Welcome to CyberSecurity Asset Management (CSAM),https://docs.qualys.com/en/csam/latest/about_csam.htm,Getting Started
+Get Started with CSAM,https://docs.qualys.com/en/csam/latest/get_started/get_started.htm,Getting Started
+Roles and Permissions,https://docs.qualys.com/en/csam/latest/get_started/roles_permissions.htm,Getting Started
+CyberSecurity Asset Management Overview,https://docs.qualys.com/en/csam/latest/get_started/csam_overview.htm,Getting Started
+What's New in CyberSecurity Asset Management,https://docs.qualys.com/en/csam/latest/get_started/whats_new.htm,Getting Started
+API Rate Limits,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/api_rate_limits.htm,API
+API Authentication,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/API_Authentication.htm,API
+Create Reports API,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/reports/create_reports_api.htm,API
+Qualys API Framework,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/qualys_api_framework.htm,API
+User Scoping for APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/user_scoping_for_apis.htm,API
+Qualys API Gateway URL,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/qualys_api_gateway_url.htm,API
+Get Started with GAV/CSAM,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/get_started_csam_api.htm,API
+Introduction to GAV/CSAM API Paradigm,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/get_started/introduction_to_gav_csam_api_paradigm.htm,API
+Supported Tokens and Operators for v2 APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/appendix/supported_operators.htm,API
+Appendix,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/appendix/appendix.htm,API
+Domain APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/domains/domain_apis.htm,API
+Report APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/reports/report_apis.htm,API
+Error Messages,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/appendix/error_messages.htm,API
+Count of Assets,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/asset_host_data/count_of_assets.htm,API
+Download Reports,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/reports/download_reports.htm,API
+Get Started,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/get_started/get_started.htm,API (v1)
+API Rate Limits,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/get_started/api_rate_limit.htm,API (v1)
+Qualys API Framework,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/get_started/framework.htm,API (v1)
+Qualys API Gateway URL,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/get_started/gateway_url.htm,API (v1)
+Supported Operators for v1 APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/appa/supported_operators.htm,API (v1)
+Introduction to Global AssetView API Paradigm,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/get_started/gav_api_introduction.htm,API (v1)
+Error Messages,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/appa/appa.htm,API (v1)
+Count of Assets,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/host_data_apis/count_of_assets.htm,API (v1)
+Assets Host Data APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/host_data_apis/asset_host_data_apis.htm,API (v1)
+Understanding Date Parameters,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/appa/date_para.htm,API (v1)
+List Host details of all assets,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/host_data_apis/host_details_of_all_assets.htm,API (v1)
+List Host details of specific asset,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/host_data_apis/hoste_details_of_specific_asset.htm,API (v1)
+List Host details for specific fields,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api_v1/host_data_apis/host_details_for_specific_field.htm,API (v1)
+Troubleshooting,https://docs.qualys.com/en/csam/latest/mergedProjects/teams_integration/teams/troubleshooting.htm,Integrations
+Create Teams Workflow,https://docs.qualys.com/en/csam/latest/mergedProjects/teams_integration/teams/create_workflow.htm,Integrations
+Edit Workflow to Post Adaptive Card,https://docs.qualys.com/en/csam/latest/mergedProjects/teams_integration/teams/edit_workflow.htm,Integrations
+Limitations,https://docs.qualys.com/en/csam/latest/mergedProjects/teams_integration/teams/limitations.htm,Integrations
+Response on MS Teams Channel,https://docs.qualys.com/en/csam/latest/mergedProjects/teams_integration/teams/responses.htm,Integrations
+Get Started with MS Teams Alerting,https://docs.qualys.com/en/csam/latest/mergedProjects/teams_integration/teams/ms_teams_integration.htm,Integrations
+Integration with Web Application Scanning (WAS),https://docs.qualys.com/en/csam/latest/was_integration/overview_csam_was_int_capabilities.htm,Integrations
+Enable WAS,https://docs.qualys.com/en/csam/latest/was_integration/enabling_was.htm,Integrations
+Activate WAS,https://docs.qualys.com/en/csam/latest/was_integration/activating_was.htm,Integrations
+Deactivate WAS,https://docs.qualys.com/en/csam/latest/was_integration/deactivate_was.htm,Integrations
+Edit Web Application,https://docs.qualys.com/en/csam/latest/was_integration/edit_was.htm,Integrations
+WAS and CSAM Integration,https://docs.qualys.com/en/csam/latest/was_integration/was_csam_integration.htm,Integrations
+Customize WebServer Query,https://docs.qualys.com/en/csam/latest/was_integration/customizing_webserver_Query.htm,Integrations
+View Web Application Details,https://docs.qualys.com/en/csam/latest/was_integration/view_was.htm,Integrations
+Taxonomy Table,https://docs.qualys.com/en/csam/latest/appendix/taxanomy_table.htm,Reference
+Usage Guide - Hardware,https://docs.qualys.com/en/csam/latest/appendix/usage_guide_hardware.htm,Reference
+Usage Guide - Software,https://docs.qualys.com/en/csam/latest/appendix/usage_guide_software.htm,Reference
+Software Category Type - Other,https://docs.qualys.com/en/csam/latest/appendix/software_category_type_other.htm,Reference
+Usage Guide - Operating System,https://docs.qualys.com/en/csam/latest/appendix/usage_guide_operating_system.htm,Reference
+Configurations,https://docs.qualys.com/en/csam/latest/configure/configure.htm,More Topics
+Asset Activation Workflow,https://docs.qualys.com/en/csam/latest/configure/bulk_asset_activation_by_rule.htm,More Topics
+View Inventory,https://docs.qualys.com/en/csam/latest/inventory/manage_inventory.htm,Inventory
+Asset Details,https://docs.qualys.com/en/csam/latest/inventory/asset_details.htm,Inventory
+Activate Assets,https://docs.qualys.com/en/csam/latest/inventory/activate_assets.htm,Inventory
+Traffic Analyzer,https://docs.qualys.com/en/csam/latest/traffic_analyzer/traffic_analyzer.htm,Inventory
+Activate IP Assets,https://docs.qualys.com/en/csam/latest/inventory/activate_ip_assets.htm,Inventory
+Remove Tags in Bulk,https://docs.qualys.com/en/csam/latest/inventory/bulk_removal_of_tags.htm,Inventory
+View Assets in CSAM,https://docs.qualys.com/en/csam/latest/inventory/view_assets.htm,Inventory
+View Domain Details,https://docs.qualys.com/en/csam/latest/inventory/view_unresolved_domain_details.htm,Inventory
+Activate Cloud Assets,https://docs.qualys.com/en/csam/latest/inventory/activate_cloud_assets.htm,Inventory
+Qualys TruRisk™ Score,https://docs.qualys.com/en/csam/latest/inventory/trurisk_score.htm,Inventory
+Sources Column Details,https://docs.qualys.com/en/csam/latest/inventory/sources_column_details.htm,Inventory
+Widget Creation in CSAM,https://docs.qualys.com/en/csam/latest/inventory/widget_creation.htm,Inventory
+View Certificate Details,https://docs.qualys.com/en/csam/latest/inventory/view_certificate_details.htm,Inventory
+Database Inventory in CSAM,https://docs.qualys.com/en/csam/latest/inventory/database_instance.htm,Inventory
+Software Inventory in CSAM,https://docs.qualys.com/en/csam/latest/inventory/view_software.htm,Inventory
+Training Videos for CyberSecurity Asset Management,https://docs.qualys.com/en/csam/latest/other_resources/csam_training.htm,Training
+Knowledge Base Articles for CyberSecurity Asset Management,https://docs.qualys.com/en/csam/latest/other_resources/kb_articles.htm,Training
+Generate Reports,https://docs.qualys.com/en/csam/latest/reports/report.htm,Reports and Dashboards
+Compliance Report,https://docs.qualys.com/en/csam/latest/reports/compliance_report.htm,Reports and Dashboards
+Work with Reports,https://docs.qualys.com/en/csam/latest/reports/working_with_reports.htm,Reports and Dashboards
+DNS Records Report,https://docs.qualys.com/en/csam/latest/reports/dns_records.htm,Reports and Dashboards
+Asset Details Report,https://docs.qualys.com/en/csam/latest/reports/asset_details_report.htm,Reports and Dashboards
+Cloud Details Reports,https://docs.qualys.com/en/csam/latest/reports/cloud_details_reports.htm,Reports and Dashboards
+Technology Debt Report,https://docs.qualys.com/en/csam/latest/reports/tech_debt_report.htm,Reports and Dashboards
+Technology Debt Report,https://docs.qualys.com/en/csam/latest/reports/tech_debt_report_csam.htm,Reports and Dashboards
+Software Details Report,https://docs.qualys.com/en/csam/latest/reports/software_details_report.htm,Reports and Dashboards
+Interactive Report (Beta),https://docs.qualys.com/en/csam/latest/reports/interactive_report.htm,Reports and Dashboards
+Certificate Details Report,https://docs.qualys.com/en/csam/latest/reports/certificate_details_report.htm,Reports and Dashboards
+Asset Open Ports Details Report,https://docs.qualys.com/en/csam/latest/reports/asset_open_ports_details_report.htm,Reports and Dashboards
+Missing Software Details Report,https://docs.qualys.com/en/csam/latest/reports/missing_software_details_report.htm,Reports and Dashboards
+Create Rule,https://docs.qualys.com/en/csam/latest/responses/create_rule.htm,Responses & Alerts
+Create Action,https://docs.qualys.com/en/csam/latest/responses/create_action.htm,Responses & Alerts
+Manage Alerts,https://docs.qualys.com/en/csam/latest/responses/manage_alerts.htm,Responses & Alerts
+Configure Responses,https://docs.qualys.com/en/csam/latest/responses/configure_rules.htm,Responses & Alerts
+Create Port Rule,https://docs.qualys.com/en/csam/latest/rules/create_port_rule.htm,Rules
+Manage Port Rule,https://docs.qualys.com/en/csam/latest/rules/manage_port_rule.htm,Rules
+Create Software Rule,https://docs.qualys.com/en/csam/latest/rules/create_software_rule.htm,Rules
+Manage Software Rule,https://docs.qualys.com/en/csam/latest/rules/manage_software_rule.htm,Rules
+Rules in CSAM,https://docs.qualys.com/en/csam/latest/rules/rule_list.htm,Rules
+View Port Rules,https://docs.qualys.com/en/csam/latest/rules/view_port_rules.htm,Rules
+Reorder Port Rule,https://docs.qualys.com/en/csam/latest/rules/reorder_port_rule.htm,Rules
+View Ports Details,https://docs.qualys.com/en/csam/latest/rules/view_ports_details.htm,Rules
+Reorder Software Rule,https://docs.qualys.com/en/csam/latest/rules/reorder_software_rule.htm,Rules
+Create Asset Purge Rules,https://docs.qualys.com/en/csam/latest/rules/asset_purge_rule.htm,Rules
+Default Asset Purge Rules,https://docs.qualys.com/en/csam/latest/rules/default_assetpurge_rules.htm,Rules
+Download Execution Report,https://docs.qualys.com/en/csam/latest/rules/execution_report.htm,Rules
+Configure Reconciliation Rule,https://docs.qualys.com/en/csam/latest/rules/config_reconciliation_rule.htm,Rules
+Track Authorized/Unauthorized Software,https://docs.qualys.com/en/csam/latest/rules/software_authorization.htm,Rules
+Search tutorial,https://docs.qualys.com/en/csam/latest/search/tutorial.htm,Search & QQL
+Date Format,https://docs.qualys.com/en/csam/latest/search/dates.htm,Search & QQL
+Export results,https://docs.qualys.com/en/csam/latest/search/export_results.htm,Search & QQL
+Saved Searches,https://docs.qualys.com/en/csam/latest/search/saved_searches.htm,Search & QQL
+Group By Option,https://docs.qualys.com/en/csam/latest/search/group_assets.htm,Search & QQL
+More on Boolean queries,https://docs.qualys.com/en/csam/latest/search/boolean.htm,Search & QQL
+Learn more about Nested Queries,https://docs.qualys.com/en/csam/latest/search/nested_queries.htm,Search & QQL
+Full text search on certain fields,https://docs.qualys.com/en/csam/latest/search/full_text.htm,Search & QQL
+Create Tag Sets,https://docs.qualys.com/en/csam/latest/Tags/create_tag_set.htm,Tagging
+Create Asset Tags,https://docs.qualys.com/en/csam/latest/Tags/configure_tags.htm,Tagging
+Manage Asset Tags,https://docs.qualys.com/en/csam/latest/Tags/manage_your_tags.htm,Tagging
+Tag Assets,https://docs.qualys.com/en/csam/latest/Tags/tag_assets.htm,Tagging
+Scoped Tags,https://docs.qualys.com/en/csam/latest/Tags/scoped_tags.htm,Tagging
+Tag Your Amazon EC2 instances,https://docs.qualys.com/en/csam/latest/Tags/tag_ec2_instances.htm,Tagging
+Tag Your Microsoft Azure instances,https://docs.qualys.com/en/csam/latest/Tags/tag_your_microsoft_azure_instances.htm,Tagging
+Tag Your Google Cloud Platform instances,https://docs.qualys.com/en/csam/latest/Tags/tag_your_google_cloud_platform_instances.htm,Tagging
+Create Asset Identification Rules,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/create_asset_identification_rules.htm,Third-Party Asset Import
+Qualys Scanner Rule,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/qualys_scanner.htm,Third-Party Asset Import
+Source Native Key Rule,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/native_key_rule.htm,Third-Party Asset Import
+Agent Provisioning Rules,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/agent_provisioning_rule.htm,Third-Party Asset Import
+Asset Identification Settings,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/ident_settings.htm,Third-Party Asset Import
+Third-Party Asset Import in CSAM,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/third_party_asset_identification.htm,Third-Party Asset Import
+Reorder Asset Identification Rules,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/reorder_asset_identification_rules.htm,Third-Party Asset Import
+Asset Identification Rule Selection,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/identification_rule_selection.htm,Third-Party Asset Import
+API Support to Discover Assets from Webhook Connectors,https://docs.qualys.com/en/csam/latest/third_party_asset_identification/api_support_webhook.htm,Third-Party Asset Import
+EASM Profile APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/Qualys_Global_AssetView_CyberSecurity_Asset_Management_API_User_Guide4.htm,API
+Create an EASM Profile,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/create_easm_profile.htm,API
+Welcome to Global AssetView,https://docs.qualys.com/en/gav/latest/welcome_gav.html,Global AssetView
+Welcome to Global AssetView (GAV),https://docs.qualys.com/en/gav/latest/about_gav.htm,Global AssetView
+Configure Tags,https://docs.qualys.com/en/gav/latest/Tags/configure_tags.htm,Global AssetView
+View Inventory,https://docs.qualys.com/en/gav/latest/inventory/manage_inventory.htm,Global AssetView
+Create Tag Sets,https://docs.qualys.com/en/gav/latest/Tags/create_tag_set.htm,Global AssetView
+Search tutorial,https://docs.qualys.com/en/gav/latest/search/tutorial.htm,Global AssetView
+Manage Asset Tags,https://docs.qualys.com/en/gav/latest/Tags/manage_your_tags.htm,Global AssetView
+Roles and Permissions,https://docs.qualys.com/en/gav/latest/get_started/roles_permissions.htm,Global AssetView
+What's New in Global AssetView,https://docs.qualys.com/en/gav/latest/get_started/whats_new.htm,Global AssetView
+Generating Technology Debt Report,https://docs.qualys.com/en/gav/latest/get_started/tech_debt_report.htm,Global AssetView
+Get Started with Global AssetView,https://docs.qualys.com/en/gav/latest/get_started/get_started.htm,Global AssetView
+Overview of GAV and WAS Integration Capabilities,https://docs.qualys.com/en/gav/latest/WAS_integration/overview_gav_was_int_capabilities.htm,Global AssetView
+Global AssetView/CyberSecurity Asset Management API v2,https://docs.qualys.com/en/csam/api/get_started/get_started_csam_api.htm,Official Guides
+Community Discussions: Asset Management,https://success.qualys.com/discussions/s/topic/0TO2L000000HIRIWA4/asset-management,Community
+Global AssetView/CyberSecurity Asset Management API v1,https://www.qualys.com/docs/qualys-gav-api-v1-user-guide.pdf,API
+Global AssetView/CyberSecurity Asset Management 3.7.3 (September 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_3.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7.3 API (September 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_3_api.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7.2 (July 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_2.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7.2 API (July 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_2_api.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7.1.1 (May 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_1_1.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7.1 (March 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_1.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7.1 API (March 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_1_api.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7 (January 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.7 API (January 2026),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_7_api.htm,Release Notes
+Global AssetView/CyberSecurity Asset Management 3.6.1 (September 2025),https://docs.qualys.com/en/csam/release-notes/cybersecurity_asset_management/release_3_6_1.htm,Release Notes
+Training Course: CyberSecurity Asset Management (CSAM),https://www.qualys.com/training/course/cybersecurity-asset-management-csam,Training
+Video Library: CSAM Onboarding,https://success.qualys.com/customersupport/s/video-library?product=csam-onboarding,Training
+Cybersecurity Asset Management for Unified Visibility,https://www.qualys.com/apps/cybersecurity-asset-management,Product Overview
+Cloud Agent Passive Sensing Solutions (CAPS),https://www.qualys.com/apps/cloud-agent-passive-sensing,Product Overview
+Qualys CMDB Sync | ServiceNow Integration for Asset Management,https://www.qualys.com/apps/cmdb-sync,Product Overview
+Global AssetView | Cloud-Based IT Asset Management App,https://www.qualys.com/apps/global-assetview,Product Overview
+Enterprise Cyber Risk and Security Platform,https://www.qualys.com/csam-roi-calculator,Product Overview
+What is Cybersecurity Asset Management (CSAM)?,https://www.qualys.com/fundamentals/cyber-security-asset-management,Product Overview
+Get Real-Time Visibility of Your Total Attack Surface,https://www.qualys.com/whitepapers/get-real-time-visibility-your-total-attack-surface,Whitepapers & Reports
+"Outdated Tech, Rising Risk: How Federal Agencies Can Eliminate Tech Debt and Reduce Cyber Risk",https://blog.qualys.com/product-tech/2025/09/10/federal-agencies-tech-debt-cyber-risk,Blog
+Understanding the Hidden Cyber Risk from Tech Debt and EoL/EoS Security Gaps,https://blog.qualys.com/product-tech/2024/07/09/understanding-the-hidden-cyber-risk-from-tech-debt-eol-eos,Blog
+Introducing Cyber Asset Management 3.0 With Enhanced Security Assessment,https://blog.qualys.com/product-tech/2024/05/06/introducing-cybersecurity-asset-management-3-0-with-expanded-discovery-and-cyber-risk-assessment,Blog
+"CSAM Drives Accurate TruRisk Scoring with EoL/EoS, Unauthorized Software, and Missing Security Agents",https://blog.qualys.com/product-tech/2024/02/12/csam-drives-accurate-trurisk-scoring-with-eol-eos-unauthorized-software-and-missing-security-agents,Blog
+CSAM Strengthens Attack Surface Coverage and Risk Assessment With Third-Party Connectors,https://blog.qualys.com/product-tech/2024/02/05/csam-strengthens-attack-surface-coverage-and-risk-assessment-with-third-party-connectors,Blog
+"Identify and De-risk Unmanaged, Unauthorized Devices With Qualys CyberSecurity Asset Management (CSAM)",https://blog.qualys.com/product-tech/2024/01/31/identify-and-de-risk-unmanaged-unauthorized-devices-with-qualys-cybersecurity-asset-management-csam,Blog
+Add Unique Asset Context with Custom Attributes in CSAM,https://blog.qualys.com/product-tech/2023/07/21/add-unique-asset-context-with-custom-attributes,Blog
+Qualys API Best Practices: CyberSecurity Asset Management API,https://blog.qualys.com/product-tech/2022/08/05/qualys-api-best-practices-cybersecurity-asset-management-api,Blog
+Introducing CyberSecurity Asset Management 2.0 with Natively Integrated External Attack Surface Management,https://blog.qualys.com/product-tech/2022/08/03/introducing-cybersecurity-asset-management-2-0-with-natively-integrated-external-attack-surface-management,Blog
+About CMDB Sync Integration with Qualys CyberSecurity Asset Management,https://blog.qualys.com/product-tech/2022/07/11/qualys-cmdb-sync-integration,Blog
+How to Quickly Prioritize Risks with VMDR 2.0 and Orchestrate Response with CMDB & ITSM Integration,https://blog.qualys.com/product-tech/2022/07/11/how-to-quickly-prioritize-risks-with-vmdr-2-0-and-orchestrate-response-with-cmdb-itsm-integration,Blog
+Introducing CyberSecurity Asset Management,https://blog.qualys.com/product-tech/2021/05/18/introducing-cybersecurity-asset-management,Blog

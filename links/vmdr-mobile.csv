@@ -1,0 +1,60 @@
+title,link,category
+VMDR Mobile APIs,https://docs.qualys.com/en/vmdr-mobile/latest/get_started/vmdr_api.htm,Getting Started
+Overview of VMDR Mobile,https://docs.qualys.com/en/vmdr-mobile/latest/get_started/overview_of_vmdr_mobile.htm,Getting Started
+What's New in VMDR Mobile,https://docs.qualys.com/en/vmdr-mobile/latest/get_started/whats_new.htm,Getting Started
+Get Started with VMDR Mobile,https://docs.qualys.com/en/vmdr-mobile/latest/get_started/get_started.htm,Getting Started
+VMDR Mobile Enrollment Guide,https://docs.qualys.com/en/vmdr-mobile/latest/get_started/enrol_guide.htm,Getting Started
+EULA Management,https://docs.qualys.com/en/vmdr-mobile/latest/configuration/EULA_Management.htm,Configuration
+Connector,https://docs.qualys.com/en/vmdr-mobile/latest/configuration/connector.htm,Configuration
+Configuration,https://docs.qualys.com/en/vmdr-mobile/latest/configuration/configuration.htm,Configuration
+APNs Certificates,https://docs.qualys.com/en/vmdr-mobile/latest/configuration/apns_certificates.htm,Configuration
+Organization Info,https://docs.qualys.com/en/vmdr-mobile/latest/configuration/configurations.htm,Configuration
+Create Policy,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/create_policy.htm,Configuration Assessment For Mobile Devices
+Delete,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/delete.htm,Configuration Assessment For Mobile Devices
+Activate,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/activate.htm,Configuration Assessment For Mobile Devices
+Evaluate,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/evaluate.htm,Configuration Assessment For Mobile Devices
+Deactivate,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/deactivate.htm,Configuration Assessment For Mobile Devices
+View Policies,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/view_policies.htm,Configuration Assessment For Mobile Devices
+Monitor Assets,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/monitor_assets.htm,Configuration Assessment For Mobile Devices
+Policy Actions,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/policy_actions.htm,Configuration Assessment For Mobile Devices
+Monitor Controls,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/monitor_controls.htm,Configuration Assessment For Mobile Devices
+Re-evaluate Controls,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/re-evaluate_controls.htm,Configuration Assessment For Mobile Devices
+Configuration Assessment for Mobile Devices,https://docs.qualys.com/en/vmdr-mobile/latest/configuration_assessment_for_mobile_devices/configuration_assessment_for_mobile_devices.htm,Configuration Assessment For Mobile Devices
+Reports,https://docs.qualys.com/en/vmdr-mobile/latest/dashboards_and_reports/reports.htm,Dashboards And Reports
+Dashboards,https://docs.qualys.com/en/vmdr-mobile/latest/dashboards_and_reports/dashboards.htm,Dashboards And Reports
+Dashboards and Reports,https://docs.qualys.com/en/vmdr-mobile/latest/dashboards_and_reports/dashboards_and_reports.htm,Dashboards And Reports
+Supported KB Articles,https://docs.qualys.com/en/vmdr-mobile/latest/kb_articles/kb_articles.htm,More Topics
+Attribute List,https://docs.qualys.com/en/vmdr-mobile/latest/mobile_device_inventory/attribute_list.htm,More Topics
+Mobile Device Inventory,https://docs.qualys.com/en/vmdr-mobile/latest/mobile_device_inventory/mobile_device_inventory.htm,More Topics
+Search tutorial,https://docs.qualys.com/en/vmdr-mobile/latest/search/tutorial.htm,Search & QQL
+Date Format,https://docs.qualys.com/en/vmdr-mobile/latest/search/dates.htm,Search & QQL
+Search Tokens,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_tokens.htm,Search & QQL
+Export results,https://docs.qualys.com/en/vmdr-mobile/latest/search/export_results.htm,Search & QQL
+Saved Searches,https://docs.qualys.com/en/vmdr-mobile/latest/search/saved_searches.htm,Search & QQL
+Searching APNs,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_apns.htm,Search & QQL
+Searching EULA,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_eula.htm,Search & QQL
+Searching Jobs,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_jobs.htm,Search & QQL
+Group By Option,https://docs.qualys.com/en/vmdr-mobile/latest/search/group_assets.htm,Search & QQL
+Searching Users,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_users.htm,Search & QQL
+Searching Assets,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_assets.htm,Search & QQL
+Searching Controls,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_controls.htm,Search & QQL
+Searching Policies,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_policies.htm,Search & QQL
+Searching Audit Logs,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_auditlogs.htm,Search & QQL
+Searching Applications,https://docs.qualys.com/en/vmdr-mobile/latest/search_tips/search_ui_applications.htm,Search & QQL
+Bulk User Upload,https://docs.qualys.com/en/vmdr-mobile/latest/sem_user_management/bulk_user_upload.htm,Sem User Management
+Creating a New Tag,https://docs.qualys.com/en/vmdr-mobile/latest/sem_user_management/creating_a_new_tag.htm,Sem User Management
+VMDR Mobile User Management,https://docs.qualys.com/en/vmdr-mobile/latest/sem_user_management/user_management.htm,Sem User Management
+Patch Management,https://docs.qualys.com/en/vmdr-mobile/latest/vulnerability_management/patch_management.htm,More Topics
+Vulnerability Management in VMDR Mobile,https://docs.qualys.com/en/vmdr-mobile/latest/vulnerability_management/vulnerability_management.htm,More Topics
+VMDR Mobile API,https://docs.qualys.com/en/vmdr-mobile/api/index.htm#t=get_started%2Fget_started.htm,Official Guides
+VMDR Mobile 1.6.1 (April 2026),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_6_1.htm,Release Notes
+VMDR Mobile 1.6 (April 2025),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_6.htm,Release Notes
+VMDR Mobile 1.5.9 (January 2025),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_5_9_0.htm,Release Notes
+VMDR Mobile 1.5.8 (October 2024),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_5_8_0.htm,Release Notes
+VMDR Mobile 1.5.7 (July 2024),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_5_7_0.htm,Release Notes
+VMDR Mobile 1.5.6 (April 2024),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_5_6_0.htm,Release Notes
+VMDR Mobile 1.5.5 (February 2024),https://docs.qualys.com/en/vmdr-mobile/release-notes/vmdr_mobile/release_1_5_5_0.htm,Release Notes
+VMDR Mobile: Mobile Application Vulnerability Scanner,https://www.qualys.com/apps/vulnerability-management-detection-response/mobile-devices,Product Overview
+Automating Agent-less Vulnerability Assessment for Intune Enrolled Mobile Devices,https://blog.qualys.com/product-tech/2022/01/14/automating-agent-less-vulnerability-assessment-for-intune-enrolled-mobile-devices,Blog
+iOS / iPadOS 14.5 Updates: Identify Assets Requiring Update and Take Remote Action with VMDR for Mobile Devices,https://blog.qualys.com/product-tech/2021/04/28/ios-and-ipados-14-5-security-update-vulnerabilities-discover-and-take-remote-response-action-using-vmdr-for-mobile-devices,Blog
+Expand Your Vulnerability & Patch Management Program to Mobile Devices with Qualys VMDR,https://blog.qualys.com/product-tech/2021/02/10/qualys-extends-vmdr-to-android-and-ios-ipados-devices,Blog

@@ -1,0 +1,404 @@
+title,link,category
+Get-Started-with-Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Connectors
+Purging: What-why-when-how-what happens to the data?,https://success.qualys.com/discussions/s/article/000006221,Purging
+Qualys Performance Tuning Series: Remove Stale Assets for Best Performance,https://blog.qualys.com/product-tech/2022/10/05/qualys-performance-tuning-series-remove-stale-assets-for-best-performance,Purging
+How to purge host data,https://success.qualys.com/discussions/s/article/000001918,Purging
+User Roles Comparison (Vulnerability Management),https://docs.qualys.com/en/vm/10.32.1.0-old/user_accounts/user_roles_comparison_vm.htm,RBAC
+Reporting on your Vulnerabilities and Assets,https://docs.qualys.com/en/vm/latest/reports/vulnerability_reports_lp.htm,Reports and Dashboards
+Qualys Unified Dashboards,https://docs.qualys.com/en/ud/latest/get_started/getting_started_with_unified_dashboard.htm,Reports and Dashboards
+Subscription Health Dashboard 2025 Update,https://blog.qualys.com/product-tech/2025/10/07/subscription-health-dashboard-2025-update,Reports and Dashboards
+Virtual Scanner Appliance Sizing,https://success.qualys.com/discussions/s/article/000006881,Scanner
+Sizing Your Scanners for Optimal Performance,https://notifications.qualys.com/product/2025/11/26/sizing-your-scanners-for-optimal-performance,Scanner
+Virtual Scanner Appliance User Guide,https://docs.qualys.com/en/vm/latest/scanner_appliances/vscanner/win_virtual_scanner_user_guide.htm,Scanner
+Scanner Appliance Troubleshooting,https://docs.qualys.com/en/scanner/management/scanner_appliance/troubleshooting.htm,Scanner
+How Vulnerability Management scans work in the background,https://success.qualys.com/support/s/article/000002028,Scanning
+Scanning Best Practices,https://success.qualys.com/support/s/article/000001056,Scanning
+Long Scan duration for single/multiple hosts,https://success.qualys.com/discussions/s/article/000002877,Scanning
+Default Option Profile - Qualys Recommended Option Profile,https://docs.qualys.com/en/vm/latest/option_profiles/qualys_recommended_option_profile.htm,Scanning
+Authentication Records,https://docs.qualys.com/en/vm/latest/authentication/system_created_records.htm,Scanning
+How To Ignore A Vulnerability (individual or in bulk) and Report on Ignored Vulnerabilities,https://success.qualys.com/support/s/article/000006230,Scanning
+Tell me about authentication status QIDs,https://docs.qualys.com/en/vm/latest/authentication/auth_stat_qids.htm,Scanning
+Asset Tags: Are You Getting The Best Value?,https://success.qualys.com/support/s/article/000005819,Tagging
+Automate discovery-tagging and scanning of new assets,https://success.qualys.com/discussions/s/article/000006192,Tagging
+Get Started with Asset Tagging,https://docs.qualys.com/en/vm/latest/host_assets/tags_asset_tagging.htm,Tagging
+Creating Tag Sets,https://docs.qualys.com/en/csam/latest/Tags/create_tag_set.htm,Tagging
+Host Scan Time Management - Groovy tags and dashboard,https://qualys.my.site.com/discussions/s/article/000006172,Tagging
+In-Depth Look Into Data-Driven Science Behind Qualys TruRisk,https://blog.qualys.com/qualys-insights/2022/10/10/in-depth-look-into-data-driven-science-behind-qualys-trurisk,TruRisk
+Authentication vs Authorization vs insufficient privileges,https://success.qualys.com/discussions/s/article/000003111,Scanning
+Qualys TruRisk,https://docs.qualys.com/en/vmdr/getting-started-guide/features_of_vmdr/qualys_trurisk.htm,TruRisk
+A Deep Dive into VMDR 2.0 with Qualys TruRisk,https://blog.qualys.com/qualys-insights/2022/08/08/a-deep-dive-into-vmdr-2-0-with-qualys-trurisk,TruRisk
+Comprehensive Steps to TruRisk: From Insight to Action Using VMDR,https://blog.qualys.com/product-tech/2024/12/18/steps-to-trurisk-insight-to-action-with-vmdr,TruRisk
+Steps to TruRisk – 2: Measure the Likelihood of Vulnerability Exploitation,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2025/04/07/steps-to-trurisk-2-measuring-the-likelihood-of-vulnerability-exploitation,TruRisk
+Steps to TruRisk – 3: Get started with Business-Driven Risk Prioritization,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2025/04/21/steps-to-trurisk-3-getting-started-assessing-business-consequences,TruRisk
+Steps to TruRisk – 4: Quantify Risk and Communicate Effectively,https://blog.qualys.com/product-tech/2025/06/25/how-to-quantify-risk-and-communicate-effectively-with-trurisk,TruRisk
+Steps to TruRisk – 1: Shift to Priority-Driven Strategies,https://blog.qualys.com/product-tech/2025/03/10/steps-to-trurisk-1-shift-to-priority-driven-strategies,TruRisk
+Qualys CertView,https://docs.qualys.com/en/vm/latest/host_assets/manage_certificates.htm,CertView
+Gaining Control over Your Digital Certificates,https://blog.qualys.com/product-tech/2018/04/27/gaining-control-over-your-digital-certificates,CertView
+Review Your Certificates,https://docs.qualys.com/en/vm/latest/host_assets/certificates.htm,CertView
+Grades Calculation Process,https://docs.qualys.com/en/certview/latest/scans/ssl_grading.htm,CertView
+SSL Server Rating Guide,https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide,CertView
+Qualys Dataflow for VMDR Connector,https://docs.qualys.com/en/conn/latest/integrations/vmdr_native_connector.htm,Connectors
+Qualys Connectors,https://docs.qualys.com/en/conn/2.15.0/welcome.htm,Connectors
+Public Methods available in Groovy Script,https://success.qualys.com/discussions/s/article/000006934,Tagging
+Report: What is mean by First Detected-Last Detected-Times Detected-Date Last Fixed,https://success.qualys.com/support/s/article/000003327,Reports and Dashboards
+Manage Users,https://docs.qualys.com/en/vm/latest/user_management.htm,Getting Started
+Welcome to VMDR,https://docs.qualys.com/en/vm/latest/welcome_vmdr.htm,Getting Started
+Manage Your Assets,https://docs.qualys.com/en/vm/latest/asset_management.htm,Getting Started
+Get started with VM,https://docs.qualys.com/en/vm/latest/welcome_to_vm.htm,Getting Started
+Get Started with VMDR and PA,https://docs.qualys.com/en/vm/latest/welcome.htm,Getting Started
+Evaluate Middleware Assets by Using Cloud Agent,https://docs.qualys.com/en/vm/latest/middleware_asset_management.htm,Getting Started
+System Requirements,https://docs.qualys.com/en/vm/latest/getting_started/system_requirements.htm,Getting Started
+What's New in VMDR and PA,https://docs.qualys.com/en/vm/latest/getting_started/whats_new.htm,Getting Started
+"VMDR, PA, SCA, and SCAP Overview",https://docs.qualys.com/en/vm/latest/getting_started/overview.htm,Getting Started
+Download Data Lists,https://docs.qualys.com/en/vm/latest/download_data_lists.htm,Getting Started
+Remediation Search Filters,https://docs.qualys.com/en/vm/latest/remediation_search_filters.htm,Getting Started
+Zero-Day Vulnerability Response Journey,https://docs.qualys.com/en/vm/latest/zero_day_response.htm,Getting Started
+Cloud Agent,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/assets/cloud_agent.htm,Assets
+Date Format,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/search/dates.htm,Assets
+Manage Tags,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/assets/manage_tags.htm,Assets
+Asset Details,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/assets/asset_details.htm,Assets
+Attack Vectors,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/threat/attack_vectors.htm,Assets
+Search Actions,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/search/actions_search_query.htm,Assets
+Qualys Insights,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/assets/qualys_insights.htm,Assets
+Qualys TruRisk™,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/risk_score/what_is_trurisk.htm,Assets
+Risk Score Widget,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/threat/trurisk_score_widget.htm,Assets
+Export To Dashboard,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/threat/export_to_dashboard.htm,Assets
+TruRisk™ Mitigation,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/threat/truRisk_mitigation.htm,Assets
+Zero-Touch Patch Job,https://docs.qualys.com/en/vm/latest/mergedProjects/manage_asset_and_vulnerability_details/threat/zero_touch_patching.htm,Assets
+Manage Tags,https://docs.qualys.com/en/vm/latest/mergedProjects/search_in_vmdr/assets/manage_tags.htm,Search & QQL
+Get Started with VMDR,https://docs.qualys.com/en/vm/latest/mergedProjects/search_in_vmdr/get_started/get_started.htm,Search & QQL
+Manage Rules in Rule Manager,https://docs.qualys.com/en/vm/latest/mergedProjects/search_in_vmdr/responses/managing_rules_in_rule_manager.htm,Search & QQL
+Search Vulnerability Details,https://docs.qualys.com/en/vm/latest/mergedProjects/search_in_vmdr/search/tutorial.htm,Search & QQL
+Manage Asset and Vulnerabilities Details,https://docs.qualys.com/en/vm/latest/mergedProjects/search_in_vmdr/assets/manage_asset_and_vulnerabilities_details.htm,Search & QQL
+Import Search lists,https://docs.qualys.com/en/vm/latest/search_lists/import_search_lists.htm,Search & QQL
+Configure Search Lists,https://docs.qualys.com/en/vm/latest/search_lists/search_lists_lp.htm,Search & QQL
+Search Lists - The Basics,https://docs.qualys.com/en/vm/latest/search_lists/search_lists_basics.htm,Search & QQL
+Perform Remediation Action,https://docs.qualys.com/en/vm/latest/asset_search/win_asset_search_remediation.htm,Search & QQL
+Static Vulnerability Search List,https://docs.qualys.com/en/vm/latest/search_lists/win_static_vuln_search_list.htm,Search & QQL
+Dynamic Vulnerability Search List,https://docs.qualys.com/en/vm/latest/search_lists/win_dynamic_vuln_search_list.htm,Search & QQL
+Tell me about Asset Search Reports,https://docs.qualys.com/en/vm/latest/asset_search/win_asset_search_results.htm,Search & QQL
+Scanner Appliance Troubleshooting,https://docs.qualys.com/en/vm/latest/scanner_appliances/troubleshooting.htm,Scanner
+All About Appliances,https://docs.qualys.com/en/vm/latest/scanner_appliances/scanner_appliances_lp.htm,Scanner
+Scanning and Firewalls,https://docs.qualys.com/en/vm/latest/scanner_appliances/scanning_and_firewalls.htm,Scanner
+Your Appliance Calendar,https://docs.qualys.com/en/vm/latest/scanner_appliances/scanner_calendar.htm,Scanner
+Replace Scanner Appliance,https://docs.qualys.com/en/vm/latest/scanner_appliances/win_replace_scanner_appliance.htm,Scanner
+Choosing a scanner appliance,https://docs.qualys.com/en/vm/latest/scanner_appliances/choosing_scanner_appliance.htm,Scanner
+Scanner Appliance User Guide,https://docs.qualys.com/en/vm/latest/scanner_appliances/scanner_appliance_user_guide.htm,Scanner
+Manage Your Scanner Appliance,https://docs.qualys.com/en/vm/latest/scanner_appliances/win_edit_scanner_appliance.htm,Scanner
+Check Scanner Appliance Status,https://docs.qualys.com/en/vm/latest/scanner_appliances/check_status.htm,Scanner
+Add a Physical Scanner Appliance,https://docs.qualys.com/en/vm/latest/scanner_appliances/win_activate_scanner_appliance.htm,Scanner
+Check Scanner Appliance Capacity,https://docs.qualys.com/en/vm/latest/scanner_appliances/check_capacity.htm,Scanner
+Enable SCAP on Scanner Appliances,https://docs.qualys.com/en/vm/latest/scanner_appliances/enabling_fdcc.htm,Scanner
+Manage Your Scans,https://docs.qualys.com/en/vm/latest/scans/manage_scans.htm,Scanning
+Performance settings for maps,https://docs.qualys.com/en/vm/latest/option_profiles/win_configure_map_performance.htm,Scanning
+Performance settings for scans,https://docs.qualys.com/en/vm/latest/option_profiles/win_configure_scan_performance.htm,Scanning
+Performance settings for PCI scans,https://docs.qualys.com/en/vm/latest/option_profiles/win_configure_scan_performance_pci.htm,Scanning
+EC2 Scan,https://docs.qualys.com/en/vm/latest/scans/win_launch_ec2_scan.htm,Scanning
+Debug Scan,https://docs.qualys.com/en/vm/latest/scans/win_launch_debug_scan.htm,Scanning
+Scan Status,https://docs.qualys.com/en/vm/latest/scans/scan_status.htm,Scanning
+CertView Scan,https://docs.qualys.com/en/vm/latest/scans/win_certview_scan.htm,Scanning
+Scan IPv6 Hosts,https://docs.qualys.com/en/vm/latest/scans/scan_ipv6_hosts.htm,Scanning
+Your Scans List,https://docs.qualys.com/en/vm/latest/scans/your_scans_list.htm,Scanning
+Start a PCAP Scan,https://docs.qualys.com/en/vm/latest/scans/win_launch_pcap_scan.htm,Scanning
+EC2 Scan Checklist,https://docs.qualys.com/en/vm/latest/scans/ec2_scan_checklist.htm,Scanning
+Troubleshooting,https://docs.qualys.com/en/vm/latest/troubleshooting/troubleshooting.htm,FAQ & Troubleshooting
+Scans Ending with No Host Alive,https://docs.qualys.com/en/vm/latest/troubleshooting/vm_scans_no_host_alive.htm,FAQ & Troubleshooting
+Date Format Changes in CSV Reports,https://docs.qualys.com/en/vm/latest/troubleshooting/date_format_changes_csv_reports.htm,FAQ & Troubleshooting
+Windows/Unix Authentication Failure,https://docs.qualys.com/en/vm/latest/troubleshooting/authentication_failed.htm,FAQ & Troubleshooting
+Detect Unused Active Windows Accounts (QID 105234),https://docs.qualys.com/en/vm/latest/troubleshooting/detect_windows_accounts.htm,FAQ & Troubleshooting
+Troubleshoot Windows and Unix Authentication Issues,https://docs.qualys.com/en/vm/latest/troubleshooting/troubleshoot_win_unix_auth_issues.htm,FAQ & Troubleshooting
+Your Activity Log,https://docs.qualys.com/en/vm/latest/activity_log/activity_log.htm,More Topics
+Address Management,https://docs.qualys.com/en/vm/latest/agms/address_management.htm,Assets
+API Changes,https://docs.qualys.com/en/vm/latest/agms/api_changes.htm,Assets
+AGMS Benefits,https://docs.qualys.com/en/vm/latest/agms/benefits.htm,Assets
+Add IP Addresses,https://docs.qualys.com/en/vm/latest/agms/add_ip_addresses.htm,Assets
+Introducing AGMS,https://docs.qualys.com/en/vm/latest/agms/agms.htm,Assets
+Changes to Scans List,https://docs.qualys.com/en/vm/latest/agms/scans_list.htm,Assets
+Changes to business units,https://docs.qualys.com/en/vm/latest/agms/business_units.htm,Assets
+Change to Select IPs/Ranges,https://docs.qualys.com/en/vm/latest/agms/select_ips_ranges.htm,Assets
+UI changes for asset groups,https://docs.qualys.com/en/vm/latest/agms/ui_changes_asset_groups.htm,Assets
+Download Addresses in CSV format,https://docs.qualys.com/en/vm/latest/agms/download_addresses.htm,Assets
+Changes to All group and asset groups,https://docs.qualys.com/en/vm/latest/agms/asset_groups.htm,Assets
+Scanner Appliances available to users,https://docs.qualys.com/en/vm/latest/agms/scanner_appliances.htm,Assets
+Qualys API,https://docs.qualys.com/en/vm/latest/api_doc/index_hold.htm,API
+API Notification,https://docs.qualys.com/en/vm/latest/api/notification1.htm,API
+Manage Your Networks,https://docs.qualys.com/en/vm/latest/networks/manage_networks.htm,Assets
+All About Asset Groups,https://docs.qualys.com/en/vm/latest/asset_groups/about_asset_groups.htm,Assets
+Manage IPs Across Apps,https://docs.qualys.com/en/vm/latest/host_assets/manage_ips_apps.htm,Assets
+Tell me about the None domain,https://docs.qualys.com/en/vm/latest/domain_assets/about_the_none_domain.htm,Assets
+Edit Host,https://docs.qualys.com/en/vm/latest/host_assets/win_edit_host.htm,Assets
+Edit Domain,https://docs.qualys.com/en/vm/latest/domain_assets/win_edit_domain.htm,Assets
+Batch Edit Hosts,https://docs.qualys.com/en/vm/latest/host_assets/win_batch_edit_hosts.htm,Assets
+Domain Information,https://docs.qualys.com/en/vm/latest/domain_assets/win_domain_information.htm,Assets
+Manage Your Domains,https://docs.qualys.com/en/vm/latest/domain_assets/win_add_domain.htm,Assets
+Host Tracking Method,https://docs.qualys.com/en/vm/latest/host_assets/host_tracking.htm,Assets
+View Host Information,https://docs.qualys.com/en/vm/latest/host_assets/win_host_information.htm,Assets
+Configure Password Brute Forcing,https://docs.qualys.com/en/vm/latest/brute_forcing/win_configure_brute_forcing.htm,More Topics
+Manage Your Users,https://docs.qualys.com/en/vm/latest/user_accounts/manage_users.htm,Users & Roles
+Tell me about SAML SSO,https://docs.qualys.com/en/vm/latest/user_accounts/saml/about_saml.htm,Users & Roles
+Tell me about Symantec VIP support,https://docs.qualys.com/en/vm/latest/user_accounts/vip/about_vip.htm,Users & Roles
+Delete User,https://docs.qualys.com/en/vm/latest/user_accounts/delete_user.htm,Users & Roles
+User Settings,https://docs.qualys.com/en/vm/latest/user_accounts/win_user.htm,Users & Roles
+Multiple Users,https://docs.qualys.com/en/vm/latest/user_accounts/multiple_users.htm,Users & Roles
+Sample Subscription,https://docs.qualys.com/en/vm/latest/user_accounts/sample_subscription.htm,Users & Roles
+Change Your Password,https://docs.qualys.com/en/vm/latest/user_accounts/win_change_password.htm,Users & Roles
+Dates/Times in Reports,https://docs.qualys.com/en/vm/latest/user_accounts/your_time_zone.htm,Users & Roles
+Configure Business Units,https://docs.qualys.com/en/vm/latest/business_units/win_business_unit.htm,Users & Roles
+Tell me about notifications,https://docs.qualys.com/en/vm/latest/user_accounts/notifications.htm,Users & Roles
+Control User Access Permissions,https://docs.qualys.com/en/vm/latest/user_accounts/admin_ui.htm,Users & Roles
+Manage Your Clients,https://docs.qualys.com/en/vm/latest/clients/client.htm,More Topics
+Manage Your Reports,https://docs.qualys.com/en/vm/latest/reports/manage_reports.htm,Reports and Dashboards
+Manage Tags,https://docs.qualys.com/en/vm/latest/mergedProjects/analyze_reports_and_dashboards/assets/manage_tags.htm,Reports and Dashboards
+Tell me about the owner,https://docs.qualys.com/en/vm/latest/reports/scan_reports/tell_me_about_the_owner.htm,Reports and Dashboards
+Most Vulnerable Hosts,https://docs.qualys.com/en/vm/latest/dashboard/win_most_vulnerable_hosts.htm,Reports and Dashboards
+Reporting - The Basics,https://docs.qualys.com/en/vm/latest/reports/reporting_basics.htm,Reports and Dashboards
+Import report templates,https://docs.qualys.com/en/vm/latest/reports/import_report_templates.htm,Reports and Dashboards
+Start Launching Reports,https://docs.qualys.com/en/vm/latest/reports/start_launching_reports.htm,Reports and Dashboards
+Vulnerability Reports by Name,https://docs.qualys.com/en/vm/latest/reports/vulnerability_report_types_lp.htm,Reports and Dashboards
+Reporting on Vulnerabilities by Published Date,https://docs.qualys.com/en/vm/latest/reports/report_on_vulns_by_date.htm,Reports and Dashboards
+"Display TruRisk Details (ARS, ACS, QDS) in Reports",https://docs.qualys.com/en/vm/latest/reports/trurisk_details.htm,Reports and Dashboards
+Cloud Agent,https://docs.qualys.com/en/vm/latest/mergedProjects/analyze_reports_and_dashboards/assets/cloud_agent.htm,Reports and Dashboards
+Configure a Distribution Group,https://docs.qualys.com/en/vm/latest/distribution_groups/win_distribution_group.htm,More Topics
+External Scanner IPs,https://docs.qualys.com/en/vm/latest/help/external_scanner_ips.htm,Getting Started
+Check Network Access to Scanners,https://docs.qualys.com/en/vm/latest/help/check_network_access.htm,Getting Started
+Information on QIDs,https://docs.qualys.com/en/vm/latest/knowledgebase/qids_created.htm,KnowledgeBase
+How to find QIDs that can be detected by Cloud Agents,https://docs.qualys.com/en/vm/latest/knowledgebase/how_to_find_qids_that_can_be_detected_by_cloud_agents.htm,KnowledgeBase
+How to Ignore QID from Asset,https://docs.qualys.com/en/vm/latest/knowledgebase/detection_logic/how_to_ignore_qid_from_asset.htm,KnowledgeBase
+How to Track Historical Changes in QDS,https://docs.qualys.com/en/vm/latest/knowledgebase/kb_articles/how_to_track_qds_history.htm,KnowledgeBase
+Crackarmor,https://docs.qualys.com/en/vm/latest/knowledgebase/crackarmor.htm,KnowledgeBase
+Severity Levels,https://docs.qualys.com/en/vm/latest/knowledgebase/severity_levels.htm,KnowledgeBase
+VM/VMDR Glossary,https://docs.qualys.com/en/vm/latest/knowledgebase/glossary.htm,KnowledgeBase
+Edit Vulnerability,https://docs.qualys.com/en/vm/latest/knowledgebase/win_edit_vulnerability.htm,KnowledgeBase
+Vulnerability Icons,https://docs.qualys.com/en/vm/latest/knowledgebase/vulnerability_icons.htm,KnowledgeBase
+Heartbleed Detection,https://docs.qualys.com/en/vm/latest/knowledgebase/heartbleed.htm,KnowledgeBase
+Vulnerability Categories,https://docs.qualys.com/en/vm/latest/knowledgebase/vulnerability_categories.htm,KnowledgeBase
+Explore the KnowledgeBase,https://docs.qualys.com/en/vm/latest/knowledgebase/knowledgebase_lp.htm,KnowledgeBase
+Import from Library,https://docs.qualys.com/en/vm/latest/library/import_from_library.htm,KnowledgeBase
+Manage Your Maps,https://docs.qualys.com/en/vm/latest/maps/manage_maps.htm,Maps
+Start a Map,https://docs.qualys.com/en/vm/latest/maps/win_launch_map.htm,Maps
+Mapping - The Basics,https://docs.qualys.com/en/vm/latest/maps/mapping_basics.htm,Maps
+Discover Your Network,https://docs.qualys.com/en/vm/latest/maps/maps_lp.htm,Maps
+Your Map in Graphic Mode,https://docs.qualys.com/en/vm/latest/maps/win_map_results_graphic.htm,Maps
+Tell me about Map Results,https://docs.qualys.com/en/vm/latest/maps/win_map_results_text.htm,Maps
+Map Results Email Notification,https://docs.qualys.com/en/vm/latest/maps/map_results_email.htm,Maps
+Duration in Map Summary Email vs. UI,https://docs.qualys.com/en/vm/latest/maps/see_difference_in_duration_on_map_summary_email_and_ui.htm,Maps
+Manage Actions,https://docs.qualys.com/en/vm/latest/mergedProjects/create_rules_and_actions_from_responses_tab/responses/managing_actions.htm,Responses & Alerts
+Responses in VMDR,https://docs.qualys.com/en/vm/latest/mergedProjects/create_rules_and_actions_from_responses_tab/responses/responses_in_vmdr.htm,Responses & Alerts
+Manage Alerts from Activity,https://docs.qualys.com/en/vm/latest/mergedProjects/create_rules_and_actions_from_responses_tab/responses/managing_alerts_from_activity.htm,Responses & Alerts
+Sample Rule Queries in VMDR,https://docs.qualys.com/en/vm/latest/mergedProjects/create_rules_and_actions_from_responses_tab/responses/sample_rule_queries_in_vmdr.htm,Responses & Alerts
+Manage Rules in Rule Manager,https://docs.qualys.com/en/vm/latest/mergedProjects/create_rules_and_actions_from_responses_tab/responses/managing_rules_in_rule_manager.htm,Responses & Alerts
+Create a New Action from Actions,https://docs.qualys.com/en/vm/latest/mergedProjects/create_rules_and_actions_from_responses_tab/responses/creating_a_new_action_from_actions.htm,Responses & Alerts
+Cloud Agent,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/assets/cloud_agent.htm,TruRisk
+Attack Vectors,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/attack_vectors.htm,TruRisk
+Search Actions,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/search/actions_search_query.htm,TruRisk
+Qualys TruRisk™,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/risk_score/what_is_trurisk.htm,TruRisk
+View Threat Feed,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/view_threat_feed.htm,TruRisk
+Risk Score Widget,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/trurisk_score_widget.htm,TruRisk
+Export To Dashboard,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/export_to_dashboard.htm,TruRisk
+MITRE ATT&CK MATRIX,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/mitre_attack/mitre_attack_matrix.htm,TruRisk
+Threat Intelligence,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat_intelligence/threat_intelligence.htm,TruRisk
+Zero-Touch Patch Job,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/zero_touch_patching.htm,TruRisk
+Calculate Asset Risk Score,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/calculating_asset_risk_score.htm,TruRisk
+Real-Time Threat Indicators,https://docs.qualys.com/en/vm/latest/mergedProjects/prioritize_your_vulnerabilities/threat/rti_info.htm,TruRisk
+Scan Complete Email for Web Application Scans,https://docs.qualys.com/en/vm/latest/module_was/scan/scan_complete_email.htm,Integrations
+Manually Create a Ticket,https://docs.qualys.com/en/vm/latest/remediation/win_create_ticket.htm,Remediation
+Closing Tickets,https://docs.qualys.com/en/vm/latest/remediation/wf_closing_open_tickets.htm,Remediation
+Data List Setup,https://docs.qualys.com/en/vm/latest/remediation/data_list_setup.htm,Remediation
+Editing Tickets,https://docs.qualys.com/en/vm/latest/remediation/win_edit_ticket.htm,Remediation
+Reopening Tickets,https://docs.qualys.com/en/vm/latest/remediation/wf_reopening_tickets.htm,Remediation
+Remediation - The Basics,https://docs.qualys.com/en/vm/latest/remediation/remediation_basics.htm,Remediation
+Manage Vulnerabilities Through Tickets,https://docs.qualys.com/en/vm/latest/remediation/remediation_lp.htm,Remediation
+Daily Trouble Ticket Updates Notification,https://docs.qualys.com/en/vm/latest/remediation/daily_trouble_ticket_updates.htm,Remediation
+Configure Policy Rules,https://docs.qualys.com/en/vm/latest/remediation/policy/win_policy_rule.htm,Remediation
+Perform Risk Analysis,https://docs.qualys.com/en/vm/latest/risk_analysis/win_risk_analysis.htm,More Topics
+Schedules - The Basics,https://docs.qualys.com/en/vm/latest/schedules/schedules_basics.htm,Schedules
+Configure Scan Schedules,https://docs.qualys.com/en/vm/latest/schedules/schedules_lp.htm,Schedules
+Downloading Schedules to iCalendar Format,https://docs.qualys.com/en/vm/latest/schedules/download_schedules.htm,Schedules
+About the Dissolvable Agent,https://docs.qualys.com/en/vm/latest/setup/about_dissolvable_agent.htm,Setup
+About the Unix Dissolvable Agent (Qualys Shell),https://docs.qualys.com/en/vm/latest/setup/about_unix_dissolvable_agent_shell.htm,Setup
+Scans Setup,https://docs.qualys.com/en/vm/latest/setup/scans_setup_options.htm,Setup
+Users Setup,https://docs.qualys.com/en/vm/latest/setup/users_setup_options.htm,Setup
+Assets Setup,https://docs.qualys.com/en/vm/latest/setup/assets_setup_options.htm,Setup
+CVSS Scoring,https://docs.qualys.com/en/vm/latest/setup/cvss_scoring.htm,Setup
+Reports Setup,https://docs.qualys.com/en/vm/latest/setup/reports_setup_options.htm,Setup
+WIN PCI Linking,https://docs.qualys.com/en/vm/latest/setup/win_pci_linking.htm,Setup
+Remediation Setup,https://docs.qualys.com/en/vm/latest/setup/remediation_setup_options.htm,Setup
+Choose a Home Page,https://docs.qualys.com/en/vm/latest/setup/win_home_page.htm,Setup
+CVSS Vector Strings,https://docs.qualys.com/en/vm/latest/setup/cvss_vector_strings.htm,Setup
+Set Security Options,https://docs.qualys.com/en/vm/latest/setup/win_security.htm,Setup
+Training Video Library,https://docs.qualys.com/en/vm/latest/support/vmdr_training_video_library.htm,FAQ & Troubleshooting
+Windows False Positives,https://docs.qualys.com/en/vm/latest/support/false_positives.htm,FAQ & Troubleshooting
+Tag-based User Scoping,https://docs.qualys.com/en/vm/latest/tbus/tag_based_user_scoping.htm,More Topics
+Maps,https://docs.qualys.com/en/vm/latest/tips/vm_maps.htm,Tips & Best Practices
+Scans,https://docs.qualys.com/en/vm/latest/tips/scans.htm,Tips & Best Practices
+Controls,https://docs.qualys.com/en/vm/latest/tips/pc_controls.htm,Tips & Best Practices
+EC2 scans,https://docs.qualys.com/en/vm/latest/tips/ec2_scans.htm,Tips & Best Practices
+Schedules,https://docs.qualys.com/en/vm/latest/tips/schedules.htm,Tips & Best Practices
+Exceptions,https://docs.qualys.com/en/vm/latest/tips/pc_exceptions.htm,Tips & Best Practices
+PCAP Scans,https://docs.qualys.com/en/vm/latest/tips/pcap_scans.htm,Tips & Best Practices
+Certificates,https://docs.qualys.com/en/vm/latest/tips/vm_certificates.htm,Tips & Best Practices
+Policy Editor,https://docs.qualys.com/en/vm/latest/tips/pc_policy_editor.htm,Tips & Best Practices
+Authentication,https://docs.qualys.com/en/vm/latest/tips/authentication.htm,Tips & Best Practices
+Option Profile,https://docs.qualys.com/en/vm/latest/tips/vm_option_profile.htm,Tips & Best Practices
+Azure Internal Scans,https://docs.qualys.com/en/vm/latest/tips/azure_internal_scans.htm,Tips & Best Practices
+Training Videos,https://docs.qualys.com/en/vm/latest/training_videos/training_videos.htm,Training
+Setting Up a Virtual Host,https://docs.qualys.com/en/vm/latest/virtual_hosts/win_virtual_host.htm,More Topics
+Create a Scan Account on Dell EMC SONiC,https://docs.qualys.com/en/vm/latest/authentication/create_a_scan_acct_on_dell_emc_sonic.htm,Authentication
+How to use vaults,https://docs.qualys.com/en/vm/latest/authentication/vaults/how_to_use_vaults.htm,Authentication
+Create Minimum Privilege User for ESXi Scan,https://docs.qualys.com/en/vm/latest/authentication/vmware/create_minimum_privilege_user_esxi.htm,Authentication
+Create Minimum Privilege User for ESXi Scan - vCenter,https://docs.qualys.com/en/vm/latest/authentication/vmware/create_minimum_privilege_user_esxi_vcenter.htm,Authentication
+Set Up HPE iLO,https://docs.qualys.com/en/vm/latest/authentication/set_up_hpi_ilo.htm,Authentication
+Set Up SNMP Record,https://docs.qualys.com/en/vm/latest/authentication/win_snmp_record.htm,Authentication
+Vault Support Matrix,https://docs.qualys.com/en/vm/latest/authentication/vault_support_matrix.htm,Authentication
+Perform OPatch Checks,https://docs.qualys.com/en/vm/latest/authentication/perform_opatch_checks.htm,Authentication
+Insufficient Privileges,https://docs.qualys.com/en/vm/latest/authentication/insufficient_privileges.htm,Authentication
+Set Up HTTP Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_http_record.htm,Authentication
+Set Up OLVM Authentication,https://docs.qualys.com/en/vm/latest/authentication/set_up_olvm.htm,Authentication
+Set Up Unix Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_unix_record.htm,Authentication
+Set Up Cisco Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_cisco_ios_record.htm,Authentication
+Set Up MySQL Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_mysql_record.htm,Authentication
+Set Up Neo4j Authentication,https://docs.qualys.com/en/vm/latest/authentication/neo4j_auth_record.htm,Authentication
+Set Up Nginx Authentication,https://docs.qualys.com/en/vm/latest/authentication/nginx_auth_record.htm,Authentication
+Set Up Docker Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_docker_record.htm,Authentication
+Set Up MS IIS Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_ms_iis_record.htm,Authentication
+Set Up Oracle Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_oracle_record.htm,Authentication
+Set Up SAP IQ Authentication,https://docs.qualys.com/en/vm/latest/authentication/sap_iq_auth_record.htm,Authentication
+Set Up Sybase Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_sybase_record.htm,Authentication
+Set Up VMware Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_vmware_record.htm,Authentication
+Why Use Host Authentication?,https://docs.qualys.com/en/vm/latest/authentication/authentication_lp.htm,Authentication
+Infoblox Authentiation Record,https://docs.qualys.com/en/vm/latest/authentication/infoblox_auth_record.htm,Authentication
+Set Up IBM DB2 Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_ibm_db2_record.htm,Authentication
+Set Up MariaDB Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_mariadb_record.htm,Authentication
+Set Up MongoDB authentication,https://docs.qualys.com/en/vm/latest/authentication/win_mongodb.htm,Authentication
+Set Up Windows Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_windows_record.htm,Authentication
+Set Up vCenter Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_vcenter_record.htm,Authentication
+Set Up DNS BIND Authentication,https://docs.qualys.com/en/vm/latest/authentication/set_up_dns_bind_authentication.htm,Authentication
+Set Up DataStax Authentication,https://docs.qualys.com/en/vm/latest/authentication/set_up_datastax_authentication.htm,Authentication
+Set Up SAP Hana Authentication,https://docs.qualys.com/en/vm/latest/authentication/sap_hana_auth_record.htm,Authentication
+Set Up WebLogic Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_weblogic_record.htm,Authentication
+Set Up MarkLogic Authentication,https://docs.qualys.com/en/vm/latest/authentication/marklogic_auth_record.htm,Authentication
+Privilege level for OpenGear 4.x,https://docs.qualys.com/en/vm/latest/authentication/privilege_level_for_opengear_4.htm,Authentication
+Set Up Cisco APIC Authentication,https://docs.qualys.com/en/vm/latest/authentication/set_up_cisco_apic_authentication.htm,Authentication
+Set Up InformixDB Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_informixdb_record.htm,Authentication
+Set Up Kubernetes Authentication,https://docs.qualys.com/en/vm/latest/authentication/kubernetes_auth_record.htm,Authentication
+Set Up PostgreSQL Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_postgresql_record.htm,Authentication
+Set Up VMware NSX Authentication,https://docs.qualys.com/en/vm/latest/authentication/vmware_nsx_authentication.htm,Authentication
+Set Up Network SSH Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_network_ssh_record.htm,Authentication
+Authentication Technologies Matrix,https://docs.qualys.com/en/vm/latest/authentication/authentication_technologies_matrix.htm,Authentication
+Set Up JBoss Server Authentication,https://docs.qualys.com/en/vm/latest/authentication/jboss_auth_record.htm,Authentication
+Set Up MS SQL Server Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_ms_sql_server_record.htm,Authentication
+Set Up MySQL System Record Template,https://docs.qualys.com/en/vm/latest/authentication/set_up_mysql_system_record_template.htm,Authentication
+Set Up Tomcat Server Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_tomcat_record.htm,Authentication
+Out of Band Configuration Assessment,https://docs.qualys.com/en/vm/latest/authentication/out_of_band_configuration_assessment.htm,Authentication
+Set Up Oracle System Record Template,https://docs.qualys.com/en/vm/latest/authentication/win_oracle_system_template.htm,Authentication
+Set Up MongoDB System Record Template,https://docs.qualys.com/en/vm/latest/authentication/win_mongodb_system_template.htm,Authentication
+Set Up Oracle Listener Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_oracle_listener_record.htm,Authentication
+VM Assessment - Cisco CUCM OS Support,https://docs.qualys.com/en/vm/latest/authentication/cisco_cucm.htm,Authentication
+Set Up Apache Cassandra Authentication,https://docs.qualys.com/en/vm/latest/authentication/cassandra_auth_record.htm,Authentication
+Tag Support for Authentication Records,https://docs.qualys.com/en/vm/latest/authentication/tag_support.htm,Authentication
+Set Up Apache Web Server Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_apache_record.htm,Authentication
+Set Up Pivotal Greenplum Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_pivotal_greenplum_record.htm,Authentication
+Set Up MS Exchange Server Authentication,https://docs.qualys.com/en/vm/latest/authentication/win_ms_exchange_record.htm,Authentication
+Set Up Oracle HTTP Server Authentication,https://docs.qualys.com/en/vm/latest/authentication/oracle_http_server_auth_record.htm,Authentication
+Authenticated Scans on Unix-based Systems,https://docs.qualys.com/en/vm/latest/authentication/unix_based_systems.htm,Authentication
+Continuous Monitoring (CM) API,https://docs.qualys.com/en/cm/api/index.htm#t=get_started%2Fget_started.htm,Official Guides
+ARCON PAM Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_arcon_pam_vault.htm,Authentication
+Azure Key Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_azure_vault.htm,Authentication
+Azure MS SQL Server: online help,https://docs.qualys.com/en/vm/latest/authentication/azuremssql_auth_record.htm,Authentication
+BeyondTrust PBPS Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_beyondtrust_vault.htm,Authentication
+CA Access Control Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_ca_vault.htm,Authentication
+CA PAM Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_ca_pam_vault.htm,Authentication
+Checkpoint Firewall Record: online help,https://docs.qualys.com/en/vm/latest/authentication/win_checkpoint_record.htm,Authentication
+CyberArk AIM Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_cyberark_aim_vault.htm,Authentication
+CyberArk PIM Suite Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_cyberark_vault.htm,Authentication
+HashiCorp Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_hashicorp_vault.htm,Authentication
+Hitachi ID PAM Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_hitachi_vault.htm,Authentication
+IBM WebSphere App Server Record: online help,https://docs.qualys.com/en/vm/latest/authentication/win_websphere_record.htm,Authentication
+Lieberman ERPM Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_lieberman_vault.htm,Authentication
+Microsoft SharePoint: online help,https://docs.qualys.com/en/vm/latest/authentication/win_microsoft_sharepoint_record.htm,Authentication
+VM/VMDR Online Help,https://docs.qualys.com/en/vm/latest/#t=welcome.htm,Official Guides
+Palo Alto Networks Firewall Record: online help,https://docs.qualys.com/en/vm/latest/authentication/win_palo_alto_record.htm,Authentication
+Qualys API (VM/PC): HTML,https://docs.qualys.com/en/vm/qweb-all-api/#t=first_topic.htm,API
+Qualys API (VM/PC): HTML,https://docs.qualys.com/en/vm/api/index.htm,API
+Quest Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_quest_server.htm,Authentication
+Thycotic Secret Server Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_thycotic_vault.htm,Authentication
+Wallix AdminBastion Vault: online help,https://docs.qualys.com/en/vm/latest/authentication/vaults/win_wallix_vault.htm,Authentication
+A10: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-a10.pdf,Authentication
+Azure MS SQL Server: setup guide (zip),https://cdn2.qualys.com/docs/qualys-authenticated-scanning-azure-ms-sql-server.zip,Authentication
+CyberArk AIM Vault: integration guide (pdf),https://www.qualys.com/docs/qualys-cyberark-aim-integration.pdf,Authentication
+IBM DB2 for z/OS setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-ibm-db2-zos.zip,Authentication
+IBM DB2 Record: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-db2.zip,Authentication
+IBM VIOS: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-ibm-vios.pdf,Authentication
+InformixDB Record: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-informixdb.zip,Authentication
+MariaDB Record: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-mariadb.zip,Authentication
+Microsoft SharePoint: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-microsoft-sharepoint.pdf,Authentication
+MongoDB Record: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-mongodb.pdf,Authentication
+MS Exchange Server Record: config guide (pdf),https://www.qualys.com/docs/qualys-ms-exchange-server-auth-user-config.pdf,Authentication
+MS SQL Server Record: setup guide (zip),https://cdn2.qualys.com/docs/qualys-authenticated-scanning-ms-sql-server.zip,Authentication
+MySQL Record: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-mysql-pc.zip,Authentication
+Neo4J: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-neo4j.pdf,Authentication
+NetScaler: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-netscaler.pdf,Authentication
+Oracle Record: setup for PC (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-oracle-pc.zip,Authentication
+Oracle Record: setup for VM (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-oracle-vm.zip,Authentication
+Pivotal Greenplum: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-pivotal-greenplum.zip,Authentication
+PostgreSQL Record: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-postgresql-pc.zip,Authentication
+Qualys Host Scanning Connector for Jenkins,https://www.qualys.com/docs/qualys-host-scanning-connector-jenkins-plugin-user-guide.pdf,Official Guides
+Release Notes (qualys.com),https://www.qualys.com/documentation/release-notes#vulnerability-management,Release Notes
+SAP HANA: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-sap-hana.pdf,Authentication
+SAP IQ: setup guide(pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-sap-iq.pdf,Authentication
+Scan ESXi Hosts on vCenter,https://www.qualys.com/docs/qualys-pc-scan-esxi-vcenter.pdf,Authentication
+Sybase Record: setup guide (zip),https://www.qualys.com/docs/qualys-authenticated-scanning-sybase-pc.zip,Authentication
+Training Library,https://www.qualys.com/training/course/vulnerability-management/,Training
+Unix Record: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-unix.pdf,Authentication
+VMware Record: setup guide (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-vmware.pdf,Authentication
+Windows Record: Windows setup (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-windows.pdf,Authentication
+Windows Record: Windows UAC setup (pdf),https://www.qualys.com/docs/qualys-authenticated-scanning-windows-uac.pdf,Authentication
+"Vulnerability Management, Detection and Response Release 2.13 (September 2026)",https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_vmdr_rn/vmdr/release_2_13.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.40 (September 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_40.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.40 API (September 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_40_api.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.3 (September 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_3.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.2 API (August 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_2_api.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.2 (August 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_2.htm,Release Notes
+"Vulnerability Management, Detection and Response 2.12 (July 2026)",https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_vmdr_rn/vmdr/release_2_12.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.1 API (July 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_1_api.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.1 (July 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_1.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39 API (June 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_api.htm,Release Notes
+Training Course: Vulnerability Management Foundation,https://www.qualys.com/training/course/vulnerability-management-foundation,Training
+Training Course: VMDR,https://www.qualys.com/training/course/vmdr,Training
+Training Course: Scanning Strategies,https://www.qualys.com/training/course/scanning-strategies,Training
+Training Course: Reporting Strategies,https://www.qualys.com/training/course/reporting-strategies,Training
+Video Library: VMDR,https://success.qualys.com/customersupport/s/video-library?product=vmdr,Training
+Video Library: Vmdr Onboarding,https://success.qualys.com/customersupport/s/video-library?product=vmdr-onboarding,Training
+Video Library: Scanning Strategies,https://success.qualys.com/customersupport/s/video-library?product=scanning-strategies,Training
+Video Library: Reporting Strategies,https://success.qualys.com/customersupport/s/video-library?product=reporting-strategies,Training
+Vulnerability Scanning & VMDR for Effective Risk Management,https://www.qualys.com/apps/vulnerability-management-detection-response,Product Overview
+VMDR with Patch Management,https://www.qualys.com/apps/vmdr-patch,Product Overview
+Qualys Threat Protection & Cybersecurity Services,https://www.qualys.com/apps/threat-protection,Product Overview
+Qualys Continuous Security Monitoring Tools & Alerts,https://www.qualys.com/apps/continuous-monitoring,Product Overview
+Vulnerability Management Detection & Response FAQs & Resources,https://www.qualys.com/fundamentals/what-is-vulnerability-management-detection-response,Product Overview
+Resources Vulnerability Management,https://www.qualys.com/fundamentals/resources-vulnerability-management,Product Overview
+CVSS: Common Vulnerability Scoring System,https://www.qualys.com/fundamentals/cvss-common-vulnerability-scoring-system,Product Overview
+Get the Most Out of VMDR,https://www.qualys.com/vmdr-scorecard,Product Overview
+Vulnerability and Web Application Scanning Accuracy | Qualyss,https://www.qualys.com/scanning-accuracy,Product Overview
+IT & Cloud Infrastructure Security Solutions,https://www.qualys.com/solutions/infrastructure,Product Overview
+Qualys VMDR and Policy Compliance for IBM zSystems & LinuxONE,https://www.qualys.com/ibm-zsystems-linuxone,Product Overview
+Keep Calm and Prioritize: Top 5 Requirements for Prioritizing Vulnerability Remediation,https://www.qualys.com/whitepapers/top-5-requirements-prioritizing-vulnerability-remediation,Whitepapers & Reports
+See How VMDR® 2.0 Compares to Tenable® Nessus Professional,https://www.qualys.com/whitepapers/qualys-vmdr2-tenable-nessus-comparison,Whitepapers & Reports
+Essential Guide to Vulnerability Management: A Risk-Based Approach,https://www.qualys.com/whitepapers/qualys-vmdr-2-checklist-essential-vm-must-haves-condensed,Whitepapers & Reports
+Customers ranked Qualys #1 in Vulnerability Management,https://www.qualys.com/whitepapers/g2-grid-report-2022-qualys-leader-vulnerability-management,Whitepapers & Reports
+Best Practices for Selecting a Vulnerability Management (VM) Solution,https://www.qualys.com/whitepapers/best-practices-selecting-vulnerability-management-solution,Whitepapers & Reports
+Aflac reduced critical vulnerabilities by 55%,https://www.qualys.com/whitepapers/aflac-success-snapshot,Whitepapers & Reports
+CVE-2026-68820 is in KEV. Here Is What CISA BOD 26-04 Actually Requires Now,https://blog.qualys.com/product-tech/2026/08/18/cve-2026-68820-kev-bod-26-04-requirements,Blog
+Qualys Expands Serverless Security with Vulnerability Scanning for AWS Lambda,https://blog.qualys.com/product-tech/2026/07/27/aws-lambda-vulnerability-scanning-serverless-security,Blog
+Qualys VMDR and TotalCloud™ Now Available on Oracle Cloud Marketplace,https://blog.qualys.com/product-tech/2026/04/15/qualys-vmdr-totalcloud-now-available-oracle-cloud-marketplace,Blog
+Scaling Modern AppSec: Moving from Static Profiles to AI-Powered Scan Optimization,https://blog.qualys.com/product-tech/2026/04/09/scaling-modern-appsec-moving-from-static-profiles-to-ai-powered-scan-optimization,Blog
+"Bringing Continuous Assessment to Harbor: Scan on Push, Stay Secure Over Time",https://blog.qualys.com/product-tech/2026/03/22/integrate-qscanner-with-harbor-to-unify-devsecops-container-scanning,Blog
+Your VMDR Year in Review: Making Security Progress Visible and Actionable,https://blog.qualys.com/product-tech/2026/01/15/your-vmdr-year-in-review-making-security-progress-visible-and-actionable,Blog
+ShadyPanda: The Silent Browser Takeover Threat and How Qualys TruRisk Eliminate Helps You Stop It,https://blog.qualys.com/product-tech/patch-management/2025/12/17/shadypanda-malicious-browser-extensions-prevention,Blog
+Introducing TruLens for Enterprise TruRisk™ Management: Unified Threat Intelligence,https://blog.qualys.com/product-tech/2025/10/15/introducing-trulens-for-enterprise-trurisk-management-unified-threat-intelligence,Blog
+Introducing TruConfirm for Enterprise TruRisk™ Management: Automated Exposure Validation,https://blog.qualys.com/product-tech/2025/10/15/introducing-truconfirm-for-enterprise-trurisk-management-automated-exposure-validation,Blog
+Ensuring Safe and Reliable Updates with Qualys TruRisk™ Manifest Version Control,https://blog.qualys.com/product-tech/2025/10/09/ensuring-safe-and-reliable-updates-with-qualys-trurisk-manifest-version-control,Blog
+Patch Automation for Browsers with TruRisk™ Eliminate,https://blog.qualys.com/product-tech/2025/09/24/automated-browser-patching-trurisk-eliminate,Blog
+Steps to TruRisk™ – 5: Eliminate Risk and Lead with Confidence,https://blog.qualys.com/product-tech/2025/09/23/trurisk-eliminate-cyber-risk-step-5,Blog
+CVE-2025-8088 WinRAR Exploit: From Zero-Day to Zero-Risk with TruRisk™ Eliminate,https://blog.qualys.com/product-tech/2025/09/05/cve-2025-8088-winrar-exploit-from-zero-day-to-zero-risk-with-trurisk-eliminate,Blog
+Remediate WMI Class Corruption Errors with Qualys TruRisk™ Eliminate,https://blog.qualys.com/product-tech/2025/08/13/remediate-wmi-class-corruption-errors-with-qualys-trurisk-eliminate,Blog

@@ -1,0 +1,127 @@
+title,link,category
+Get Started with Connectors,https://docs.qualys.com/en/conn/latest/get_started/get_started.htm,Getting Started
+Prerequisites for FlexScan,https://docs.qualys.com/en/conn/latest/scans/prerequisites_for_flexscan.htm,Scanning
+Configure Qualys Agent Scan,https://docs.qualys.com/en/conn/latest/scans/configure_qualys_agent_scan.htm,Scanning
+Configure Cloud Perimeter Scan,https://docs.qualys.com/en/conn/latest/scans/configure_cloud_perimeter_scan.htm,Scanning
+Configure Zero-touch API-based Assessment,https://docs.qualys.com/en/conn/latest/scans/configure_api_based_assessment.htm,Scanning
+Configure Zero-touch Snapshot-based Scan for Azure,https://docs.qualys.com/en/conn/latest/scans/configure_zero-touch_snapshot-based_scan_for_azure.htm,Scanning
+GCP Scan OS Compatibility,https://docs.qualys.com/en/conn/latest/scans/snapshot_scan_gcp_os_matrix.htm,Scanning
+API-based Scan OS Compatibility,https://docs.qualys.com/en/conn/latest/scans/api-based_assessment_os_compatibility.htm,Scanning
+Amazon Machine Image (AMI) Scan,https://docs.qualys.com/en/conn/latest/scans/ami_scan.htm,Scanning
+Snapshot-based Scan OS Compatibility,https://docs.qualys.com/en/conn/latest/scans/snapshot_based_assessment_os_compatibility.htm,Scanning
+Scan Frequency for Agentless Scanning,https://docs.qualys.com/en/conn/latest/scans/scan_frequency_for_agentless_scanning.htm,Scanning
+Qualys Agent Scan Compatibility Matrix,https://docs.qualys.com/en/conn/latest/scans/qualys_agent_scan_compatibility_matrix.htm,Scanning
+Software Composition Analysis (SCA) Sca,https://docs.qualys.com/en/conn/latest/scans/sca_scan.htm,Scanning
+Secret Detection in Snapshot-Based Scans,https://docs.qualys.com/en/conn/latest/scans/secret_detection.htm,Scanning
+Configure Zero-touch Snapshot-based Assessment,https://docs.qualys.com/en/conn/latest/scans/snapshot-based_scan.htm,Scanning
+Cloud Perimeter Scan - Global Scan Configuration,https://docs.qualys.com/en/conn/latest/scans/global_scan_configuration.htm,Scanning
+Configure Appliances,https://docs.qualys.com/en/conn/latest/appliance/configure_appliances.htm,More Topics
+Create AWS Organization Connectors,https://docs.qualys.com/en/conn/latest/aws/create_aws_org_connectors.htm,Aws
+Configure Zero-touch API Based Scan,https://docs.qualys.com/en/conn/latest/aws/configure_api_based_assessment.htm,Aws
+Create a role for cross-account access,https://docs.qualys.com/en/conn/latest/aws/create_role.htm,Aws
+Base Account,https://docs.qualys.com/en/conn/latest/aws/base_account.htm,Aws
+AWS Connectors,https://docs.qualys.com/en/conn/latest/aws/connector_aws.htm,Aws
+Disable Connectors,https://docs.qualys.com/en/conn/latest/aws/disable_connectors.htm,Aws
+Run Perimeter Scan,https://docs.qualys.com/en/conn/latest/aws/run_perimeter_scan.htm,Aws
+Create Custom Policy,https://docs.qualys.com/en/conn/latest/aws/custom_policy_permissions.htm,Aws
+Delete AWS Connector,https://docs.qualys.com/en/conn/latest/aws/delete_aws_connector.htm,Aws
+Create AWS Connectors,https://docs.qualys.com/en/conn/latest/aws/aws_connector.htm,Aws
+Edit Connector Details,https://docs.qualys.com/en/conn/latest/aws/edit_aws_connector_details.htm,Aws
+Synchronize Instance Data,https://docs.qualys.com/en/conn/latest/aws/synchronize.htm,Aws
+View Assets and Resources,https://docs.qualys.com/en/conn/latest/aws/view_assets_and_resources.htm,Aws
+View Perimeter Scan Details,https://docs.qualys.com/en/conn/latest/aws/view_perimeter_scan_details.htm,Aws
+Attach AWS Member Connectors,https://docs.qualys.com/en/conn/latest/aws/attach_aws_member_connectors.htm,Aws
+Create Azure Tenant Connector,https://docs.qualys.com/en/conn/latest/azure/create_azure_organization_connector.htm,Azure
+Run Perimeter Scan,https://docs.qualys.com/en/conn/latest/azure/run_perimeter_scan.htm,Azure
+Delete Azure Connector,https://docs.qualys.com/en/conn/latest/azure/delete_azure_connector.htm,Azure
+Edit Connector Details,https://docs.qualys.com/en/conn/latest/azure/edit_azure_connector_details.htm,Azure
+Synchronize Instance Data,https://docs.qualys.com/en/conn/latest/azure/synchronize_azure_instance_data.htm,Azure
+View Assets and Resources,https://docs.qualys.com/en/conn/latest/azure/view_assets_and_resources.htm,Azure
+Microsoft Azure Connectors,https://docs.qualys.com/en/conn/latest/azure/connector_azure.htm,Azure
+View Perimeter Scan Details,https://docs.qualys.com/en/conn/latest/azure/view_perimeter_scan_details.htm,Azure
+Set up Authentication Details,https://docs.qualys.com/en/conn/latest/azure/azure_auth_details.htm,Azure
+Create Microsoft Azure Connectors,https://docs.qualys.com/en/conn/latest/azure/azure_connectors.htm,Azure
+Disable Microsoft Azure Connector,https://docs.qualys.com/en/conn/latest/azure/disable_azure_connector.htm,Azure
+Pre-requisites for Azure Connector,https://docs.qualys.com/en/conn/latest/azure/azure_pre-req.htm,Azure
+Attach Azure Subscription Connectors,https://docs.qualys.com/en/conn/latest/azure/attach_azure_subscription_connectors.htm,Azure
+Detach Azure Subscription Connectors,https://docs.qualys.com/en/conn/latest/azure/detach_azure_subscription_connectors.htm,Azure
+Azure Console Configurations for Organization Connector,https://docs.qualys.com/en/conn/latest/azure/azure_console_configurations_for_organization_connector.htm,Azure
+Creating GCP Connectors,https://docs.qualys.com/en/conn/latest/gcp/configure_gcp_connectors.htm,Gcp
+GCP Connectors,https://docs.qualys.com/en/conn/latest/gcp/connector_gcp.htm,Gcp
+View Resources,https://docs.qualys.com/en/conn/latest/gcp/view_assets_and_resources.htm,Gcp
+Disable Connectors,https://docs.qualys.com/en/conn/latest/gcp/disable_connectors.htm,Gcp
+Delete GCP Connector,https://docs.qualys.com/en/conn/latest/gcp/delete_gcp_connector.htm,Gcp
+Edit Connector Details,https://docs.qualys.com/en/conn/latest/gcp/edit_aws_connector_details.htm,Gcp
+Synchronize Instance Data,https://docs.qualys.com/en/conn/latest/gcp/synchronize_instance_data.htm,Gcp
+Attach GCP Member Connectors,https://docs.qualys.com/en/conn/latest/gcp/attach_gcp_member_connectors.htm,Gcp
+Detach GCP Member Connectors,https://docs.qualys.com/en/conn/latest/gcp/detach_gcp_member_connectors.htm,Gcp
+Creating GCP Organization Connectors,https://docs.qualys.com/en/conn/latest/gcp/creating_gcp_organization_connectors.htm,Gcp
+Steps to Download Configuration File,https://docs.qualys.com/en/conn/latest/gcp/gcp_config_download.htm,Gcp
+AWS S3,https://docs.qualys.com/en/conn/latest/integrations/aws_s3.htm,Integrations
+Webhook,https://docs.qualys.com/en/conn/latest/integrations/webhook.htm,Integrations
+Connectors,https://docs.qualys.com/en/conn/latest/integrations/connectors.htm,Integrations
+AD Connector,https://docs.qualys.com/en/conn/latest/integrations/ad_collector.htm,Integrations
+MuleSoft API,https://docs.qualys.com/en/conn/latest/integrations/mulesoft_api_connector.htm,Integrations
+CSV Automation,https://docs.qualys.com/en/conn/latest/integrations/csv_automation.htm,Integrations
+CSV Connectors,https://docs.qualys.com/en/conn/latest/integrations/csv_connector.htm,Integrations
+Okta Connector,https://docs.qualys.com/en/conn/latest/integrations/okta.htm,Integrations
+Orca Connector,https://docs.qualys.com/en/conn/latest/integrations/orca_connector.htm,Integrations
+Ordr Connector,https://docs.qualys.com/en/conn/latest/integrations/ordr_connector.htm,Integrations
+Webhook for ETM,https://docs.qualys.com/en/conn/latest/integrations/etm_webhook.htm,Integrations
+Tanium Connector,https://docs.qualys.com/en/conn/latest/integrations/tanium.htm,Integrations
+Claroty Connector,https://docs.qualys.com/en/conn/latest/integrations/claroty.htm,Integrations
+BitSight Connector,https://docs.qualys.com/en/conn/latest/integrations/bitsight.htm,Integrations
+BugCrowd Connector,https://docs.qualys.com/en/conn/latest/integrations/bugcrowd_connector.htm,Integrations
+OCI Connectors,https://docs.qualys.com/en/conn/latest/oci/oci_connector.htm,Oci
+Edit OCI Connectors,https://docs.qualys.com/en/conn/latest/oci/edit_oci_connectors.htm,Oci
+Delete OCI Connectors,https://docs.qualys.com/en/conn/latest/oci/delete_oci_connectors.htm,Oci
+Disable OCI Connectors,https://docs.qualys.com/en/conn/latest/oci/disable_oci_connectors.htm,Oci
+Creating OCI Connectors,https://docs.qualys.com/en/conn/latest/oci/oci_connectors.htm,Oci
+View Assets and Resources,https://docs.qualys.com/en/conn/latest/oci/view_assets_and_resources.htm,Oci
+Synchronize OCI Instance Data,https://docs.qualys.com/en/conn/latest/oci/synchronize_oci_instance_data.htm,Oci
+Search Tokens,https://docs.qualys.com/en/conn/latest/search_tips/search_tokens.htm,Search & QQL
+Search for Scan Jobs,https://docs.qualys.com/en/conn/latest/search_tips/search_scan_jobs.htm,Search & QQL
+Search for AWS members,https://docs.qualys.com/en/conn/latest/search_tips/search_for_aws_member_list.htm,Search & QQL
+Search for GCP folders,https://docs.qualys.com/en/conn/latest/search_tips/search_for_gcp_member_list.htm,Search & QQL
+search_for_integrations,https://docs.qualys.com/en/conn/latest/search_tips/search_for_integrations.htm,Search & QQL
+Search for AWS Connectors,https://docs.qualys.com/en/conn/latest/search_tips/search_aws.htm,Search & QQL
+Search for GCP Connectors,https://docs.qualys.com/en/conn/latest/search_tips/search_gcp.htm,Search & QQL
+Search for OCI Connectors,https://docs.qualys.com/en/conn/latest/search_tips/search_oci.htm,Search & QQL
+Search for Azure Member List,https://docs.qualys.com/en/conn/latest/search_tips/search_for_azure_member_list.htm,Search & QQL
+Search for Azure Tenant Connector,https://docs.qualys.com/en/conn/latest/search_tips/search_for_azure_organization_connector.htm,Search & QQL
+Search for AWS Organization Connector,https://docs.qualys.com/en/conn/latest/search_tips/search_for_aws_organization_connector.htm,Search & QQL
+Search for GCP Organization Connector,https://docs.qualys.com/en/conn/latest/search_tips/search_for_gcp_organization_connector.htm,Search & QQL
+Search for Microsoft Azure Connectors,https://docs.qualys.com/en/conn/latest/search_tips/search_azure.htm,Search & QQL
+Custom Tags for Org Connectors,https://docs.qualys.com/en/conn/latest/tags/org_connectors_custom_tags.htm,More Topics
+JSON Support,https://docs.qualys.com/en/conn/api/get_started/json_support.htm,API
+Connector API,https://docs.qualys.com/en/conn/api/get_started/connector_api_get_started.htm,API
+Making API calls,https://docs.qualys.com/en/conn/api/get_started/api_usage.htm,API
+Available operators,https://docs.qualys.com/en/conn/api/get_started/available_ops.htm,API
+Qualys user account,https://docs.qualys.com/en/conn/api/get_started/user_account.htm,API
+Create AWS Connector 3.0,https://docs.qualys.com/en/conn/api/aws_3/create_aws_connector_3.0.html,API
+Create GCP Connector 3.0,https://docs.qualys.com/en/conn/api/gcp_3/create_gcp_connector_3.0.htm,API
+URL to Qualys API server,https://docs.qualys.com/en/conn/api/get_started/url_api_server.htm,API
+Create Azure Connector 3.0,https://docs.qualys.com/en/conn/api/azure_3/create_azure_connector_3.0.htm,API
+Tracking API usage by user,https://docs.qualys.com/en/conn/api/get_started/tracking_api_usage.htm,API
+Create Global Scan Configuration,https://docs.qualys.com/en/conn/api/global_scan_config/create_global_scan_config.htm,API
+Create Azure Organization Connector,https://docs.qualys.com/en/conn/api/azure_3/create_azure_organization_connector.htm,API
+assign_tags,https://docs.qualys.com/en/conn/api/tags/assign_tags.htm,API
+List Connector,https://docs.qualys.com/en/conn/api/asset_data_connector/list_connector.htm,API
+Run Snapshot Scan,https://docs.qualys.com/en/conn/api/snapshot_based_scan/run_snapshot_scan.htm,API
+Connector Release 2.20 (August 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_20.htm,Release Notes
+Connector Release 2.20 API (August 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_20_api.htm,Release Notes
+Connector Release 2.19 (July 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_19.htm,Release Notes
+Connector Release 2.18 API (June 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_18_api.htm,Release Notes
+Connector Release 2.18 (June 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_18.htm,Release Notes
+Connector Release 2.17 (May 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_17.htm,Release Notes
+Connector 2.16 (March 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_16.htm,Release Notes
+Connector 2.15 (March 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_15.htm,Release Notes
+Connector 2.15 API (March 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_15_api.htm,Release Notes
+Connector 2.14 (January 2026),https://docs.qualys.com/en/conn/release-notes/connector/release_2_14.htm,Release Notes
+"Qualys Connectors: 100+ Integrations for ETM, TotalCloud, VMDR & More",https://www.qualys.com/connectors,Product Overview
+Amazon Inspector,https://www.qualys.com/connectors/amazon-inspector,Integrations
+Generic CSV,https://www.qualys.com/connectors/csv,Integrations
+MS Defender for Endpoint,https://www.qualys.com/connectors/microsoft-defender-for-endpoint,Integrations
+ServiceNow Service Graph,https://www.qualys.com/connectors/servicenow-service-graph,Integrations
+Wiz,https://www.qualys.com/connectors/wiz,Integrations
+CSAM Strengthens Attack Surface Coverage and Risk Assessment With Third-Party Connectors,https://blog.qualys.com/product-tech/2024/02/05/csam-strengthens-attack-surface-coverage-and-risk-assessment-with-third-party-connectors,Blog

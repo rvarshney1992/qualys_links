@@ -1,0 +1,21 @@
+title,link,category
+Fetch List of Supported Technologies,https://docs.qualys.com/en/oca/api/v2/version_2_apis/fetch_list_of_supported_tech.htm,API
+Qualys Out-of-band Configuration Assessment API v2 Guide,https://docs.qualys.com/en/oca/api/v2/oca_api/get_started.htm,API
+Qualys API URL,https://docs.qualys.com/en/oca/api/v2/oca_api/qualys_api_url.htm,API
+Version 2 APIs,https://docs.qualys.com/en/oca/api/v2/version_2_apis/version_2_apis.htm,API
+API Conventions,https://docs.qualys.com/en/oca/api/v2/oca_api/api_conventions.htm,API
+API Rate Limits,https://docs.qualys.com/en/oca/api/v2/oca_api/api_rate_limits.htm,API
+Provision an Asset,https://docs.qualys.com/en/oca/api/v2/version_2_apis/provision_an_asset.htm,API
+Re-Provision Asset,https://docs.qualys.com/en/oca/api/v2/version_2_apis/reprovision_asset.htm,API
+Bulk Command Upload,https://docs.qualys.com/en/oca/api/v2/version_2_apis/bulk_command_upload.htm,API
+Qualys API Framework,https://docs.qualys.com/en/oca/api/v2/oca_api/qualys_api_framework.htm,API
+Delete Assets in Bulk,https://docs.qualys.com/en/oca/api/v2/version_2_apis/delete_assets_in_bulk.htm,API
+Provision Assets in Bulk,https://docs.qualys.com/en/oca/api/v2/version_2_apis/provision_assets_in_bulk.htm,API
+Delete an Asset using UUID,https://docs.qualys.com/en/oca/api/v2/version_2_apis/delete_an_asset_using_uuid.htm,API
+Fetch Authentication Token,https://docs.qualys.com/en/oca/api/v2/version_2_apis/fetch_authentication_token.htm,API
+Re-Provision Assets in Bulk,https://docs.qualys.com/en/oca/api/v2/version_2_apis/reprovision_assets_in_bulk.htm,API
+Out-of-band Configuration Assessment (OCA) API v2,https://docs.qualys.com/en/oca/api/v2/#t=oca_api%2Fget_started.htm,Official Guides
+Out-of-band Configuration Assessment (OCA) API v1,https://www.qualys.com/docs/qualys-oca-user-guide.pdf,API
+Out-of-Band Configuration Assessment 1.13 (September 2025),https://docs.qualys.com/en/oca/release-notes/oca/release_1_13.htm,Release Notes
+Out-of-Band Configuration Assessment 1.11 (April 2025),https://docs.qualys.com/en/oca/release-notes/oca/release_1_11.htm,Release Notes
+Out-of-Band Configuration Assessment Software,https://www.qualys.com/apps/out-of-band-configuration-assessment,Product Overview

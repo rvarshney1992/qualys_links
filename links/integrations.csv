@@ -1,0 +1,148 @@
+title,link,category
+Troubleshooting,https://docs.qualys.com/en/integration/splunk-ta/app_management/troubleshooting.htm,Splunk
+Certview Settings,https://docs.qualys.com/en/integration/splunk-ta/configure_app/certview_settings.htm,Splunk
+FIM Data Settings,https://docs.qualys.com/en/integration/splunk-ta/configure_app/fim_data.htm,Splunk
+Kill Existing PID,https://docs.qualys.com/en/integration/splunk-ta/configure_app/kill_pid.htm,Splunk
+VM Detection Data,https://docs.qualys.com/en/integration/splunk-ta/configure_app/vm_detection.htm,Splunk
+Proxy Configuration,https://docs.qualys.com/en/integration/splunk-ta/configure_app/proxy.htm,Splunk
+Activity Log Settings,https://docs.qualys.com/en/integration/splunk-ta/configure_app/activity_log.htm,Splunk
+Preserving API Output,https://docs.qualys.com/en/integration/splunk-ta/configure_app/preserving_api.htm,Splunk
+WAS Findings Settings,https://docs.qualys.com/en/integration/splunk-ta/configure_app/was_finding.htm,Splunk
+Application Management,https://docs.qualys.com/en/integration/splunk-ta/app_management/app_management.htm,Splunk
+KnowledgeBase Settings,https://docs.qualys.com/en/integration/splunk-ta/configure_app/kb_settings.htm,Splunk
+Policy Compliance Data,https://docs.qualys.com/en/integration/splunk-ta/configure_app/pc_data.htm,Splunk
+KnowledgeBase Settings FAQs,https://docs.qualys.com/en/integration/splunk-ta/configure_app/knowledgebasefaqs.htm,Splunk
+Step 3: Configure Data Sync,https://docs.qualys.com/en/integration/splunk-ta/configure_app/configure_data_sync.htm,Splunk
+Step 4: Enable the Data Feed,https://docs.qualys.com/en/integration/splunk-ta/get_started/enable_data_feed.htm,Splunk
+Configure App,https://docs.qualys.com/en/integration/vm-qradar/v4/configuration/configure_app.htm,IBM QRadar
+Troubleshooting,https://docs.qualys.com/en/integration/vm-qradar/v4/troubleshooting/troubleshooting.htm,IBM QRadar
+Get Started with VM QRadar,https://docs.qualys.com/en/integration/vm-qradar/v4/get_started/get_started.htm,IBM QRadar
+Create and Configure Log Source,https://docs.qualys.com/en/integration/vm-qradar/v4/multi_tenant_enviroment/create_configure_log_source.htm,IBM QRadar
+Reports,https://docs.qualys.com/en/integration/vm-qradar/v4/operation_at_qualys/reports.htm,IBM QRadar
+Summary,https://docs.qualys.com/en/integration/vm-qradar/v4/operation_at_qualys/summary.htm,IBM QRadar
+Raw Data,https://docs.qualys.com/en/integration/vm-qradar/v4/operation_at_qualys/raw_data.htm,IBM QRadar
+Input Logs,https://docs.qualys.com/en/integration/vm-qradar/v4/operation_at_qualys/input_logs.htm,IBM QRadar
+Log Source,https://docs.qualys.com/en/integration/vm-qradar/v4/validating_dependencies/log_source.htm,IBM QRadar
+Install App,https://docs.qualys.com/en/integration/vm-qradar/v4/installation/install_app.htm,IBM QRadar
+Knowledgebase,https://docs.qualys.com/en/integration/vm-qradar/v4/operation_at_qualys/knowledgebase.htm,IBM QRadar
+Uninstalling App,https://docs.qualys.com/en/integration/vm-qradar/v4/uninstallation/uninstalling_app.htm,IBM QRadar
+Operations at Qualys,https://docs.qualys.com/en/integration/vm-qradar/v4/operation_at_qualys/operations_at_qualys.htm,IBM QRadar
+Advanced Configuration,https://docs.qualys.com/en/integration/vm-qradar/v4/configuration/advanced_configuration.htm,IBM QRadar
+Custom Event Properties,https://docs.qualys.com/en/integration/vm-qradar/v4/validating_dependencies/custom_event_properties.htm,IBM QRadar
+Configure App,https://docs.qualys.com/en/integration/fim-qradar/v3/configuration/configure_app.htm,IBM QRadar
+Troubleshooting,https://docs.qualys.com/en/integration/fim-qradar/v3/troubleshooting/troubleshooting.htm,IBM QRadar
+Get Started with FIM QRadar,https://docs.qualys.com/en/integration/fim-qradar/v3/get_started/get_started.htm,IBM QRadar
+Reports,https://docs.qualys.com/en/integration/fim-qradar/v3/report/reports.htm,IBM QRadar
+Appendix,https://docs.qualys.com/en/integration/fim-qradar/v3/error_codes/appendix.htm,IBM QRadar
+Raw Data,https://docs.qualys.com/en/integration/fim-qradar/v3/operation_at_qualys/raw_data.htm,IBM QRadar
+Dashboard,https://docs.qualys.com/en/integration/fim-qradar/v3/dashboard/dashboard.htm,IBM QRadar
+DSM Editor,https://docs.qualys.com/en/integration/fim-qradar/v3/validating_dependencies/dsm_editor.htm,IBM QRadar
+Input Logs,https://docs.qualys.com/en/integration/fim-qradar/v3/operation_at_qualys/input_logs.htm,IBM QRadar
+Log Source,https://docs.qualys.com/en/integration/fim-qradar/v3/validating_dependencies/log_source.htm,IBM QRadar
+Install the App,https://docs.qualys.com/en/integration/fim-qradar/v3/installation/install_app.htm,IBM QRadar
+Operations at Qualys,https://docs.qualys.com/en/integration/fim-qradar/v3/operation_at_qualys/operations_at_qualys.htm,IBM QRadar
+Uninstalling the app,https://docs.qualys.com/en/integration/fim-qradar/v3/uninstallation/uninstalling_the_app.htm,IBM QRadar
+Advanced Configuration,https://docs.qualys.com/en/integration/fim-qradar/v3/configuration/advanced_configuration.htm,IBM QRadar
+Custom Event Properties,https://docs.qualys.com/en/integration/fim-qradar/v3/validating_dependencies/custom_event_properties.htm,IBM QRadar
+Overview,https://docs.qualys.com/en/integration/azure-sentinel/get_started/overview.htm,Microsoft Sentinel
+get_started,https://docs.qualys.com/en/integration/azure-sentinel/get_started/get_started.htm,Microsoft Sentinel
+Create Product,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/create_product.htm,Microsoft Sentinel
+Create Workspace,https://docs.qualys.com/en/integration/azure-sentinel/get_started/create_workspacehtm.htm,Microsoft Sentinel
+Troubleshooting Tips,https://docs.qualys.com/en/integration/azure-sentinel/troubleshooting/troubleshooting.htm,Microsoft Sentinel
+Create Workspace for V2 Integrations,https://docs.qualys.com/en/integration/azure-sentinel/get_started/workspace_v2.htm,Microsoft Sentinel
+Configure Insights on Azure Sentinel Console,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/configure_azure_insights.htm,Microsoft Sentinel
+Configure integration with using Available APIs,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/configure_qualys_apis.htm,Microsoft Sentinel
+Get Product,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/get_product.htm,Microsoft Sentinel
+Delete Product,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/delete_product.htm,Microsoft Sentinel
+Customer Integration,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/register_customer.htm,Microsoft Sentinel
+Validate Integration,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/validate_integration.htm,Microsoft Sentinel
+Get Integration Details,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/get_integration_details.htm,Microsoft Sentinel
+Customer De-registration,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/deregister_customer.htm,Microsoft Sentinel
+URL to Qualys API Server,https://docs.qualys.com/en/integration/azure-sentinel/integration_apis/qualys_api_server_url.htm,Microsoft Sentinel
+Dashboard,https://docs.qualys.com/en/integration/qcvr/get_started/dashboard.htm,ServiceNow
+Get Started,https://docs.qualys.com/en/integration/qcvr/get_started/get_started.htm,ServiceNow
+credentials,https://docs.qualys.com/en/integration/qcvr/get_started/credentials.htm,ServiceNow
+Prerequisites,https://docs.qualys.com/en/integration/qcvr/get_started/prerequisites.htm,ServiceNow
+Release Notes,https://docs.qualys.com/en/integration/qcvr/get_started/release_notes.htm,ServiceNow
+Install the Application,https://docs.qualys.com/en/integration/qcvr/get_started/install_app.htm,ServiceNow
+Configure the Application,https://docs.qualys.com/en/integration/qcvr/get_started/configuration.htm,ServiceNow
+Limitations,https://docs.qualys.com/en/integration/qcvr/known_issues/limitations.htm,ServiceNow
+Docker Images,https://docs.qualys.com/en/integration/qcvr/field_mapping/docker_images.htm,ServiceNow
+Container Repository,https://docs.qualys.com/en/integration/qcvr/field_mapping/container_repository.htm,ServiceNow
+Field Mappings Table,https://docs.qualys.com/en/integration/qcvr/field_mapping/filed_mapping_table.htm,ServiceNow
+Container Image Layers,https://docs.qualys.com/en/integration/qcvr/field_mapping/container_image_layers.htm,ServiceNow
+Container Image Findings,https://docs.qualys.com/en/integration/qcvr/field_mapping/container_image_findings.htm,ServiceNow
+Container Vulnerable Item,https://docs.qualys.com/en/integration/qcvr/field_mapping/container_vuln_item.htm,ServiceNow
+Discovered Container Image,https://docs.qualys.com/en/integration/qcvr/field_mapping/discovered_container_image.htm,ServiceNow
+Get Started,https://docs.qualys.com/en/integration/securing-amazon/get_started/get_started.htm,Securing AWS
+Troubleshooting,https://docs.qualys.com/en/integration/securing-amazon/troubleshooting/troubleshooting.htm,Securing AWS
+Create a Base Account,https://docs.qualys.com/en/integration/securing-amazon/asset_inventory/create__base_acc.htm,Securing AWS
+Manage Asset Using Qualys,https://docs.qualys.com/en/integration/securing-amazon/manage_assets/manage_asset.htm,Securing AWS
+Frequently Asked Questions,https://docs.qualys.com/en/integration/securing-amazon/faqs/frequently_asked_questions.htm,Securing AWS
+Use Cases to Scan AWS Environment,https://docs.qualys.com/en/integration/securing-amazon/manage_assets/use_cases_aws_env.htm,Securing AWS
+Scan Asset,https://docs.qualys.com/en/integration/securing-amazon/scan_asset/scan_asset.htm,Securing AWS
+Limitations,https://docs.qualys.com/en/integration/securing-amazon/deploy_sensor/limitations.htm,Securing AWS
+AWS Metadata,https://docs.qualys.com/en/integration/securing-amazon/asset_inventory/aws_metadata.htm,Securing AWS
+Deploy Sensor,https://docs.qualys.com/en/integration/securing-amazon/deploy_sensor/deploy_sensor.htm,Securing AWS
+Connector Work,https://docs.qualys.com/en/integration/securing-amazon/asset_inventory/connector_work.htm,Securing AWS
+DevOp Security,https://docs.qualys.com/en/integration/securing-amazon/devops_security/devop_security.htm,Securing AWS
+Generate Reports,https://docs.qualys.com/en/integration/securing-amazon/analyz_report_remediate/generate_reports.htm,Securing AWS
+Query EC2 Assets,https://docs.qualys.com/en/integration/securing-amazon/analyz_report_remediate/query_ec2_assets.htm,Securing AWS
+Set up Connectors,https://docs.qualys.com/en/integration/securing-amazon/asset_inventory/set_up_connectors.htm,Securing AWS
+Get Started,https://docs.qualys.com/en/integration/securing-azure/get_started/get_started.htm,Securing Azure
+Troubleshooting,https://docs.qualys.com/en/integration/securing-azure/troubleshooting/troubleshooting.htm,Securing Azure
+Manage Asset Using Qualys,https://docs.qualys.com/en/integration/securing-azure/manage_asset/manage_asset.htm,Securing Azure
+Frequently Asked Questions,https://docs.qualys.com/en/integration/securing-azure/common_questions/faqs.htm,Securing Azure
+Troubleshoot Issues with the Scanner,https://docs.qualys.com/en/integration/securing-azure/scan_in_azure/troubleshoot_scanner.htm,Securing Azure
+Using Azure GUI to Create Qualys Image and Deploy Scanner,https://docs.qualys.com/en/integration/securing-azure/deploy_sensor_pcp/azure_gui_create_image_deploy_scanner.htm,Securing Azure
+Deploy Qualys Cloud Agent via Azure Resource Manager Template,https://docs.qualys.com/en/integration/securing-azure/deploying_sensor/deploy_ca_resource_manager.htm,Securing Azure
+Scan Asset,https://docs.qualys.com/en/integration/securing-azure/scan_asset_org/scan_asset.htm,Securing Azure
+Limitations,https://docs.qualys.com/en/integration/securing-azure/deploy_sensor_pcp/limitations.htm,Securing Azure
+Limitations,https://docs.qualys.com/en/integration/securing-azure/limitations/limitations.htm,Securing Azure
+Prerequisites,https://docs.qualys.com/en/integration/securing-azure/automate_asset_inv/pre-requisites.htm,Securing Azure
+Azure Metadata,https://docs.qualys.com/en/integration/securing-azure/automate_asset_inv/azure_metadata.htm,Securing Azure
+Creating Reports,https://docs.qualys.com/en/integration/securing-azure/analyze_report_remediate/creating_reports.htm,Securing Azure
+Deploying Sensor,https://docs.qualys.com/en/integration/securing-azure/deploying_sensor/deploying_sensor.htm,Securing Azure
+Non Peered VNets,https://docs.qualys.com/en/integration/securing-azure/automate_asset_inv/non_peered_vnets.htm,Securing Azure
+Get Started,https://docs.qualys.com/en/integration/securing-gcp/introduction/get_started.htm,Securing GCP
+Prerequisites,https://docs.qualys.com/en/integration/securing-gcp/introduction/Prerequisites.htm,Securing GCP
+Troubleshooting,https://docs.qualys.com/en/integration/securing-gcp/troubleshooting/troubleshooting.htm,Securing GCP
+frequently Asked Question,https://docs.qualys.com/en/integration/securing-gcp/faq/faq.htm,Securing GCP
+Prerequisites for Deploying Sensor,https://docs.qualys.com/en/integration/securing-gcp/deploy_sensor/prerequisite_depl_sensor.htm,Securing GCP
+Limitations,https://docs.qualys.com/en/integration/securing-gcp/deploy_sensor/limitations.htm,Securing GCP
+Scanning Asset,https://docs.qualys.com/en/integration/securing-gcp/scan_asset/scan_asset.htm,Securing GCP
+Creating Widget,https://docs.qualys.com/en/integration/securing-gcp/analyze_report_remediate/creating_widget.htm,Securing GCP
+Creating Reports,https://docs.qualys.com/en/integration/securing-gcp/analyze_report_remediate/creating_reports.htm,Securing GCP
+Syslog Forwarding,https://docs.qualys.com/en/integration/securing-gcp/features/syslog_forwarding.htm,Securing GCP
+GCP Scan Checklist,https://docs.qualys.com/en/integration/securing-gcp/scan_asset/gcp_scan_checklist.htm,Securing GCP
+Securing Containers,https://docs.qualys.com/en/integration/securing-gcp/scan_asset/securing_containers.htm,Securing GCP
+Uninstalling Agents,https://docs.qualys.com/en/integration/securing-gcp/organize_asset/uninstall_agent.htm,Securing GCP
+launch_vsa_gcp_portal,https://docs.qualys.com/en/integration/securing-gcp/deploy_sensor/launch_vsa_gcp_portal.htm,Securing GCP
+Scan in GCP Environment,https://docs.qualys.com/en/integration/securing-gcp/scan_in_gcp_env/scan_gcp_env.htm,Securing GCP
+Securing Azure with Qualys,https://docs.qualys.com/en/integration/securing-azure/index.htm#t=deploying_sensor%2Fdeploy_scanner_in_azure.htm,Official Guides
+Securing GCP with Qualys,https://docs.qualys.com/en/integration/securing-gcp/deploy_sensor/deploy_vsa_gcp.htm,Official Guides
+Microsoft Azure Storage Blob Integration API,https://docs.qualys.com/en/integration/azure-storage-blob/intro/get_started.htm,Official Guides
+Qualys CMDB Sync | ServiceNow Integration for Asset Management,https://www.qualys.com/apps/cmdb-sync,Product Overview
+"Qualys Connectors: 100+ Integrations for ETM, TotalCloud, VMDR & More",https://www.qualys.com/connectors,Product Overview
+ServiceNow Service Graph,https://www.qualys.com/connectors/servicenow-service-graph,Integrations
+Atlassian Bamboo,https://www.qualys.com/connectors/atlassian-bamboo,Integrations
+Atlassian Bitbucket,https://www.qualys.com/connectors/atlassian-bitbucket,Integrations
+Atlassian Jira,https://www.qualys.com/connectors/atlassian-jira,Integrations
+Qualys IaC Security for Azure DevOps,https://www.qualys.com/connectors/azure-devops,Integrations
+IBM QRadar,https://www.qualys.com/connectors/ibm-qradar,Integrations
+Jenkins,https://www.qualys.com/connectors/jenkins,Integrations
+Splunk Enterprise,https://www.qualys.com/connectors/splunk-enterprise,Integrations
+Battle Compliance Confusion and Security Fatigue with Qualys and ServiceNow,https://blog.qualys.com/product-tech/2025/11/10/battle-compliance-confusion-and-security-fatigue-with-qualys-and-servicenow,Blog
+Smarter ITSM Automation with ServiceNow Integration,https://blog.qualys.com/product-tech/2025/07/21/smart-itsm-automation-vulnerability-management,Blog
+Qualys & ServiceNow: Automating Risk-Driven Remediation for Container Security,https://blog.qualys.com/product-tech/2025/03/10/qualys-servicenow-automating-risk-driven-remediation-for-container-security,Blog
+The Revamped Qualys VMDR & Core Apps: Your Ultimate Cyber Defense Partnership for Vulnerability Management and ITSM Integration,https://blog.qualys.com/product-tech/vulnmgmt-detection-response/2024/10/29/qualys-vmdr-core-apps-revamped-ultimate-cyber-defense-partnership-for-streamlined-vulnerability-management-with-itsm,Blog
+Qualys and Microsoft Sunset Embedded Integration of Qualys Solutions for Microsoft Defender for Cloud,https://blog.qualys.com/product-tech/2024/01/09/qualys-and-microsoft-sunset-embedded-integration-of-qualys-solutions-for-microsoft-defender-for-cloud,Blog
+TotalCloud Empowered with CloudView Integration,https://blog.qualys.com/product-tech/2023/05/31/totalcloud-empowered-with-cloudview-integration,Blog
+Qualys VMDR & Jira Integration Now Available,https://blog.qualys.com/product-tech/2023/03/02/qualys-vmdr-jira-integration-now-available,Blog
+Automating Vulnerability Management with Qualys VMDR & ServiceNow,https://blog.qualys.com/product-tech/2023/02/16/automating-vulnerability-management-with-qualys-vmdr-servicenow,Blog
+Spelunking Your Qualys Data with Splunk,https://blog.qualys.com/product-tech/2022/09/30/spelunking-your-qualys-data-with-splunk,Blog
+"Your 2026 Guide to Qualys and ServiceNow Integrations: What’s New, What Matters, and What to Use",https://blog.qualys.com/product-tech/2022/08/09/know-your-servicenow-and-qualys-integrations,Blog
+Integrating JIRA to the Qualys Cloud Platform,https://blog.qualys.com/product-tech/2022/07/25/integrating-jira-to-the-qualys-cloud-platfrom,Blog
+About CMDB Sync Integration with Qualys CyberSecurity Asset Management,https://blog.qualys.com/product-tech/2022/07/11/qualys-cmdb-sync-integration,Blog
+How to Quickly Prioritize Risks with VMDR 2.0 and Orchestrate Response with CMDB & ITSM Integration,https://blog.qualys.com/product-tech/2022/07/11/how-to-quickly-prioritize-risks-with-vmdr-2-0-and-orchestrate-response-with-cmdb-itsm-integration,Blog
+Close the Gap Between IT & Security with Our New App: Qualys VMDR for ITSM,https://blog.qualys.com/product-tech/2022/06/07/close-the-gap-between-it-security-with-our-new-app-qualys-vmdr-for-itsm,Blog

@@ -6,48 +6,31 @@
     <title>Qualys Hub | Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        :root { --qualys-red: #ED1C24; }
-        
-        /* Deeper Sky Blue Background for contrast */
-        body { background-color: #e0f2fe; }
-
-        /* Modern Tile Hover Effect matching VMDR page */
-        .tile-card { 
-            background-color: white; 
-            border: 1px solid #bae6fd; 
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
-        }
-        .tile-card:hover { 
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-            border-color: #7dd3fc;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/hub.css">
 </head>
 <body class="text-slate-900 font-sans h-screen flex flex-col text-[14px]">
 
     <nav class="bg-white border-b border-slate-300 h-16 flex items-center justify-between px-6 shrink-0 z-20 shadow-sm">
         <div class="flex items-center gap-3">
-            <img src="https://www.qualys.com/favicon.ico" class="h-7">
+            <button id="nav-toggle" class="md:hidden text-slate-600 text-xl mr-1" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+            <img src="https://www.qualys.com/favicon.ico" class="h-7" alt="">
             <h1 class="text-xl font-bold tracking-tight text-slate-800 uppercase">QUALYS <span class="text-slate-400 font-light text-sm">Portal Hub</span></h1>
         </div>
     </nav>
 
     <div class="flex flex-1 overflow-hidden">
-        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-300 py-6 shrink-0 shadow-md"></aside>
+        <aside id="global-sidebar" class="w-64 bg-white border-r border-slate-300 py-6 shrink-0 shadow-md overflow-y-auto"></aside>
 
         <main class="flex-1 overflow-y-auto p-10">
             <div class="max-w-6xl mx-auto">
-                
+
                 <header class="mb-10">
                     <h2 class="text-4xl font-black text-slate-900 tracking-tight">Qualys Central Hub</h2>
                     <p class="text-slate-700 mt-2 font-medium opacity-80">Global platform resources and community links.</p>
                 </header>
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-14">
+
                     <a href="https://www.qualys.com/documentation" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
                         <div class="h-16 w-16 bg-cyan-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-cyan-600 transition-colors duration-300">
                             <i class="fa-solid fa-book-open text-cyan-600 text-2xl group-hover:text-white transition-colors"></i>
@@ -67,7 +50,7 @@
                             </span>
                         </div>
                         <h3 class="font-bold text-slate-800 group-hover:text-red-600 transition-colors">Platform Status</h3>
-                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Real-time system health & maintenance alerts.</p>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Real-time system health &amp; maintenance alerts.</p>
                     </a>
 
                     <a href="https://www.qualys.com/training/" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
@@ -110,24 +93,76 @@
                         <p class="text-slate-500 text-xs mt-2 leading-relaxed">Track the latest platform and agent updates.</p>
                     </a>
 
+                    <a href="https://notifications.qualys.com/" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
+                        <div class="h-16 w-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-500 transition-colors duration-300">
+                            <i class="fa-solid fa-bell text-orange-600 text-2xl group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600 transition-colors">Notifications</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Upcoming releases, API changes and maintenance.</p>
+                    </a>
+
+                    <a href="https://threatprotect.qualys.com/" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
+                        <div class="h-16 w-16 bg-rose-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-rose-600 transition-colors duration-300">
+                            <i class="fa-solid fa-skull-crossbones text-rose-600 text-2xl group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600 transition-colors">ThreatPROTECT</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Real-time threat and exploit advisories.</p>
+                    </a>
+
+                    <a href="https://www.qualys.com/platform-identification" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
+                        <div class="h-16 w-16 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal-600 transition-colors duration-300">
+                            <i class="fa-solid fa-location-dot text-teal-600 text-2xl group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600 transition-colors">What's My Platform</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Platform URLs, API servers and IP ranges per POD.</p>
+                    </a>
+
+                    <a href="https://success.qualys.com/support/s/" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
+                        <div class="h-16 w-16 bg-indigo-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-indigo-600 transition-colors duration-300">
+                            <i class="fa-solid fa-life-ring text-indigo-600 text-2xl group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600 transition-colors">Support Portal</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Knowledge base articles and support cases.</p>
+                    </a>
+
+                    <a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="noopener" class="tile-card p-8 rounded-[2rem] group flex flex-col items-center text-center">
+                        <div class="h-16 w-16 bg-lime-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-lime-600 transition-colors duration-300">
+                            <i class="fa-solid fa-lock text-lime-700 text-2xl group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="font-bold text-slate-800 group-hover:text-red-600 transition-colors">SSL Labs</h3>
+                        <p class="text-slate-500 text-xs mt-2 leading-relaxed">Free SSL/TLS server test and research.</p>
+                    </a>
+
                 </div>
+
+                <section class="mb-14">
+                    <h2 class="text-2xl font-black text-slate-900 tracking-tight mb-6">Security Modules</h2>
+                    <div id="module-grid"></div>
+                </section>
+
+                <section>
+                    <h2 id="library-title" class="text-2xl font-black text-slate-900 tracking-tight mb-6">Public Qualys Resources</h2>
+                    <div class="mb-8 space-y-5">
+                        <div class="flex flex-col sm:flex-row gap-3 max-w-2xl">
+                            <div class="relative flex-1">
+                                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                                <input type="text" id="articleSearch" placeholder="Search resources..."
+                                       class="w-full pl-11 pr-4 py-4 rounded-2xl border border-blue-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/20 shadow-inner outline-none transition-all">
+                            </div>
+                            <select id="search-scope" class="px-4 py-4 rounded-2xl border border-blue-200 bg-white font-bold text-slate-700 outline-none focus:border-blue-500">
+                                <option value="public">Public resources</option>
+                                <option value="all">All modules</option>
+                            </select>
+                        </div>
+                        <div id="category-pills" class="flex gap-2 overflow-x-auto pb-2 no-scrollbar"></div>
+                    </div>
+                    <div id="article-grid" class="grid grid-cols-1 lg:grid-cols-2 gap-8 pb-24"></div>
+                </section>
+
             </div>
         </main>
     </div>
 
-    <script>
-        fetch('sidebar.html')
-            .then(res => res.text())
-            .then(data => {
-                document.getElementById('global-sidebar').innerHTML = data;
-                const page = window.location.pathname.split("/").pop() || "index.html";
-                document.querySelectorAll('.nav-item').forEach(link => {
-                    if (link.getAttribute('href') === page) {
-                        link.classList.add('bg-blue-100', 'text-blue-700', 'border-blue-700');
-                        link.classList.remove('border-transparent');
-                    }
-                });
-            });
-    </script>
+    <script src="assets/hub.js"></script>
 </body>
 </html>

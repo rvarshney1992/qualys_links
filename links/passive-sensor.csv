@@ -1,0 +1,86 @@
+title,link,category
+Deploy Network Passive Sensors,https://docs.qualys.com/en/ps/latest/deploy_sensors/deploy_sensors.htm,More Topics
+Welcome to Network Passive Sensor,https://docs.qualys.com/en/ps/latest/welcome_nps.html,Getting Started
+Welcome to Network Passive Sensor (NPS),https://docs.qualys.com/en/ps/latest/about_nps.htm,Getting Started
+Roles and Permissions for NPS,https://docs.qualys.com/en/ps/latest/get_started/roles_permissions.htm,Getting Started
+Network Passive Sensor Overview,https://docs.qualys.com/en/ps/latest/get_started/overview.htm,Getting Started
+Network Placement and Sensor Sizing,https://docs.qualys.com/en/ps/latest/get_started/network_sensor.htm,Getting Started
+What's New in Network Passive Sensor,https://docs.qualys.com/en/ps/latest/get_started/whats_new.htm,Getting Started
+Appliance Connectivity and Interfaces,https://docs.qualys.com/en/ps/latest/get_started/appliance_connect.htm,Getting Started
+Get Started with Network Passive Sensor,https://docs.qualys.com/en/ps/latest/get_started/get_started.htm,Getting Started
+Asset De-duplication in Network Passive Sensor,https://docs.qualys.com/en/ps/latest/get_started/de_duplicate.htm,Getting Started
+Best Practices for Mirroring Configurations,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/best_practices_for_mirroring_configurations.htm,Deployment Guide
+Scenario 1 - Deploying the NPS Across the Lower-Level Managed Access Switches,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/deploying_nps_across_lower-level_managed_access_switches.htm,Deployment Guide
+How to Extend Local Span Through Multiple Intermediate Switches to a Sniffer That is Multiple Switch Hops Away Without Using RSPAN,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/how_to_extend_local_span_through_multiple_intermediate_switches.htm,Deployment Guide
+RSPAN,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/rspan.htm,Deployment Guide
+ERSPAN,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/erspan.htm,Deployment Guide
+Local SPAN,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/local_span.htm,Deployment Guide
+Good to know,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/good_to_know.htm,Deployment Guide
+For Small Sized Enterprise,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/for_small_sized_enterprise.htm,Deployment Guide
+Mirroring Techniques – Moxa,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/mirroring_techniques_moxa.htm,Deployment Guide
+Mirroring Techniques – Cisco,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/mirroring_techniques_cisco.htm,Deployment Guide
+Mirroring Techniques - Stratix,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/mirroring_techniques_stratix.htm,Deployment Guide
+Mirroring Techniques – Hirschman,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/mrroring_techniques_hirschman.htm,Deployment Guide
+Mirroring Techniques – Ruggedcom,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/mirroring_techniques_ruggedcom.htm,Deployment Guide
+Placement of NPS Across OT Networks,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/placement_of_nps_across_ot_network.htm,Deployment Guide
+Typical Enterprise Network Topology,https://docs.qualys.com/en/ps/latest/mergedProjects/deployment_guide/passive_sensor/typical_enterprise_network_topology.htm,Deployment Guide
+Best Practices,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/best_practices/best_practices.htm,Physical Guide
+Manage Sensors,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/manage_sensors.htm,Physical Guide
+Troubleshooting,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/troubleshooting/troubleshooting.htm,Physical Guide
+Configure Assets,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/configure_assets.htm,Physical Guide
+Step 3: Power on Appliance,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/power_on_appliance.htm,Physical Guide
+Step 10: Check the Status on UI,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/check_status.htm,Physical Guide
+Step 2: Connect Appliance to Network,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/connect_appliance_to_network.htm,Physical Guide
+Step 1: Generate Personalization Code,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/generate_personalization_code.htm,Physical Guide
+Step 11: Check the Status on Appliance,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/check_status_on_appliance.htm,Physical Guide
+Step 5: Activate Appliance Using LCD Keypad,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/activate_appliance.htm,Physical Guide
+Qualys Network Passive Sensor- Physical Appliance,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/nps_physical_appliance.htm,Physical Guide
+Step 4: Complete Network Configuration Using LCD Keypad,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/network_config.htm,Physical Guide
+Step 7: Setting up Network Using Remote Console Interface,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/setup_network.htm,Physical Guide
+Step 8: Proxy Configuration Using Remote Console Interface,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/proxy_config_using_remote.htm,Physical Guide
+Configuring Appliance and Registering to Qualys Cloud Platform,https://docs.qualys.com/en/ps/latest/mergedProjects/physical_guide/get_started/register.htm,Physical Guide
+Appendix,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/manage_sensor/appendix.htm,Virtual Guide
+Best Practices,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/bestpractices/best_practices.htm,Virtual Guide
+Manage Sensors,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/deployment/manage_sensors.htm,Virtual Guide
+Configure Assets,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/deployment/configure_assets.htm,Virtual Guide
+Configure Static IP Address,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/configuration/configure_static_ip.htm,Virtual Guide
+Get Started with Virtual Appliance,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/deployment/get_started.htm,Virtual Guide
+Classification of Assets in Passive Sensor,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/manage_sensor/asset_classification.htm,Virtual Guide
+Add or Remove Sniffing Interfaces from Virtual Appliance,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/manage_sensor/add_remove_sniffing_interfaces.htm,Virtual Guide
+Virtual Network Passive Sensor Throughput Capacity Based on Hardware,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/manage_sensor/nps_troughput.htm,Virtual Guide
+Virtual Network Passive Sensor (PS) Appliance Packet Throughput Based on Resources,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/manage_sensor/nps_capacity.htm,Virtual Guide
+Check Status,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/deployment/check_status.htm,Virtual Guide
+Proxy Configuration,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/configuration/proxy_config.htm,Virtual Guide
+Network Configurations,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/configuration/network_config.htm,Virtual Guide
+Register Virtual Appliance,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/deployment/register_virtual_appliance.htm,Virtual Guide
+Deploy Virtualization Image,https://docs.qualys.com/en/ps/latest/mergedProjects/virtual_guide/deployment/deploy_image.htm,Virtual Guide
+Configuration,https://docs.qualys.com/en/ps/latest/sensor/configure_assets.htm,Sensor
+Manage Sensors,https://docs.qualys.com/en/ps/latest/sensor/manage_sensors.htm,Sensor
+Logs for Troubleshooting,https://docs.qualys.com/en/ps/latest/sensor/logs_troubleshooting.htm,Sensor
+Work with Sensors,https://docs.qualys.com/en/ps/latest/sensor/sensors.htm,Sensor
+Register Virtual Sensor,https://docs.qualys.com/en/ps/latest/sensor/virtual_sensor.htm,Sensor
+Register Physical Sensor,https://docs.qualys.com/en/ps/latest/sensor/physical_sensor.htm,Sensor
+Best Practices to Configure Internal Assets,https://docs.qualys.com/en/ps/latest/sensor/new_topic.htm,Sensor
+Network Passive Sensor: Virtual Sensor,https://docs.qualys.com/en/ps/latest/appliance_guide/virtual_sensor.htm,More Topics
+Network Passive Sensor: Physical Sensor,https://docs.qualys.com/en/ps/latest/appliance_guide/physical_sensor.htm,More Topics
+Events Raised By NPS Appliances,https://docs.qualys.com/en/ps/latest/events/appliance_events.htm,More Topics
+Training Videos for Network Passive Sensor,https://docs.qualys.com/en/ps/latest/other_resources/nps_training.htm,Training
+KnowledgeBase Articles for Network Passive Sensor,https://docs.qualys.com/en/ps/latest/other_resources/kb_articles.htm,Training
+Network Passive Sensor Online Help,https://docs.qualys.com/en/ps/latest/#t=get_started%2Fget_started.htm,Official Guides
+Physical Appliance User Guide,https://docs.qualys.com/en/ps/physical-appliance/get_started/nps_physical_appliance.htm,Official Guides
+Virtual Appliance User Guide,https://docs.qualys.com/en/ps/virtual-appliance/deployment/get_started.htm,Official Guides
+Release Notes (qualys.com),https://www.qualys.com/documentation/release-notes#network-passive-sensor,Release Notes
+Training Library,https://www.qualys.com/training/library/network-passive-sensor,Training
+Network Passive Sensor 2.6 (August 2026),https://docs.qualys.com/en/ps/release-notes/ps/release_2_6.htm,Release Notes
+Network Passive Sensor 2.5 (July 2026),https://docs.qualys.com/en/ps/release-notes/ps/release_2_5.htm,Release Notes
+Network Passive Sensor 2.4 (May 2026),https://docs.qualys.com/en/ps/release-notes/ps/release_2_4.htm,Release Notes
+Network Passive Sensor 2.3 (April 2026),https://docs.qualys.com/en/ps/release-notes/ps/release_2_3.htm,Release Notes
+Network Passive Sensor 2.2 (February 2026),https://docs.qualys.com/en/ps/release-notes/ps/release_2_2.htm,Release Notes
+Network Passive Sensor 2.1 (December 2025),https://docs.qualys.com/en/ps/release-notes/ps/release_2_1.htm,Release Notes
+Network Passive Sensor 2.0 (October 2025),https://docs.qualys.com/en/ps/release-notes/ps/release_2_0.htm,Release Notes
+Network Passive Sensor 1.9.1 (May 2025),https://docs.qualys.com/en/ps/release-notes/ps/release_1_9_1.htm,Release Notes
+Network Passive Sensor 1.9 (April 2025),https://docs.qualys.com/en/ps/release-notes/ps/release_1_9.htm,Release Notes
+Network Passive Sensor 1.8.1 (February 2025),https://docs.qualys.com/en/ps/release-notes/ps/release_1_8_1.htm,Release Notes
+Video Library: Network Passive Sensor,https://success.qualys.com/customersupport/s/video-library?product=network-passive-sensor,Training
+Passive Network Sensor: Continuous Asset Discovery & Profiling,https://www.qualys.com/passive-scanning-sensor,Product Overview
+Closing the Visibility Gap: How Qualys Cloud Agent Passive Sensor (CAPS) Eliminates Blind Spots Without the Hassle,https://blog.qualys.com/product-tech/2023/11/26/closing-the-visibility-gap-how-qualys-cloud-agent-passive-sensor-caps-eliminates-blind-spots-without-the-hassle,Blog

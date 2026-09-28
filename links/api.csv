@@ -1,0 +1,123 @@
+title,link,category
+Troubleshooting,https://docs.qualys.com/en/vm/qweb-all-api/troubleshooting/troubleshooting.htm,FAQ & Troubleshooting
+How to Integrate Qualys Jira Connector,https://docs.qualys.com/en/vm/qweb-all-api/faqs/how_to_integr_qua_jira_connect.htm,FAQ & Troubleshooting
+How to Change Qualys User Password Using API,https://docs.qualys.com/en/vm/qweb-all-api/faqs/how_to_chnge_qualys_userpwd_api.htm,FAQ & Troubleshooting
+Troubleshoot API Code 999 Message Caused by AGMS Delay,https://docs.qualys.com/en/vm/qweb-all-api/troubleshooting/troubleshoot_api999_msg_agms.htm,FAQ & Troubleshooting
+"How to report vulnerabilities for running and non-running Linux kernels using the VM Detection API? Answer Use the VM Detection API with the arf_kernel_filter parameter to identify vulnerabilities affecting running and non-running Linux kernels. Step 1: Replace the deprecated parameter Do not use active_kernels_only. It is deprecated. Use arf_kernel_filter={0|1|2|3|4}. Step 2: Run the VM Detection API request curl -u ""User:Password"" -H ""X-Requested-With: Curl"" -X ""POST"" \ -d ""action=list&max_days_since_last_vm_scan=45&show_results=1&show_igs=0&show_reopened_info=1&output_format=CSV&suppress_duplicated_data_from_csv=0&truncation_limit=0&status=New,Active,Re-Opened,Fixed&arf_kernel_filter=0"" \ ""https://qualysapi.qualys.com/api/2.0/fo/asset/host/vm/detection/"" Run the command multiple times with different arf_kernel_filter values. Step 3: Understand kernel filtering A Linux host can have multiple kernels. The scan identifies the running kernel in Information Gathered QID 45097. Filter values: 0 – Return all vulnerabilities 1 – Exclude non-running kernel vulnerabilities 2 – Only non-running kernel vulnerabilities 3 – Only running kernel vulnerabilities Step 4: Interpret the output Blank – Not kernel-related 0 – Affects a non-running kernel 1 – Affects the running kernel Note If you do not specify a kernel filter, the API does not filter vulnerabilities based on kernel activity. One host can have multiple installed kernels. Quick Answer (AEO) Use the arf_kernel_filter parameter in the VM Detection API to filter vulnerabilities based on running or non-running kernels. Related Topics Qualys VM Detection API Linux kernel vulnerability management QID 45097",https://docs.qualys.com/en/vm/qweb-all-api/faqs/how_to_report_vuln_run_non-run_linux_ker.htm,FAQ & Troubleshooting
+Authentication,https://docs.qualys.com/en/vm/qweb-all-api/get_started/authentication.htm,Getting Started
+API Life Cycle - EOS/EOL,https://docs.qualys.com/en/vm/qweb-all-api/get_started/api_versioning_standards.htm,Getting Started
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/get_started/tracking_api_usage.htm,Getting Started
+Get Started With VM and PA APIs,https://docs.qualys.com/en/vm/qweb-all-api/get_started/get_started.htm,Getting Started
+Get Started,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/get_started/get_started.htm,Qapi Assets
+Create Domain,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/domain_v2/Create_Domain.htm,Qapi Assets
+Authentication,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/get_started/authentication.htm,Qapi Assets
+Create Network,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/networks/create_network.htm,Qapi Assets
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/get_started/making_API_calls.htm,Qapi Assets
+Manage Virtual Hosts,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/asset_virt/manage_virt_hosts.htm,Qapi Assets
+Qualys API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/get_started/url_api_server.htm,Qapi Assets
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/get_started/tracking_api_usage.htm,Qapi Assets
+Overview,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/overview/Overview.htm,Qapi Auth
+Create Vault,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/vaults/create_vault.htm,Qapi Auth
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/get_started/making_api_calls.htm,Qapi Auth
+Vault Permissions,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/overview/permissions_vaults.htm,Qapi Auth
+Scan Authentication,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/get_started/get_started.htm,Qapi Auth
+Qualys API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/get_started/url_api_server.htm,Qapi Auth
+Authentication Permissions,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/overview/permissions_auth.htm,Qapi Auth
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/get_started/tracking_api_usage.htm,Qapi Auth
+Compliance,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/get_started.htm,Qapi Pc
+Best Practices,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/posture/best_practices.htm,Qapi Pc
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/making_API_calls.htm,Qapi Pc
+Qualys API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/url_api_server.htm,Qapi Pc
+Create Report Template,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/report_template_apis/create_report_template.htm,Qapi Pc
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/tracking_api_usage.htm,Qapi Pc
+Create Compliance Framework Report API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/compliance_framework_reports/create_compliance_framework_report.htm,Qapi Pc
+Overview - List Compliance Posture Info,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/posture/overview_posture_info.htm,Qapi Pc
+Reports,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/get_started/get_started.htm,Qapi Rep
+Authentication,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/get_started/authentication.htm,Qapi Rep
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/get_started/making_api_calls.htm,Qapi Rep
+Create Map Template,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/templ_map/create_map_template.htm,Qapi Rep
+Create PCI Template,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/templ_pci/create_pci_template.htm,Qapi Rep
+Create Scan Template,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/templ_scan/create_scan_template.htm,Qapi Rep
+Create Patch Template,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/templ_patch/create_patch_template.htm,Qapi Rep
+Qualys API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/get_started/url_api_server.htm,Qapi Rep
+Get Started,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/get_started/get_started.htm,Qapi Scan
+Manage PC Scans,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/pc_scans/manage_pc_scans.htm,Qapi Scan
+Manage VM Scans,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/vm_scans/manage_vm_scans.htm,Qapi Scan
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/get_started/making_api_calls.htm,Qapi Scan
+Create Scan Schedule,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/vm_schedules/create_scan_schedule.htm,Qapi Scan
+Qualys API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/get_started/url_api_server.htm,Qapi Scan
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/get_started/tracking_api_usage.htm,Qapi Scan
+Create Compliance Scan Schedule,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/pc_schedules/create_a_compliance_scan_schedule.htm,Qapi Scan
+Manage Users,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users_mgmt/manage_users.htm,Qapi User
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/get_started/making_api_calls.htm,Qapi User
+Qualys Base API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/get_started/url_api_server.htm,Qapi User
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/get_started/tracking_api_usage.htm,Qapi User
+"Get Started with VM, PC APIs",https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/get_started/get_started.htm,Qapi User
+Authentication To Qualys API Server,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/get_started/authentication.htm,Qapi User
+Users,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users/params_users.htm,Qapi User
+Add User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users/add_user.htm,Qapi User
+appendix,https://docs.qualys.com/en/vm/qweb-all-api/appendix/appendix.htm,Reference
+PCRS Error Codes,https://docs.qualys.com/en/vm/qweb-all-api/appendix/pcrs_error_codes.htm,Reference
+Appendix A- API Documentation,https://docs.qualys.com/en/vm/qweb-all-api/appendix/appendix_a.htm,Reference
+Appendix C- Scan Results JSON,https://docs.qualys.com/en/vm/qweb-all-api/appendix/appendix_c.htm,Reference
+Appendix B- Port Used for Scanning,https://docs.qualys.com/en/vm/qweb-all-api/appendix/appendix_b.htm,Reference
+Appendix D- Error Codes/Descriptions,https://docs.qualys.com/en/vm/qweb-all-api/appendix/appendix_d.htm,Reference
+Appendix E- Streaming Posture API Client Sample Code (Python),https://docs.qualys.com/en/vm/qweb-all-api/appendix/appendix_e.htm,Reference
+Authentication to Qualys Account,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/get_started/authentication.htm,Scan API
+Create/Update Cloud Internal Scan,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/vm_scans/create_update_azure_internal_scan.htm,Scan API
+Create Containerized Scanner Appliance,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/appliances/create_new_containerized_scanner.htm,Scan API
+Create PC Option Profile,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/ops/ops_pc/create_pc_op.htm,Scan API
+Create VM Option Profile,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/ops/ops_vm/create_vm_op.htm,Scan API
+Create PCI Option Profile,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/ops/ops_pci/create_pci_op.htm,Scan API
+kBase,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-scan/kbase/kBase.htm,Scan API
+API Support for IPv6 Asset Management and Scanning,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/asset_ipv6/api_support_for_ipv6_asset_management_and_scanning.htm,Asset API
+Add IPs,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/asset_ips/add_ips.htm,Asset API
+Host IPs,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/asset_ips/Host_IPs.htm,Asset API
+List IPs,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/asset_ips/list_ips.htm,Asset API
+Networks,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/networks/Networks.htm,Asset API
+Domain V2,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/domain_v2/Domain_V2.htm,Asset API
+Host List,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-assets/host_lists/host_list.htm,Asset API
+Best Practices - Authentication,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/overview/best_practices_auth.htm,Authentication API
+Authentication To Qualys API Servers,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/get_started/authentication.htm,Authentication API
+Oracle Linux Virtualization Manager Record,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/record_types/oracle_linux_virtualization_manager_record.htm,Authentication API
+Vaults,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/vaults/Vaults.htm,Authentication API
+HTTP Record,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/record_types/http.htm,Authentication API
+List Vaults,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/vaults/list_vaults.htm,Authentication API
+SNMP Record,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-auth/record_types/snmp.htm,Authentication API
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/get_started/tracking_api_usage.htm,Report API
+Reports,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/reports/Reports.htm,Report API
+Categories,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/templ/categories.htm,Report API
+Edit Tickets,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/tickets/edit_tickets.htm,Report API
+List Reports,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/reports/list_reports.htm,Report API
+List Tickets,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/tickets/list_tickets.htm,Report API
+Cancel Report,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-rep/reports/cancel_report.htm,Report API
+Edit User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users/edit_user.htm,User API
+List Users,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users/list_users.htm,User API
+Activate User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users_mgmt/user_activate.htm,User API
+Deactivate User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users_mgmt/user_deactivate.htm,User API
+Accept Qualys EULA,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users/accept_eula.htm,User API
+User - State Codes,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users_def/user_state.htm,User API
+Permissions - Users,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-user/users/perms_users.htm,User API
+Community Discussions: Developer API,https://success.qualys.com/discussions/s/topic/0TO2L000000HIR8WAO/developer,Community
+API Limits,https://www.qualys.com/docs/qualys-api-limits.pdf,Official Guides
+API Notifications,https://notifications.qualys.com/?category=api,Official Guides
+API Quick Reference Guide,https://www.qualys.com/docs/qualys-api-quick-reference.pdf,Official Guides
+API Release Notes,https://www.qualys.com/documentation/release-notes/#api,Official Guides
+API User Guide: PDF,https://www.qualys.com/docs/qualys-was-api-user-guide.pdf,Official Guides
+Qualys Subscription API,https://www.qualys.com/docs/qualys-subscription-api-user-guide.pdf,Official Guides
+Tracking API Usage,https://www.qualys.com/docs/qualys-api-tracking-api-usage.pdf,Official Guides
+Training Course: Qualys API Fundamentals,https://www.qualys.com/training/course/qualys-api-fundamentals,Training
+Training Course: Qualys Query Language (QQL),https://www.qualys.com/training/course/qualys-query-language-qql,Training
+Video Library: Qualys API Fundamentals,https://success.qualys.com/customersupport/s/video-library?product=qualys-api-fundamentals,Training
+Your Guide to PCI DSS 4.0.1 Web Application and API Controls with a Simplified Path to Compliance,https://blog.qualys.com/product-tech/2025/12/19/pci-dss-4-0-1-compliance-web-application-api-security,Blog
+API Security: Safeguarding Your Digital Infrastructure from Attacks,https://blog.qualys.com/product-tech/2025/04/18/api-security-safeguarding-your-digital-infrastructure-from-attacks,Blog
+Secure Your APIs and Minimize Attack Risks with AI-powered API Security in Qualys Web Application Scanning (WAS),https://blog.qualys.com/product-tech/2024/07/24/secure-your-apis-and-reduce-your-attack-surface-with-modern-ai-powered-api-security-in-qualys-web-application-scanning-was,Blog
+Empowering Small Businesses in the Digital Age: A Must-Read Guide to Web Application & API Security,https://blog.qualys.com/product-tech/2024/04/22/empowering-small-businesses-in-the-digital-age-a-must-read-guide-to-web-application-api-security,Blog
+Building an AppSec Program with Qualys WAS -Introduction and Configuring a Web Application or API: Default Scan Settings,https://blog.qualys.com/product-tech/2023/12/04/building-an-appsec-program-with-qualys-was-introduction-and-configuring-a-web-application-or-api-default-scan-settings,Blog
+Qualys API Best Practices: Policy Compliance – Posture Streaming (PCRS) API,https://blog.qualys.com/product-tech/2023/10/31/qualys-api-best-practices-policy-compliance-posture-streaming-pcrs-api,Blog
+Qualys API Best Practices: Web Application Scanning API,https://blog.qualys.com/product-tech/2023/10/26/qualys-api-best-practices-web-application-scanning-api,Blog
+Building an AppSec Program with Qualys WAS – Configuring a Web Application or API: Crawl Settings,https://blog.qualys.com/product-tech/2023/10/25/building-an-appsec-program-with-qualys-was-configuring-a-web-application-or-api-crawl-settings,Blog
+Qualys API Best Practices: CyberSecurity Asset Management API,https://blog.qualys.com/product-tech/2022/08/05/qualys-api-best-practices-cybersecurity-asset-management-api,Blog
+Qualys API Best Practices: Host List Detection API,https://blog.qualys.com/product-tech/2021/07/09/qualys-api-best-practices-host-list-detection,Blog
+Qualys API Best Practices: Host List API,https://blog.qualys.com/product-tech/2021/04/14/qualys-api-best-practices-host-list-api,Blog
+Qualys API Best Practices: KnowledgeBase API,https://blog.qualys.com/product-tech/2021/03/02/qualys-api-best-practices-knowledgebase-api,Blog

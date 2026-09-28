@@ -1,0 +1,96 @@
+title,link,category
+Welcome to SaaS Detection and Response,https://docs.qualys.com/en/saasdr/latest/welcome_saasdr.html,Getting Started
+Known Issues,https://docs.qualys.com/en/saasdr/latest/get_started/known_issues.htm,Getting Started
+Get Started with SaaS DR,https://docs.qualys.com/en/saasdr/latest/get_started/get_started.htm,Getting Started
+overview,https://docs.qualys.com/en/saasdr/latest/saasdr_introduction/overview.htm,Saasdr Introduction
+Training Videos,https://docs.qualys.com/en/saasdr/latest/saasdr_introduction/training_videos.htm,Saasdr Introduction
+SaaS DR release Updates,https://docs.qualys.com/en/saasdr/latest/saasdr_introduction/saasdr_release_updates.htm,Saasdr Introduction
+Appendix,https://docs.qualys.com/en/saasdr/latest/appendix/appendix.htm,Reference
+SaaSDR with SFDC,https://docs.qualys.com/en/saasdr/latest/appendix/sdr_with_sfdc.htm,Reference
+SaaSDR with Zoom,https://docs.qualys.com/en/saasdr/latest/appendix/sdr_with_zoom.htm,Reference
+SaSDR with Dropbox,https://docs.qualys.com/en/saasdr/latest/appendix/sdr_with_dropbox.htm,Reference
+SaaSDR with Office 365,https://docs.qualys.com/en/saasdr/latest/appendix/sdr_with_office_365.htm,Reference
+SaaSDR with Slack Data,https://docs.qualys.com/en/saasdr/latest/appendix/sdr_with_slack.htm,Reference
+SaaSDR with Google Workspace,https://docs.qualys.com/en/saasdr/latest/appendix/sdr_with_google_workspace.htm,Reference
+Trusted Domains and Applications,https://docs.qualys.com/en/saasdr/latest/configuration/create_trust.htm,More Topics
+Create Connector,https://docs.qualys.com/en/saasdr/latest/connectors/create_connector.htm,Connectors
+Sync,https://docs.qualys.com/en/saasdr/latest/connectors/sync.htm,Connectors
+Edit Connector,https://docs.qualys.com/en/saasdr/latest/connectors/edit_connector.htm,Connectors
+SFDC Connector,https://docs.qualys.com/en/saasdr/latest/connectors/sfdc_connector.htm,Connectors
+Upgrade Script,https://docs.qualys.com/en/saasdr/latest/connectors/upgrade_script.htm,Connectors
+Zoom Connector,https://docs.qualys.com/en/saasdr/latest/connectors/zoom_connector.htm,Connectors
+o365 Connector,https://docs.qualys.com/en/saasdr/latest/connectors/o365_connector.htm,Connectors
+Slack Connector,https://docs.qualys.com/en/saasdr/latest/connectors/slack_connector.htm,Connectors
+Claude Connector,https://docs.qualys.com/en/saasdr/latest/connectors/claude_connector.htm,Connectors
+Connector Status,https://docs.qualys.com/en/saasdr/latest/connectors/connector_status.htm,Connectors
+DropBox Connector,https://docs.qualys.com/en/saasdr/latest/connectors/dropbox_connector.htm,Connectors
+G Suite Connector,https://docs.qualys.com/en/saasdr/latest/connectors/gsuite_connector.htm,Connectors
+View Directory,https://docs.qualys.com/en/saasdr/latest/directory/view_user_directory.htm,More Topics
+Manage Policies,https://docs.qualys.com/en/saasdr/latest/monitor_policy/manage_policies.htm,Monitor Policy
+Create Custom Controls,https://docs.qualys.com/en/saasdr/latest/monitor_policy/create_custom_controls.htm,Monitor Policy
+Manage Custom Policies,https://docs.qualys.com/en/saasdr/latest/monitor_policy/manage_custom_policies.htm,Monitor Policy
+Events,https://docs.qualys.com/en/saasdr/latest/monitor_policy/events.htm,Monitor Policy
+Control Library,https://docs.qualys.com/en/saasdr/latest/monitor_policy/control_library.htm,Monitor Policy
+Custom Policies,https://docs.qualys.com/en/saasdr/latest/monitor_policy/custom_policies.htm,Monitor Policy
+Monitor SaaS Applications,https://docs.qualys.com/en/saasdr/latest/monitor_policy/security_posture_of_saas_applications.htm,Monitor Policy
+Monitor Compliance Posture,https://docs.qualys.com/en/saasdr/latest/monitor_policy/monitor_compliance_posture.htm,Monitor Policy
+Enable Policy for Connectors,https://docs.qualys.com/en/saasdr/latest/monitor_policy/policy_compliance.htm,Monitor Policy
+Configure Connector,https://docs.qualys.com/en/saasdr/latest/reports/configure_connector.htm,Reports and Dashboards
+Delete,https://docs.qualys.com/en/saasdr/latest/reports/delete.htm,Reports and Dashboards
+Policy,https://docs.qualys.com/en/saasdr/latest/reports/policy.htm,Reports and Dashboards
+Reports,https://docs.qualys.com/en/saasdr/latest/reports/reports.htm,Reports and Dashboards
+Response,https://docs.qualys.com/en/saasdr/latest/reports/response.htm,Reports and Dashboards
+SaaSDR API,https://docs.qualys.com/en/saasdr/latest/reports/saasdr_api.htm,Reports and Dashboards
+View Meetings,https://docs.qualys.com/en/saasdr/latest/reports/view_meetings.htm,Reports and Dashboards
+Enable/Disable,https://docs.qualys.com/en/saasdr/latest/reports/enable_disable.htm,Reports and Dashboards
+Re-Authenticate,https://docs.qualys.com/en/saasdr/latest/reports/re-authenticate.htm,Reports and Dashboards
+Connector Actions,https://docs.qualys.com/en/saasdr/latest/reports/connector_actions.htm,Reports and Dashboards
+Inventory Details,https://docs.qualys.com/en/saasdr/latest/reports/inventory_details.htm,Reports and Dashboards
+View Applications,https://docs.qualys.com/en/saasdr/latest/reports/view_applications.htm,Reports and Dashboards
+Remediation Actions,https://docs.qualys.com/en/saasdr/latest/reports/remediation_actions.htm,Reports and Dashboards
+Remediation Response,https://docs.qualys.com/en/saasdr/latest/reports/remediation_response.htm,Reports and Dashboards
+View Files & Folders,https://docs.qualys.com/en/saasdr/latest/reports/view_files_and_folders.htm,Reports and Dashboards
+View Resources,https://docs.qualys.com/en/saasdr/latest/resources/view_resources.htm,More Topics
+View Applications,https://docs.qualys.com/en/saasdr/latest/resources/view_applications.htm,More Topics
+Searching Users,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_users.htm,Search & QQL
+Searching Events,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_events.htm,Search & QQL
+Searching Policy,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_policy.htm,Search & QQL
+Searching Reports,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_reports.htm,Search & QQL
+Searching Controls,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_controls.htm,Search & QQL
+Searching Meetings,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_meetings.htm,Search & QQL
+Searching Response,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_response.htm,Search & QQL
+Searching Documents,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_documents.htm,Search & QQL
+Searching Resources,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_resources.htm,Search & QQL
+Search Tokens for SDR,https://docs.qualys.com/en/saasdr/latest/search_tips/search_tokens.htm,Search & QQL
+Searching User Groups,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_user_groups.htm,Search & QQL
+Searching Applications,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_applications.htm,Search & QQL
+Old and New Search Token Mappings,https://docs.qualys.com/en/saasdr/latest/search_tips/old_new_token_mapping.htm,Search & QQL
+Searching Controls on Monitor Tab,https://docs.qualys.com/en/saasdr/latest/search_tips/searching_monitor.htm,Search & QQL
+Get Started,https://docs.qualys.com/en/saasdr/api/get_started/get_started.htm,API
+Create Custom Control,https://docs.qualys.com/en/saasdr/api/custom_control_api/create_custom_control.htm,API
+Create Customized Report,https://docs.qualys.com/en/saasdr/api/reporting_api/create_report.htm,API
+User API,https://docs.qualys.com/en/saasdr/api/user_api/user_api.htm,API
+Policy API,https://docs.qualys.com/en/saasdr/api/policy_api/policy_api.htm,API
+Reporting API,https://docs.qualys.com/en/saasdr/api/reporting_api/reporting_api.htm,API
+Resources API,https://docs.qualys.com/en/saasdr/api/resources_api/resources_api.htm,API
+Get Controls List,https://docs.qualys.com/en/saasdr/api/custom_control_api/get_controls_list.htm,API
+Custom Control API,https://docs.qualys.com/en/saasdr/api/custom_control_api/custome_api.htm,API
+Update Custom Control,https://docs.qualys.com/en/saasdr/api/custom_control_api/upldate_control.htm,API
+Get All SaaSDR Users API,https://docs.qualys.com/en/saasdr/api/user_api/get_all_saas_users.htm,API
+Get All SaaSDR Policy API,https://docs.qualys.com/en/saasdr/api/policy_api/get_all_saas_policy.htm,API
+Get Connector Details API,https://docs.qualys.com/en/saasdr/api/connector_api/get_connector_details.htm,API
+Get SaaSDR Connectors API,https://docs.qualys.com/en/saasdr/api/connector_api/get_saas_connecters.htm,API
+Get All SaaSDR Reports API,https://docs.qualys.com/en/saasdr/api/resources_api/get_all_saas_reports.htm,API
+SaaS Detection and Response 1.16.0 (September 2026),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_16_0.htm,Release Notes
+SaaS Detection and Response 1.16.0 API (September 2026),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_16_0_api.htm,Release Notes
+SaaS Detection and Response 1.15 (June 2026),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_15_0.htm,Release Notes
+SaaS Detection and Response 1.14.0 API (March 2026),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_14_0_api.htm,Release Notes
+SaaS Detection and Response 1.12 API (December 2025),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_12_0_api.htm,Release Notes
+SaaS Detection and Response 1.11.0 (October 2025),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_11_0.htm,Release Notes
+SaaS Detection and Response 1.10.0 (May 2025),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_10_0.htm,Release Notes
+SaaS Detection and Response 1.9 (January 2025),https://docs.qualys.com/en/saasdr/release-notes/saasdr/release_1_9_0.htm,Release Notes
+SaaS Security Platform & Cybersecurity Solutions,https://www.qualys.com/apps/saas-detection-response,Product Overview
+SaaS Security Posture Management & Auto-Remediation,https://www.qualys.com/apps/saas-security-posture-management,Product Overview
+What is SSPM (SaaS Security Posture Management)? Explained by Qualys,https://blog.qualys.com/product-tech/2025/04/18/what-is-sspm-saas-security-posture-management-explained-by-qualys,Blog
+Announcing TotalCloud™ 2.0 with TruRisk™ Insights: The Future of Cloud and SaaS Security,https://blog.qualys.com/product-tech/2024/02/07/announcing-totalcloud-2-0-with-trurisk-insights-the-future-of-cloud-and-saas-security,Blog
+"Unified SaaS Application Security, Detection, and Response",https://blog.qualys.com/product-tech/2021/02/03/unified-saas-application-security-detection-and-response,Blog

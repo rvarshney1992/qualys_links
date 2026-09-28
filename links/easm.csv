@@ -1,0 +1,46 @@
+title,link,category
+Get Started with EASM,https://docs.qualys.com/en/csam/latest/get_started/get_started_easm.htm,EASM Docs
+EASM Lightweight Scan IP Address Management,https://docs.qualys.com/en/csam/latest/configure/easm_lightweight_scan_ip_mgmt.htm,EASM Docs
+EASM Profile APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/Qualys_Global_AssetView_CyberSecurity_Asset_Management_API_User_Guide4.htm,EASM Docs
+Create an EASM Profile,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/create_easm_profile.htm,EASM Docs
+EASM Multiple Profiles,https://docs.qualys.com/en/csam/latest/inventory/sensors/easm_multi_profile_overview.htm,EASM Docs
+TruRisk™ Score Calculation for EASM Assets,https://docs.qualys.com/en/csam/latest/inventory/sensors/ars_easm_unmanaged.htm,EASM Docs
+Configure External Attack Surface Management Profile,https://docs.qualys.com/en/csam/latest/inventory/sensors/configure_easm.htm,EASM Docs
+View Domain Details,https://docs.qualys.com/en/csam/latest/inventory/view_unresolved_domain_details.htm,EASM Docs
+EASM Organization/Subsidiary Report,https://docs.qualys.com/en/csam/latest/reports/org_sub_report.htm,EASM Docs
+Externally Exposed Asset Details Reports,https://docs.qualys.com/en/csam/latest/reports/easm_reports.htm,EASM Docs
+Vulnerabilities Detected Using EASM Lightweight Scan,https://docs.qualys.com/en/csam/latest/inventory/vuln_tab_easm_lightweight_scan.htm,EASM Docs
+Domain APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/domains/domain_apis.htm,EASM Docs
+EASM Discovery,https://docs.qualys.com/en/csam/latest/inventory/sensors/easm_discovery.htm,EASM Docs
+EASM Domain Security,https://docs.qualys.com/en/csam/latest/inventory/sensors/domain_security.htm,EASM Docs
+EASM Lightweight Scan,https://docs.qualys.com/en/csam/latest/inventory/sensors/easm_option_profiles.htm,EASM Docs
+EASM Reports Download,https://docs.qualys.com/en/csam/latest/inventory/sensors/reports_downloaded_easm_tab.htm,EASM Docs
+Get a List of Domains,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/domains/get_list_of_unresolved_domains.htm,EASM Docs
+Delete an EASM Profile,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/delete_easm_profile.htm,EASM Docs
+EASM Discovery Statuses,https://docs.qualys.com/en/csam/latest/inventory/sensors/easm_discovery_statuses.htm,EASM Docs
+Get an EASM Profile Data,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/get_easm_profile_data.htm,EASM Docs
+Get the Count of Domains,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/domains/get_count_of_unresolved_domains.htm,EASM Docs
+View EASM Profile History,https://docs.qualys.com/en/csam/latest/inventory/sensors/easm_profile_history.htm,EASM Docs
+Patch an EASM Profile data,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/patch_easm_profile_data.htm,EASM Docs
+Update an EASM Profile Data,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/update_easm_profile_data.htm,EASM Docs
+EASM Organization/Subsidiaries,https://docs.qualys.com/en/csam/latest/inventory/sensors/org_sub.htm,EASM Docs
+External Attack Surface Reports,https://docs.qualys.com/en/csam/latest/inventory/sensors/easm_reports.htm,EASM Docs
+EASM Organization/Subsidiary APIs,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/org_apis.htm,EASM Docs
+Get an EASM Profile Discovery Status,https://docs.qualys.com/en/csam/latest/mergedProjects/csam_api/easm_apis/get_easm_profile_discovery_status.htm,EASM Docs
+Filter Criteria in EASM Configuration,https://docs.qualys.com/en/csam/latest/inventory/sensors/filter_criteria_in_easm_configuration.htm,EASM Docs
+Download Automated EASM Summary Report,https://docs.qualys.com/en/csam/latest/inventory/sensors/generate_easm_summary_report.htm,EASM Docs
+Training Course: CyberSecurity Asset Management (CSAM),https://www.qualys.com/training/course/cybersecurity-asset-management-csam,Training
+Video Library: EASM Onboarding,https://success.qualys.com/customersupport/s/video-library?product=easm-onboarding,Training
+Qualys External Attack Surface Management Security Software,https://www.qualys.com/apps/external-attack-surface-management,Product Overview
+Attack Surface Management Solutions,https://www.qualys.com/solutions/attack-surface-management,Product Overview
+Proactive Attack Surface Management Solutions,https://www.qualys.com/faqs-resources-attack-surface-management,Product Overview
+Show your customer a proof-of-value for EASM scanning,https://www.qualys.com/easm-report-partner,Product Overview
+Get Real-Time Visibility of Your Total Attack Surface,https://www.qualys.com/whitepapers/get-real-time-visibility-your-total-attack-surface,Whitepapers & Reports
+Stop Chasing Threats: Top 3 Insights from the SANS Attack Surface Management Survey,https://blog.qualys.com/product-tech/2026/05/14/sans-attack-surface-management-survey-2025-insights,Blog
+Qualys Recognized as The Leader in Attack Surface Management by KuppingerCole,https://blog.qualys.com/product-tech/2025/06/05/qualys-recognized-as-the-leader-in-attack-surface-management-by-kuppingercole,Blog
+Independent Analyst Firm: Qualys Recognized as a Leader in Attack Surface Management,https://blog.qualys.com/product-tech/2025/02/28/independent-analyst-firm-qualys-recognized-as-a-leader-in-attack-surface-management,Blog
+Qualys Adds Threat Intelligence for Typosquatting and Defamatory Domains to External Attack Surface Management,https://blog.qualys.com/product-tech/2025/02/13/qualys-adds-threat-intelligence-for-typosquatting-and-defamatory-domains-to-external-attack-surface-management,Blog
+Qualys Ranked as a “Strong Performer” Among Top Vendors in Forrester Wave™ for Attack Surface Management,https://blog.qualys.com/product-tech/2024/09/27/qualys-ranked-as-a-strong-performer-among-top-vendors-in-forrester-wave-for-attack-surface-management,Blog
+Meeting FISMA (M-24-04) Requirements with a Unified Attack Surface Management Strategy,https://blog.qualys.com/product-tech/2024/03/26/meeting-fisma-m-24-04-requirements-with-a-unified-attack-surface-management-strategy,Blog
+CSAM Strengthens Attack Surface Coverage and Risk Assessment With Third-Party Connectors,https://blog.qualys.com/product-tech/2024/02/05/csam-strengthens-attack-surface-coverage-and-risk-assessment-with-third-party-connectors,Blog
+Introducing CyberSecurity Asset Management 2.0 with Natively Integrated External Attack Surface Management,https://blog.qualys.com/product-tech/2022/08/03/introducing-cybersecurity-asset-management-2-0-with-natively-integrated-external-attack-surface-management,Blog

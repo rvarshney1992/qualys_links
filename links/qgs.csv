@@ -1,0 +1,24 @@
+title,link,category
+QGS Deployment Guide: Alibaba Cloud,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/alibaba_cloud_deployment_guide.htm,Deployment Guides
+QGS Deployment Guide: AWS,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/aws-deployment-guide.htm,Deployment Guides
+QGS Deployment Guide: Azure,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/azure-deployment-guide.htm,Deployment Guides
+Gateway Service User Guide,https://docs.qualys.com/en/qgs/user-guide/get_started/overview.htm,Official Guides
+QGS Deployment Guide: GCP,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/gcp-deployment-guide.htm,Deployment Guides
+QGS Deployment Guide: Hyper-V,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/hyperv-deployment-guide.htm,Deployment Guides
+QGS Deployment Guide: Nutanix,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/nutanix_deployment_guide.htm,Deployment Guides
+QGS Deployment Guide: OCI,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/oci_deployment.htm,Deployment Guides
+QGS Deployment Guide: OpenStack,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/qualys-gateway-service-deployment-guide-openstack.htm,Deployment Guides
+QGS Deployment Guide: Red Hat OpenShift,https://docs.qualys.com/en/qgs/user-guide/qgs-deployment-guides/openshift_deployment_guide.htm,Deployment Guides
+QGS Deployment Guide: VMWare,https://docs.qualys.com/en/qgs/user-guide/text_ui/local_configuration.htm,Deployment Guides
+Release Notes (qualys.com),https://www.qualys.com/documentation/release-notes#qualys-gateway-service,Release Notes
+Qualys Gateway Service Release 3.16.1 (September 2026),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_16_1.htm,Release Notes
+Qualys Gateway Service 3.16 (August 2026),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_16.htm,Release Notes
+Qualys Gateway Service 3.15.1 (June 2026),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_15_1.htm,Release Notes
+Qualys Gateway Service 3.15 (April 2026),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_15.htm,Release Notes
+Qualys Gateway Service 3.14 (February 2026),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_14.htm,Release Notes
+Qualys Gateway Service 3.13 (November 2025),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_13.htm,Release Notes
+Qualys Gateway Service 3.12 (July 2025),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_12.htm,Release Notes
+Qualys Gateway Service 3.11 (May 2025),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_11.htm,Release Notes
+Qualys Gateway Service 3.10 (March 2025),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_10.htm,Release Notes
+Qualys Gateway Service 3.9 (January 2025),https://docs.qualys.com/en/qgs/release-notes/qgs/release_3_9.htm,Release Notes
+Video Library: Gateway Service,https://success.qualys.com/customersupport/s/video-library?product=qgs,Training

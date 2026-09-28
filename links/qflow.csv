@@ -1,0 +1,50 @@
+title,link,category
+What's New in QFlow,https://docs.qualys.com/en/qflow/latest/getting_started/whats_new.htm,Getting Started
+Overview Qualys Flow,https://docs.qualys.com/en/qflow/latest/getting_started/overview.htm,Getting Started
+Get Started with Qualys Flow,https://docs.qualys.com/en/qflow/latest/getting_started/get_started_qflow.htm,Getting Started
+Frequently Asked Questions about Wait-for in AWS Actions,https://docs.qualys.com/en/qflow/latest/getting_started/faq_waitfor.htm,Getting Started
+Knowing the Nodes,https://docs.qualys.com/en/qflow/latest/getting_started/knowing_nodes.htm,Getting Started
+Some Common Use Cases,https://docs.qualys.com/en/qflow/latest/appendix/usecases.htm,Reference
+Use Case 1: Use of Variables,https://docs.qualys.com/en/qflow/latest/appendix/usecase1.htm,Reference
+Use Case 2: Filtering DB Instances,https://docs.qualys.com/en/qflow/latest/appendix/usecase2.htm,Reference
+Viewing Dashboard,https://docs.qualys.com/en/qflow/latest/dashboard/viewing_dashboard.htm,More Topics
+Knowledgebase Article for QFlow,https://docs.qualys.com/en/qflow/latest/kb/knowledgebase_Articles.htm,More Topics
+Managing QFlows,https://docs.qualys.com/en/qflow/latest/managing_qflows/managing_qflows.htm,Managing Qflows
+Cloning Your QFlows,https://docs.qualys.com/en/qflow/latest/managing_qflows/cloning_qflows.htm,Managing Qflows
+Viewing Your QFlows,https://docs.qualys.com/en/qflow/latest/managing_qflows/viewing_qflows.htm,Managing Qflows
+Exporting Your QFlows,https://docs.qualys.com/en/qflow/latest/managing_qflows/exporting_qflows.htm,Managing Qflows
+Importing Your QFlows,https://docs.qualys.com/en/qflow/latest/managing_qflows/importing_qflows.htm,Managing Qflows
+Using QFlows in TotalCloud,https://docs.qualys.com/en/qflow/latest/managing_qflows/qflow_cloudview.htm,Managing Qflows
+Creating QFlows from Scratch,https://docs.qualys.com/en/qflow/latest/managing_qflows/qflows_scratch.htm,Managing Qflows
+Creating QFlows from a Template,https://docs.qualys.com/en/qflow/latest/managing_qflows/qflows_template.htm,Managing Qflows
+Search Tokens for Qualys Flow,https://docs.qualys.com/en/qflow/latest/search_tips/search_tokens_qflow.htm,More Topics
+Training Videos for QFlow,https://docs.qualys.com/en/qflow/latest/training/training_videos.htm,Training
+Run Workflow API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow_management/run_workflow.htm,API
+Workflow List API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow_management/workflow_list.htm,API
+API Authentication,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/introduction/api_authentication.htm,API
+Workflow Execution,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow _execution/workflow_execution.htm,API
+Workflow Management,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow_management/workflow_management.htm,API
+Workflow Details API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow_management/workflow_details.htm,API
+Workflow Execution List API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow _execution/workflow_execution_list.htm,API
+Workflow Execution Details API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/workflow _execution/workflow_execution_details.htm,API
+Get Started with Qualys Flow API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/introduction/get_started.htm,API
+Workflow Execution Step List API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/execution_steps/workflow_execution_step_list.htm,API
+Execution Steps,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/execution_steps/execution_steps.htm,API
+Execution Step Input API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/execution_steps/execution_step_input.htm,API
+Execution Step Output API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/execution_steps/execution_step_output.htm,API
+Execution Step Details API,https://docs.qualys.com/en/qflow/latest/mergedProjects/apis/execution_steps/execution_step_details.htm,API
+Qualys Flow 1.24 API (September 2026),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_24_api.htm,Release Notes
+Qualys Flow 1.24 (September 2026),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_24.htm,Release Notes
+Qualys Flow 1.23 (July 2026),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_23.htm,Release Notes
+Qualys Flow 1.22 (April 2026),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_22.htm,Release Notes
+Qualys Flow 1.21 (March 2026),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_21.htm,Release Notes
+Qualys Flow 1.20 (November 2025),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_20.htm,Release Notes
+Qualys Flow 1.19 (September 2025),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_19.htm,Release Notes
+Qualys Flow 1.19 API (September 2025),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_19_api.htm,Release Notes
+Qualys Flow 1.18 (August 2025),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_18.htm,Release Notes
+Qualys Flow 1.18 API (August 2025),https://docs.qualys.com/en/qflow/release-notes/qflow/release_1_18_api.htm,Release Notes
+Training Course: Qualys Flow (QFlow),https://www.qualys.com/training/course/qualys-flow-qflow,Training
+Video Library: QFlow,https://success.qualys.com/customersupport/s/video-library?product=qflow,Training
+Remediate Risk Without the Roadblocks: Automate with Qualys Flow,https://blog.qualys.com/product-tech/2025/05/01/remediate-risk-without-the-roadblocks-automate-with-qualys-flow,Blog
+"Qualys Announcing TotalCloud Attack Path, Cloud Workflow Automation, and Streamlined 3-Step User Onboarding for CNAPP",https://blog.qualys.com/product-tech/2024/10/31/announcing-totalcloud-attack-path-cloud-workflow-automation-and-3-step-simplified-user-onboarding-for-qualys-totalcloud-cnapp,Blog
+Use Qualys ­­Flow to Automate Detection & Remediation with No-code Workflows,https://blog.qualys.com/product-tech/2022/07/20/use-qualys-flow-to-automate-detection-remediation-with-no-code-workflows,Blog

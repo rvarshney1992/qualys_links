@@ -1,0 +1,215 @@
+title,link,category
+Troubleshooting,https://docs.qualys.com/en/pa/latest/alerting/teams/troubleshooting.htm,Responses & Alerts
+Create Slack Channel,https://docs.qualys.com/en/pa/latest/alerting/slack/create_slack_channel.htm,Responses & Alerts
+Create Teams Workflow,https://docs.qualys.com/en/pa/latest/alerting/teams/create_workflow.htm,Responses & Alerts
+Managing Rules in Rule Manager,https://docs.qualys.com/en/pa/latest/alerting/responses/managing_rules_in_rule_manager.htm,Responses & Alerts
+Get Started with Slack Alerting,https://docs.qualys.com/en/pa/latest/alerting/slack/get_started_slack_alerting.htm,Responses & Alerts
+Configure Responses in Policy Audit,https://docs.qualys.com/en/pa/latest/alerting/get_started/configure_responses_pa.htm,Responses & Alerts
+Edit Workflow to Post Adaptive Card,https://docs.qualys.com/en/pa/latest/alerting/teams/edit_workflow.htm,Responses & Alerts
+Creating a New Rule from Rule Manager,https://docs.qualys.com/en/pa/latest/alerting/responses/creating_a_new_rule_from_rule_manager.htm,Responses & Alerts
+Limitations,https://docs.qualys.com/en/pa/latest/alerting/teams/limitations.htm,Responses & Alerts
+Managing Actions,https://docs.qualys.com/en/pa/latest/alerting/responses/managing_actions.htm,Responses & Alerts
+Response on Slack Channel,https://docs.qualys.com/en/pa/latest/alerting/slack/response_slack_channel.htm,Responses & Alerts
+Response on MS Teams Channel,https://docs.qualys.com/en/pa/latest/alerting/teams/responses.htm,Responses & Alerts
+Audit Fix - FAQ,https://docs.qualys.com/en/pa/latest/auto_remediation/audit_fix_faq.htm,Remediation
+Create an Audit Fix Job Workflow,https://docs.qualys.com/en/pa/latest/auto_remediation/create_audit_fix_workflow.htm,Remediation
+About Audit Fix,https://docs.qualys.com/en/pa/latest/auto_remediation/creating_remediation_job.htm,Remediation
+Activate Audit Fix,https://docs.qualys.com/en/pa/latest/auto_remediation/activating_audit_fix.htm,Remediation
+Import from CAR Library,https://docs.qualys.com/en/pa/latest/auto_remediation/import_from_car_library.htm,Remediation
+Viewing Policy Audit Fix Scripts,https://docs.qualys.com/en/pa/latest/auto_remediation/view_remediation_scripts.htm,Remediation
+Viewing Remediation Jobs and Schedules,https://docs.qualys.com/en/pa/latest/auto_remediation/view_remediation_jobs_and_schedules.htm,Remediation
+User-Defined Controls FAQs,https://docs.qualys.com/en/pa/latest/controls/user_defined_controls_faq.htm,Controls
+Configure Windows User Rights Controls,https://docs.qualys.com/en/pa/latest/controls/configure_windows_user_rights.htm,Controls
+Get Started with User-Defined Controls,https://docs.qualys.com/en/pa/latest/controls/create_custom_controls.htm,Controls
+Edit a Control,https://docs.qualys.com/en/pa/latest/controls/win_edit_control.htm,Controls
+Manage Controls,https://docs.qualys.com/en/pa/latest/controls/controls_lp.htm,Controls
+Agent UDC Support,https://docs.qualys.com/en/pa/latest/controls/agent_udc_support.htm,Controls
+Deprecated Controls,https://docs.qualys.com/en/pa/latest/controls/deprecated_controls.htm,Controls
+Qualys Custom Controls,https://docs.qualys.com/en/pa/latest/controls/qualys_custom_controls.htm,Controls
+Get Started with Control Criticality,https://docs.qualys.com/en/pa/latest/controls/control_criticality.htm,Controls
+Configure a Windows File Content Check,https://docs.qualys.com/en/pa/latest/controls/win_file_content_check.htm,Controls
+Expected Value Calculations for Controls,https://docs.qualys.com/en/pa/latest/controls/how_expected_value_calculated.htm,Controls
+User Defined Controls - Reporting Options,https://docs.qualys.com/en/pa/latest/controls/how_eval_errors_are_reported.htm,Controls
+Get Started,https://docs.qualys.com/en/pa/latest/get_started/get_started.htm,Getting Started
+Qualys PA APIs,https://docs.qualys.com/en/pa/latest/get_started/qualys_pa_apis.htm,Getting Started
+Welcome to Policy Audit,https://docs.qualys.com/en/pa/latest/get_started/welcome_pa.htm,Getting Started
+Whats New in Policy Audit,https://docs.qualys.com/en/pa/latest/get_started/whats_new.htm,Getting Started
+Get started with PA and SCAP,https://docs.qualys.com/en/pa/latest/get_started/welcome_to_pc.htm,Getting Started
+Training Videos for Policy Audit,https://docs.qualys.com/en/pa/latest/get_started/training_videos.htm,Getting Started
+Knowledge Articles for Policy Audit,https://docs.qualys.com/en/pa/latest/get_started/knowledge_articles.htm,Getting Started
+PA Onboarding,https://docs.qualys.com/en/pa/latest/onboarding/pc_onboarding.htm,Getting Started
+SCA - Security Configuration Assessment,https://docs.qualys.com/en/pa/latest/module_sca/sca_get_started.htm,SCA
+Generating SCA reports,https://docs.qualys.com/en/pa/latest/module_sca/win_sca_report.htm,SCA
+Setting up assets for SCA,https://docs.qualys.com/en/pa/latest/module_sca/sca_assets.htm,SCA
+Steps to launch an SCA scan,https://docs.qualys.com/en/pa/latest/module_sca/win_sca_scan.htm,SCA
+Tell me about my SCA Dashboard,https://docs.qualys.com/en/pa/latest/module_sca/sca_dashboard.htm,SCA
+Setting up CIS policies for SCA,https://docs.qualys.com/en/pa/latest/module_sca/csa_cis_policies.htm,SCA
+Script-Based UDCs,https://docs.qualys.com/en/pa/latest/appendix/script_based_udcs.htm,More Topics
+Viewing MITRE Compliance,https://docs.qualys.com/en/pa/latest/compliance_posture/mitre_compliance.htm,Compliance Posture
+Viewing Mandate Compliance,https://docs.qualys.com/en/pa/latest/compliance_posture/viewing_mandate_compliance.htm,Compliance Posture
+Viewing Compliance by Asset,https://docs.qualys.com/en/pa/latest/compliance_posture/viewing_asset_details.htm,Compliance Posture
+Know Your Compliance Posture,https://docs.qualys.com/en/pa/latest/compliance_posture/know_your_compliance_posture.htm,Compliance Posture
+Viewing Compliance by Control,https://docs.qualys.com/en/pa/latest/compliance_posture/controls_and_assets_view.htm,Compliance Posture
+Policy Summary,https://docs.qualys.com/en/pa/latest/report/policy_summary.htm,Reports and Dashboards
+STIG Based Report,https://docs.qualys.com/en/pa/latest/report/stig_based_reports.htm,Reports and Dashboards
+STIG Based Template,https://docs.qualys.com/en/pa/latest/report/stig_based_template.htm,Reports and Dashboards
+Timeframe Selection,https://docs.qualys.com/en/pa/latest/report/timeframe_selection.htm,Reports and Dashboards
+Compliance Reporting,https://docs.qualys.com/en/pa/latest/report/reports_lp.htm,Reports and Dashboards
+Control Pass/Fail Report,https://docs.qualys.com/en/pa/latest/report/control_report.htm,Reports and Dashboards
+Tell me about Control View,https://docs.qualys.com/en/pa/latest/report/control_view.htm,Reports and Dashboards
+Tell me about Policy Reports,https://docs.qualys.com/en/pa/latest/report/win_policy_report.htm,Reports and Dashboards
+Custom Policy Report Template,https://docs.qualys.com/en/pa/latest/report/win_policy_template.htm,Reports and Dashboards
+Start a New Compliance Report,https://docs.qualys.com/en/pa/latest/report/start_launching_pc_reports.htm,Reports and Dashboards
+Tell me about my PA Dashboard,https://docs.qualys.com/en/pa/latest/dashboard/pc_dashboard.htm,Reports and Dashboards
+Viewing Compliance Dashboards,https://docs.qualys.com/en/pa/latest/dashboard/viewing_compliance_dashboards.htm,Reports and Dashboards
+Make Your Exception Request,https://docs.qualys.com/en/pa/latest/exceptions/win_create_exception.htm,Exceptions
+Edit Your Exceptions,https://docs.qualys.com/en/pa/latest/exceptions/win_edit_exception.htm,Exceptions
+Manage Your Exceptions,https://docs.qualys.com/en/pa/latest/exceptions/exceptions_lp.htm,Exceptions
+Exceptions - The Basics,https://docs.qualys.com/en/pa/latest/exceptions/exceptions_basics.htm,Exceptions
+Mandates,https://docs.qualys.com/en/pa/latest/mandates/mandates_lp.htm,More Topics
+Policy Audit Onboarding,https://docs.qualys.com/en/pa/latest/pc_onboarding/pc_onboarding.htm,Getting Started
+Manage Your Policies,https://docs.qualys.com/en/pa/latest/policies/manage_policies.htm,Policies
+Control Values,https://docs.qualys.com/en/pa/latest/policies/control_values.htm,Policies
+Set Up Policies,https://docs.qualys.com/en/pa/latest/policies/policies_lp.htm,Policies
+Create New Script,https://docs.qualys.com/en/pa/latest/policies/new_script.htm,Policies
+Compliance Framwork,https://docs.qualys.com/en/pa/latest/policies/compliance_framwork.htm,Policies
+Export Your Policies,https://docs.qualys.com/en/pa/latest/policies/export_policy.htm,Policies
+Using the Policy Editor,https://docs.qualys.com/en/pa/latest/policies/win_policy_editor_new.htm,Policies
+Control Values: Integers,https://docs.qualys.com/en/pa/latest/policies/control_values_integers.htm,Policies
+Special Data Point Status Codes,https://docs.qualys.com/en/pa/latest/policies/special_data_point_status_codes.htm,Policies
+Import Compliance Policy from XML,https://docs.qualys.com/en/pa/latest/policies/import_policy_xml.htm,Policies
+Regular Expressions in PCRE Format,https://docs.qualys.com/en/pa/latest/policies/regular_expression_symbols.htm,Policies
+Control Values: Registry Permissions,https://docs.qualys.com/en/pa/latest/policies/control_values_registry_permissions.htm,Policies
+EC2 Scan,https://docs.qualys.com/en/pa/latest/scans_common/win_launch_ec2_scan.htm,Scanning
+Scan Status,https://docs.qualys.com/en/pa/latest/scans_common/scan_status.htm,Scanning
+Password Auditing,https://docs.qualys.com/en/pa/latest/scan/password_auditing.htm,Scanning
+Cloud Perimeter Scan,https://docs.qualys.com/en/pa/latest/scans_common/cloud_perimeter_scans.htm,Scanning
+Scan for Policy Audit,https://docs.qualys.com/en/pa/latest/scan/compliance_scans_lp.htm,Scanning
+Compliance Scan Results,https://docs.qualys.com/en/pa/latest/scan/win_compliance_scan_results.htm,Scanning
+Configure Scan Schedules,https://docs.qualys.com/en/pa/latest/scan/pc_schedules_lp.htm,Scanning
+File Integrity Monitoring,https://docs.qualys.com/en/pa/latest/scan/file_integrity_monitoring.htm,Scanning
+Windows Share Enumeration,https://docs.qualys.com/en/pa/latest/scan/windows_share_enumeration.htm,Scanning
+Manage Option Profiles for PA,https://docs.qualys.com/en/pa/latest/scan/compliance_profiles_lp.htm,Scanning
+Scan Hosts in CDN by DNS Name,https://docs.qualys.com/en/pa/latest/scans_common/scan_hosts_in_cdn_by_dns.htm,Scanning
+Start Scanning for Policy Audit,https://docs.qualys.com/en/pa/latest/scan/win_launch_pc_scan.htm,Scanning
+Search Tokens,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens.htm,Search & QQL
+Boolean Operators,https://docs.qualys.com/en/pa/latest/search_tokens/boolean_operators.htm,Search & QQL
+Search Tokens for Reports,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_reports.htm,Search & QQL
+Search Tokens for Remediation,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_remediation.htm,Search & QQL
+Search Tokens for SCA Posture,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_sca_posture.htm,Search & QQL
+Search Tokens for Custom Scripts,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_custom_scripts.htm,Search & QQL
+Old and New Search Token Mappings,https://docs.qualys.com/en/pa/latest/search_tokens/old_new_token_mappings.htm,Search & QQL
+Search Tokens for Remediation Jobs,https://docs.qualys.com/en/pa/latest/search_tokens/job_tokens.htm,Search & QQL
+Search Tokens for Remediaton Assets,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_remediaton_assets.htm,Search & QQL
+Search Tokens for Remediation Scripts,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_remediation_scripts.htm,Search & QQL
+Search Tokens for Remediaton Controls,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_for_remediaton_controls.htm,Search & QQL
+Search Tokens for PA Posture and Policies,https://docs.qualys.com/en/pa/latest/search_tokens/search_tokens_pcui.htm,Search & QQL
+Scans Setup,https://docs.qualys.com/en/pa/latest/setup/pc_scans_setup.htm,Setup
+Reports Setup,https://docs.qualys.com/en/pa/latest/setup/pc_reports_setup.htm,Setup
+Policies Setup,https://docs.qualys.com/en/pa/latest/setup/policies_setup.htm,Setup
+Frameworks Setup,https://docs.qualys.com/en/pa/latest/setup/win_frameworks.htm,Setup
+DB UDC Row Limits Agent,https://docs.qualys.com/en/pa/latest/setup/db_udc_row_limit.htm,Setup
+Configure a Custom Command Check,https://docs.qualys.com/en/pa/latest/udc/configure_network_udc.htm,User-Defined Controls
+Configure a Unix Script Result Check,https://docs.qualys.com/en/pa/latest/udc/unix_script_result.htm,User-Defined Controls
+Configure a Windows Script Result Check,https://docs.qualys.com/en/pa/latest/udc/windows_script_result.htm,User-Defined Controls
+Manage Your Users,https://docs.qualys.com/en/pa/latest/user_accounts/manage_users.htm,Users & Roles
+Delete User,https://docs.qualys.com/en/pa/latest/user_accounts/delete_user.htm,Users & Roles
+Tell me about the primary contact,https://docs.qualys.com/en/pa/latest/user_accounts/primary_contact.htm,Users & Roles
+User Roles and Permissions for PA,https://docs.qualys.com/en/pa/latest/user_accounts/setting_user_permissions.htm,Users & Roles
+Extended Permission for Administrator,https://docs.qualys.com/en/pa/latest/user_accounts/extended_permission_for_administrator.htm,Users & Roles
+User Roles Comparison for Policy Audit,https://docs.qualys.com/en/pa/latest/user_accounts/user_roles_comparison_compliance.htm,Users & Roles
+Get started with PC/SCA and SCAP,https://docs.qualys.com/en/vm/latest/module_pc/welcome_to_pc.htm,Policy Compliance (VM/PC)
+Manage Your Policies,https://docs.qualys.com/en/vm/latest/module_pc/policies/manage_policies.htm,Policy Compliance (VM/PC)
+User-Defined Controls FAQs,https://docs.qualys.com/en/vm/latest/module_pc/controls/user_defined_controls_faq.htm,Policy Compliance (VM/PC)
+Make Your Exception Request,https://docs.qualys.com/en/vm/latest/module_pc/exceptions/win_create_exception.htm,Policy Compliance (VM/PC)
+Middleware Technologies (Agent Only),https://docs.qualys.com/en/vm/latest/module_pc/middleware/supported_middleware_technologies.htm,Policy Compliance (VM/PC)
+Configure Windows User Rights Controls,https://docs.qualys.com/en/vm/latest/module_pc/controls/configure_windows_user_rights.htm,Policy Compliance (VM/PC)
+Get Started with User-Defined Controls,https://docs.qualys.com/en/vm/latest/module_pc/controls/create_custom_controls.htm,Policy Compliance (VM/PC)
+host verification script,https://docs.qualys.com/en/vm/latest/module_pc/host_verification_script.htm,Policy Compliance (VM/PC)
+Agent Scan By Policy Assets,https://docs.qualys.com/en/vm/latest/module_pc/agent_scan_by_policy_assets.htm,Policy Compliance (VM/PC)
+Getting PC Report for EKS AKS and GKE,https://docs.qualys.com/en/vm/latest/module_pc/pc_report_for_eks_aks_gke.htm,Policy Compliance (VM/PC)
+Database Assessments in Policy Compliance,https://docs.qualys.com/en/vm/latest/module_pc/database_assessments.htm,Policy Compliance (VM/PC)
+Getting PC Report for Red Hat OpenShift Container Platform (RHOCP) 4.x,https://docs.qualys.com/en/vm/latest/module_pc/pc_report_forrhocp_4.htm,Policy Compliance (VM/PC)
+Mandates,https://docs.qualys.com/en/vm/latest/module_pc/mandates/mandates_lp.htm,Policy Compliance (VM/PC)
+Debug Scan,https://docs.qualys.com/en/vm/latest/module_pc/scan/debug_scan.htm,Policy Compliance (VM/PC)
+Onboarding,https://docs.qualys.com/en/vm/latest/module_pc/onboarding/pc_onboarding.htm,Policy Compliance (VM/PC)
+Scans Setup,https://docs.qualys.com/en/vm/latest/module_pc/setup/pc_scans_setup.htm,Policy Compliance (VM/PC)
+Reports Setup,https://docs.qualys.com/en/vm/latest/module_pc/setup/pc_reports_setup.htm,Policy Compliance (VM/PC)
+Control Values,https://docs.qualys.com/en/vm/latest/module_pc/policies/control_values.htm,Policy Compliance (VM/PC)
+Edit a Control,https://docs.qualys.com/en/vm/latest/module_pc/controls/win_edit_control.htm,Policy Compliance (VM/PC)
+Policies Setup,https://docs.qualys.com/en/vm/latest/module_pc/setup/policies_setup.htm,Policy Compliance (VM/PC)
+Policy Summary,https://docs.qualys.com/en/vm/latest/module_pc/report/policy_summary.htm,Policy Compliance (VM/PC)
+Manage Controls,https://docs.qualys.com/en/vm/latest/module_pc/controls/controls_lp.htm,Policy Compliance (VM/PC)
+Set Up Policies,https://docs.qualys.com/en/vm/latest/module_pc/policies/policies_lp.htm,Policy Compliance (VM/PC)
+Frameworks Setup,https://docs.qualys.com/en/vm/latest/module_pc/setup/win_frameworks.htm,Policy Compliance (VM/PC)
+Agent UDC Support,https://docs.qualys.com/en/vm/latest/module_pc/controls/agent_udc_support.htm,Policy Compliance (VM/PC)
+SCA - Security Configuration Assessment,https://docs.qualys.com/en/vm/latest/module_sca/sca_get_started.htm,SCA
+Generating SCA reports,https://docs.qualys.com/en/vm/latest/module_sca/win_sca_report.htm,SCA
+Setting up assets for SCA,https://docs.qualys.com/en/vm/latest/module_sca/sca_assets.htm,SCA
+Steps to launch an SCA scan,https://docs.qualys.com/en/vm/latest/module_sca/win_sca_scan.htm,SCA
+Tell me about my SCA Dashboard,https://docs.qualys.com/en/vm/latest/module_sca/sca_dashboard.htm,SCA
+Setting up CIS policies for SCA,https://docs.qualys.com/en/vm/latest/module_sca/csa_cis_policies.htm,SCA
+Compliance,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/get_started.htm,API
+Best Practices,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/posture/best_practices.htm,API
+Making API Calls,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/making_API_calls.htm,API
+Qualys API Server URL,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/url_api_server.htm,API
+Create Report Template,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/report_template_apis/create_report_template.htm,API
+Tracking API Usage Per User,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/get_started/tracking_api_usage.htm,API
+Create Compliance Framework Report API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/compliance_framework_reports/create_compliance_framework_report.htm,API
+Overview - List Compliance Posture Info,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/posture/overview_posture_info.htm,API
+Asset Tags List API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/asset_tags_list.htm,API
+Benchmarks List API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/benchmark_list.htm,API
+Frameworks List API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/frameworks_list.htm,API
+Asset Groups List API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/asset_group_list.htm,API
+Technologies List API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/technology_list.htm,API
+Configure Controls API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/configure_controls.htm,API
+Create Framework Policy API,https://docs.qualys.com/en/vm/qweb-all-api/mergedProjects/qapi-pc/pcas/manage_compliance_frameworks/create_framework_policy.htm,API
+Community Discussions: Compliance,https://success.qualys.com/discussions/s/topic/0TO2L000000HIS1WAO/compliance,Community
+PC Getting Started,https://www.qualys.com/docs/qualys-policy-compliance-guide.pdf,Official Guides
+PC Scanning Connector for Jenkins,https://www.qualys.com/docs/qualys-policy-scanning-connector-jenkins-plugin-user-guide.pdf,Official Guides
+PC User Defined Control XML,https://qualysguard.qg2.apps.qualys.com/qwebhelp/fo_portal/pdf/pc_user_defined_control_xml.pdf,Official Guides
+"Qualys API (VM, PC) XML/DTD Reference",https://www.qualys.com/docs/qualys-api-vmpc-xml-dtd-reference.pdf,Official Guides
+Qualys API (VM/PC): PDF,https://www.qualys.com/docs/qualys-api-vmpc-user-guide.pdf,Official Guides
+Release Notes (qualys.com),https://www.qualys.com/documentation/release-notes#policy-compliance,Release Notes
+SCAP Getting Started,https://www.qualys.com/docs/qualys-scap-getting-started-guide.pdf,Official Guides
+Training Library,https://www.qualys.com/training/course/policy-compliance/,Training
+Policy Audit Release 1.16 (September 2026),https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_pa/pa/release_1_16.htm,Release Notes
+Policy Audit Release 1.16 API (September 2026),https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_pa/pa/release_1_16_api.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.40 (September 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_40.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.40 API (September 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_40_api.htm,Release Notes
+Policy Audit Release 1.15 (September 2026),https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_pa/pa/release_1_15.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.3 (September 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_3.htm,Release Notes
+Policy Audit Release 1.14 API (August 2026),https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_pa/pa/release_1_14_api.htm,Release Notes
+Policy Audit Release 1.14 (August 2026),https://docs.qualys.com/en/vm/release-notes/mergedProjects/qualys_pa/pa/release_1_14.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.2 API (August 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_2_api.htm,Release Notes
+Enterprise TruRisk™ Platform Release 10.39.2 (August 2026),https://docs.qualys.com/en/vm/release-notes/qweb/release_10_39_2.htm,Release Notes
+Training Course: Policy Compliance Foundation,https://www.qualys.com/training/course/policy-compliance-foundation,Training
+Training Course: Policy Audit,https://www.qualys.com/training/course/policy-audit,Training
+Video Library: Policy Audit,https://success.qualys.com/customersupport/s/video-library?product=pa,Training
+Video Library: Policy Compliance,https://success.qualys.com/customersupport/s/video-library?product=pc,Training
+Qualys VMDR and Policy Compliance for IBM zSystems & LinuxONE,https://www.qualys.com/ibm-zsystems-linuxone,Product Overview
+Qualys Policy Audit: AI-Powered Compliance & Audit Readiness,https://www.qualys.com/apps/policy-audit,Product Overview
+Qualys Threat Protection & Cybersecurity Services,https://www.qualys.com/apps/security-configuration-assessment,Product Overview
+Cloud Compliance & Security Compliance Solutions,https://www.qualys.com/solutions/compliance,Product Overview
+DORA Compliance & Audit Dashboard for Financial Services,https://www.qualys.com/solutions/dora-compliance,Product Overview
+NIS2 Compliance & Cybersecurity Solutions,https://www.qualys.com/solutions/nis2,Product Overview
+Cybersecurity Audit Compliance Guide,https://www.qualys.com/fundamentals/cybersecurity-audit-compliance,Product Overview
+Best Practices To Pass an It Security Audit,https://www.qualys.com/whitepapers/qualys-best-practices-pass-it-security-audit,Whitepapers & Reports
+How to Prevent Security and Policy Compliance Failures,https://www.qualys.com/whitepapers/how-prevent-security-policy-compliance-failures,Whitepapers & Reports
+Best Practices to Pass an IT Security Audit,https://www.qualys.com/whitepapers/best-practices-to-pass-it-security-audit,Whitepapers & Reports
+Achieving DORA Compliance with Qualys,https://www.qualys.com/whitepapers/achieving-dora-compliance,Whitepapers & Reports
+The End of Point-in-Time Compliance: Why Continuous Audit Readiness Matters to You in the AI Era,https://blog.qualys.com/product-tech/2026/09/17/end-of-point-in-time-compliance-continuous-audit-readiness,Blog
+"The Sub-10-Minute Cloud Takeover: How Exposed IAM Keys, Misconfiguration and AI Are Rewriting the Rules of Cloud Breaches",https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches,Blog
+Top Five Compliance Audit Software and Tools: Mastering Modern Regulatory Risk,https://blog.qualys.com/product-tech/2026/07/20/top-compliance-audit-software-tools,Blog
+FedRAMP High Authorized: Qualys TotalCloud CNAPP – From Compliance to Defense,https://blog.qualys.com/product-tech/2026/05/14/qualys-totalcloud-achieves-fedramp-high-authorization-for-cloud-security-and-compliance-assurance,Blog
+5 Steps to Turn Compliance Checks into Audit Outcomes,https://blog.qualys.com/product-tech/2026/03/18/continuous-audit-readiness-5-steps-audit-outcomes-qualys,Blog
+"Cyber Essentials Plus in 2026: Strengthened Controls, UK Cyber Reality & How Qualys Supports Compliance",https://blog.qualys.com/product-tech/2026/03/02/cyber-essentials-plus-2026-compliance,Blog
+Top 10 Cloud Compliance Tools for Enterprise Security and Audit Readiness in 2026,https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026,Blog
+Your Guide to PCI DSS 4.0.1 Web Application and API Controls with a Simplified Path to Compliance,https://blog.qualys.com/product-tech/2025/12/19/pci-dss-4-0-1-compliance-web-application-api-security,Blog
+"Scale AI Securely with Qualys TotalAI’s Streamlined Onboarding, Deeper Risk Detection, and Compliance-Ready Reporting",https://blog.qualys.com/product-tech/2025/12/11/totalai-ai-security-onboarding-and-risk-insights,Blog
+Battle Compliance Confusion and Security Fatigue with Qualys and ServiceNow,https://blog.qualys.com/product-tech/2025/11/10/battle-compliance-confusion-and-security-fatigue-with-qualys-and-servicenow,Blog
+Inside an Automotive Giant’s Data Leak — A Cloud Misconfiguration Lesson for AWS Users,https://blog.qualys.com/product-tech/2025/11/03/inside-an-automotive-giants-data-leak-a-cloud-misconfiguration-lesson-for-aws-users,Blog
+Compliance Without Coverage is a Risk: How to Close the Gaps with Qualys Policy Audit,https://blog.qualys.com/product-tech/2025/08/11/unified-compliance-coverage-policy-audit,Blog
+Building Confidence in Cyber Essentials Compliance with Qualys Policy Audit,https://blog.qualys.com/product-tech/2025/05/22/building-confidence-in-cyber-essentials-compliance-with-qualys-policy-audit,Blog
+Simplifying DORA Compliance with the Qualys Enterprise TruRisk™ Platform,https://blog.qualys.com/product-tech/2025/05/21/simplifying-dora-compliance-with-the-qualys-enterprise-trurisk-platform,Blog
+Bridging the Gap: How Qualys Simplifies NCA ECC 2024 Compliance for Businesses,https://blog.qualys.com/product-tech/2025/05/05/bridging-the-gap-how-qualys-simplifies-nca-ecc-2024-compliance-for-businesses,Blog

@@ -1,0 +1,41 @@
+title,link,category
+View Supported Connectors,https://docs.qualys.com/en/etm-identity/latest/configurations/view_supported_connectors.htm,More Topics
+Update Asset Criticality Score,https://docs.qualys.com/en/etm-identity/latest/configurations/acs_identities.htm,More Topics
+Welcome to ETM Identity,https://docs.qualys.com/en/etm-identity/latest/welcome_etm_Identity.htm,Getting Started
+ETM Identity Overview,https://docs.qualys.com/en/etm-identity/latest/get_started/etm_identity_overview.htm,Getting Started
+What's New in ETM Identity,https://docs.qualys.com/en/etm-identity/latest/get_started/whats_new.htm,Getting Started
+Get Started with ETM Identity,https://docs.qualys.com/en/etm-identity/latest/get_started/get_started.htm,Getting Started
+ETM Identity RBAC - Tag-Based Scoping,https://docs.qualys.com/en/etm-identity/latest/get_started/rbac_tag_etmid.htm,Getting Started
+ETM Identity RBAC - Roles and Permissions,https://docs.qualys.com/en/etm-identity/latest/get_started/rbac_etm_id.htm,Getting Started
+Active Directory Setup,https://docs.qualys.com/en/etm-identity/latest/onboarding/ad_setup.htm,Getting Started
+ETM Identity Onboarding,https://docs.qualys.com/en/etm-identity/latest/onboarding/etm_identity_onboarding.htm,Getting Started
+Sample Active Directory Misconfigurations,https://docs.qualys.com/en/etm-identity/latest/onboarding/misconfiguration_use_cases.htm,Getting Started
+Identities Overview,https://docs.qualys.com/en/etm-identity/latest/identities/identities_overview.htm,Identities
+View Identity Users,https://docs.qualys.com/en/etm-identity/latest/identities/user.htm,Identities
+View Identity Groups,https://docs.qualys.com/en/etm-identity/latest/identities/group.htm,Identities
+Frequently Asked Questions and Troubleshooting in ETM Identity,https://docs.qualys.com/en/etm-identity/latest/troubleshoot/troubleshoot_etm_id.htm,More Topics
+AD Attack Path Rules,https://docs.qualys.com/en/etm-identity/latest/appendix/ad_attack_path_rules.htm,More Topics
+Domain Trust Map with Qualys,https://docs.qualys.com/en/etm-identity/latest/attack_path_analysis/domain_trust_map.htm,Attack Path Analysis
+Attack Path Analysis with Qualys,https://docs.qualys.com/en/etm-identity/latest/attack_path_analysis/qualys_attack_path_analysis.htm,Attack Path Analysis
+Understanding Attack Path Analysis with Qualys,https://docs.qualys.com/en/etm-identity/latest/attack_path_analysis/know_attack_path_analysis.htm,Attack Path Analysis
+Working with ETM Identity Dashboard,https://docs.qualys.com/en/etm-identity/latest/dashboard/etm_id_dashboard.htm,More Topics
+Manage Asset Inventory,https://docs.qualys.com/en/etm-identity/latest/inventory/manage_asset_inventory.htm,Inventory
+Discover and Manage Assets,https://docs.qualys.com/en/etm-identity/latest/inventory/discover_manage_all_assets.htm,Inventory
+View Host,https://docs.qualys.com/en/etm-identity/latest/inventory/view_host.htm,Inventory
+View Software,https://docs.qualys.com/en/etm-identity/latest/inventory/view_software.htm,Inventory
+View Open Port,https://docs.qualys.com/en/etm-identity/latest/inventory/view_open_port.htm,Inventory
+View Active Directory Alerts,https://docs.qualys.com/en/etm-identity/latest/monitoring/alerts.htm,More Topics
+Monitor Active Directoty Events,https://docs.qualys.com/en/etm-identity/latest/monitoring/events.htm,More Topics
+Blogs for ETM Identity,https://docs.qualys.com/en/etm-identity/latest/other_resources/etm_identity_blogs.htm,Training
+View Vulnerabilities,https://docs.qualys.com/en/etm-identity/latest/risk_management/vulnerabilies.htm,Risk Management
+Risk Management Overview,https://docs.qualys.com/en/etm-identity/latest/risk_management/risk_management.htm,Risk Management
+View ID Misconfigurations,https://docs.qualys.com/en/etm-identity/latest/risk_management/id_misconfigurations.htm,Risk Management
+Viewing Misconfigurations,https://docs.qualys.com/en/etm-identity/latest/risk_management/misconfigurations.htm,Risk Management
+Search Tokens for Events and Alerts,https://docs.qualys.com/en/etm-identity/latest/search_tips/events_alerts_tokens.htm,More Topics
+Active Directory Assets,https://docs.qualys.com/en/etm-identity/latest/uai/ad_assets.htm,More Topics
+Unified Asset Inventory,https://docs.qualys.com/en/etm-identity/latest/uai/unified_asset_inventory.htm,More Topics
+ETM Identity 1.4 (August 2026),https://docs.qualys.com/en/etm-identity/release-notes/etm_identity/release_1_4.htm,Release Notes
+ETM Identity 1.3 (June 2026),https://docs.qualys.com/en/etm-identity/release-notes/etm_identity/release_1_3.htm,Release Notes
+ETM Identity 1.2 (May 2026),https://docs.qualys.com/en/etm-identity/release-notes/etm_identity/release_1_2.htm,Release Notes
+ETM Identity 1.1 (March 2026),https://docs.qualys.com/en/etm-identity/release-notes/etm_identity/release_1_1.htm,Release Notes
+Qualys ETM Identity,https://www.qualys.com/apps/etm-identity,Product Overview

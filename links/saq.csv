@@ -1,0 +1,46 @@
+title,link,category
+Respond to Questionnaire,https://docs.qualys.com/en/saq/portal/latest/answers/v2_questionnaire_responses.htm,More Topics
+Create Campaign,https://docs.qualys.com/en/saq/portal/latest/campaign/create_campaign.htm,Campaign
+Create Campaign Manager,https://docs.qualys.com/en/saq/portal/latest/campaign/add_campaign_manager.htm,Campaign
+Get Started,https://docs.qualys.com/en/saq/portal/latest/campaign/start_campaign.htm,Campaign
+Manage Users,https://docs.qualys.com/en/saq/portal/latest/campaign/add_users.htm,Campaign
+Launch Campaign,https://docs.qualys.com/en/saq/portal/latest/campaign/launch_campaign.htm,Campaign
+Roles and Permissions,https://docs.qualys.com/en/saq/portal/latest/campaign/roles_permissions_admin_utility.htm,Campaign
+Monitor Responses in Real Time,https://docs.qualys.com/en/saq/portal/latest/questionnaires/review_answers.htm,More Topics
+Report Settings,https://docs.qualys.com/en/saq/portal/latest/reports/report_settings.htm,More Topics
+Create Reports to Get Current Views on Responses,https://docs.qualys.com/en/saq/portal/latest/reports/reports_lp.htm,More Topics
+Search Tokens for SAQ,https://docs.qualys.com/en/saq/portal/latest/search_tips/search_tokens.htm,Search & QQL
+Search Tokens for Users,https://docs.qualys.com/en/saq/portal/latest/search_tips/tokens_users_campaigns.htm,Search & QQL
+Search Tokens for Vendors,https://docs.qualys.com/en/saq/portal/latest/search_tips/tokens_vendors.htm,Search & QQL
+Search Tokens for Campaigns,https://docs.qualys.com/en/saq/portal/latest/search_tips/tokens_campaigns.htm,Search & QQL
+Search Tokens for Templates,https://docs.qualys.com/en/saq/portal/latest/search_tips/ui_search_tips.htm,Search & QQL
+Search Tokens for Questionnaire,https://docs.qualys.com/en/saq/portal/latest/search_tips/tokens_questionnaire.htm,Search & QQL
+Search Tokens for Templates from Library,https://docs.qualys.com/en/saq/portal/latest/search_tips/tokens_library.htm,Search & QQL
+Search Tokens for Questionnaire for Vendors,https://docs.qualys.com/en/saq/portal/latest/search_tips/tokens_questionnaire_vendors.htm,Search & QQL
+Manage Templates,https://docs.qualys.com/en/saq/portal/latest/templates/v2_manage_your_templates.htm,Templates
+Configure a Template,https://docs.qualys.com/en/saq/portal/latest/templates/v2_create_template.htm,Templates
+Template Settings,https://docs.qualys.com/en/saq/portal/latest/templates/v2_template_settings.htm,Templates
+Calculate Template Score,https://docs.qualys.com/en/saq/portal/latest/templates/calculate_template_score.htm,Templates
+Configure Template Rules,https://docs.qualys.com/en/saq/portal/latest/templates/v2_dynamic_questions.htm,Templates
+Risk Scoring Criticality,https://docs.qualys.com/en/saq/portal/latest/templates/v2_risk_scoring_criticality.htm,Templates
+Template Scores and Risk Ratings,https://docs.qualys.com/en/saq/portal/latest/templates/risk_scoring_criticality.htm,Templates
+Import Questions from Question Bank,https://docs.qualys.com/en/saq/portal/latest/templates/question_bank.htm,Templates
+Manage Vendors,https://docs.qualys.com/en/saq/portal/latest/vendors/create_vendor.htm,More Topics
+Vendor Onboarding,https://docs.qualys.com/en/saq/portal/latest/vendors/vendor_onboarding.htm,More Topics
+Create User API,https://docs.qualys.com/en/saq/api/users/create_user.htm,API
+Create New Template API,https://docs.qualys.com/en/saq/api/templates/create_template.htm,API
+Create a New Campaign API,https://docs.qualys.com/en/saq/api/campaigns/create_a_new_campaign.htm,API
+Getting Started with SAQ APIs,https://docs.qualys.com/en/saq/api/get_started/getting_started.htm,API
+Create Template From the Library API,https://docs.qualys.com/en/saq/api/templates/create_from_library.htm,API
+Create New Version of an Existing Template API,https://docs.qualys.com/en/saq/api/templates/create_version.htm,API
+Users APIs,https://docs.qualys.com/en/saq/api/users/users.htm,API
+Campaign APIs,https://docs.qualys.com/en/saq/api/campaigns/campaigns.htm,API
+Template APIs,https://docs.qualys.com/en/saq/api/templates/templates.htm,API
+Error Messages,https://docs.qualys.com/en/saq/api/appendix/error_messages.htm,API
+Delete User API,https://docs.qualys.com/en/saq/api/users/delete_user.htm,API
+Update User API,https://docs.qualys.com/en/saq/api/users/update_user.htm,API
+Search Users API,https://docs.qualys.com/en/saq/api/users/search_users.htm,API
+Cancel Campaign API,https://docs.qualys.com/en/saq/api/campaigns/cancel_campaign.htm,API
+Delete Campaign API,https://docs.qualys.com/en/saq/api/campaigns/delete_campaign.htm,API
+Security Assessment Questionnaire (SAQ) API,https://docs.qualys.com/en/saq/api/index.htm#t=get_started%2Fgetting_started.htm,Official Guides
+Security & IT Risk Assessment Questionnaire,https://www.qualys.com/apps/security-assessment-questionnaire,Product Overview

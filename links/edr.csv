@@ -1,0 +1,135 @@
+title,link,category
+Linux Prerequisites for EDR,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/linux_prerequisites-for-edr.htm,Edr Onboarding For Linux
+Configuring Linux Software Requirements,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/configuring_linux_software_requirements.htm,Edr Onboarding For Linux
+Network Attack Defense,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/network_attack_defense.htm,Edr Onboarding For Linux
+EDR Onboarding for Linux,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/edr_onboarding_for_linux.htm,Edr Onboarding For Linux
+Verifying EDR Activation,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/verifying_edr_activation.htm,Edr Onboarding For Linux
+Linux Onboarding Recommendations,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/linux_onboarding_recommendations.htm,Edr Onboarding For Linux
+EDR Onboarding Known Issues for Linux,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/edr_onboarding_known_issues_for_linux.htm,Edr Onboarding For Linux
+Linux Prerequisites for Malware Protection,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_linux/pre-requisites_for_malware_protection.htm,Edr Onboarding For Linux
+Windows Prerequisites for EDR,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_windows/windows_prerequisites_for_edr.htm,Edr Onboarding For Windows
+Windows Prerequisites for Malware Protection,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_windows/windows_prerequisites_for_malware_protection.htm,Edr Onboarding For Windows
+EDR Onboarding for Windows,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_windows/edr_onboarding_for_windows.htm,Edr Onboarding For Windows
+Windows Onboarding Recommendations,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_windows/windows_onboarding_recommendations.htm,Edr Onboarding For Windows
+Welcome to Endpoint Detection and Response,https://docs.qualys.com/en/edr/latest/about_qualys_edr.htm,Getting Started
+Welcome to Endpoint Detection and Response,https://docs.qualys.com/en/edr/latest/welcome_edr.html,Getting Started
+Hunting,https://docs.qualys.com/en/edr/latest/get_started/hunt-events.htm,Getting Started
+Detections,https://docs.qualys.com/en/edr/latest/get_started/investigation.htm,Getting Started
+Advanced Hunting,https://docs.qualys.com/en/edr/latest/get_started/advanced_hunting.htm,Getting Started
+Incident Details,https://docs.qualys.com/en/edr/latest/get_started/incident_details.htm,Getting Started
+Remediation Action,https://docs.qualys.com/en/edr/latest/get_started/remediation.htm,Getting Started
+Get Started with EDR,https://docs.qualys.com/en/edr/latest/get_started/get_started.htm,Getting Started
+Roles and Permissions in EDR,https://docs.qualys.com/en/edr/latest/get_started/roles_and_permissions.htm,Getting Started
+About Recovering Encrypted Files,https://docs.qualys.com/en/edr/latest/get_started/about_recovering_encrypted_files.htm,Getting Started
+Download and Configure Cloud Agents for EDR,https://docs.qualys.com/en/edr/latest/get_started/install_agent.htm,Getting Started
+Gather Dynamic Attributes from Multiple Providers,https://docs.qualys.com/en/edr/latest/get_started/gather_dynamic_attributes_from_multiple_providers_via_system_events.htm,Getting Started
+Ransomware Mitigation: Recovering Encrypted Files,https://docs.qualys.com/en/edr/latest/get_started/recovering_encrypted_files.htm,Getting Started
+"Onboarding for EDR and EPP (Windows, Linux, and Mac)",https://docs.qualys.com/en/edr/latest/get_started/onboarding_for_edr_and_epp.htm,Getting Started
+Endpoint Detection and Response Overview,https://docs.qualys.com/en/edr/latest/introduction_to_edr/about_edr.htm,More Topics
+What's New in Endpoint Detection and Response,https://docs.qualys.com/en/edr/latest/introduction_to_edr/release_notes/what_s_new_in_endpoint_detection_and_response.htm,More Topics
+Introduction to Antimalware,https://docs.qualys.com/en/edr/latest/malware_protection/introduction_to_antimalware.htm,Malware Protection
+Troubleshoot Qualys Anti-Malware Error Updates,https://docs.qualys.com/en/edr/latest/malware_protection/troubleshooting_qualys_anti_malware_error-updates.htm,Malware Protection
+Firewall,https://docs.qualys.com/en/edr/latest/malware_protection/firewall.htm,Malware Protection
+Settings,https://docs.qualys.com/en/edr/latest/malware_protection/settings.htm,Malware Protection
+OnAccess Scan,https://docs.qualys.com/en/edr/latest/malware_protection/onaccess_scan_from_edr_user_interface.htm,Malware Protection
+OnDemand Scan,https://docs.qualys.com/en/edr/latest/malware_protection/command_utility_for_ondemand_scan.htm,Malware Protection
+Device Control,https://docs.qualys.com/en/edr/latest/malware_protection/device_control_support.htm,Malware Protection
+Behavioral Scan,https://docs.qualys.com/en/edr/latest/malware_protection/behavioral_scan.htm,Malware Protection
+Content Control,https://docs.qualys.com/en/edr/latest/malware_protection/content_control.htm,Malware Protection
+General Settings,https://docs.qualys.com/en/edr/latest/malware_protection/general_settings.htm,Malware Protection
+Exclusion Support,https://docs.qualys.com/en/edr/latest/malware_protection/exclusion_support.htm,Malware Protection
+Block By File Hash,https://docs.qualys.com/en/edr/latest/malware_protection/block_by_file_hash.htm,Malware Protection
+Network Protection,https://docs.qualys.com/en/edr/latest/malware_protection/network_protection.htm,Malware Protection
+Application Control,https://docs.qualys.com/en/edr/latest/malware_protection/application_control.htm,Malware Protection
+Integration with AMSI,https://docs.qualys.com/en/edr/latest/malware_protection/integration_with_amsi.htm,Malware Protection
+Knowledge Base Articles,https://docs.qualys.com/en/edr/latest/additional_resources/knowledgebase_articles.htm,More Topics
+EDR Training Video Library,https://docs.qualys.com/en/edr/latest/additional_resources/edr_training_video_library.htm,More Topics
+Assets,https://docs.qualys.com/en/edr/latest/assets_monitored/assets-monitored.htm,Assets Monitored
+View Details,https://docs.qualys.com/en/edr/latest/assets_monitored/view_details.htm,Assets Monitored
+View Surrounding Events,https://docs.qualys.com/en/edr/latest/assets_monitored/view_surrounding_events.htm,Assets Monitored
+Scripts Executed on Forensics,https://docs.qualys.com/en/edr/latest/assets_monitored/scripts_executed_on_forensics.htm,Assets Monitored
+Manage rules,https://docs.qualys.com/en/edr/latest/configuration/manage_rules.htm,Configuration
+Manage alerts,https://docs.qualys.com/en/edr/latest/configuration/manage_alerts.htm,Configuration
+Manage actions,https://docs.qualys.com/en/edr/latest/configuration/manage_actions.htm,Configuration
+Create Exception,https://docs.qualys.com/en/edr/latest/configuration/create_exception.htm,Configuration
+Create a new rule,https://docs.qualys.com/en/edr/latest/configuration/create_rule.htm,Configuration
+Create a new action,https://docs.qualys.com/en/edr/latest/configuration/create_action.htm,Configuration
+Configure Email Alerts,https://docs.qualys.com/en/edr/latest/configuration/configure_email_alerts.htm,Configuration
+Create and Assign Tags,https://docs.qualys.com/en/edr/latest/configuration/create_and_assign_tags.htm,Configuration
+Configure rule based alerts for events,https://docs.qualys.com/en/edr/latest/configuration/configure_rules.htm,Configuration
+Activity Log,https://docs.qualys.com/en/edr/latest/configuration/activity_log.htm,Configuration
+Event Details,https://docs.qualys.com/en/edr/latest/configuration/event_details_page.htm,Configuration
+Search Actions,https://docs.qualys.com/en/edr/latest/configuration/search_actions.htm,Configuration
+Block Connection,https://docs.qualys.com/en/edr/latest/configuration/block_connection.htm,Configuration
+Trigger criteria,https://docs.qualys.com/en/edr/latest/configuration/trigger_criteria.htm,Configuration
+Quarantined Items,https://docs.qualys.com/en/edr/latest/configuration/quarantined_items.htm,Configuration
+Create Reporting Schedule,https://docs.qualys.com/en/edr/latest/dashboard/create_reporting_schedule.htm,Reports and Dashboards
+Reporting Schedule: Quick Actions,https://docs.qualys.com/en/edr/latest/dashboard/reporting_schedule_quick_actions.htm,Reports and Dashboards
+Reporting Schedule,https://docs.qualys.com/en/edr/latest/dashboard/reporting_schedule.htm,Reports and Dashboards
+EDR Onboarding for Mac,https://docs.qualys.com/en/edr/latest/edr_onboarding_for_mac/edr_onboarding_for_mac.htm,More Topics
+EPP Onboarding for MacOS,https://docs.qualys.com/en/edr/latest/epp_onboarding_for_mac/epp_onboarding_for_macos.htm,More Topics
+Rule Manager Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/search_ui_rule_manager.htm,Search & QQL
+How to Search,https://docs.qualys.com/en/edr/latest/search/language.htm,Search & QQL
+Search in EDR,https://docs.qualys.com/en/edr/latest/search/search_in_edr.htm,Search & QQL
+Alerts Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/alerts_tokens.htm,Search & QQL
+Assets Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/assets_search_tokens.htm,Search & QQL
+Events Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/search_ui_events.htm,Search & QQL
+Search Tokens in EDR,https://docs.qualys.com/en/edr/latest/search_tips/search_tokens_for_edr.htm,Search & QQL
+Advanced Query Tokens,https://docs.qualys.com/en/edr/latest/search_tips/advanced_query_tokens.htm,Search & QQL
+Activity Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/user_activity_search_tokens.htm,Search & QQL
+Exception Rules Tokens,https://docs.qualys.com/en/edr/latest/search_tips/exception_rules_tokens.htm,Search & QQL
+Profiles Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/profiles_search_tokens.htm,Search & QQL
+Forensics Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/forensics_search_tokens.htm,Search & QQL
+Incidents Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/search_ui_incidents.htm,Search & QQL
+Available date variables,https://docs.qualys.com/en/edr/latest/search/dates2.htm,Search & QQL
+Yara Rules Search Tokens,https://docs.qualys.com/en/edr/latest/search_tips/search_ui_yararules.htm,Search & QQL
+Deprecated APIs,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/getting_started/deprecated_apis.htm,API
+EDR API Methods,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/getting_started/api-methods.htm,API
+Fetch Asset Count,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/asset-api/fetch_asset_count.htm,API
+Fetch Event Count,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/events-api/fetch_event_count.htm,API
+EDR API Conventions,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/getting_started/api_conventions.htm,API
+Fetch Asset Details,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/asset-api/Fetch_asset_details.htm,API
+Fetch Event Details,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/events-api/fetch_event_details.htm,API
+Qualys User Account,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/getting_started/qualys_user_account.htm,API
+Fetch all Asset Details,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/asset-api/fetch_all_asset_details.htm,API
+Fetch All Events Details,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/events-api/fetch_event_within_date_range.htm,API
+Getting Started with EDR,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/getting_started/getting_started.htm,API
+Fetch Events Using Scroll,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/events-api/fetch_events_using_scroll.htm,API
+Fetch Incidents Using Scroll,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/incident_api/fetch_incidents_using_scroll_apis.htm,API
+Fetch Events Using SearchAfter,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/events-api/fetch_events_using_searchafter_api.htm,API
+Fetch Remediation Event Details,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/remediation_api/fetch_remediation_event_detail.htm,API
+Fetch Incidents Using SearchAfter,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/incident_api/fetch_incidents_using_searchafter_api.htm,API
+Perform Remediation Action on Event,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/remediation_api/perform_remediation_action_on_event.htm,API
+Fetch Asset Details Using SearchAfter,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/asset-api/fetch_asset_details_using_search_after_api.htm,API
+Fetch Event Counts Using Time Buckets,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/events-api/fetch_event_counts_using_time_buckets.htm,API
+Fetch Incident Events Using SearchAfter,https://docs.qualys.com/en/edr/latest/mergedProjects/edr_api/incident_api/fetch_incident_events_using_searchafter_api.htm,API
+Endpoint Detection and Response 3.8.4 (August 2026),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8_4.htm,Release Notes
+Endpoint Detection and Response 3.8.3 (July 2026),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8_3.htm,Release Notes
+Endpoint Detection and Response 3.8.2 (March 2026),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8_2.htm,Release Notes
+Endpoint Detection And Response 3.8.1 (January 2026),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8_1.htm,Release Notes
+Endpoint Detection And Response 3.8.1 API (January 2026),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8_1_api.htm,Release Notes
+Endpoint Detection and Response 3.8 (October 2025),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8.htm,Release Notes
+Endpoint Detection and Response 3.8 API (October 2025),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_8_api.htm,Release Notes
+Endpoint Detection and Response 3.7.2 (June 2025),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_7_2.htm,Release Notes
+Endpoint Detection and Response 3.7.1 (June 2025),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_7_1.htm,Release Notes
+Endpoint Detection and Response 3.7.1 API (June 2025),https://docs.qualys.com/en/edr/release-notes/endpoint_detection_and_response/release_3_7_1_api.htm,Release Notes
+Training Course: EDR Foundation,https://www.qualys.com/training/course/edr-foundation,Training
+Training Course: Endpoint Detection and Response,https://www.qualys.com/training/course/endpoint-detection-and-response,Training
+Video Library: How-to EDR,https://success.qualys.com/customersupport/s/video-library?product=how-to-edr,Training
+Endpoint Detection & Response security solutions with Qualys,https://www.qualys.com/apps/endpoint-detection-response,Product Overview
+Endpoint Security Solutions & Platform for Businesses,https://www.qualys.com/solutions/endpoint,Product Overview
+Threat Protection Solutions & Cyber Defense,https://www.qualys.com/solutions/threat-protection,Product Overview
+What is Endpoint Detection and Response (EDR)?,https://www.qualys.com/fundamentals/endpoint-detection-and-response,Product Overview
+Qualys Endpoint Protection: What Is & How It Works,https://www.qualys.com/fundamentals/endpoint-protection,Product Overview
+Endpoint Security Defined,https://www.qualys.com/fundamentals/endpoint-security,Product Overview
+Qualys Achieves 100% Detection in the 2024 MITRE ATT&CK Evaluations for Enterprise,https://blog.qualys.com/product-tech/2024/12/11/qualys-achieves-100-major-step-detection-in-the-2024-mitre-attck-evaluations-enterprise,Blog
+"Assess, Remediate, and Prevent the Top 10 MITRE ATT&CK Techniques for Ransomware, Mapped to Misconfigurations",https://blog.qualys.com/product-tech/2024/05/08/detect-address-the-top-10-mitre-attck-techniques-for-ransomware-using-policy-compliance,Blog
+Qualys Endpoint Detection & Response Validated by Top Independent Testing Labs,https://blog.qualys.com/product-tech/2024/04/11/qualys-endpoint-detection-response-validated-by-top-independent-testing-labs,Blog
+Combine Qualys TruRisk™ and MITRE ATT&CK to Adopt Threat-Informed Defense to Reduce Risk,https://blog.qualys.com/product-tech/2024/03/25/combine-qualys-trurisk-and-mitre-attck-to-adopt-a-threat-informed-defense-to-reduce-risk,Blog
+Top MITRE ATT&CK Tactics and Techniques Leveraged in 2023,https://blog.qualys.com/product-tech/2024/03/12/upgrade-your-cybersecurity-program-to-a-threat-informed-defense-approach-with-qualys,Blog
+Detect the Follina MSDT Vulnerability (CVE-2022-30190) with Qualys Multi-Vector EDR,https://blog.qualys.com/product-tech/2022/06/14/detect-the-follina-msdt-vulnerability-cve-2022-30190-with-qualys-multi-vector-edr-context-xdr,Blog
+The Evolution of EDR: Why Multi-Vector EDR is the Future of EDR Security,https://blog.qualys.com/product-tech/2022/04/04/edr-is-dead-long-live-multi-vector-edr,Blog
+Qualys Multi-Vector EDR Excels in 2022 MITRE ATT&CK Evaluation,https://blog.qualys.com/product-tech/2022/03/31/qualys-multi-vector-edr-excels-in-2022-mitre-attck-evaluation,Blog
+The Rise of Ransomware,https://blog.qualys.com/product-tech/2021/10/05/the-rise-of-ransomware,Blog
+"Assess Your Risk From Ransomware Attacks, Powered by Qualys Research",https://blog.qualys.com/product-tech/2021/10/05/assess-risk-ransomware-attacks-qualys-research,Blog
+Kaseya REvil Ransomware Attack (CVE-2021-30116) – Automatically Discover and Prioritize Using Qualys VMDR®,https://blog.qualys.com/product-tech/2021/07/08/kaseya-revil-ransomware-attack-cve-2021-30116-automatically-discover-and-prioritize-using-qualys-vmdr,Blog

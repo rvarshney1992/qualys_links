@@ -1,0 +1,118 @@
+title,link,category
+Welcome to Custom Assessment and Remediation,https://docs.qualys.com/en/car/latest/welcome_car.html,Getting Started
+Prerequisites,https://docs.qualys.com/en/car/latest/get_started/pre-requisites.htm,Getting Started
+Supported Platforms,https://docs.qualys.com/en/car/latest/get_started/supported_platforms.htm,Getting Started
+Tag-based User Scope in CAR,https://docs.qualys.com/en/car/latest/get_started/tag-based_scope.htm,Getting Started
+Supported Scripting Languages,https://docs.qualys.com/en/car/latest/get_started/supported_scripting_languages.htm,Getting Started
+Role-Based Access Control in CAR,https://docs.qualys.com/en/car/latest/get_started/role_based_access_control.htm,Getting Started
+What's New in Custom Assessment and Remediation,https://docs.qualys.com/en/car/latest/get_started/whats_new.htm,Getting Started
+Get Started with Custom Assessment and Remediation,https://docs.qualys.com/en/car/latest/get_started/car_overview.htm,Getting Started
+Troubleshoot GitLab Import Errors,https://docs.qualys.com/en/car/latest/troubleshoot/troubleshoot_gitlab.htm,More Topics
+Troubleshoot Job Stuck Assigned Manifest,https://docs.qualys.com/en/car/latest/troubleshoot/job_stuck.htm,More Topics
+Clone Scripts,https://docs.qualys.com/en/car/latest/actions/clone.htm,Actions
+Export Scripts,https://docs.qualys.com/en/car/latest/actions/export_script.htm,Actions
+Execute Scripts,https://docs.qualys.com/en/car/latest/actions/execute.htm,Actions
+Schedule Scripts,https://docs.qualys.com/en/car/latest/actions/scheduling_scripts.htm,Actions
+View Job Details,https://docs.qualys.com/en/car/latest/actions/view_details.htm,Actions
+Deprecate Scripts,https://docs.qualys.com/en/car/latest/actions/deprecate.htm,Actions
+View Script Status,https://docs.qualys.com/en/car/latest/actions/script_status.htm,Actions
+Edit Unapproved Scripts,https://docs.qualys.com/en/car/latest/actions/edit.htm,Actions
+Deprecate Scripts in Bulk,https://docs.qualys.com/en/car/latest/actions/deprecate_scripts_bulk.htm,Actions
+Import Scripts from Computer,https://docs.qualys.com/en/car/latest/actions/importing_scripts.htm,Actions
+Appendix,https://docs.qualys.com/en/car/latest/appendix/appendix.htm,Reference
+Asset Job Status,https://docs.qualys.com/en/car/latest/appendix/manifest_status.htm,Reference
+Data Retention Policy,https://docs.qualys.com/en/car/latest/appendix/data_retention_policy.htm,Reference
+CAR Specific Agent Return Codes,https://docs.qualys.com/en/car/latest/appendix/car_agent_return_codes.htm,Reference
+Optimization of Asset Job Handling in CAR,https://docs.qualys.com/en/car/latest/appendix/optimizing_asset_job_handling.htm,Reference
+Activity Logs,https://docs.qualys.com/en/car/latest/configuration/activity_logs.htm,Configuration
+Configuration,https://docs.qualys.com/en/car/latest/configuration/configuration.htm,Configuration
+View Job Details,https://docs.qualys.com/en/car/latest/configuration/asset_jobs.htm,Configuration
+View Job Status of Scripts,https://docs.qualys.com/en/car/latest/configuration/jobs.htm,Configuration
+CAR Reports,https://docs.qualys.com/en/car/latest/reports/car_reports.htm,Reports and Dashboards
+Delete Reports,https://docs.qualys.com/en/car/latest/reports/deleteing_reports.htm,Reports and Dashboards
+Download Reports,https://docs.qualys.com/en/car/latest/reports/downloading_reports.htm,Reports and Dashboards
+Generate Reports,https://docs.qualys.com/en/car/latest/reports/generating_a_report.htm,Reports and Dashboards
+Work with CAR Dashboards,https://docs.qualys.com/en/car/latest/dashboards/working_with_car_dashboards.htm,Reports and Dashboards
+Training Videos for Custom Assessment and Remediation,https://docs.qualys.com/en/car/latest/other_resources/training_videos.htm,Training
+KnowledgeBase Articles for Custom Assessment and Remediation,https://docs.qualys.com/en/car/latest/other_resources/knowledge_articles.htm,Training
+Create Custom Scripts,https://docs.qualys.com/en/car/latest/scripts/create_scripts.htm,Scripts
+Create Control ID Remediation Scripts,https://docs.qualys.com/en/car/latest/scripts/create_control_id_script.htm,Scripts
+Manage Remote Shell Access Permission from the scope,https://docs.qualys.com/en/car/latest/scripts/manage_remote_shell_access_permission_from_the_scope.htm,Scripts
+Scripts,https://docs.qualys.com/en/car/latest/scripts/scripts.htm,Scripts
+Test Scripts,https://docs.qualys.com/en/car/latest/scripts/testing_scripts.htm,Scripts
+Edit a Schedule,https://docs.qualys.com/en/car/latest/scripts/editing_a_schedule.htm,Scripts
+Download Scripts,https://docs.qualys.com/en/car/latest/scripts/download.htm,Scripts
+View Script Jobs,https://docs.qualys.com/en/car/latest/scripts/viewing_script_jobs.htm,Scripts
+Delete a Schedule,https://docs.qualys.com/en/car/latest/scripts/deleting_a_schedule.htm,Scripts
+Manage CAR Scripts,https://docs.qualys.com/en/car/latest/scripts/managing_scripts.htm,Scripts
+View Schedule Details,https://docs.qualys.com/en/car/latest/scripts/viewing_schedule_details.htm,Scripts
+Create Custom QID Scripts,https://docs.qualys.com/en/car/latest/scripts/creating_custom_qids.htm,Scripts
+Delete Invalid Asset Jobs,https://docs.qualys.com/en/car/latest/scripts/Delete_Invalid_Asset_Jobs.htm,Scripts
+Review and Approve Scripts,https://docs.qualys.com/en/car/latest/scripts/reviewing_and_approving_scripts.htm,Scripts
+Work with Script Schedules,https://docs.qualys.com/en/car/latest/scripts/working_with_script_schedules.htm,Scripts
+Search Jobs,https://docs.qualys.com/en/car/latest/search_tips/searching_jobs.htm,Search & QQL
+Search Assets,https://docs.qualys.com/en/car/latest/search_tips/asset_tokens.htm,Search & QQL
+Search Scripts,https://docs.qualys.com/en/car/latest/search_tips/searching_scripts.htm,Search & QQL
+Search Schedules,https://docs.qualys.com/en/car/latest/search_tips/searching_schedules.htm,Search & QQL
+Search Asset Jobs,https://docs.qualys.com/en/car/latest/search_tips/searching_asset_jobs.htm,Search & QQL
+Search Activity Logs,https://docs.qualys.com/en/car/latest/search_tips/searching_activity_log.htm,Search & QQL
+Search Library Scripts,https://docs.qualys.com/en/car/latest/search_tips/search_library_scripts.htm,Search & QQL
+Search Software Packages,https://docs.qualys.com/en/car/latest/search_tips/software_package_tokens.htm,Search & QQL
+Old and New Search Token Mappings,https://docs.qualys.com/en/car/latest/search_tips/old_new_token_map.htm,Search & QQL
+Create Software Package,https://docs.qualys.com/en/car/latest/software/create_software_package.htm,Software
+Deprecate Packages,https://docs.qualys.com/en/car/latest/software/deprecate_package.htm,Software
+Software Package Jobs,https://docs.qualys.com/en/car/latest/software/package_jobs.htm,Software
+Edit Software Packages,https://docs.qualys.com/en/car/latest/software/edit_package.htm,Software
+Test Software Packages,https://docs.qualys.com/en/car/latest/software/test_package.htm,Software
+View Software Packages,https://docs.qualys.com/en/car/latest/software/view_software_package.htm,Software
+Execute Software Packages,https://docs.qualys.com/en/car/latest/software/execute_package.htm,Software
+Work with Software Packages,https://docs.qualys.com/en/car/latest/software/software_package.htm,Software
+Review and Approve Software Packages,https://docs.qualys.com/en/car/latest/software/review_approve_packages.htm,Software
+Work with Library,https://docs.qualys.com/en/car/latest/working_with_library/working_with_library.htm,Working With Library
+Import Scripts from Library,https://docs.qualys.com/en/car/latest/working_with_library/import_script_library.htm,Working With Library
+Import Parameterized Script from Library,https://docs.qualys.com/en/car/latest/working_with_library/import_param_scripts.htm,Working With Library
+Get Started,https://docs.qualys.com/en/car/api/get_started/getting_started.htm,API
+Create Scripts API,https://docs.qualys.com/en/car/api/scripts/create_scripts.htm,API
+Create Custom Scripts with GitHub URL and Parameter API,https://docs.qualys.com/en/car/api/scripts/create_custom_scripts_with_github_url_and_parameter.htm,API
+Appendix,https://docs.qualys.com/en/car/api/appx/appendix.htm,API
+Report APIs,https://docs.qualys.com/en/car/api/reports/report_apis.htm,API
+Job-based APIs,https://docs.qualys.com/en/car/api/jobs/job_based.htm,API
+Scheduled APIs,https://docs.qualys.com/en/car/api/schedules/schedule_apis.htm,API
+List Assets API,https://docs.qualys.com/en/car/api/asset_based/list_assets.htm,API
+Asset-based APIs,https://docs.qualys.com/en/car/api/asset_based/asset-based_apis.htm,API
+Get Schedule API,https://docs.qualys.com/en/car/api/schedules/get_schedules.htm,API
+Clone Scripts API,https://docs.qualys.com/en/car/api/script_operations/clone_scripts.htm,API
+Delete Report API,https://docs.qualys.com/en/car/api/reports/delete_report.htm,API
+Script-based APIs,https://docs.qualys.com/en/car/api/scripts/chapter_2_-_script-based_apis.htm,API
+Export Scripts API,https://docs.qualys.com/en/car/api/script_operations/export_scripts.htm,API
+Import Scripts API,https://docs.qualys.com/en/car/api/script_library/import_scripts.htm,API
+Get Started,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/get_started/getting_started.htm,API
+Create Scripts API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/scripts/create_scripts.htm,API
+Create Custom Scripts with GitHub URL and Parameter API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/scripts/create_custom_scripts_with_github_url_and_parameter.htm,API
+Appendix,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/appx/appendix.htm,API
+Report APIs,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/reports/report_apis.htm,API
+Job-based APIs,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/jobs/job_based.htm,API
+Scheduled APIs,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/schedules/schedule_apis.htm,API
+List Assets API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/asset_based/list_assets.htm,API
+Asset-based APIs,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/asset_based/asset-based_apis.htm,API
+Get Schedule API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/schedules/get_schedules.htm,API
+Clone Scripts API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/script_operations/clone_scripts.htm,API
+Delete Report API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/reports/delete_report.htm,API
+Script-based APIs,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/scripts/chapter_2_-_script-based_apis.htm,API
+Export Scripts API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/script_operations/export_scripts.htm,API
+Import Scripts API,https://docs.qualys.com/en/car/latest/mergedProjects/car_api/script_library/import_scripts.htm,API
+Custom Assessment and Remediation 2.9.2 (August 2026),https://docs.qualys.com/en/car/release-notes/car/release_2_9_2.htm,Release Notes
+Custom Assessment and Remediation 2.9.1 (July 2026),https://docs.qualys.com/en/car/release-notes/car/release_2_9_1.htm,Release Notes
+Custom Assessment and Remediation 2.9 (May 2026),https://docs.qualys.com/en/car/release-notes/car/release_2_9.htm,Release Notes
+Custom Assessment and Remediation 2.8.2 (April 2026),https://docs.qualys.com/en/car/release-notes/car/release_2_8_2.htm,Release Notes
+Custom Assessment and Remediation 2.8 (February 2026),https://docs.qualys.com/en/car/release-notes/car/release_2_8.htm,Release Notes
+Custom Assessment and Remediation 2.7.1 (January 2026),https://docs.qualys.com/en/car/release-notes/car/release_2_7_1.htm,Release Notes
+Custom Assessment and Remediation 2.7 (December 2025),https://docs.qualys.com/en/car/release-notes/car/release_2_7.htm,Release Notes
+Custom Assessment and Remediation 2.7 API (December 2025),https://docs.qualys.com/en/car/release-notes/car/release_2_7_api.htm,Release Notes
+Custom Assessment and Remediation 2.6.3 (November 2025),https://docs.qualys.com/en/car/release-notes/car/release_2_6_3.htm,Release Notes
+Custom Assessment and Remediation 2.6.2 (October 2025),https://docs.qualys.com/en/car/release-notes/car/release_2_6_2.htm,Release Notes
+Training Course: Custom Assessment and Remediation (CAR),https://www.qualys.com/training/course/custom-assessment-and-remediation-car,Training
+Video Library: Custom Assessment Remediation,https://success.qualys.com/customersupport/s/video-library?product=custom-assessment-remediation,Training
+Qualys Custom Assessment & Automated Compliance Remediation,https://www.qualys.com/apps/custom-assessment-remediation,Product Overview
+Augment Security Asset Tagging with Custom Assessment and Remediation (CAR),https://blog.qualys.com/product-tech/2023/04/03/augment-security-asset-tagging-with-custom-assessment-and-remediation-car,Blog
+Put SecOps in the Driver’s Seat with Custom Assessment and Remediation,https://blog.qualys.com/product-tech/2022/05/20/put-secops-in-the-drivers-seat-with-custom-assessment-and-remediation,Blog

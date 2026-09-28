@@ -1,0 +1,126 @@
+title,link,category
+Get Started,https://docs.qualys.com/en/scanner/onboarding/offline_scanner/get_started/get_started.htm,More Topics
+VMware Configuration,https://docs.qualys.com/en/scanner/onboarding/offline_scanner/configuration/vmware_configuration.htm,More Topics
+Qualys Scanners,https://docs.qualys.com/en/scanner/onboarding/welcome_scanner.html,Getting Started
+Supported Platforms,https://docs.qualys.com/en/scanner/onboarding/onboarding/supported_platforms.htm,Getting Started
+Qualys Scanner Overview,https://docs.qualys.com/en/scanner/onboarding/onboarding/overview.htm,Getting Started
+What's New In Scanner Appliances,https://docs.qualys.com/en/scanner/onboarding/onboarding/whats_new.htm,Getting Started
+Best Practices for Effective Scanning,https://docs.qualys.com/en/scanner/onboarding/onboarding/scanning_best_practices.htm,Getting Started
+Training Videos,https://docs.qualys.com/en/scanner/onboarding/onboarding/training_videos.htm,Getting Started
+Virtual Scanner,https://docs.qualys.com/en/scanner/onboarding/onboarding/virtual_scanner.htm,Getting Started
+Types of Scanners,https://docs.qualys.com/en/scanner/onboarding/onboarding/scanner_types.htm,Getting Started
+Network Communication,https://docs.qualys.com/en/scanner/onboarding/onboarding/network_communication.htm,Getting Started
+When to Use Virtual Scanner,https://docs.qualys.com/en/scanner/onboarding/onboarding/use_virtual_scanner.htm,Getting Started
+Scanner Features and Configuration Options,https://docs.qualys.com/en/scanner/onboarding/onboarding/scanner_features.htm,Getting Started
+Overview,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/overview.htm,Physical Scanner
+Get Started,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_4120_a1/get_started/get_started.htm,Physical Scanner
+Get Started,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_5120_a1/get_started/get_started.htm,Physical Scanner
+Get Started,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_6120_a1/get_started/get_started.htm,Physical Scanner
+Get Started,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_6120_b1/get_started/get_started.htm,Physical Scanner
+Quick Start,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_4120_a1/get_started/quick_start.htm,Physical Scanner
+Quick Start,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_5120_a1/get_started/quick_start.htm,Physical Scanner
+Quick Start,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_6120_a1/get_started/quick_start.htm,Physical Scanner
+Quick Start,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_6120_b1/get_started/quick_start.htm,Physical Scanner
+Troubleshooting,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_4120_a1/troubleshooting/troubleshooting.htm,Physical Scanner
+Troubleshooting,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_5120_a1/troubleshooting/troubleshooting.htm,Physical Scanner
+Troubleshooting,https://docs.qualys.com/en/scanner/onboarding/physical_scanner/qgsa_6120_a1/troubleshooting/troubleshooting.htm,Physical Scanner
+Troubleshooting,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/troubleshooting.htm,Virtual Scanner
+Supported Virtualization Platforms,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/supported_platform.htm,Virtual Scanner
+Get Started with Virtual Scanner Appliance,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/get_started_virtual_scanner.htm,Virtual Scanner
+Configure Static IP Address,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/configuration/configure_static_ip_address.htm,Virtual Scanner
+Configure Proxy Server in IPv6-only Mode (Optional),https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/configuration/configure_proxy_in_ipv6_only.htm,Virtual Scanner
+Step 5: Complete Configuration Steps for your Platform,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/add_scanner/configure_platform.htm,Virtual Scanner
+Resize Disk,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/configuration/resize_disk.htm,Virtual Scanner
+Proxy Configuration,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/configuration/proxy_configuration.htm,Virtual Scanner
+View Scanner Status,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/add_scanner/scanner_status.htm,Virtual Scanner
+Step 1: Start Wizard,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/add_scanner/start_wizard.htm,Virtual Scanner
+Switch Between Modes,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/configuration/switch_between_mode.htm,Virtual Scanner
+Enable IPv6-only Mode,https://docs.qualys.com/en/scanner/onboarding/virtual_scanner/configuration/enable_ipv6-only_mode.htm,Virtual Scanner
+Migration,https://docs.qualys.com/en/scanner/management/scanner_appliance/migration.htm,Management
+Platform Matrix,https://docs.qualys.com/en/scanner/management/scanner_appliance/platform_matrix.htm,Management
+Frequently Asked Questions,https://docs.qualys.com/en/scanner/management/scanner_appliance/faqs.htm,Management
+Static Route Configuration,https://docs.qualys.com/en/scanner/management/scanner_appliance/static_route_configuration.htm,Management
+Scanner Appliance Management,https://docs.qualys.com/en/scanner/management/scanner_appliance/scanner_appliance_management.htm,Management
+Scanner Appliance Versioning,https://docs.qualys.com/en/scanner/management/scanner_appliance/versioning.htm,Management
+Scanner Appliance Communication,https://docs.qualys.com/en/scanner/management/scanner_appliance/communication.htm,Management
+Virtual Scanner Appliance Sizing,https://docs.qualys.com/en/scanner/management/scanner_appliance/sizing.htm,Management
+Scanner Appliance Troubleshooting,https://docs.qualys.com/en/scanner/management/scanner_appliance/troubleshooting.htm,Management
+Resources Configuration,https://docs.qualys.com/en/scanner/supported-platform/get_started/resource_configuration.htm,Management
+Supported Virtualization Platforms,https://docs.qualys.com/en/scanner/supported-platform/get_started/supported_virtualization_platforms.htm,Management
+Overview,https://docs.qualys.com/en/scanner/appliances/physical_scanner/overview.htm,Physical Appliances
+Get Started,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_4120_a1/get_started/get_started.htm,Physical Appliances
+Get Started,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_5120_a1/get_started/get_started.htm,Physical Appliances
+Get Started,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_a1/get_started/get_started.htm,Physical Appliances
+Get Started,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_b1/get_started/get_started.htm,Physical Appliances
+Quick Start,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_4120_a1/get_started/quick_start.htm,Physical Appliances
+Quick Start,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_5120_a1/get_started/quick_start.htm,Physical Appliances
+Quick Start,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_a1/get_started/quick_start.htm,Physical Appliances
+Quick Start,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_b1/get_started/quick_start.htm,Physical Appliances
+Step 4 - View Scanner Status,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_4120_a1/get_started/scanner_status.htm,Physical Appliances
+Step 4 - View Scanner Status,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_5120_a1/get_started/scanner_status.htm,Physical Appliances
+Step 4 - View Scanner Status,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_a1/get_started/scanner_status.htm,Physical Appliances
+Step 4 - View Scanner Status,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_b1/get_started/scanner_status.htm,Physical Appliances
+Step 2 - Power On Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_4120_a1/get_started/power_on_scanner.htm,Physical Appliances
+Step 2 - Power On Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_5120_a1/get_started/power_on_scanner.htm,Physical Appliances
+Step 2 - Power On Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_a1/get_started/power_on_scanner.htm,Physical Appliances
+Step 2 - Power On Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_b1/get_started/power_on_scanner.htm,Physical Appliances
+Step 3 - Activate Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_4120_a1/get_started/activate_scanner.htm,Physical Appliances
+Step 3 - Activate Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_5120_a1/get_started/activate_scanner.htm,Physical Appliances
+Step 3 - Activate Scanner Appliance,https://docs.qualys.com/en/scanner/appliances/physical_scanner/qgsa_6120_a1/get_started/activate_scanner.htm,Physical Appliances
+Troubleshooting,https://docs.qualys.com/en/scanner/qcsa/create_qcs/troubleshooting.htm,Cloud Scanner (QCSA)
+Step 3: Get Qualys URL,https://docs.qualys.com/en/scanner/qcsa/create_qcs/get_qualys_url.htm,Cloud Scanner (QCSA)
+Manage Containerized Scanner,https://docs.qualys.com/en/scanner/qcsa/features/manage_containerized_scanner.htm,Cloud Scanner (QCSA)
+Step 1: Configure QCSA Image,https://docs.qualys.com/en/scanner/qcsa/create_qcs/qcsa_image_config.htm,Cloud Scanner (QCSA)
+Step 4: Create Containerized Scanner,https://docs.qualys.com/en/scanner/qcsa/create_qcs/create_csc.htm,Cloud Scanner (QCSA)
+Create a Qualys Containerized Scanner,https://docs.qualys.com/en/scanner/qcsa/create_qcs/create_qualys_cs.htm,Cloud Scanner (QCSA)
+Step 2: Generate Personalization Code,https://docs.qualys.com/en/scanner/qcsa/create_qcs/personalization_code_generation.htm,Cloud Scanner (QCSA)
+Understand the logs in Containerized Scanner,https://docs.qualys.com/en/scanner/qcsa/create_qcs/understande_logs_cs.htm,Cloud Scanner (QCSA)
+Step 6: Stop and Re-run Containerized Scanner,https://docs.qualys.com/en/scanner/qcsa/create_qcs/stop_recreating_cs.htm,Cloud Scanner (QCSA)
+Step 5: Custom Parameters for Containerized Scanner,https://docs.qualys.com/en/scanner/qcsa/create_qcs/custom_parameters_cs.htm,Cloud Scanner (QCSA)
+Virtual Scanner on Alibaba,https://docs.qualys.com/en/scanner/alibaba/deployment/get_started.htm,Deployment Guides
+Virtual Scanner on AzureStack,https://docs.qualys.com/en/scanner/azure-stack/deploy/get_started.htm,Deployment Guides
+Virtual Scanner on Citrix XenServer,https://docs.qualys.com/en/scanner/citrix-xenserver/get_started/get_started.htm,Deployment Guides
+Consultant Scanner Personal Edition User Guide,https://docs.qualys.com/en/scanner/consultant-scanner/get_started/get_started.htm,Official Guides
+Virtual Scanner on Hyper-V,https://docs.qualys.com/en/scanner/hyper-v/microsoft/get_started.htm,Deployment Guides
+Virtual Scanner on IBM,https://docs.qualys.com/en/scanner/ibm/get_started/get_started.htm,Deployment Guides
+Virtual Scanner on KVM,https://docs.qualys.com/en/scanner/kvm/get_started/get_started.htm,Deployment Guides
+Virtual Scanner on Nutanix,https://docs.qualys.com/en/scanner/nutanix/deployment/get_started.htm,Deployment Guides
+Virtual Scanner on OCI,https://docs.qualys.com/en/scanner/oci/index.htm#t=get_started%2Fget_started.htm,Deployment Guides
+Offline Scanner Appliance User Guide,https://docs.qualys.com/en/scanner/offline-scanner/get_started/get_started.htm,Official Guides
+Virtual Scanner on OpenShift,https://docs.qualys.com/en/scanner/openshift/openshift/get_started.htm,Deployment Guides
+Virtual Scanner on OpenStack,https://docs.qualys.com/en/scanner/openstack/deployment/get_started.htm,Deployment Guides
+Virtual Scanner on Proxmox,https://docs.qualys.com/en/scanner/proxmox/get_started/get_started.htm,Deployment Guides
+QCSA User Guide,https://docs.qualys.com/en/scanner/qcsa/get_started/get_started.htm,Official Guides
+Qualys Scanner Appliance Help,https://docs.qualys.com/en/scanner/onboarding/welcome/home_page.htm,Official Guides
+Scanner Capacity Calculator,https://docs.qualys.com/en/scanner/capacity-calculator/get_started/overview.htm,Official Guides
+Scanner Replacement Automation,https://docs.qualys.com/en/scanner/replacement-automation-tool/get_started/overview.htm,Official Guides
+Virtual Scanner on VMWare,https://docs.qualys.com/en/scanner/vmware-vsphere/deployment/get_started.htm,Deployment Guides
+VMware OVF Tool for vApp,https://docs.qualys.com/en/scanner/vmware-ovf/tools/get_started.htm,Official Guides
+Configure VLAN on Hyper-V,https://www.qualys.com/docs/qualys-scanner-vlan-hyper-v.pdf,Official Guides
+Quick Start: QGSA-4120-A1,https://www.qualys.com/docs/qualys-scanner-appliance-quick-start-guide-4120-a1.pdf,Official Guides
+Quick Start: QGSA-5120-A1,https://www.qualys.com/docs/qualys-scanner-appliance-quick-start-guide-5120-a1.pdf,Official Guides
+Quick Start: QGSA-6120-A1,https://www.qualys.com/docs/qualys-scanner-appliance-quick-start-guide-6120-a1.pdf,Official Guides
+Quick Start: QGSA-6120-B1,https://cdn2.qualys.com/docs/qualys-scanner-appliance-quick-start-guide-6120-b1.pdf,Official Guides
+Release Notes (qualys.com),https://www.qualys.com/documentation/release-notes#scanner-appliance,Release Notes
+Virtual Scanner User Guide,https://www.qualys.com/docs/qualys-virtual-scanner-appliance-user-guide.pdf,Official Guides
+VLAN Scanning Guide,https://www.qualys.com/docs/qualys-scanner-vlan-scanning.pdf,Official Guides
+Virtual Scanner Appliance 4.2.21 (September 2026),https://docs.qualys.com/en/scanner/release-notes/virtual_scanner/release_4_2_21.htm,Release Notes
+Virtual Scanner Appliance 4.2 (July 2026),https://docs.qualys.com/en/scanner/release-notes/virtual_scanner/release_4_2.htm,Release Notes
+Physical Scanner Appliance 4.1 (January 2026),https://docs.qualys.com/en/scanner/release-notes/physical_scanner/qpsa_4_1.htm,Release Notes
+Virtual Scanner Appliance 4.1.82: OpenShift (November 2025),https://docs.qualys.com/en/scanner/release-notes/virtual_scanner/release_4_1_openshift.htm,Release Notes
+Virtual Scanner Appliance 4.1.82: IBM | Oracle (October 2025),https://docs.qualys.com/en/scanner/release-notes/virtual_scanner/release_4_1_82_1.htm,Release Notes
+Virtual Scanner Appliance 4.1.82: Alibaba | Xenserver | KVM | Proxmox | GCP | Azure | AWS (September 2025),https://docs.qualys.com/en/scanner/release-notes/virtual_scanner/release_4_1_82.htm,Release Notes
+Containerized Scanner Appliance 1.3.28 (July 2025),https://docs.qualys.com/en/scanner/release-notes/qcsa/qcsa_1_3.htm,Release Notes
+Virtual Scanner Appliance Terraform Support 1.2 (July 2025),https://docs.qualys.com/en/scanner/release-notes/terraform/qvsa_terraform_1_2.htm,Release Notes
+Offline Scanner Appliance 2.2.3-14 (July 2025),https://docs.qualys.com/en/scanner/release-notes/offline_scanner/release_o_i_386_2_2_3_14.htm,Release Notes
+Virtual Scanner Appliance 4.1: Nutanix | OpenStack (June 2025),https://docs.qualys.com/en/scanner/release-notes/virtual_scanner/release_4_1_69_1.htm,Release Notes
+Training Course: Scanning Strategies,https://www.qualys.com/training/course/scanning-strategies,Training
+Video Library: Scanning Strategies,https://success.qualys.com/customersupport/s/video-library?product=scanning-strategies,Training
+Video Library: Sensors Foundation,https://success.qualys.com/customersupport/s/video-library?product=sensors-foundation,Training
+Video Library: Scanner Appliance,https://success.qualys.com/customersupport/s/video-library?product=scanner-appliance,Training
+Qualys Sensor Management,https://www.qualys.com/scanners,Product Overview
+Qualys TotalCloud KCS Achieves Red Hat Vulnerability Scanner Certification,https://blog.qualys.com/product-tech/2025/02/25/qualys-totalcloud-kcs-achieves-red-hat-vulnerability-scanner-certification,Blog
+"QScanner: Features, Benefits, and How It Works for Container Image Scanning",https://blog.qualys.com/product-tech/2024/11/07/elevate-your-container-security-with-qscanner-in-2025,Blog
+Secure Your Business with Qualys’ New Cloud Agent Deployment using Qualys Scanner,https://blog.qualys.com/product-tech/2024/09/03/secure-your-business-with-qualys-new-cloud-agent-deployment-using-qualys-scanner,Blog
+Secure Your Containerized Environments with Qualys Containerized Scanner Appliance (QCSA),https://blog.qualys.com/product-tech/2024/06/20/secure-your-containerized-environments-with-qualys-containerized-scanner-appliance-qcsa,Blog
+How a SQL Injection Scanner Can protect Your Website from SQL Injection Vulnerabilities,https://blog.qualys.com/product-tech/2024/04/08/navigating-sql-injection-vulnerabilities-with-dast-for-modern-appsec,Blog
