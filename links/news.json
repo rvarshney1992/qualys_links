@@ -1,10 +1,150 @@
 {
- "updated": "2026-09-29T13:55+00:00",
+ "updated": "2026-09-29T16:22+00:00",
  "edition": "2026-09-29",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+   "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T15:39+00:00",
+   "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
+   "link": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks",
+   "source": "Dark Reading",
+   "published": "2026-09-29T15:12+00:00",
+   "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Autonomous Remediation Is Already Running at Enterprise Scale",
+   "link": "https://blog.qualys.com/qualys-insights/2026/09/29/autonomous-remediation-enterprise-scale-black-hat-2026-sumedh-thakar",
+   "source": "Qualys Blog",
+   "published": "2026-09-29T15:00+00:00",
+   "summary": "The following is a guest blog by ITSPmagazine, based on their interview of Qualys President & CEO Sumedh Thakar at Black Hat USA 2026. Sumedh Thakar has watched the same clock compress for 23 years. He joined Qualys as an early software engineer on the scanner, when…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "NetScaler zero-day exploitation escalates into mass attacks (CVE-2026-88771)",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T14:59+00:00",
+   "summary": "The hacking of internet-exposed, vulnerable Citrix NetScaler ADC and Gateway deployments has escalated. What started as stealthy targeting via zero-day exploits has now become widespread “spray and pray” exploitation, fueled by the publication of a root-cause analysis and a…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+   "source": "Dark Reading",
+   "published": "2026-09-29T14:19+00:00",
+   "summary": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Citrix",
+      "NetScaler"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+   "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T14:13+00:00",
+   "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the shutdown, this activity led to the discovery of a previously…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Catch threats before they escalate with real-time Identity Telemetry",
+   "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T14:01+00:00",
+   "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity before it escalates. [...]",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "LastPass warns employees before they share sensitive data with AI tools",
    "link": "https://www.helpnetsecurity.com/2026/09/29/lastpass-ai-monitoring-and-protect/",
@@ -14,6 +154,22 @@
    "categories": [
     "Cloud & Container",
     "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+   "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T13:45+00:00",
+   "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Supply Chain"
    ],
    "cves": [],
    "vendors": [],
@@ -463,7 +619,13 @@
      ]
     }
    ],
-   "kev": {}
+   "kev": {
+    "CVE-2026-86950": {
+     "added": "2026-09-29",
+     "due": "2026-10-02",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
@@ -1677,7 +1839,13 @@
      "match": "vendor"
     }
    ],
-   "kev": {}
+   "kev": {
+    "CVE-2026-86950": {
+     "added": "2026-09-29",
+     "due": "2026-10-02",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Citrix NetScaler ADC and Gateway Zero-day Vulnerabilities Exploited in Attacks (CVE-2026-88771 & CVE-2026-88772)",
@@ -1699,6 +1867,14 @@
    "edition": "2026-09-28",
    "id": "tp1",
    "related": [
+    {
+     "link": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+     "match": "vendor"
+    },
     {
      "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
      "match": "vendor"
