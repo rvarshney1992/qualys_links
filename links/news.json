@@ -1,8 +1,568 @@
 {
- "updated": "2026-09-28T18:27+00:00",
- "edition": "2026-09-28",
- "errors": [],
+ "updated": "2026-09-29T13:55+00:00",
+ "edition": "2026-09-29",
+ "errors": [
+  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
+ ],
  "news": [
+  {
+   "title": "LastPass warns employees before they share sensitive data with AI tools",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/lastpass-ai-monitoring-and-protect/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T13:47+00:00",
+   "summary": "LastPass has announced an expansion of its Business Max offering to include AI Monitoring & Protect and Web Monitoring & Protect, new visibility and governance capabilities that enable organizations to identify and secure the AI tools, SaaS applications, and websites its…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Postman adds security controls for AI agents, APIs, and MCP servers",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/postman-fabric-gateway/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T13:40+00:00",
+   "summary": "Postman has announced the general availability of Fabric Gateway, a protocol-agnostic control plane for governing how AI agents, LLMs, and MCP servers discover and interact with APIs, tools, and other agents. With Fabric Gateway, organizations can securely connect AI agents to…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Webinar: Closing the accountability gap in AI-assisted delivery",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/cleverbit-webinar-ai-assisted-delivery-accountability/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T13:00+00:00",
+   "summary": "Source control records who committed code. It does not record who made the decisions behind it, and that gap is widening as AI agents take on more of the delivery process. This session explores how organisations can adapt accountability models for an AI-assisted development…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Meta gives small businesses an AI agent that knows their work",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/meta-muse-for-small-business/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T12:45+00:00",
+   "summary": "Meta has introduced Muse for Small Business, adding skills and connectors to its personal AI agent to help business owners get work done using the tools they already use. Muse launched earlier this month in the US and Canada and can complete tasks on a user’s behalf. Business…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Vega II brings security-trained AI and lasting memory to the SOC",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/vega-ii-agentic-cyber-defense-platform/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T12:43+00:00",
+   "summary": "Vega has introduced Vega II, its biggest platform release since emerging from stealth. The update brings frontier AI trained for security operations into the SOC, gives teams a lasting record of what they have learned, and removes the legacy SIEM and data pipeline barriers that…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian pizza chain with 1,500 locations confirms cyberattack following hacker claims",
+   "link": "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach",
+   "source": "The Record",
+   "published": "2026-09-29T12:34+00:00",
+   "summary": "According to Dodo Pizza, the potentially compromised information included customers’ names, addresses, email addresses, phone numbers, dates of birth and order details.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Arizona Supreme Court says hackers stole residents’ personal data",
+   "link": "https://therecord.media/arizona-supreme-court-says-hackers-stole-data",
+   "source": "The Record",
+   "published": "2026-09-29T12:27+00:00",
+   "summary": "A spokesperson for the court system told Recorded Future News that the incident did not involve ransomware and the hackers have not issued ransom demands for the stolen data as of Monday.",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Deepfakes become a board priority once an executive falls for one",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/pindrop-enterprise-deepfake-attacks-report/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T11:59+00:00",
+   "summary": "Nearly three-quarters of security leaders have encountered or suspect a deepfake attack in the past year, while just 10% say their organizations have purpose-built defenses, according to Pindrop’s 2026 Deepfake Readiness Index. Real-time communications have become a target for…",
+   "categories": [
+    "Ransomware & Malware",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Malicious Custom GPT on chatgpt.com lures users into installing a RAT",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/malicious-chatgpt-custom-gpt-malware-via-clickfix/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T11:55+00:00",
+   "summary": "Malware peddlers are using sponsored Google results to push a malicious ChatGPT Custom GPT named “Plus 5.6,” created to lead users to a fake Cloudflare CAPTCHA check and, ultimately, make them download and run a remote access trojan (RAT). “The campaign has impacted dozens of…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+   "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T11:41+00:00",
+   "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI’s GPT-6 Astra ran supply chain attacks despite being told not to",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T11:41+00:00",
+   "summary": "OpenAI’s GPT-6 Astra carried out supply chain attacks on software outside the scope of a security test, according to the UK AI Security Institute (AISI). Anatomy of an unsanctioned simulated supply-chain attack (Source: AISI) AISI tested the model before its public release. The…",
+   "categories": [
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cybersecurity hiring practices leave little room for junior talent",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/skillbit-cybersecurity-micro-training-trends-report/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T11:00+00:00",
+   "summary": "Twenty-minute training sessions that fit into the workweek could help new hires become productive sooner, keep employees’ skills current and build problem-solving skills they can use across different tools, according to SkillBit’s The Shift to Continuous Cybersecurity…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Palo Alto Networks and NVIDIA want tighter control over AI agents",
+   "link": "https://www.helpnetsecurity.com/2026/09/29/palo-alto-networks-nvidia-ai-agent-security/",
+   "source": "Help Net Security",
+   "published": "2026-09-29T10:21+00:00",
+   "summary": "Palo Alto Networks is expanding its work with NVIDIA to help companies control what AI agents can access and do. The collaboration covers agent activity, network traffic and identity management through NVIDIA’s Open Agent Safety Platform reference design. Palo Alto Networks…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "NVIDIA",
+    "Palo Alto"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Kiteworks patches critical flaw, brings customer systems online",
+   "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T09:04+00:00",
+   "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+   "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T08:35+00:00",
+   "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Lessons from Microsoft Patch KB5002907: Two Layers of Patch Control in Qualys TruRisk Eliminate",
+   "link": "https://blog.qualys.com/product-tech/2026/09/29/lessons-from-microsoft-patch-kb5002907-two-layers-of-patch-control-in-qualys-trurisk-eliminate",
+   "source": "Qualys Blog",
+   "published": "2026-09-29T08:28+00:00",
+   "summary": "How reliability scoring keeps risky patches out of zero-touch jobs, and how one blocking rule stops a paused update across your environment. Executive Summary Microsoft has paused the rollout of KB5002907, an optional Microsoft 365 Apps update that left some Office 2016 and…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Office"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T07:33+00:00",
+   "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "iOS"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Apple",
+      "iOS"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+   "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T06:08+00:00",
+   "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Python"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+   "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T05:12+00:00",
+   "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+   "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T04:45+00:00",
+   "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. \"An agent attempting to complete a…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "One Packet Can Crash OT Servers in Industrial Sectors",
+   "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+   "source": "Dark Reading",
+   "published": "2026-09-28T21:13+00:00",
+   "summary": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+   "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T20:56+00:00",
+   "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Times Car confirms data breach affecting 6.6 million user accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T20:31+00:00",
+   "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+   "link": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
+   "source": "Dark Reading",
+   "published": "2026-09-28T20:23+00:00",
+   "summary": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Docker"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+   "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T19:49+00:00",
+   "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
+   "link": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
+   "source": "The Record",
+   "published": "2026-09-28T19:30+00:00",
+   "summary": "A vulnerability in a popular line of products from Oracle is being used in a new campaign by the prolific ShinyHunters hacking group, which recently claimed credit for an attack on the FBI’s jobs site.",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+   "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T19:18+00:00",
+   "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "vendors": [
+    "Apple",
+    "iOS",
+    "macOS"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-86950"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+   "link": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+   "source": "BleepingComputer",
+   "published": "2026-09-28T18:50+00:00",
+   "summary": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+   "source": "Dark Reading",
+   "published": "2026-09-28T18:44+00:00",
+   "summary": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+   "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T18:35+00:00",
+   "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities…",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "IAM for AI agents: A Practical Enterprise Framework",
+   "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T18:20+00:00",
+   "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+   "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T17:42+00:00",
+   "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+   "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+   "source": "The Hacker News",
+   "published": "2026-09-28T17:38+00:00",
+   "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android"
+   ],
+   "edition": "2026-09-29",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "New Mexico jury finds Meta deceived consumers about data privacy practices",
    "link": "https://therecord.media/facebook-new-mexico-privacy",
@@ -53,7 +613,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Citrix",
@@ -163,7 +723,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Citrix"
@@ -273,7 +833,15 @@
     "macOS"
    ],
    "edition": "2026-09-28",
-   "advisories": [],
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "macOS"
+     ]
+    }
+   ],
    "kev": {}
   },
   {
@@ -367,7 +935,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-88771",
@@ -489,7 +1057,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-88771"
@@ -521,7 +1089,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Citrix",
@@ -598,7 +1166,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-88771",
@@ -678,7 +1246,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-88771",
@@ -721,7 +1289,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-88771",
@@ -759,7 +1327,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Citrix",
@@ -789,7 +1357,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -908,7 +1476,7 @@
    "edition": "2026-09-28",
    "advisories": [
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -1077,6 +1645,41 @@
  ],
  "advisories": [
   {
+   "title": "Apple Warns Users iOS Vulnerability Exploited in Attack (CVE-2026-86950)",
+   "link": "https://threatprotect.qualys.com/2026/09/29/apple-warns-users-ios-vulnerability-exploited-in-attack-cve-2026-86950/",
+   "source": "ThreatPROTECT",
+   "published": "2026-09-29T13:44+00:00",
+   "summary": "Apple released updates to address an actively exploited vulnerability tracked as CVE-2026-86950. The vulnerability affects iOS, iPadOS, macOS Tahoe, and Sequoia. This is an out-of-bounds write flaw that can be exploited by processing a maliciously crafted file. Successful…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "vendors": [
+    "Apple",
+    "iOS",
+    "macOS"
+   ],
+   "edition": "2026-09-29",
+   "id": "tp0",
+   "related": [
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/09/28/cve-2025-68788-file-notification-attacks/",
+     "match": "vendor"
+    }
+   ],
+   "kev": {}
+  },
+  {
    "title": "Citrix NetScaler ADC and Gateway Zero-day Vulnerabilities Exploited in Attacks (CVE-2026-88771 & CVE-2026-88772)",
    "link": "https://threatprotect.qualys.com/2026/09/28/citrix-netscaler-adc-and-gateway-zero-day-vulnerabilities-exploited-in-attacks-cve-2026-88771-cve-2026-88772/",
    "source": "ThreatPROTECT",
@@ -1094,7 +1697,7 @@
     "NetScaler"
    ],
    "edition": "2026-09-28",
-   "id": "tp0",
+   "id": "tp1",
    "related": [
     {
      "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
@@ -1164,7 +1767,7 @@
     "Check Point"
    ],
    "edition": "2026-09-28",
-   "id": "tp1",
+   "id": "tp2",
    "related": [],
    "kev": {
     "CVE-2026-85102": {
@@ -1196,7 +1799,7 @@
     "Cisco"
    ],
    "edition": "2026-09-28",
-   "id": "tp2",
+   "id": "tp3",
    "related": [],
    "kev": {
     "CVE-2026-76460": {
@@ -1220,7 +1823,7 @@
     "Oracle"
    ],
    "edition": "2026-09-28",
-   "id": "tp3",
+   "id": "tp4",
    "related": [
     {
      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
@@ -1232,32 +1835,6 @@
     }
    ],
    "kev": {}
-  },
-  {
-   "title": "Cisco Secure Email Gateway Vulnerability Exploited in Attacks (CVE-2026-76461)",
-   "link": "https://threatprotect.qualys.com/2026/09/15/cisco-secure-email-gateway-vulnerability-exploited-in-attacks-cve-2026-76461/",
-   "source": "ThreatPROTECT",
-   "published": "2026-09-15T13:37+00:00",
-   "summary": "Cisco released a security advisory about a critical-severity vulnerability in Cisco Secure Email Gateway. Tracked as CVE-2026-76461, the vulnerability is being exploited in the wild. Successful exploitation of the vulnerability may allow an attacker to execute arbitrary commands…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-76461"
-   ],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-09-28",
-   "id": "tp4",
-   "related": [],
-   "kev": {
-    "CVE-2026-76461": {
-     "added": "2026-09-14",
-     "due": "2026-09-17",
-     "ransomware": false
-    }
-   }
   }
  ]
 }
