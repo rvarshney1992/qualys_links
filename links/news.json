@@ -1,10 +1,896 @@
 {
- "updated": "2026-09-29T16:22+00:00",
- "edition": "2026-09-29",
+ "updated": "2026-09-30T16:18+00:00",
+ "edition": "2026-09-30",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T15:49+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+   "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T15:24+00:00",
+   "summary": "Attackers are exploiting a critical flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-76504"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
+   "link": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
+   "source": "Dark Reading",
+   "published": "2026-09-30T15:02+00:00",
+   "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+   "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T15:00+00:00",
+   "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T14:46+00:00",
+   "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-76504"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+   "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T14:01+00:00",
+   "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Mobile malware warning from Ukrainian researchers includes iPhone exploit kit",
+   "link": "https://therecord.media/ukraine-ssscip-mobile-malware-warning-ios-android",
+   "source": "The Record",
+   "published": "2026-09-30T14:00+00:00",
+   "summary": "'Hit and run' iPhone malware known as DarkSword is part of a wave of Russian attacks on iOS and Android devices, according to Ukraine's SSSCIP.",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "iOS"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "iOS"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft to block Entra ID script injection attacks starting October",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T13:37+00:00",
+   "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Entra",
+    "Microsoft"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Suspected state-sponsored hackers exploited NetScaler zero-day since early September (CVE-2026-88772)",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T12:33+00:00",
+   "summary": "“Advanced and suspected state-sponsored threat actors” are likely to be behind the initial targeted intrusions that leveraged CVE-2026-88772, one of the two recently disclosed NetScaler vulnerabilities that have been exploited as zero-days, says Mandiant CTO Charles Carmakal…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Cloud & Container"
+   ],
+   "cves": [
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Google",
+    "NetScaler"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+   "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T12:25+00:00",
+   "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian FSB-linked hackers scale up phishing attacks against Ukraine supporters",
+   "link": "https://therecord.media/russia-hackers-ukraine-blizzard",
+   "source": "The Record",
+   "published": "2026-09-30T12:00+00:00",
+   "summary": "The Russian state-backed hacking group Star Blizzard has expanded its phishing operations this year, using a new technique that makes it easier to infect victims with malware.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+   "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T11:58+00:00",
+   "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI coding agents leaked 13,000 internal company screenshots to public GitHub repos",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T11:52+00:00",
+   "summary": "When developers ask AI coding agents to prove that a user interface fix works, some agents have been posting the evidence where anyone can find it, according to Glow Labs. Diagram showing how AI agents leak screenshots to public repos (Source: Glow Labs) The researchers found…",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+   "link": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T11:30+00:00",
+   "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Bitget hacked via zero-day in third-party security products",
+   "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T11:11+00:00",
+   "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+   "link": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T10:45+00:00",
+   "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure. By combining Microsoft 365…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenInfra Europe’s JFrog Artifactory instance breached, packages potentially compromised",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T10:39+00:00",
+   "summary": "Attackers have compromised a self-hosted JFrog Artifactory instance operated by OpenInfra Europe, the regional hub of the OpenInfra Foundation warned in a security notice prominently displayed on its homepage. OpenInfra Europe’s security incident notice “Anyone who downloaded or…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [
+    "CVE-2026-82329"
+   ],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-82329": {
+     "added": "2026-09-02",
+     "due": "2026-09-05",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Signal brings encrypted local backups to iOS and desktop, adds cross-platform restore",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/signal-encrypted-backups-ios-8-30/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T09:31+00:00",
+   "summary": "Signal users who switch from an Android phone to an iPhone, or the other way around, can take their message history with them, and backups can be restored on Android, iOS, Linux, macOS and Windows. The option is part of a set of backup updates the company finished rolling out…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Linux",
+    "Windows",
+    "iOS",
+    "macOS"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "iOS",
+      "macOS"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+   "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T08:24+00:00",
+   "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix",
+    "Google",
+    "NetScaler"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Citrix",
+      "NetScaler"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+   "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T08:09+00:00",
+   "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "OpenSSL"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Former US Air Force members behind million-dollar BEC scheme head to prison",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/air-force-members-sentenced-bec-phishing/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T07:42+00:00",
+   "summary": "Two men who ran BEC and phishing campaigns against US businesses while serving in the Air Force have been sentenced to a combined 189 months in federal prison. According to public documents and evidence presented at sentencing, Chijioke Timothy Odimegwu, 25, and Harafat Mogaji…",
+   "categories": [
+    "Identity & Access",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
+   "source": "Dark Reading",
+   "published": "2026-09-30T07:00+00:00",
+   "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Genea brings AI agents to access control with role-based permissions",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/genea-mcp/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T06:49+00:00",
+   "summary": "Genea has announced the release of Genea MCP, a Model Context Protocol (MCP) server that connects AI agents directly to the Genea Access Control platform. Onboarding a new hire, setting up a contractor for two weeks, or unlocking the loading dock now takes one sentence instead…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Security tools can now scan Claude Enterprise chats and uploads for sensitive data",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/claude-compliance-api-integrations/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T06:31+00:00",
+   "summary": "More than 100 security and compliance vendors have integrations with the Claude Compliance API, which lets a company send Claude activity into the monitoring tools it already uses. CrowdStrike, Microsoft Purview, Splunk, Palo Alto Networks, Cloudflare and Zscaler are among them…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "CrowdStrike",
+    "Microsoft",
+    "Palo Alto",
+    "Splunk"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+   "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+   "source": "The Hacker News",
+   "published": "2026-09-30T05:30+00:00",
+   "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "OWASP Noir: Open-source static analysis tool",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/owasp-noir-open-source-static-analysis-tool/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T05:30+00:00",
+   "summary": "OWASP Noir is an open-source static analysis tool that reads an application’s source code and lists the endpoints it exposes: paths, HTTP methods, parameters, headers, and cookies, each tied to the file and line it came from. Here’s where it gets useful. Shadow APIs, the…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "EU Cyber Resilience Act requirements for containers and Kubernetes",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T05:00+00:00",
+   "summary": "Starting in full force on Dec. 10, 2024, the EU Cyber Resilience Act (CRA) is a regulation (EU 2024/2847) that defines mandatory cybersecurity requirements for all products with digital elements sold in EU markets. Reporting obligations will begin on Sept. 11, 2026, with full…",
+   "categories": [
+    "Cloud & Container",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Kubernetes"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "In this new SME cybersecurity service, the AI assists and the consultants decide",
+   "link": "https://www.helpnetsecurity.com/2026/09/30/bh-haven-sme-cybersecurity-service/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T04:30+00:00",
+   "summary": "BH Consulting, the Irish cybersecurity and data protection consultancy, has launched BH Haven, an ongoing service that gives Irish small and medium-sized enterprises (SMEs) access to its specialist consultants, supported by a proprietary AI tool for analysis, evidence review…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft is rolling out Linux container support to WSL",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T00:40+00:00",
+   "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
+   "categories": [
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux",
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+   "source": "Dark Reading",
+   "published": "2026-09-29T21:31+00:00",
+   "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "vendors": [
+    "Apple"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-86950"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-86950": {
+     "added": "2026-09-29",
+     "due": "2026-10-02",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Signal adds encypted local backup support to iOS, desktop apps",
+   "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T21:30+00:00",
+   "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Linux",
+    "Windows",
+    "iOS",
+    "macOS"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "iOS",
+      "macOS"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+   "link": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+   "source": "Dark Reading",
+   "published": "2026-09-29T21:08+00:00",
+   "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Python"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "US Air Force members given over 6 years in prison for cyber theft of more than $2 million",
+   "link": "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
+   "source": "The Record",
+   "published": "2026-09-29T21:01+00:00",
+   "summary": "According to court documents, both men pleaded guilty to wire fraud, identity theft and access device fraud charges in June.",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+   "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T20:59+00:00",
+   "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Controversial spyware firm Paragon to go public by end of year",
+   "link": "https://therecord.media/controversial-spyware-firm-paragon-to-go-public",
+   "source": "The Record",
+   "published": "2026-09-29T20:35+00:00",
+   "summary": "The company plans to close the deal around the end of the year at which point Paragon will begin trading on Nasdaq under the REDLattice umbrella.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T20:09+00:00",
+   "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI apologizes for agents breaching Australian government websites without authorization",
+   "link": "https://therecord.media/openai-apologizes-australia-medicare-breach",
+   "source": "The Record",
+   "published": "2026-09-29T19:48+00:00",
+   "summary": "The artificial intelligence giant acknowledged it botched its response to the incidents and should have done more to promptly notify and work with the Australian government in the days after it discovered the breaches.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T18:37+00:00",
+   "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Former US Air Force members sent to prison over BEC attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T18:09+00:00",
+   "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+   "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T17:47+00:00",
+   "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Windows 11 2026 Update released, here's everything you need to know",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T17:37+00:00",
+   "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+   "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T17:20+00:00",
+   "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+   "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+   "source": "The Hacker News",
+   "published": "2026-09-29T17:20+00:00",
+   "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100…",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+   "link": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T17:10+00:00",
+   "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Intel",
+    "Linux"
+   ],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
+   "link": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
+   "source": "Dark Reading",
+   "published": "2026-09-29T17:02+00:00",
+   "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
    "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
@@ -495,11 +1381,26 @@
    "kev": {}
   },
   {
+   "title": "Nvidia Launches AI Agent Safety Platform to Prevent Rogue Activities",
+   "link": "https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities",
+   "source": "Dark Reading",
+   "published": "2026-09-28T22:02+00:00",
+   "summary": "The Open Agent Safety Platform relies on hardware and software components to monitor agent activities and quarantine unruly agents before they can cause harm.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-09-30",
+   "advisories": [],
+   "kev": {}
+  },
+  {
    "title": "One Packet Can Crash OT Servers in Industrial Sectors",
    "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
    "source": "Dark Reading",
    "published": "2026-09-28T21:13+00:00",
-   "summary": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+   "summary": "A high-severity vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments, and orgs should patch right away.",
    "categories": [
     "Vulnerability Management",
     "OT & IoT"
@@ -1517,15 +2418,7 @@
     "Oracle"
    ],
    "edition": "2026-09-28",
-   "advisories": [
-    {
-     "id": "tp4",
-     "match": "vendor",
-     "on": [
-      "Oracle"
-     ]
-    }
-   ],
+   "advisories": [],
    "kev": {
     "CVE-2026-35273": {
      "added": "2026-06-12",
@@ -1636,15 +2529,7 @@
     "Oracle"
    ],
    "edition": "2026-09-28",
-   "advisories": [
-    {
-     "id": "tp4",
-     "match": "vendor",
-     "on": [
-      "Oracle"
-     ]
-    }
-   ],
+   "advisories": [],
    "kev": {
     "CVE-2026-35273": {
      "added": "2026-06-12",
@@ -1827,6 +2712,22 @@
    "id": "tp0",
    "related": [
     {
+     "link": "https://therecord.media/ukraine-ssscip-mobile-malware-warning-ios-android",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/09/30/signal-encrypted-backups-ios-8-30/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+     "match": "vendor"
+    },
+    {
      "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
      "match": "vendor"
     },
@@ -1867,6 +2768,22 @@
    "edition": "2026-09-28",
    "id": "tp1",
    "related": [
+    {
+     "link": "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/",
+     "match": "cve"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+     "match": "cve"
+    },
     {
      "link": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/",
      "match": "cve"
@@ -1984,33 +2901,6 @@
      "ransomware": false
     }
    }
-  },
-  {
-   "title": "Oracle Critical Security Patch Update, September 2026 Review",
-   "link": "https://threatprotect.qualys.com/2026/09/16/oracle-critical-security-patch-update-september-2026-review/",
-   "source": "ThreatPROTECT",
-   "published": "2026-09-16T14:15+00:00",
-   "summary": "Oracle released its September edition of Critical Security Patch Update. The update received patches for 673 security vulnerabilities. Some of the vulnerabilities addressed in this update impact more than one product. These patches address vulnerabilities in various product…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Oracle"
-   ],
-   "edition": "2026-09-28",
-   "id": "tp4",
-   "related": [
-    {
-     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-     "match": "vendor"
-    },
-    {
-     "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-     "match": "vendor"
-    }
-   ],
-   "kev": {}
   }
  ]
 }
