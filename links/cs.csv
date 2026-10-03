@@ -245,3 +245,4 @@ How does Qualys TotalCloud prevent secret leaks for Containers?,https://blog.qua
 Securing Red Hat Enterprise Linux CoreOS in Red Hat OpenShift with Qualys,https://blog.qualys.com/product-tech/2021/08/03/securing-red-hat-coreos-on-openshift-with-qualys,Blog
 Extending your FedRAMP Program to Container Infrastructure with the Qualys Cloud Platform,https://blog.qualys.com/product-tech/2021/03/31/extending-your-fedramp-program-to-containers-with-the-qualys-cloud-platform,Blog
 Normalization of Sensor Version Numbering in Qualys Container Security Release 1.46,https://notifications.qualys.com/notifications/2026/09/24/normalization-of-sensor-version-numbering-in-qualys-container-security-release-1-46,Release Notes
+Release Notification: Deprecation of the “qcs-sensor” Helm Chart in Qualys Container Security,https://notifications.qualys.com/notifications/2026/09/30/release-notification-deprecation-of-the-qcs-sensor-helm-chart-in-qualys-container-security,Release Notes
