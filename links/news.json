@@ -1,10 +1,263 @@
 {
- "updated": "2026-10-02T16:08+00:00",
- "edition": "2026-10-02",
+ "updated": "2026-10-03T14:35+00:00",
+ "edition": "2026-10-03",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Danish university DTU breach exposes data of up to 200,000 people",
+   "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+   "source": "BleepingComputer",
+   "published": "2026-10-03T14:35+00:00",
+   "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+   "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+   "source": "The Hacker News",
+   "published": "2026-10-03T11:00+00:00",
+   "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
+   "link": "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists",
+   "source": "The Record",
+   "published": "2026-10-02T20:30+00:00",
+   "summary": "The plaintiffs, who all worked for the independent and Salvadoran news outlet El Faro, failed to convince the court that their case had jurisdiction in California, according to the judge’s order.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+   "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
+   "source": "Dark Reading",
+   "published": "2026-10-02T20:18+00:00",
+   "summary": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Bipartisan backlash to ALPRs grows as two high-profile bills are introduced",
+   "link": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
+   "source": "The Record",
+   "published": "2026-10-02T19:30+00:00",
+   "summary": "Republican Sen. Josh Hawley has new legislation on limiting automated license plate readers (ALPRs), while Democratic Sens. Bernie Sanders and Jeff Merkley, with Rep. Alexandria Ocasio-Cortez, have teed up a broader bill.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Frontline Education breach exposes school district employee data",
+   "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+   "source": "BleepingComputer",
+   "published": "2026-10-02T19:01+00:00",
+   "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-02T18:33+00:00",
+   "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "SharePoint"
+   ],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+   "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+   "source": "The Hacker News",
+   "published": "2026-10-02T17:33+00:00",
+   "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+   "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+   "source": "The Hacker News",
+   "published": "2026-10-02T17:33+00:00",
+   "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Cisco",
+    "Outlook"
+   ],
+   "edition": "2026-10-03",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Cisco"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+   "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+   "source": "The Hacker News",
+   "published": "2026-10-02T17:02+00:00",
+   "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [
+    "CVE-2026-63688"
+   ],
+   "vendors": [
+    "Dell",
+    "Kubernetes"
+   ],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
+   "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
+   "source": "Dark Reading",
+   "published": "2026-10-02T16:56+00:00",
+   "summary": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Citrix"
+   ],
+   "edition": "2026-10-03",
+   "advisories": [
+    {
+     "id": "tp2",
+     "match": "vendor",
+     "on": [
+      "Citrix"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "SWIFT Banking & Government Middleware Enables RCE",
+   "link": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
+   "source": "Dark Reading",
+   "published": "2026-10-02T16:27+00:00",
+   "summary": "Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+   "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+   "source": "BleepingComputer",
+   "published": "2026-10-02T16:20+00:00",
+   "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Is Your Organization Ready for 2027's AI Accountability Era?",
+   "link": "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-",
+   "source": "Dark Reading",
+   "published": "2026-10-02T16:01+00:00",
+   "summary": "Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges ahead.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-03",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
    "link": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures",
@@ -3971,6 +4224,10 @@
    "id": "tp0",
    "related": [
     {
+     "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+     "match": "vendor"
+    },
+    {
      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
      "match": "cve"
     },
@@ -4076,6 +4333,10 @@
    "edition": "2026-09-28",
    "id": "tp2",
    "related": [
+    {
+     "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
+     "match": "vendor"
+    },
     {
      "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
      "match": "vendor"
