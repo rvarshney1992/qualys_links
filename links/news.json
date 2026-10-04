@@ -1,10 +1,179 @@
 {
- "updated": "2026-10-03T14:35+00:00",
- "edition": "2026-10-03",
+ "updated": "2026-10-04T15:10+00:00",
+ "edition": "2026-10-04",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Anthropic asks Claude users to share voice data for AI model training",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+   "source": "BleepingComputer",
+   "published": "2026-10-04T10:53+00:00",
+   "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-04",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
+   "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
+   "source": "Help Net Security",
+   "published": "2026-10-04T08:00+00:00",
+   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: 16-year-old researcher breaks into Microsoft analytics service with access to 17 trillion rows of data A flaw in Titan, an internal Microsoft analytics service, could have let an…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88772"
+   ],
+   "vendors": [
+    "Citrix",
+    "Microsoft",
+    "NetScaler"
+   ],
+   "edition": "2026-10-04",
+   "advisories": [
+    {
+     "id": "tp2",
+     "match": "cve",
+     "on": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-88771": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    },
+    "CVE-2026-88772": {
+     "added": "2026-09-27",
+     "due": "2026-09-30",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+   "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+   "source": "The Hacker News",
+   "published": "2026-10-04T07:22+00:00",
+   "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-04",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+   "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+   "source": "The Hacker News",
+   "published": "2026-10-04T07:20+00:00",
+   "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-04",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+   "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+   "source": "BleepingComputer",
+   "published": "2026-10-03T23:12+00:00",
+   "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google",
+    "macOS"
+   ],
+   "edition": "2026-10-04",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "macOS"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+   "source": "BleepingComputer",
+   "published": "2026-10-03T19:09+00:00",
+   "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-04",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+   "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+   "source": "The Hacker News",
+   "published": "2026-10-03T14:38+00:00",
+   "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said…",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-04",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+   "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-03T14:36+00:00",
+   "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "SharePoint"
+   ],
+   "edition": "2026-10-04",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Danish university DTU breach exposes data of up to 200,000 people",
    "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
@@ -4273,6 +4442,10 @@
    "id": "tp1",
    "related": [
     {
+     "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+     "match": "vendor"
+    },
+    {
      "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
      "match": "cve"
     },
@@ -4333,6 +4506,10 @@
    "edition": "2026-09-28",
    "id": "tp2",
    "related": [
+    {
+     "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
+     "match": "cve"
+    },
     {
      "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
      "match": "vendor"
