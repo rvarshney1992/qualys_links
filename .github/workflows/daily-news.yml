@@ -4,7 +4,10 @@ name: Daily security news
 # correlates them, and rewrites links/news.json for news.html.
 on:
   schedule:
-    - cron: '0 10 * * *'   # daily 10:00 UTC (5:00 CT, 6:00 ET, 15:30 IST); GitHub may start it a little late
+    # 8:00 America/Chicago. Cron is UTC-only, so both offsets are scheduled and
+    # the gate job below keeps whichever matches today's DST state.
+    - cron: '0 13 * * *'   # 8:00 CDT (Mar-Nov)
+    - cron: '0 14 * * *'   # 8:00 CST (Nov-Mar)
   workflow_dispatch:
     inputs:
       days:
@@ -19,7 +22,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # -0500 during CDT, -0600 during CST. Compare the trigger, not the clock,
+          # so a late-starting run isn't skipped.
+          if [ "$(TZ=America/Chicago date +%z)" = "-0500" ]; then want='0 13 * * *'; else want='0 14 * * *'; fi
+          if [ "${{ github.event.schedule }}" = "$want" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not 8:00 Chicago for this trigger; skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
   refresh:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
