@@ -1,10 +1,752 @@
 {
- "updated": "2026-10-05T14:21+00:00",
- "edition": "2026-10-05",
+ "updated": "2026-10-06T18:41+00:00",
+ "edition": "2026-10-06",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
+   "link": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps",
+   "source": "Dark Reading",
+   "published": "2026-10-06T17:56+00:00",
+   "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+   "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T17:34+00:00",
+   "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "vendors": [
+    "Atlassian",
+    "Confluence",
+    "Jira"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+   "link": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
+   "source": "Dark Reading",
+   "published": "2026-10-06T17:15+00:00",
+   "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
+   "link": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
+   "source": "Dark Reading",
+   "published": "2026-10-06T16:59+00:00",
+   "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+   "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T16:33+00:00",
+   "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Alleged ATM malware creator appears in Nebraska court after arrest",
+   "link": "https://therecord.media/atm-malware-creator-appears-in-nebraska-court",
+   "source": "The Record",
+   "published": "2026-10-06T15:53+00:00",
+   "summary": "Aguirre was added to the FBI’s “Top 10 Most Wanted Fugitives” list in March, becoming the first cybercriminal added to the list.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "South Korean officials believe AI agents were used to hack several banks",
+   "link": "https://therecord.media/south-korean-bank-hacks-ai-agents",
+   "source": "The Record",
+   "published": "2026-10-06T15:29+00:00",
+   "summary": "The personal data of at least 68,000 people was reportedly exposed in breaches of at least seven financial institutions, with officials saying they believe a Chinese cybersecurity tool was used to hack the banks’ systems.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+   "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T15:16+00:00",
+   "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
+   "categories": [
+    "Threat Intel & Actors",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Osaka Metropolitan University cancels classes after suspected ransomware attack",
+   "link": "https://therecord.media/osaka-university-cancels-classes-ransomware",
+   "source": "The Record",
+   "published": "2026-10-06T14:52+00:00",
+   "summary": "Osaka Metropolitan University said on Tuesday that the outage left its internal network, email and a range of administrative and academic systems unavailable.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "How to secure RMM software: 8 controls MSPs should test",
+   "link": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T14:00+00:00",
+   "summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patching and privileged access to recovery and tenant isolation…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anaconda combines agent swarms with autonomous security testing",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/anaconda-platform/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T13:49+00:00",
+   "summary": "Anaconda has announced new capabilities across the Anaconda Platform that pair agentic development with autonomous security testing. The expansion brings agent swarms and autonomous red-team agents together with trusted packages, models, and environments to help builders ship…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Rogue OpenAI agents made unauthorized Wikipedia edits and millions of requests to Wikimedia",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T13:49+00:00",
+   "summary": "Rogue OpenAI agents made unauthorized edits on Wikimedia wikis and sent millions of automated requests to Wikimedia’s public APIs, traffic that may have contributed to a partial outage of the Wikidata Query Service in May, the Wikimedia Foundation said on Monday. “The Wikimedia…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AppViewX targets shadow AI risks with agent discovery and runtime enforcement",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/appviewx-shadow-ai-visibility/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T13:37+00:00",
+   "summary": "AppViewX has expanded capabilities for Agent Identity Security, a solution enabling enterprises to discover every agent, whether sanctioned or shadow; govern their posture and maintain audit-ready activity logs; and monitor and control in real time every action that the agent…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Relic adds terminal-based investigation and recovery checks with Ground Truth CLI",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/new-relic-ground-truth-cli/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T13:27+00:00",
+   "summary": "New Relic has announced New Relic Ground Truth CLI augmented with New Relic Autopilot API, bringing headless observability straight to developers and AI agents in their natural workflows. The new command-line interface (CLI) allows teams to investigate production issues, assess…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ClickFix campaign in Ukraine compromises over 100 websites to spread Lunex malware",
+   "link": "https://therecord.media/clickfix-campaign-ukraine-lunex-stealer",
+   "source": "The Record",
+   "published": "2026-10-06T13:17+00:00",
+   "summary": "CERT-UA found fake Cloudflare verification pages that led visitors into a now-familiar ClickFix trap. This time the goal was to infect machines with an infostealer.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SailPoint adds AI agent discovery, temporary access and compliance automation",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/sailpoint-agentic-fabric-innovation/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T13:16+00:00",
+   "summary": "SailPoint has announced significant new capabilities across SailPoint Agentic Fabric (SAF) and SailPoint Human Fabric (SHF), the two purpose-built products of its Identity Security solution, built on SailPoint Atlas. These innovations give enterprises visibility into every…",
+   "categories": [
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Intellias Agentic ServiceOps applies governed AI across IT operations",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/intellias-agentic-serviceops/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T12:55+00:00",
+   "summary": "Intellias has launched Agentic ServiceOps a managed IT service that applies governed agentic AI across IT service management (ITSM) and IT operations management (ITOM), from the service desk to the infrastructure behind it. It helps organizations resolve more IT work end to end…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AXON Datum enforces data access policies before AI systems act",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/axon-datum-enforces-data-access-policies-before-ai-systems-act/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T12:49+00:00",
+   "summary": "AXON Networks has announced AXON Datum, a data management and secure sovereign governance layer that helps service providers, enterprises, and institutions such as governments control how information is accessed, protected and moved in an AI world. Critical to the success of…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Atlassian urges immediate patching of critical Data Center file access vulnerability (CVE-2026-21589)",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/atlassian-data-center-cve-2026-21589/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T12:26+00:00",
+   "summary": "Attackers who know where to look can read files from Atlassian Data Center installations without logging in, the company has warned. About CVE-2026-21589 CVE-2026-21589, a critical arbitrary file access vulnerability with a 9.3 CVSS score, affects all versions of Bitbucket Data…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "vendors": [
+    "Atlassian",
+    "Confluence",
+    "Jira"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+   "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T11:57+00:00",
+   "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro. The attack works only when the program's…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apache"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+   "link": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T11:31+00:00",
+   "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+   "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T11:26+00:00",
+   "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+   "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T11:02+00:00",
+   "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Dell System Update flaw allows attackers to gain root privileges (CVE-2026-86360)",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/dell-system-update-vulnerability-cve-2026-86360/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T10:44+00:00",
+   "summary": "Dell is urging customers to patch a vulnerability (CVE-2026-86360) in Dell System Update (DSU) that could allow an unauthenticated remote attacker to execute arbitrary code with root privileges. DSU is a tool used by enterprise IT administrators to apply driver, BIOS, and…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-86360"
+   ],
+   "vendors": [
+    "Dell"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ontinue extends ION MXDR with managed dark web monitoring",
+   "link": "https://www.helpnetsecurity.com/2026/10/06/ontinue-ion-dark-web-monitoring/",
+   "source": "Help Net Security",
+   "published": "2026-10-06T10:10+00:00",
+   "summary": "Ontinue has announced the launch of ION for Dark Web Monitoring (DWM), a new managed add-on service that extends ION MXDR to continuously identify exposed credentials, detect brand impersonation attempts, and uncover emerging external threats before attackers can exploit them…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T09:25+00:00",
+   "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google",
+    "Microsoft"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+   "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T09:21+00:00",
+   "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers…",
+   "categories": [
+    "Vulnerability Management",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Engineer sentenced for locking over 3,000 devices on employer network",
+   "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+   "source": "BleepingComputer",
+   "published": "2026-10-06T08:19+00:00",
+   "summary": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+   "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T06:58+00:00",
+   "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "vendors": [
+    "Atlassian"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+   "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T06:56+00:00",
+   "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+   "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T06:00+00:00",
+   "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry said on October 5. They used a private Danish…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+   "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+   "source": "The Hacker News",
+   "published": "2026-10-06T05:22+00:00",
+   "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Shares in British clothing company ASOS dive after hackers apparently send push notification",
+   "link": "https://therecord.media/asos-push-notification-apparently-sent-by-hackers",
+   "source": "The Record",
+   "published": "2026-10-06T04:00+00:00",
+   "summary": "Several mysteries surround what appeared to be an unauthorized push notification sent to customers of London-based clothing company ASOS.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+   "source": "BleepingComputer",
+   "published": "2026-10-05T22:46+00:00",
+   "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+   "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+   "source": "Dark Reading",
+   "published": "2026-10-05T21:25+00:00",
+   "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+   "source": "BleepingComputer",
+   "published": "2026-10-05T20:20+00:00",
+   "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-61500"
+   ],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+   "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+   "source": "BleepingComputer",
+   "published": "2026-10-05T17:19+00:00",
+   "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Secure Your Mission-Critical Application Estate: Qualys TotalAppSec is Now FedRAMP High Authorized (FedRAMP Certified Class D)",
+   "link": "https://blog.qualys.com/product-tech/2026/10/05/totalappsec-fedramp-high-federal-application-security",
+   "source": "Qualys Blog",
+   "published": "2026-10-05T16:29+00:00",
+   "summary": "Key Takeaways Qualys TotalAppSec is now FedRAMP High Authorized on the Qualys Government Platform (FedRAMP Certified Class D, package FR2231052341). Federal AI use cases more than doubled in a year (3,611 use cases across 56 agencies), and most AI interactions are delivered…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+   "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+   "source": "The Hacker News",
+   "published": "2026-10-05T16:21+00:00",
+   "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-96940"
+   ],
+   "vendors": [
+    "Exchange",
+    "Microsoft"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
+   "source": "Dark Reading",
+   "published": "2026-10-05T15:52+00:00",
+   "summary": "An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.",
+   "categories": [
+    "Threat Intel & Actors",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Denmark population registry data breach affects 8.8 million people",
+   "link": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+   "source": "BleepingComputer",
+   "published": "2026-10-05T15:21+00:00",
+   "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Dell System Update flaw lets hackers gain root privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+   "source": "BleepingComputer",
+   "published": "2026-10-05T14:53+00:00",
+   "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Dell"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-05T14:22+00:00",
+   "summary": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+   "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+   "source": "The Hacker News",
+   "published": "2026-10-05T14:20+00:00",
+   "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "NetScaler"
+   ],
+   "edition": "2026-10-06",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "NetScaler"
+     ]
+    },
+    {
+     "id": "tp3",
+     "match": "vendor",
+     "on": [
+      "NetScaler"
+     ]
+    }
+   ],
+   "kev": {}
+  },
   {
    "title": "Fake brand discounts on social media prey on shoppers’ fear of missing out",
    "link": "https://www.helpnetsecurity.com/2026/10/05/milk-dragon-phishing-fake-discounts/",
@@ -416,7 +1158,7 @@
    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
    "source": "The Hacker News",
    "published": "2026-10-05T06:40+00:00",
-   "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0…",
+   "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a…",
    "categories": [
     "Vulnerability Management"
    ],
@@ -5024,6 +5766,10 @@
    "id": "tp0",
    "related": [
     {
+     "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+     "match": "vendor"
+    },
+    {
      "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
      "match": "cve"
     },
@@ -5257,6 +6003,10 @@
    "edition": "2026-09-28",
    "id": "tp3",
    "related": [
+    {
+     "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+     "match": "vendor"
+    },
     {
      "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
      "match": "vendor"
