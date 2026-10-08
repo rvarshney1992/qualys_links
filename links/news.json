@@ -1,10 +1,723 @@
 {
- "updated": "2026-10-07T19:08+00:00",
- "edition": "2026-10-07",
+ "updated": "2026-10-08T19:04+00:00",
+ "edition": "2026-10-08",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+   "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T18:32+00:00",
+   "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology…",
+   "categories": [
+    "Vulnerability Management",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift",
+   "source": "Dark Reading",
+   "published": "2026-10-08T18:01+00:00",
+   "summary": "Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+   "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T17:58+00:00",
+   "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+   "link": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T17:10+00:00",
+   "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "DOJ charges ransomware recovery CEO for secretly paying hackers",
+   "link": "https://therecord.media/ransomware-recovery-charges-doj",
+   "source": "The Record",
+   "published": "2026-10-08T17:00+00:00",
+   "summary": "The owner of a ransomware recovery firm was hit with wire fraud charges for allegedly making secret ransom payments while overcharging the victims of attacks.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ASOS: Hackers tricked way into employee account before sending rogue push notification",
+   "link": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
+   "source": "The Record",
+   "published": "2026-10-08T16:57+00:00",
+   "summary": "The company said its investigation, carried out with external experts, found the attackers had accessed “some personal information, including names and contact details, and certain non-personal account related information.”",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+   "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T15:45+00:00",
+   "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Crypto thief who splurged on gold grills sentenced in London",
+   "link": "https://therecord.media/cryptocurrency-sim-swap-london",
+   "source": "The Record",
+   "published": "2026-10-08T15:45+00:00",
+   "summary": "A 25-year-old man who helped steal nearly $260,000 in cryptocurrency through a SIM-swapping fraud scheme was sentenced to two and a half years in prison at a London court.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+   "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T15:26+00:00",
+   "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+   "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T15:26+00:00",
+   "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Cisco"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Leaked chats show Russian extortion gang sending ‘agents’ into US law firms",
+   "link": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
+   "source": "The Record",
+   "published": "2026-10-08T14:46+00:00",
+   "summary": "In leaked chats, members track dozens of victims, haggle over multimillion-dollar payments and direct operatives based in the United States whom they call “agents.”",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+   "link": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T14:12+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "CrowdStrike"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+   "link": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T14:00+00:00",
+   "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to gain access to…",
+   "categories": [
+    "Data Breach",
+    "Cloud & Container",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers target two South Korean megachurches, potentially exposing congregant data",
+   "link": "https://therecord.media/south-korea-hackers-megachurches",
+   "source": "The Record",
+   "published": "2026-10-08T13:55+00:00",
+   "summary": "Two of South Korea's largest Protestant churches are investigating cyberattacks that may have exposed sensitive information about hundreds of thousands of members, including personal details, financial records and internal documents.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
+   "link": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T13:18+00:00",
+   "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Authorities seize sites selling hacked, stolen intimate images of 17,000 women and girls",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/nudeleaksteens-seized-fbi-france/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T12:51+00:00",
+   "summary": "The FBI and French law enforcement have seized two websites that sold hacked and stolen sexually explicit images and videos of young women and girls, and arrested their suspected administrator in northern France. Seizure notice (Source: US Department of Justice) The U.S…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Office"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "YouTubers targeted with fake sponsorships and “channel verification” phishing",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T12:41+00:00",
+   "summary": "Scammers are going after YouTube creators’ Google accounts by posing as a brand looking for sponsorship partners. By sending out personalized emails that reference a creator’s own videos and directing targeted creators to a convincing fake collaboration platform, the fraudsters…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft Teams to get support for third-party deepfake detection tools",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T12:08+00:00",
+   "summary": "Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Writing the Next Chapter",
+   "link": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter",
+   "source": "Dark Reading",
+   "published": "2026-10-08T12:00+00:00",
+   "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ASOS links data breach to social engineering attack, credential theft",
+   "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T11:42+00:00",
+   "summary": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic’s new budget model gets much better at ignoring hidden commands",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/anthropic-claude-haiku-5-5/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T11:24+00:00",
+   "summary": "Anthropic’s Claude Haiku 5.5 model, designed for quick, repetitive workloads and speed-sensitive tasks, is now better at finding vulnerabilities and writing exploits than its predecessor. The company has given it stricter cybersecurity safeguards than Haiku 4.5, though lighter…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chrome"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+   "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T10:30+00:00",
+   "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Owner of Empire cybercrime market gets 40 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T10:29+00:00",
+   "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cryptomining botnet hides C2 addresses in GitHub poem, infects over 3,400 servers",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/poellm-malware-github-poem-ai-servers/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T10:24+00:00",
+   "summary": "Thousands of hijacked servers have been looking up their command and control (C2) server in a poem posted on GitHub, according to Black Lotus Labs. The malware reading it, dubbed PoeLLM, breaks into exposed AI services and open-source tools, mines cryptocurrency on them and uses…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+   "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T09:46+00:00",
+   "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Firefox",
+    "Mozilla"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "GitHub adds AI to catch passwords before a code push",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/github-push-protection-modernbert/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T09:02+00:00",
+   "summary": "GitHub has announced an AI detector, developed with Microsoft Applied Sciences, to help prevent developers from uploading passwords and other credentials to code repositories. The ModernBERT-based classifier will expand GitHub’s push protection, which checks code for secrets and…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub",
+    "Microsoft"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "What is MATCHBOIL? The Russia-aligned malware that installs a spying backdoor",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/matchboil-malware-uac-0099/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T09:00+00:00",
+   "summary": "ESET researchers traced almost two years of changes to MATCHBOIL, a downloader that the Russia-aligned group UAC-0099 uses to plant a second program on Windows machines in Ukraine. GUI displayed at MATCHBOIL’s runtime (Source: ESET) Every victim in ESET’s telemetry was in…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ransomware recovery firm boss charged with secretly paying attackers and overcharging victims",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/monstercloud-owner-ransomware-fraud-charges/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T08:00+00:00",
+   "summary": "The owner of Florida-based ransomware remediation company MonsterCloud has been charged with fraud for allegedly paying ransomware gangs behind his clients’ backs and billing them far more than the ransom. Zohar Pinhasi (aka “Zack Silver” and “Zack Green”), a 50-year-old US and…",
+   "categories": [
+    "Ransomware & Malware",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+   "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T07:42+00:00",
+   "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM. The reward is for…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange",
+    "Microsoft"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+   "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T07:41+00:00",
+   "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+   "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+   "source": "BleepingComputer",
+   "published": "2026-10-08T06:32+00:00",
+   "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Samsung"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Pricing your bad days and how to build an economic model for security decisions",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/ivan-milenkovic-qualys-cyber-risk-quantification/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T06:00+00:00",
+   "summary": "Ivan Milenkovic, VP Risk Technology EMEA at Qualys, explains how security leaders can build an economic model that puts money behind their decisions. He suggests starting with a few loss scenarios, then working down to the assets that drive them. He covers how to rank fixes by…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+   "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-08T05:46+00:00",
+   "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 \"contains obfuscated malware that…",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container",
+    "Identity & Access",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Who watches the AI watching your street?",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/ai-surveillance-cameras-privacy/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T05:30+00:00",
+   "summary": "Yusaku Fujii, a professor at Gunma University in Japan, has designed audits and penalties to stop operators from misusing AI that analyzes street camera footage. His system adds an independent record-keeper and unannounced spot checks to the AI’s outputs. Fujii’s test setting is…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "How AI can fix cybersecurity compliance: From dashboards to continuous execution",
+   "link": "https://www.helpnetsecurity.com/2026/10/08/espresso-labs-ai-cybersecurity-compliance/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T05:00+00:00",
+   "summary": "Most compliance work goes into proving security, not improving it. That isn’t because the rules are unreasonable. Regulators, customers, and cyber insurers are right to expect organizations to implement hundreds of technical and administrative controls, monitor their…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ransomware recovery CEO charged over secret ransom payments",
+   "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+   "source": "BleepingComputer",
+   "published": "2026-10-07T23:04+00:00",
+   "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+   "link": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+   "source": "Dark Reading",
+   "published": "2026-10-07T21:42+00:00",
+   "summary": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+   "source": "BleepingComputer",
+   "published": "2026-10-07T21:28+00:00",
+   "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "FortiGate",
+    "Fortinet"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+   "link": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives",
+   "source": "Dark Reading",
+   "published": "2026-10-07T21:25+00:00",
+   "summary": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+   "source": "Dark Reading",
+   "published": "2026-10-07T20:51+00:00",
+   "summary": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers hijack Google domains after breaching ccTLD registries",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+   "source": "BleepingComputer",
+   "published": "2026-10-07T20:50+00:00",
+   "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI Agent Escape Causes Wikimedia Service Outage",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage",
+   "source": "Dark Reading",
+   "published": "2026-10-07T19:34+00:00",
+   "summary": "Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+   "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+   "source": "The Hacker News",
+   "published": "2026-10-07T18:48+00:00",
+   "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as…",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-08",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "$11 million plan for psychological support at Cyber Command gets fresh boost from lawmakers",
    "link": "https://therecord.media/cyber-command-mental-health-support-program-bipartisan-letters",
@@ -6541,6 +7254,10 @@
    "id": "tp1",
    "related": [
     {
+     "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+     "match": "vendor"
+    },
+    {
      "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
      "match": "vendor"
     },
@@ -6760,39 +7477,6 @@
     "CVE-2026-88772": {
      "added": "2026-09-27",
      "due": "2026-09-30",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "CISA Warns of Check Point Vulnerabilities Exploited in Attacks (CVE-2026-85102 & CVE-2026-93616)",
-   "link": "https://threatprotect.qualys.com/2026/09/23/cisa-warns-of-check-point-vulnerabilities-exploited-in-attacks-cve-2026-85102-cve-2026-93616/",
-   "source": "ThreatPROTECT",
-   "published": "2026-09-24T05:16+00:00",
-   "summary": "Check Point has two vulnerabilities that are being exploited in the wild, tracked as CVE-2026-85102 & CVE-2026-93616. The Cybersecurity and Infrastructure Security Agency (CISA) has added the vulnerabilities to its Known Exploited Vulnerabilities Catalog, urging users to patch…",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
-   ],
-   "cves": [
-    "CVE-2026-85102",
-    "CVE-2026-93616"
-   ],
-   "vendors": [
-    "Check Point"
-   ],
-   "edition": "2026-09-28",
-   "id": "tp4",
-   "related": [],
-   "kev": {
-    "CVE-2026-85102": {
-     "added": "2026-09-22",
-     "due": "2026-09-25",
-     "ransomware": false
-    },
-    "CVE-2026-93616": {
-     "added": "2026-09-22",
-     "due": "2026-09-25",
      "ransomware": false
     }
    }
