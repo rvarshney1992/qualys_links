@@ -1,11 +1,202 @@
 {
- "updated": "2026-10-09T18:35+00:00",
- "edition": "2026-10-09",
+ "updated": "2026-10-10T17:31+00:00",
+ "edition": "2026-10-10",
  "errors": [
-  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22.",
-  "Qualys Blog: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://blog.qualys.com/feed']' returned non-zero exit status 22."
+  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+   "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-10T15:07+00:00",
+   "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+   "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-10T14:16+00:00",
+   "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+   "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+   "source": "BleepingComputer",
+   "published": "2026-10-10T12:30+00:00",
+   "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+   "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+   "source": "The Hacker News",
+   "published": "2026-10-10T11:00+00:00",
+   "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+   "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+   "source": "The Hacker News",
+   "published": "2026-10-10T09:18+00:00",
+   "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+   "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "source": "Krebs on Security",
+   "published": "2026-10-10T00:17+00:00",
+   "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
+   "source": "Dark Reading",
+   "published": "2026-10-09T20:58+00:00",
+   "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
+   "categories": [
+    "Data Breach",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-09T20:31+00:00",
+   "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Scramble Drives Cybersecurity M&A Boom",
+   "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
+   "source": "Dark Reading",
+   "published": "2026-10-09T19:26+00:00",
+   "summary": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+   "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+   "source": "The Hacker News",
+   "published": "2026-10-09T19:14+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
+   "link": "https://therecord.media/japan-germany-ransomware-arrest",
+   "source": "The Record",
+   "published": "2026-10-09T18:45+00:00",
+   "summary": "Japan’s National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of being involved in the Qilin ransomware gang.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+   "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+   "source": "The Hacker News",
+   "published": "2026-10-09T17:45+00:00",
+   "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents…",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-10",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "What We Missed: FBI Strikes Back at ShinyHunters",
    "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
@@ -7629,250 +7820,6 @@
    "vendors": [
     "AMD"
    ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-   "source": "BleepingComputer",
-   "published": "2026-09-26T16:26+00:00",
-   "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-   "source": "BleepingComputer",
-   "published": "2026-09-26T15:50+00:00",
-   "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Office"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-   "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-   "source": "BleepingComputer",
-   "published": "2026-09-26T14:19+00:00",
-   "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
-   "categories": [
-    "Threat Intel & Actors",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-   "source": "BleepingComputer",
-   "published": "2026-09-26T12:28+00:00",
-   "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-   "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-   "source": "The Hacker News",
-   "published": "2026-09-26T11:46+00:00",
-   "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-35273"
-   ],
-   "vendors": [
-    "Google",
-    "Oracle"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-35273": {
-     "added": "2026-06-12",
-     "due": "2026-06-15",
-     "ransomware": true
-    }
-   }
-  },
-  {
-   "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-   "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-   "source": "The Hacker News",
-   "published": "2026-09-26T10:30+00:00",
-   "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-   "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-   "source": "The Hacker News",
-   "published": "2026-09-26T09:55+00:00",
-   "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF)…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-   "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-   "source": "The Hacker News",
-   "published": "2026-09-26T08:49+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-65660"
-   ],
-   "vendors": [
-    "Microsoft",
-    "Office",
-    "SharePoint"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-65660": {
-     "added": "2026-09-25",
-     "due": "2026-09-28",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-   "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-   "source": "The Hacker News",
-   "published": "2026-09-26T07:48+00:00",
-   "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-   "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-   "source": "Krebs on Security",
-   "published": "2026-09-25T21:44+00:00",
-   "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [
-    "CVE-2023-45208"
-   ],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-09-25T21:41+00:00",
-   "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
-   "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
-   "source": "Dark Reading",
-   "published": "2026-09-25T20:28+00:00",
-   "summary": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
-   "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
-   "source": "The Record",
-   "published": "2026-09-25T20:19+00:00",
-   "summary": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.”",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
-   "source": "Dark Reading",
-   "published": "2026-09-25T18:39+00:00",
-   "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
    "edition": "2026-09-28",
    "advisories": [],
    "kev": {}
