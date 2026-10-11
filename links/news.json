@@ -1,10 +1,60 @@
 {
- "updated": "2026-10-10T17:31+00:00",
- "edition": "2026-10-10",
+ "updated": "2026-10-11T17:50+00:00",
+ "edition": "2026-10-11",
  "errors": [
-  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
+  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22.",
+  "Qualys Blog: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://blog.qualys.com/feed']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+   "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+   "source": "BleepingComputer",
+   "published": "2026-10-11T14:23+00:00",
+   "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-11",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
+   "link": "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/",
+   "source": "Help Net Security",
+   "published": "2026-10-11T08:00+00:00",
+   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Three questions a hospital CISO should ask a healthcare fintech vendor In this Help Net Security interview, Drew McCombs, CTO and CISO at Cylerity, explains how he balances both…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-11",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+   "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+   "source": "The Hacker News",
+   "published": "2026-10-11T04:24+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "iOS"
+   ],
+   "edition": "2026-10-09",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
    "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
@@ -242,32 +292,6 @@
    "vendors": [],
    "edition": "2026-10-09",
    "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-   "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-   "source": "The Hacker News",
-   "published": "2026-10-09T16:29+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two…",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "iOS"
-   ],
-   "edition": "2026-10-09",
-   "advisories": [
-    {
-     "id": "tp2",
-     "match": "vendor",
-     "on": [
-      "iOS"
-     ]
-    }
-   ],
    "kev": {}
   },
   {
@@ -7555,274 +7579,6 @@
    "edition": "2026-09-28",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-   "source": "BleepingComputer",
-   "published": "2026-09-27T16:02+00:00",
-   "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-88771",
-    "CVE-2026-88772"
-   ],
-   "vendors": [
-    "Citrix",
-    "NetScaler"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [
-    {
-     "id": "tp3",
-     "match": "cve",
-     "on": [
-      "CVE-2026-88771",
-      "CVE-2026-88772"
-     ]
-    },
-    {
-     "id": "tp0",
-     "match": "vendor",
-     "on": [
-      "Citrix",
-      "NetScaler"
-     ]
-    }
-   ],
-   "kev": {
-    "CVE-2026-88771": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    },
-    "CVE-2026-88772": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-   "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-   "source": "BleepingComputer",
-   "published": "2026-09-27T14:13+00:00",
-   "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach",
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-   "source": "BleepingComputer",
-   "published": "2026-09-27T13:38+00:00",
-   "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-   "source": "CISA Advisories",
-   "published": "2026-09-27T12:00+00:00",
-   "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026-88773 , CVE-2026-88774 , CVE-2026-88775 , CVE-2026-88776 , CVE-2026-88777 , and CVE-2026-88778 …",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-88771",
-    "CVE-2026-88772",
-    "CVE-2026-88773",
-    "CVE-2026-88774",
-    "CVE-2026-88775",
-    "CVE-2026-88776",
-    "CVE-2026-88777",
-    "CVE-2026-88778"
-   ],
-   "vendors": [
-    "Citrix",
-    "NetScaler"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [
-    {
-     "id": "tp3",
-     "match": "cve",
-     "on": [
-      "CVE-2026-88771",
-      "CVE-2026-88772"
-     ]
-    },
-    {
-     "id": "tp0",
-     "match": "vendor",
-     "on": [
-      "Citrix",
-      "NetScaler"
-     ]
-    }
-   ],
-   "kev": {
-    "CVE-2026-88771": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    },
-    "CVE-2026-88772": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "source": "CISA Advisories",
-   "published": "2026-09-27T12:00+00:00",
-   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-88772 Citrix NetScaler Improper Restriction of Operations…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "Compliance & Policy"
-   ],
-   "cves": [
-    "CVE-2026-88771",
-    "CVE-2026-88772"
-   ],
-   "vendors": [
-    "Citrix",
-    "NetScaler"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [
-    {
-     "id": "tp3",
-     "match": "cve",
-     "on": [
-      "CVE-2026-88771",
-      "CVE-2026-88772"
-     ]
-    },
-    {
-     "id": "tp0",
-     "match": "vendor",
-     "on": [
-      "Citrix",
-      "NetScaler"
-     ]
-    }
-   ],
-   "kev": {
-    "CVE-2026-88771": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    },
-    "CVE-2026-88772": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-   "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-   "source": "The Hacker News",
-   "published": "2026-09-27T07:47+00:00",
-   "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Citrix",
-    "NetScaler"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [
-    {
-     "id": "tp0",
-     "match": "vendor",
-     "on": [
-      "Citrix",
-      "NetScaler"
-     ]
-    },
-    {
-     "id": "tp3",
-     "match": "vendor",
-     "on": [
-      "Citrix",
-      "NetScaler"
-     ]
-    }
-   ],
-   "kev": {}
-  },
-  {
-   "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-09-26T19:03+00:00",
-   "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-35273"
-   ],
-   "vendors": [
-    "Oracle"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-35273": {
-     "added": "2026-06-12",
-     "due": "2026-06-15",
-     "ransomware": true
-    }
-   }
-  },
-  {
-   "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-   "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-   "source": "The Hacker News",
-   "published": "2026-09-26T18:22+00:00",
-   "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a…",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "AMD"
-   ],
-   "edition": "2026-09-28",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7920,22 +7676,6 @@
     {
      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
      "match": "vendor"
-    },
-    {
-     "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-     "match": "vendor"
-    },
-    {
-     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-     "match": "vendor"
-    },
-    {
-     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-     "match": "vendor"
-    },
-    {
-     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-     "match": "vendor"
     }
    ],
    "kev": {
@@ -8018,10 +7758,6 @@
    "edition": "2026-09-29",
    "id": "tp2",
    "related": [
-    {
-     "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-     "match": "vendor"
-    },
     {
      "link": "https://www.helpnetsecurity.com/2026/10/05/removemacai-turn-off-apple-intelligence/",
      "match": "vendor"
@@ -8173,22 +7909,6 @@
     },
     {
      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-     "match": "vendor"
-    },
-    {
-     "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-     "match": "cve"
-    },
-    {
-     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-     "match": "cve"
-    },
-    {
-     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-     "match": "cve"
-    },
-    {
-     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
      "match": "vendor"
     }
    ],
