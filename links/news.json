@@ -1,11 +1,611 @@
 {
- "updated": "2026-10-15T17:29+00:00",
- "edition": "2026-10-15",
+ "updated": "2026-10-16T17:04+00:00",
+ "edition": "2026-10-16",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22.",
   "Qualys Blog: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://blog.qualys.com/feed']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+   "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T16:16+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
+   "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
+   "source": "The Record",
+   "published": "2026-10-16T14:45+00:00",
+   "summary": "Cybersecurity giant Proofpoint says it will acquire Miami-based data visibility and security company Varonis in an all-cash transaction worth $6.3 billion.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+   "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T14:03+00:00",
+   "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "When Your Ransomware Negotiator Works for the Other Side",
+   "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+   "source": "Dark Reading",
+   "published": "2026-10-16T14:00+00:00",
+   "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+   "link": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T13:50+00:00",
+   "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia",
+   "link": "https://therecord.media/russia-datasuckers-hackers-arrested",
+   "source": "The Record",
+   "published": "2026-10-16T13:30+00:00",
+   "summary": "Russian authorities have reportedly detained three suspected members of the DataSuckers hacking group following a cyberattack on a popular restaurant chain that exposed vast amounts of customer information.",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Baltimore suburb confirms August data breach after ransomware claims",
+   "link": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
+   "source": "The Record",
+   "published": "2026-10-16T13:05+00:00",
+   "summary": "Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
+   "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
+   "source": "Dark Reading",
+   "published": "2026-10-16T13:00+00:00",
+   "summary": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
+   "link": "https://therecord.media/beyond-trust-cyberattack-china",
+   "source": "The Record",
+   "published": "2026-10-16T13:00+00:00",
+   "summary": "An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers disguise phishing as promising business opportunities",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/rfq-phishing-emails-sales-procurement-staff/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T12:45+00:00",
+   "summary": "Attackers are breaking into business email accounts with short messages asking whether a company can quote on an upcoming project, the kind of request sales and procurement staff answer every week. Cadence Riddle, a cybersecurity researcher at Fortra, tracked a 12-fold increase…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Burger King Japan data breach exposes 11 million customer records",
+   "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T12:01+00:00",
+   "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Scammers clone candidates’ voices to steal cash and voter data ahead of 2026 midterms, FBI warns",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T11:34+00:00",
+   "summary": "Three weeks before Americans vote in the 2026 midterm election, fraudsters are borrowing candidate names, logos and slogans to collect fake donations and harvest personal data, the FBI warned. “The FBI warns the public that scammers could exploit the 2026 US Midterm Election to…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+   "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T11:30+00:00",
+   "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fake Arch Linux AUR packages exploit typos to run malware with root privileges",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/arch-linux-aur-malware-yay-paru/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T09:58+00:00",
+   "summary": "Arch Linux users who mistyped yay or paru while installing the package helpers from the Arch User Repository (AUR) may have given a stranger root access to their machine. AUR is a popular community package source for Arch Linux and related distributions, hosting user-submitted…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Android adds AI-powered scam alerts, hangs up on bank impostors",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T08:53+00:00",
+   "summary": "Google’s new scam protections cover Google Messages and third-party messaging apps, with an enhanced protection mode, expanded scam alerts and safeguards against call-forwarding and screen-sharing scams. “With scams growing harder to spot, it’s nearly impossible for users to…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Google"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft: October Windows update may break Smart App Control",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T08:44+00:00",
+   "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "BAE Systems cyberattack disrupts US federal court operations",
+   "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T07:37+00:00",
+   "summary": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Office"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+   "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T06:55+00:00",
+   "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+   "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T06:53+00:00",
+   "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15. The agents went beyond their assigned tasks, and none of the organizations…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "BeyondTrust patches zero-day exploited in attacks since August",
+   "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T06:18+00:00",
+   "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T06:00+00:00",
+   "summary": "David Fuhr, CTO at intcube, talks about a security cohort for public administration, where 27 municipalities hardened Windows Server and Active Directory together over 12 weeks. This Help Net Security interview covers how a cohort works, with weekly sessions, homework and…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The cyber talent shortage? Job postings just hit a four-year low",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/cybersecurity-job-postings-talent-shortage/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T05:30+00:00",
+   "summary": "US employers posted 235,786 cybersecurity jobs from January through September 2026. That is the lowest total for those months in the four years that staffing and workforce intelligence firm CyberSN has tracked. They pulled the listings from job data provider JobSpikr, removed…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Stolen AI API keys are paying for hackers’ autonomous scans",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T05:00+00:00",
+   "summary": "A seller on a restricted criminal forum is marketing an autonomous hacking tool that runs on stolen OpenAI, Anthropic and Google API keys, so the key’s owner pays for the scans. Bitsight’s threat intelligence team tracked the shift across thousands of posts on 16 underground…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+   "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T04:59+00:00",
+   "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2025-61624"
+   ],
+   "vendors": [
+    "FortiOS",
+    "Fortinet"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "DDoS attacks can knock services offline before links reach capacity",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/netscout-ddos-attack-growth-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T04:30+00:00",
+   "summary": "More than 9.1 million DDoS attacks were recorded globally between January and June 2026, an increase of nearly a quarter year over year, according to Netscout’s DDoS Threat Intelligence Report. Large attacks and distributed targeting strain defenses Attacks exceeding 1 Tbps or 1…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New infosec products of the week: October 16, 2026",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/new-infosec-products-of-the-week-october-16-2026/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T04:00+00:00",
+   "summary": "Here’s a look at the most interesting products from the past week, featuring releases from NinjaOne, Qualys, Scytale, and SolarWinds. NinjaOne combines Katana AI and MCP server to accelerate IT problem resolution NinjaOne has announced Katana AI, an agentic AI technician that…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "SolarWinds"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fastfetch 2.70.0 changes how Disk free space is reported",
+   "link": "https://www.helpnetsecurity.com/2026/10/16/fastfetch-2-70-0-released/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T03:53+00:00",
+   "summary": "Fastfetch is a system information tool written mainly in C that runs on Linux, macOS, Windows 8.1 and later, Android and several BSDs. The fastfetch project removed QuickJS scripting and changed what its Disk, Command and Shell modules report in version 2.70.0, released October…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Linux",
+    "Windows",
+    "macOS"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
+   "link": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
+   "source": "Dark Reading",
+   "published": "2026-10-15T22:10+00:00",
+   "summary": "The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
+   "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
+   "source": "Dark Reading",
+   "published": "2026-10-15T21:55+00:00",
+   "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
+   "link": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+   "source": "The Record",
+   "published": "2026-10-15T20:46+00:00",
+   "summary": "The incident, which involved a government contractor, has halted all production of bankruptcy notices.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
+   "link": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
+   "source": "Dark Reading",
+   "published": "2026-10-15T20:43+00:00",
+   "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
+   "categories": [
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-15T20:25+00:00",
+   "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-110447"
+   ],
+   "vendors": [],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+   "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+   "source": "The Hacker News",
+   "published": "2026-10-15T20:24+00:00",
+   "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "vendors": [
+    "Linux",
+    "Linux kernel"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Android gets AI defenses against messaging scams, fake calls",
+   "link": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+   "source": "BleepingComputer",
+   "published": "2026-10-15T19:48+00:00",
+   "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Google"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+   "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+   "source": "The Hacker News",
+   "published": "2026-10-15T18:49+00:00",
+   "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Adobe",
+    "NVIDIA"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+   "source": "BleepingComputer",
+   "published": "2026-10-15T18:20+00:00",
+   "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "D-Link"
+   ],
+   "edition": "2026-10-16",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Fake Arch Linux packages push malware with root privileges",
    "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
@@ -540,7 +1140,7 @@
    "link": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
    "source": "Dark Reading",
    "published": "2026-10-15T07:00+00:00",
-   "summary": "Hundreds of stores lost millions of dollars because they hired third parties to manage the outdated OT firmware running their cooling systems.",
+   "summary": "Hundreds of stores lost millions of euros because they hired third parties to manage the outdated OT firmware running their cooling systems.",
    "categories": [
     "OT & IoT"
    ],
@@ -4624,7 +5224,13 @@
    ],
    "edition": "2026-10-07",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-21589": {
+     "added": "2026-10-15",
+     "due": "2026-10-18",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Cyber experts call on CISA to create mandatory federal OT rules",
@@ -4848,7 +5454,13 @@
    ],
    "edition": "2026-10-07",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-21589": {
+     "added": "2026-10-15",
+     "due": "2026-10-18",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
@@ -4905,7 +5517,13 @@
    ],
    "edition": "2026-10-07",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-21589": {
+     "added": "2026-10-15",
+     "due": "2026-10-18",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
@@ -5157,7 +5775,13 @@
    ],
    "edition": "2026-10-06",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-21589": {
+     "added": "2026-10-15",
+     "due": "2026-10-18",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
@@ -5426,7 +6050,13 @@
    ],
    "edition": "2026-10-06",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-21589": {
+     "added": "2026-10-15",
+     "due": "2026-10-18",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
@@ -5596,7 +6226,13 @@
    ],
    "edition": "2026-10-06",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-21589": {
+     "added": "2026-10-15",
+     "due": "2026-10-18",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
@@ -6612,596 +7248,6 @@
    "edition": "2026-10-03",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-   "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T17:02+00:00",
-   "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing…",
-   "categories": [
-    "Vulnerability Management",
-    "Cloud & Container"
-   ],
-   "cves": [
-    "CVE-2026-63688"
-   ],
-   "vendors": [
-    "Dell",
-    "Kubernetes"
-   ],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
-   "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
-   "source": "Dark Reading",
-   "published": "2026-10-02T16:56+00:00",
-   "summary": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Citrix"
-   ],
-   "edition": "2026-10-03",
-   "advisories": [
-    {
-     "id": "tp3",
-     "match": "vendor",
-     "on": [
-      "Citrix"
-     ]
-    }
-   ],
-   "kev": {}
-  },
-  {
-   "title": "SWIFT Banking & Government Middleware Enables RCE",
-   "link": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
-   "source": "Dark Reading",
-   "published": "2026-10-02T16:27+00:00",
-   "summary": "Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-   "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T16:20+00:00",
-   "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitLab"
-   ],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Is Your Organization Ready for 2027's AI Accountability Era?",
-   "link": "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-",
-   "source": "Dark Reading",
-   "published": "2026-10-02T16:01+00:00",
-   "summary": "Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges ahead.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
-   "link": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures",
-   "source": "Dark Reading",
-   "published": "2026-10-02T15:51+00:00",
-   "summary": "\"Rogue AI\" terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not sentient beings with malicious intent.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
-   "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T15:20+00:00",
-   "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United States. [...]",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Mississippi mayor says ransomware incident led city to shut down systems",
-   "link": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
-   "source": "The Record",
-   "published": "2026-10-02T14:06+00:00",
-   "summary": "Government services were temporarily disrupted by ransomware in Vicksburg, Mississippi. Mayor Willis Thompson said the FBI and other authorities are investigating.",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "'Warlock' ransomware used in attacks on critical infrastructure in Portuguese, Spanish-speaking countries",
-   "link": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
-   "source": "The Record",
-   "published": "2026-10-02T14:05+00:00",
-   "summary": "The group is exploiting a variety of vulnerabilities impacting Microsoft SharePoint, according to a new report from Symantec Threat Hunter Team.",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "SharePoint"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
-   "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T14:00+00:00",
-   "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Vulnerability Backlogs Are an Ownership Problem",
-   "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem",
-   "source": "Dark Reading",
-   "published": "2026-10-02T14:00+00:00",
-   "summary": "Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Malicious Linux Implants Mimic Asian Mail Security Products",
-   "link": "https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security",
-   "source": "Dark Reading",
-   "published": "2026-10-02T13:00+00:00",
-   "summary": "A trio of newly discovered backdoors walk and quack like legitimate edge solutions, so it's hard to tell they're not.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI is giving attackers a head start, Microsoft warns",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T12:47+00:00",
-   "summary": "Threat actors are using AI to find bugs, build malware and run intrusions faster than defenders can keep up. Microsoft’s 2026 Digital Defense Report, covering July 2025 to June 2026, describes a near-term period in which attackers collect the benefits of AI first and defenders…",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-   "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T12:37+00:00",
-   "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [
-    "Dell",
-    "Kubernetes"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
-   "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T12:23+00:00",
-   "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive…",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-   "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T11:30+00:00",
-   "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that…",
-   "categories": [
-    "Vulnerability Management",
-    "Cloud & Container",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Chinese spies impersonate White House, Anthropic figures to phish AI policy experts",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T10:21+00:00",
-   "summary": "A China-aligned espionage group has been posing as a former White House official and a prominent economist to get into the cloud accounts of AI policy experts in the US, Proofpoint have found. The group, which the researchers track as TA419, ran several credential phishing…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Cloud & Container",
-    "Identity & Access",
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Office"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
-   "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T09:29+00:00",
-   "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical FortiMail zero-day exploited in the wild (CVE-2026-104286)",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T08:50+00:00",
-   "summary": "Fortinet is warning customers that attackers are exploiting a zero-day vulnerability (CVE-2026-104286) in FortiMail, its email security gateway. Fortinet says the flaw has been reported to be exploited in the wild, and urges customers to apply the workaround it shared until…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-104286"
-   ],
-   "vendors": [
-    "Fortinet"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-104286": {
-     "added": "2026-10-01",
-     "due": "2026-10-04",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-   "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T08:01+00:00",
-   "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Criminal recruiters want people on your payroll",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T06:00+00:00",
-   "summary": "Legitimate employee access can let criminals circumvent security controls that would be difficult to overcome from outside an organization. Routine actions such as information lookups, account resets, transaction approvals and shipment changes can become services sold to…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Intel"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-   "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T05:49+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-104286"
-   ],
-   "vendors": [
-    "Fortinet"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-104286": {
-     "added": "2026-10-01",
-     "due": "2026-10-04",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Android 17 makes it harder for spyware to cover its tracks",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/android-17-advanced-protection-features/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T05:30+00:00",
-   "summary": "When a journalist suspects their phone has been hacked, the first question is whether any trace of the attack is left. Google has added six features to Advanced Protection in Android 17, including one that keeps a copy of that evidence off the device. Existing users will receive…",
-   "categories": [
-    "Ransomware & Malware",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Botnets, adversarial attacks and data poisoning top leaders’ AI threat list",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/pwc-attacks-on-ai-systems/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T05:00+00:00",
-   "summary": "Companies are putting more money into AI while naming attacks on AI systems as the threat they are least ready to face. PwC surveyed 3,934 business and technology leaders in 71 countries between May and July 2026. Half of the security and technology executives among them ranked…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI agents keep access to company data after their work is done",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/delinea-ai-policy-adoption-enforcement-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T04:30+00:00",
-   "summary": "IT teams responsible for identity security are concerned about AI agents’ ongoing access to company systems and the actions they take on users’ behalf, according to a Delinea’s 2026 Identity Security Report: The AI Enforcement Gap. “Written policy is only as good as your ability…",
-   "categories": [
-    "Identity & Access",
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "New infosec products of the week: October 2, 2026",
-   "link": "https://www.helpnetsecurity.com/2026/10/02/new-infosec-products-of-the-week-october-2-2026/",
-   "source": "Help Net Security",
-   "published": "2026-10-02T04:00+00:00",
-   "summary": "Here’s a look at the most interesting products from the past week, featuring releases from BlackFog, Genea, Vega, and Thales. Vega II brings security-trained AI and lasting memory to the SOC Vega has introduced Vega II, its biggest platform release since emerging from stealth…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-01T22:42+00:00",
-   "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-104286"
-   ],
-   "vendors": [
-    "Fortinet"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-104286": {
-     "added": "2026-10-01",
-     "due": "2026-10-04",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
-   "source": "Dark Reading",
-   "published": "2026-10-01T21:37+00:00",
-   "summary": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-   "categories": [
-    "Ransomware & Malware",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-   "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
-   "source": "BleepingComputer",
-   "published": "2026-10-01T20:52+00:00",
-   "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Iranian accused of hacking American universities extradited from Montenegro",
-   "link": "https://therecord.media/iran-montenegro-hacker-extradition",
-   "source": "The Record",
-   "published": "2026-10-01T20:15+00:00",
-   "summary": "An Iranian national accused by the U.S. of taking part in dozens of breaches involving the theft of academic data and intellectual property has been extradited from Montenegro.",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft says threat actors are ahead in the early AI race",
-   "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
-   "source": "BleepingComputer",
-   "published": "2026-10-01T19:32+00:00",
-   "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams struggle to keep pace. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "OpenAI software attempted to secretly scrape data from dozens of prominent websites",
-   "link": "https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites",
-   "source": "The Record",
-   "published": "2026-10-01T19:25+00:00",
-   "summary": "The findings, released Thursday by Asymmetric Security, are just the latest example of rogue behavior spurred by OpenAI’s software.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Researchers find Chinese hacking campaigns targeting AI firms, Asian governments",
-   "link": "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan",
-   "source": "The Record",
-   "published": "2026-10-01T18:16+00:00",
-   "summary": "Two separate reports by cybersecurity companies highlight China-linked hacking operations, including a phishing campaign that impersonated Western experts.",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-02",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7348,10 +7394,6 @@
     },
     {
      "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
-     "match": "vendor"
-    },
-    {
-     "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
      "match": "vendor"
     }
    ],
