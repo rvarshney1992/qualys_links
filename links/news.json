@@ -1,11 +1,252 @@
 {
- "updated": "2026-10-16T17:04+00:00",
- "edition": "2026-10-16",
+ "updated": "2026-10-17T16:01+00:00",
+ "edition": "2026-10-17",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22.",
   "Qualys Blog: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://blog.qualys.com/feed']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+   "source": "BleepingComputer",
+   "published": "2026-10-17T15:18+00:00",
+   "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+   "categories": [
+    "Data Breach",
+    "Cloud & Container",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+   "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+   "source": "BleepingComputer",
+   "published": "2026-10-17T14:32+00:00",
+   "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+   "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+   "source": "The Hacker News",
+   "published": "2026-10-17T11:11+00:00",
+   "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\"…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+   "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+   "source": "The Hacker News",
+   "published": "2026-10-17T06:16+00:00",
+   "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+   "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+   "source": "Dark Reading",
+   "published": "2026-10-16T20:34+00:00",
+   "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Cisco",
+    "Ivanti",
+    "Palo Alto"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Cisco"
+     ]
+    },
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Palo Alto"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T20:00+00:00",
+   "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-103849"
+   ],
+   "vendors": [
+    "Adobe",
+    "PHP"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+   "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+   "source": "Dark Reading",
+   "published": "2026-10-16T19:49+00:00",
+   "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
+   "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+   "source": "Dark Reading",
+   "published": "2026-10-16T19:22+00:00",
+   "summary": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+   "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+   "source": "Dark Reading",
+   "published": "2026-10-16T19:13+00:00",
+   "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
+   "link": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
+   "source": "Dark Reading",
+   "published": "2026-10-16T18:37+00:00",
+   "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
+   "categories": [
+    "AI Security",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [
+    "Arm"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+   "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T17:48+00:00",
+   "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+   "source": "BleepingComputer",
+   "published": "2026-10-16T17:20+00:00",
+   "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+   "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+   "source": "The Hacker News",
+   "published": "2026-10-16T16:43+00:00",
+   "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google",
+    "Windows"
+   ],
+   "edition": "2026-10-17",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
    "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
@@ -293,7 +534,13 @@
    "vendors": [],
    "edition": "2026-10-16",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-102764": {
+     "added": "2026-10-16",
+     "due": "2026-10-19",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
@@ -395,7 +642,13 @@
    ],
    "edition": "2026-10-16",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2025-61624": {
+     "added": "2026-10-16",
+     "due": "2026-10-19",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "DDoS attacks can knock services offline before links reach capacity",
@@ -7063,191 +7316,6 @@
    "edition": "2026-10-04",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-   "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-   "source": "The Hacker News",
-   "published": "2026-10-03T14:38+00:00",
-   "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-   "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-   "source": "The Hacker News",
-   "published": "2026-10-03T14:36+00:00",
-   "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and…",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "SharePoint"
-   ],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Danish university DTU breach exposes data of up to 200,000 people",
-   "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-   "source": "BleepingComputer",
-   "published": "2026-10-03T14:35+00:00",
-   "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-   "categories": [
-    "Data Breach",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
-   "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
-   "source": "The Hacker News",
-   "published": "2026-10-03T11:00+00:00",
-   "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward…",
-   "categories": [
-    "Cloud & Container",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
-   "link": "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists",
-   "source": "The Record",
-   "published": "2026-10-02T20:30+00:00",
-   "summary": "The plaintiffs, who all worked for the independent and Salvadoran news outlet El Faro, failed to convince the court that their case had jurisdiction in California, according to the judge’s order.",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
-   "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
-   "source": "Dark Reading",
-   "published": "2026-10-02T20:18+00:00",
-   "summary": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Bipartisan backlash to ALPRs grows as two high-profile bills are introduced",
-   "link": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
-   "source": "The Record",
-   "published": "2026-10-02T19:30+00:00",
-   "summary": "Republican Sen. Josh Hawley has new legislation on limiting automated license plate readers (ALPRs), while Democratic Sens. Bernie Sanders and Jeff Merkley, with Rep. Alexandria Ocasio-Cortez, have teed up a broader bill.",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Frontline Education breach exposes school district employee data",
-   "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T19:01+00:00",
-   "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-02T18:33+00:00",
-   "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "SharePoint"
-   ],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
-   "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T17:33+00:00",
-   "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitLab"
-   ],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-   "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-   "source": "The Hacker News",
-   "published": "2026-10-02T17:33+00:00",
-   "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco",
-    "Outlook"
-   ],
-   "edition": "2026-10-03",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7269,6 +7337,10 @@
    "edition": "2026-10-15",
    "id": "tp0",
    "related": [
+    {
+     "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+     "match": "vendor"
+    },
     {
      "link": "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/",
      "match": "cve"
@@ -7314,6 +7386,10 @@
    "edition": "2026-10-15",
    "id": "tp1",
    "related": [
+    {
+     "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+     "match": "vendor"
+    },
     {
      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
      "match": "cve"
