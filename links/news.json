@@ -1,11 +1,64 @@
 {
- "updated": "2026-10-17T16:01+00:00",
- "edition": "2026-10-17",
+ "updated": "2026-10-18T16:13+00:00",
+ "edition": "2026-10-18",
  "errors": [
-  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22.",
-  "Qualys Blog: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://blog.qualys.com/feed']' returned non-zero exit status 22."
+  "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+   "source": "BleepingComputer",
+   "published": "2026-10-18T14:23+00:00",
+   "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+   "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+   "source": "The Hacker News",
+   "published": "2026-10-18T08:23+00:00",
+   "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "edition": "2026-10-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Week in review: Hidden implant in Ledger wallets linked to $93M theft, 1,500+ npm packages exposed",
+   "link": "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/",
+   "source": "Help Net Security",
+   "published": "2026-10-18T08:00+00:00",
+   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Strands Box: Open-source sandbox for AI agents AWS released Strands Box, an open source sandbox for AI agents that pairs operating-system isolation with rules that can weigh what an…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Linux"
+   ],
+   "edition": "2026-10-18",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
@@ -204,7 +257,7 @@
    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
    "source": "The Hacker News",
    "published": "2026-10-16T17:48+00:00",
-   "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif…",
+   "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif…",
    "categories": [
     "Vulnerability Management"
    ],
@@ -7190,132 +7243,6 @@
      "ransomware": false
     }
    }
-  },
-  {
-   "title": "Anthropic asks Claude users to share voice data for AI model training",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-   "source": "BleepingComputer",
-   "published": "2026-10-04T10:53+00:00",
-   "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
-   "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
-   "source": "Help Net Security",
-   "published": "2026-10-04T08:00+00:00",
-   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: 16-year-old researcher breaks into Microsoft analytics service with access to 17 trillion rows of data A flaw in Titan, an internal Microsoft analytics service, could have let an…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-88771",
-    "CVE-2026-88772"
-   ],
-   "vendors": [
-    "Citrix",
-    "Microsoft",
-    "NetScaler"
-   ],
-   "edition": "2026-10-04",
-   "advisories": [
-    {
-     "id": "tp3",
-     "match": "vendor",
-     "on": [
-      "Citrix",
-      "NetScaler"
-     ]
-    }
-   ],
-   "kev": {
-    "CVE-2026-88771": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    },
-    "CVE-2026-88772": {
-     "added": "2026-09-27",
-     "due": "2026-09-30",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-   "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-   "source": "The Hacker News",
-   "published": "2026-10-04T07:22+00:00",
-   "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-   "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-   "source": "The Hacker News",
-   "published": "2026-10-04T07:20+00:00",
-   "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Identity & Access",
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-   "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-   "source": "BleepingComputer",
-   "published": "2026-10-03T23:12+00:00",
-   "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google",
-    "macOS"
-   ],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
-   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-   "source": "BleepingComputer",
-   "published": "2026-10-03T19:09+00:00",
-   "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-04",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7467,10 +7394,6 @@
     {
      "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
      "match": "cve"
-    },
-    {
-     "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
-     "match": "vendor"
     }
    ],
    "kev": {
