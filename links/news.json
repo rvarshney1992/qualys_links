@@ -1,10 +1,895 @@
 {
- "updated": "2026-10-20T17:37+00:00",
- "edition": "2026-10-20",
+ "updated": "2026-10-21T17:46+00:00",
+ "edition": "2026-10-21",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "PHP says AI review of critical bugs first sparked alarm in August, but signs surfaced in 2024",
+   "link": "https://therecord.media/php-foundation-statement-critical-vulnerabilities",
+   "source": "The Record",
+   "published": "2026-10-21T17:30+00:00",
+   "summary": "In a lengthy statement about two critical vulnerabilities, the PHP Foundation explained how one dated to 2024, how a recent third-party review by AI companies heightened attention on both, why it scrambled to post information earlier than planned.",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+   "source": "Dark Reading",
+   "published": "2026-10-21T16:50+00:00",
+   "summary": "A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+   "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T16:33+00:00",
+   "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI agents disabled safety monitoring, one lied about it",
+   "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T16:26+00:00",
+   "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
+   "link": "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
+   "source": "Dark Reading",
+   "published": "2026-10-21T15:44+00:00",
+   "summary": "Hands-on sessions provide educators, nonprofits, and community leaders with an accessible resource to foster year-round cyber awareness and build more resilient communities.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk",
+   "link": "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable",
+   "source": "Dark Reading",
+   "published": "2026-10-21T15:29+00:00",
+   "summary": "360 Privacy finds more than 8 in 10 security and wealth professionals say cybersecurity and physical security can no longer be separated.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "source": "Krebs on Security",
+   "published": "2026-10-21T15:26+00:00",
+   "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hundreds of websites taken offline as concern grows over two PHP vulnerabilities",
+   "link": "https://therecord.media/php-script-vulnerabilities-warnings",
+   "source": "The Record",
+   "published": "2026-10-21T14:17+00:00",
+   "summary": "The maintainers of the globally used PHP scripting language released patches for two vulnerabilities after alerting users that the bugs were severe.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T14:11+00:00",
+   "summary": "Eight intermediate certificates issued by Indian certificate authority eMudhra were secured with private keys so weak that anyone could recover them from the public certificates in under a second. On its website, the company highlights that it has issued more than 60 million…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T14:07+00:00",
+   "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+   "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T14:00+00:00",
+   "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+   "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T14:00+00:00",
+   "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T13:52+00:00",
+   "summary": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "NVIDIA"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP2Shell: Critical PHP vulnerabilities patched, update now!",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T13:51+00:00",
+   "summary": "The PHP development team has released emergency security updates to fix PHP2Shell, two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that could let attackers execute code remotely on web servers without logging in. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+   "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T13:15+00:00",
+   "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled. ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chrome",
+    "Google"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Decades-Old Windows Utility Powers Modern ClickFix Attack",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
+   "source": "Dark Reading",
+   "published": "2026-10-21T13:00+00:00",
+   "summary": "The attack uses malicious Google search results related to Amazon and leverages the 'finger' utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google",
+    "Windows"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The Science of Exploitability: Decoding BlueHammer",
+   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
+   "source": "Qualys Blog",
+   "published": "2026-10-21T13:00+00:00",
+   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-33825"
+   ],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-33825": {
+     "added": "2026-04-22",
+     "due": "2026-05-06",
+     "ransomware": true
+    }
+   }
+  },
+  {
+   "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T12:20+00:00",
+   "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+   "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T12:05+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. \"The most distinctive technical marker for Bronze Sandcastle is…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Sophos"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+   "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T11:53+00:00",
+   "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T11:13+00:00",
+   "summary": "Several ransomware groups are exploiting CVE-2026-0257, an authentication bypass in Palo Alto Networks’ PAN-OS GlobalProtect patched in May, to break into organizations in sectors ranging from healthcare and education to government and energy. CVE-2026-0257 stems from the…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-0257"
+   ],
+   "vendors": [
+    "GlobalProtect",
+    "PAN-OS",
+    "Palo Alto"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "PAN-OS",
+      "Palo Alto"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-0257": {
+     "added": "2026-05-29",
+     "due": "2026-06-01",
+     "ransomware": true
+    }
+   }
+  },
+  {
+   "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+   "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T10:36+00:00",
+   "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The Harness Is the Hard Part of Agentic Pentesting",
+   "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T10:32+00:00",
+   "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+   "link": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T10:30+00:00",
+   "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft says October updates didn’t actually fix VPN issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T10:14+00:00",
+   "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Grafana Labs connects observability and incident response with Knowledge Graph",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/grafana-labs-knowledge-graph/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T09:30+00:00",
+   "summary": "Grafana Labs has announced a Knowledge Graph in every Grafana Cloud stack, alongside new Digital Experience Monitoring capabilities and updates to Grafana Cloud Incident Response Management (IRM). The releases connect infrastructure and application dependencies with user…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ThreatLocker adds external controls for AI agent access and execution",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/threatlocker-zero-trust-ai-control-ztaic/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T09:07+00:00",
+   "summary": "ThreatLocker has announced the launch of Zero Trust AI Control (ZTAIC), giving organizations a tool to deploy agentic AI without surrendering control of their environments. ZTAIC enables security teams to give AI agents exactly what they need to perform their jobs while keeping…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+   "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T09:05+00:00",
+   "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+   "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T09:01+00:00",
+   "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Info-stealing malware slipped into OVHcloud CLI releases on GitHub",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T08:59+00:00",
+   "summary": "OVHcloud, the French cloud computing and web hosting company, alerted customers that a hacker tampered with its open-source command-line interface (CLI) tool to spread information-stealing malware. OVHcloud CEO Octave Klaba disclosed the incident on X, warning users who…",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Safari blocks trackers that turn your email into a tracking ID",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/apple-safari-tracking-protection/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T08:53+00:00",
+   "summary": "Apple’s new anti-tracking protections in Safari and WebKit, the open-source web engine used by Safari, block connections to identity resolution services that turn email addresses into persistent tracking identifiers. How email addresses become tracking IDs This “post-cookie”…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Safari"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T08:36+00:00",
+   "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+   "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T08:04+00:00",
+   "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+   "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T07:44+00:00",
+   "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated…",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+   "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T07:26+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-96652"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-96652": {
+     "added": "2026-10-20",
+     "due": "2026-11-03",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+   "link": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T06:05+00:00",
+   "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "VMware"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Privacy-preserving AI can protect your heart data, the bill is the problem",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/ecg-heart-data-privacy-preserving-ai/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T06:00+00:00",
+   "summary": "A heart monitor used to be a box beside a hospital bed. Electrodes fed a cable, the cable fed a screen, and a nurse watched the screen. The threat model fit on a sticky note. Cardiac care doesn’t work like that anymore. A patch or smartwatch records the electrocardiogram (ECG)…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "DevGuard: Open-source vulnerability management for the software supply chain",
+   "link": "https://www.helpnetsecurity.com/2026/10/21/devguard-open-source-vulnerability-management/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T05:30+00:00",
+   "summary": "DevGuard is a free, open source vulnerability management platform that collects a software project’s security findings in one place, ranks them by risk, and tracks them. It’s an OWASP Incubating Project, and anyone can self-host it. One command line, six scans DevGuard runs…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP2Shell: PHP Patches Two Critical RCE Vulnerabilities, Urges Immediate Updates",
+   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/10/20/php-announces-critical-security-release-for-two-vulnerabilities",
+   "source": "Qualys Blog",
+   "published": "2026-10-21T02:59+00:00",
+   "summary": "Updated: October 21, 2026 PHP has released security updates for two critical vulnerabilities that can allow unauthenticated remote code execution. Apache mod_php deployments warrant immediate attention: PHP reports a demonstrated exploit that can trigger before application code…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "Apache",
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+   "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T01:01+00:00",
+   "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+   "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T00:46+00:00",
+   "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Google",
+    "Mozilla"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+   "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+   "source": "Dark Reading",
+   "published": "2026-10-20T21:45+00:00",
+   "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Google",
+    "Mozilla"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+   "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+   "source": "BleepingComputer",
+   "published": "2026-10-20T20:56+00:00",
+   "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
+   "link": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+   "source": "The Record",
+   "published": "2026-10-20T20:27+00:00",
+   "summary": "The FBI and cyber agencies in the UK and Germany said SafePay is targeting businesses and critical infrastructure by guessing passwords, exploiting vulnerabilities and using phishing attacks.",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Zeabur shutting down after second security breach in two months",
+   "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+   "source": "BleepingComputer",
+   "published": "2026-10-20T19:33+00:00",
+   "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "California warns all public school students of data stolen in contractor breach",
+   "link": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
+   "source": "The Record",
+   "published": "2026-10-20T19:20+00:00",
+   "summary": "The CDE released multiple statements over the last week warning the state’s students that assessment contractor Educational Testing Service (ETS) suffered a months-long data breach.",
+   "categories": [
+    "Data Breach",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
+   "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+   "source": "Dark Reading",
+   "published": "2026-10-20T19:16+00:00",
+   "summary": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The Real Jump Scare Isn’t the Attacker; It’s The Vulnerabilities You’re Focusing On",
+   "link": "https://blog.qualys.com/qualys-insights/2026/10/20/remediation-paradox-cybersecurity-awareness-month",
+   "source": "Qualys Blog",
+   "published": "2026-10-20T19:08+00:00",
+   "summary": "Key Takeaways Teams are remediating more than ever, but exposure from the vulnerabilities that matter is still rising faster than they can keep up with. Mean time to exploitation is about −7 days. Mean time to remediate sits around +30 days. Qualys research: closures rose from…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+   "link": "https://therecord.media/23andme-california-data-breach-settlement",
+   "source": "The Record",
+   "published": "2026-10-20T18:32+00:00",
+   "summary": "California Attorney General Rob Bonta announced a settlement under which 23andMe's successor will pay $6 million to resolve allegations that the company did not properly protect customers' data before a 2023 breach.",
+   "categories": [
+    "Data Breach",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+   "source": "BleepingComputer",
+   "published": "2026-10-20T18:11+00:00",
+   "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-21",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Nigerian national given 8-year sentence for tax business hacks",
    "link": "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks",
@@ -17,6 +902,25 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-10-20",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+   "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+   "source": "The Hacker News",
+   "published": "2026-10-20T17:09+00:00",
+   "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chrome",
+    "Google",
+    "Mozilla"
+   ],
+   "edition": "2026-10-21",
    "advisories": [],
    "kev": {}
   },
@@ -62,7 +966,7 @@
    "link": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
    "source": "Dark Reading",
    "published": "2026-10-20T15:35+00:00",
-   "summary": "Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
+   "summary": "Artificial intelligence is complicating security in the software development life cycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
    "categories": [
     "Identity & Access",
     "AI Security"
@@ -363,7 +1267,13 @@
    ],
    "edition": "2026-10-20",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-110936": {
+     "added": "2026-10-20",
+     "due": "2026-11-03",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Quarantined, but still on your calendar: The explosion of invite-based attacks",
@@ -598,7 +1508,13 @@
    ],
    "edition": "2026-10-20",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-110936": {
+     "added": "2026-10-20",
+     "due": "2026-11-03",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
@@ -6617,674 +7533,6 @@
    "edition": "2026-10-07",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-   "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T17:43+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-   "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T16:17+00:00",
-   "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft Outlook to block MSIX attachments starting November",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T15:44+00:00",
-   "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Outlook",
-    "Windows"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-   "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T15:34+00:00",
-   "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-   "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T15:33+00:00",
-   "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T15:04+00:00",
-   "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Oklahoma judge’s Flock ruling shows the power of Supreme Court’s digital evidence decision",
-   "link": "https://therecord.media/oklahoma-flock-ruing-supreme-court-chatrie-decision",
-   "source": "The Record",
-   "published": "2026-10-07T15:00+00:00",
-   "summary": "How a recent Supreme Court decision on geofencing influenced a federal judge to toss a sheriff's Flock camera evidence in a drug trafficking case.",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Exploitation attempts against critical Atlassian flaw have begun (CVE-2026-21589)",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/exploitation-critical-atlassian-flaw-cve-2026-21589/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T14:21+00:00",
-   "summary": "One day after Atlassian released patches fixing a critical arbitrary file access vulnerability (CVE-2026-21589) in its self-managed Data Center products, and a few hours after watchTowr researchers published a technical rundown of the flaw, attackers have been spotted attempting…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-21589"
-   ],
-   "vendors": [
-    "Atlassian"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-21589": {
-     "added": "2026-10-15",
-     "due": "2026-10-18",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Cyber experts call on CISA to create mandatory federal OT rules",
-   "link": "https://therecord.media/cyber-experts-call-on-cisa-require-ot-security",
-   "source": "The Record",
-   "published": "2026-10-07T14:03+00:00",
-   "summary": "The Operational Technology Cybersecurity Coalition released a white paper urging the CISA to create a new directive centered around operational technology, which is used to monitor and control critical infrastructure.",
-   "categories": [
-    "OT & IoT",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ransomware has a new target. Is your backup ready?",
-   "link": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T14:01+00:00",
-   "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attackers cannot easily reach. [...]",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Kaseya"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Gremlin Foresight AI finds system weaknesses and verifies the fixes",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/gremlin-foresight-ai/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T14:00+00:00",
-   "summary": "Gremlin has announced the general availability of Gremlin Foresight AI. Following a successful beta, Gremlin Foresight AI has proven it can identify and address reliability risks before they become incidents, helping engineering teams move at AI speed without compromising the…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Imply Lumi connects SIEM tools and AI agents to more security data",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/imply-lumi/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:53+00:00",
-   "summary": "Imply has unveiled its expanded vision for the security information and event management (SIEM) market, with Imply Lumi providing the data platform for the agentic SIEM. Imply is bringing modern data architecture to security teams facing growing data volumes, rising costs and…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach",
-   "link": "https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach",
-   "source": "The Record",
-   "published": "2026-10-07T13:49+00:00",
-   "summary": "The Health Care Cybersecurity and Resiliency Act of 2026 was passed by unanimous consent last week, potentially expanding federal cyber requirements for healthcare organizations.",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-   "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-   "source": "Krebs on Security",
-   "published": "2026-10-07T13:48+00:00",
-   "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the…",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach"
-   ],
-   "cves": [
-    "CVE-2026-35273"
-   ],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-35273": {
-     "added": "2026-06-12",
-     "due": "2026-06-15",
-     "ransomware": true
-    }
-   }
-  },
-  {
-   "title": "FortiBleed is still active, with attackers locking admins out of Fortinet firewalls",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/fortinet-fortibleed-campaign-fbi-advisory/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:43+00:00",
-   "summary": "Some organizations hit by the FortiBleed campaign have been locked out of their own Fortinet firewalls, according to a joint FBI and U.S. Secret Service advisory. FortiBleed targets internet-facing Fortinet FortiGate firewalls and SSL VPN gateways. The advisory cites SOCRadar…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "FortiGate",
-    "Fortinet"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Vijil DART tests AI agents for security flaws and policy violations",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/vijil-diamond-adaptive-red-teaming-for-agents-dart/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:41+00:00",
-   "summary": "Vijil has released Diamond Adaptive Red Teaming for Agents (DART), an automated testing system that finds security vulnerabilities and policy violations in enterprise AI agents. DART employs multiple adversarial agents of its own to probe the target’s defenses with multi-turn…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Edgescan Atomic validates attack paths with controlled AI testing",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/edgescan-atomic/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:28+00:00",
-   "summary": "Edgescan announced the launch of Edgescan Atomic, an autonomous penetration-testing capability built on agentic AI and Edgescan’s existing security intelligence. Edgescan Atomic can run on top of Edgescan’s existing continuous security platform or run as a stand along Agentic…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Trustero automates vendor document reviews with human approval",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/trustero-ai-third-party-risk-management/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:22+00:00",
-   "summary": "Trustero has announced the launch of Trustero Third-Party Risk Management (TPRM). TPRM extends Trustero’s AI engine beyond a company’s own compliance program to the vendors and partners it depends on. Instead of collecting and reading vendor documentation, teams review and…",
-   "categories": [
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hoxhunt expands Respond to automate phishing investigations and email removal",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/hoxhunt-respond/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:12+00:00",
-   "summary": "Hoxhunt has announced expanded capabilities for Hoxhunt Respond, its email incident response automation platform for security operations teams. Respond can reduce phishing tickets requiring analyst attention by up to 99% and remediate confirmed malicious campaigns in under one…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Tanium adds endpoint behavior detection and AI-assisted threat hunting",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/tanium-security-operations/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T13:00+00:00",
-   "summary": "Tanium has relaunched Tanium Security Operations to address AI-assisted attacks in which adversaries use legitimate administrative tools to blend into normal activity and spread across endpoints. The platform is designed to detect this behavior, support response across affected…",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T12:49+00:00",
-   "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-21589"
-   ],
-   "vendors": [
-    "Atlassian",
-    "Confluence",
-    "Jira"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-21589": {
-     "added": "2026-10-15",
-     "due": "2026-10-18",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-   "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T11:57+00:00",
-   "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-   "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T11:56+00:00",
-   "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Data Breach",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "FortiGate",
-    "Fortinet"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-   "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T11:49+00:00",
-   "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-21589"
-   ],
-   "vendors": [
-    "Atlassian",
-    "Confluence",
-    "Jira"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-21589": {
-     "added": "2026-10-15",
-     "due": "2026-10-18",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
-   "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T11:42+00:00",
-   "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T11:37+00:00",
-   "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers hijack three country-code domain registries, obtain HTTPS certificates for Google domains",
-   "link": "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/",
-   "source": "Help Net Security",
-   "published": "2026-10-07T11:10+00:00",
-   "summary": "Attackers who took control of three country-code top-level domains (ccTLDs) used that access to obtain HTTPS certificates for several Google domains and for domains run by other large organizations, Google disclosed on Tuesday. Attackers compromised the third-party operators of…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
-   "link": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T10:35+00:00",
-   "summary": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Apple"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Advantest confirms personal information stolen in ransomware attack",
-   "link": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
-   "source": "BleepingComputer",
-   "published": "2026-10-07T10:27+00:00",
-   "summary": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-   "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T08:07+00:00",
-   "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-   "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-   "source": "The Hacker News",
-   "published": "2026-10-07T06:57+00:00",
-   "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-   "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-   "source": "BleepingComputer",
-   "published": "2026-10-06T21:00+00:00",
-   "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
-   "source": "Dark Reading",
-   "published": "2026-10-06T20:32+00:00",
-   "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical Healthcare Systems Aren't Quantum-Ready",
-   "link": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
-   "source": "Dark Reading",
-   "published": "2026-10-06T20:30+00:00",
-   "summary": "A study of 2.5 million devices across 50 healthcare organizations suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-   "source": "BleepingComputer",
-   "published": "2026-10-06T19:21+00:00",
-   "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Samsung"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-   "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-   "source": "The Hacker News",
-   "published": "2026-10-06T18:38+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-   "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-   "source": "The Hacker News",
-   "published": "2026-10-06T18:24+00:00",
-   "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux"
-   ],
-   "edition": "2026-10-07",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
-   "link": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps",
-   "source": "Dark Reading",
-   "published": "2026-10-06T17:56+00:00",
-   "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-06",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7355,6 +7603,10 @@
    "edition": "2026-10-15",
    "id": "tp1",
    "related": [
+    {
+     "link": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
+     "match": "vendor"
+    },
     {
      "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
      "match": "vendor"
