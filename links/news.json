@@ -1,10 +1,263 @@
 {
- "updated": "2026-10-23T17:35+00:00",
- "edition": "2026-10-23",
+ "updated": "2026-10-24T16:20+00:00",
+ "edition": "2026-10-24",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+   "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+   "source": "BleepingComputer",
+   "published": "2026-10-24T14:17+00:00",
+   "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "source": "The Hacker News",
+   "published": "2026-10-24T11:09+00:00",
+   "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "vendors": [
+    "Google",
+    "Node.js",
+    "Python"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+   "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+   "source": "The Hacker News",
+   "published": "2026-10-24T11:03+00:00",
+   "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub",
+    "Python"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+   "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+   "source": "The Hacker News",
+   "published": "2026-10-24T10:36+00:00",
+   "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+   "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+   "source": "The Hacker News",
+   "published": "2026-10-24T09:04+00:00",
+   "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "source": "The Hacker News",
+   "published": "2026-10-24T06:25+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-110447"
+   ],
+   "vendors": [],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-110447": {
+     "added": "2026-10-23",
+     "due": "2026-10-26",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "How to Identify Compromised eMudhra Certificates With Qualys (CVE-2026-111943 and CVE-2026-111944)",
+   "link": "https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944",
+   "source": "Qualys Blog",
+   "published": "2026-10-24T02:03+00:00",
+   "summary": "Executive Summary A critical certificate authority incident disclosed on October 17, 2026, impacts eight eMudhra intermediate CA certificates. A flaw in the key generation process could allow attackers to recover private keys and issue fraudulent TLS or code-signing…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-111943",
+    "CVE-2026-111944"
+   ],
+   "vendors": [
+    "Apple",
+    "Chrome",
+    "Mozilla"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+   "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+   "source": "Dark Reading",
+   "published": "2026-10-23T20:57+00:00",
+   "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-23T20:55+00:00",
+   "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+   "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+   "source": "Dark Reading",
+   "published": "2026-10-23T19:41+00:00",
+   "summary": "Fixing the critical PHP flaws is not as simple as clicking \"Update.\" Here's how to assess your risk, and what you can do to protect yourself.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+   "source": "BleepingComputer",
+   "published": "2026-10-23T18:54+00:00",
+   "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+   "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "source": "The Hacker News",
+   "published": "2026-10-23T18:50+00:00",
+   "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+   "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "source": "The Hacker News",
+   "published": "2026-10-23T17:54+00:00",
+   "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "source": "The Hacker News",
+   "published": "2026-10-23T17:50+00:00",
+   "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-24",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "FCC bans two devices with surveillance chips linked to Huawei",
    "link": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
@@ -279,7 +532,7 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
    "source": "Dark Reading",
    "published": "2026-10-23T11:38+00:00",
-   "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+   "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
    "categories": [
     "AI Security"
    ],
@@ -311,7 +564,7 @@
    "kev": {}
   },
   {
-   "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+   "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
    "source": "The Hacker News",
    "published": "2026-10-23T11:11+00:00",
@@ -493,6 +746,23 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-10-23",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
+   "link": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
+   "source": "The Record",
+   "published": "2026-10-23T04:00+00:00",
+   "summary": "The headline-grabbing bugs known colloquially as PHP2Shell are giving cyber analysts a lot to track — and a lot to debunk.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-24",
    "advisories": [],
    "kev": {}
   },
@@ -800,7 +1070,7 @@
    "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
    "source": "Dark Reading",
    "published": "2026-10-22T14:21+00:00",
-   "summary": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
+   "summary": "Some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
    "categories": [
     "AI Security"
    ],
@@ -4460,7 +4730,13 @@
    "vendors": [],
    "edition": "2026-10-16",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-110447": {
+     "added": "2026-10-23",
+     "due": "2026-10-26",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
@@ -7362,198 +7638,6 @@
     "iOS"
    ],
    "edition": "2026-10-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-   "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-   "source": "BleepingComputer",
-   "published": "2026-10-10T15:07+00:00",
-   "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-   "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-10T14:16+00:00",
-   "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-   "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-   "source": "BleepingComputer",
-   "published": "2026-10-10T12:30+00:00",
-   "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-   "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-   "source": "The Hacker News",
-   "published": "2026-10-10T11:00+00:00",
-   "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an…",
-   "categories": [
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-   "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-   "source": "The Hacker News",
-   "published": "2026-10-10T09:18+00:00",
-   "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-   "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-   "source": "Krebs on Security",
-   "published": "2026-10-10T00:17+00:00",
-   "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
-   "source": "Dark Reading",
-   "published": "2026-10-09T20:58+00:00",
-   "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-   "categories": [
-    "Data Breach",
-    "Cloud & Container",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-09T20:31+00:00",
-   "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI Scramble Drives Cybersecurity M&A Boom",
-   "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
-   "source": "Dark Reading",
-   "published": "2026-10-09T19:26+00:00",
-   "summary": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-   "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-   "source": "The Hacker News",
-   "published": "2026-10-09T19:14+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub"
-   ],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
-   "link": "https://therecord.media/japan-germany-ransomware-arrest",
-   "source": "The Record",
-   "published": "2026-10-09T18:45+00:00",
-   "summary": "Japan’s National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of being involved in the Qilin ransomware gang.",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-   "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-   "source": "The Hacker News",
-   "published": "2026-10-09T17:45+00:00",
-   "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents…",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-10",
    "advisories": [],
    "kev": {}
   }
