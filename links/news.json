@@ -1,10 +1,68 @@
 {
- "updated": "2026-10-24T16:20+00:00",
- "edition": "2026-10-24",
+ "updated": "2026-10-25T16:54+00:00",
+ "edition": "2026-10-25",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+   "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+   "source": "BleepingComputer",
+   "published": "2026-10-25T15:49+00:00",
+   "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+   "categories": [
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+   "link": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+   "source": "Help Net Security",
+   "published": "2026-10-25T09:00+00:00",
+   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "GlobalProtect",
+    "PHP",
+    "Palo Alto"
+   ],
+   "edition": "2026-10-25",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Palo Alto"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+   "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "source": "The Hacker News",
+   "published": "2026-10-25T06:54+00:00",
+   "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-25",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
    "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
@@ -7591,55 +7649,6 @@
    "edition": "2026-10-12",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-   "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-   "source": "BleepingComputer",
-   "published": "2026-10-11T14:23+00:00",
-   "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
-   "link": "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/",
-   "source": "Help Net Security",
-   "published": "2026-10-11T08:00+00:00",
-   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Three questions a hospital CISO should ask a healthcare fintech vendor In this Help Net Security interview, Drew McCombs, CTO and CISO at Cylerity, explains how he balances both…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-   "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-   "source": "The Hacker News",
-   "published": "2026-10-11T04:24+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two…",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "iOS"
-   ],
-   "edition": "2026-10-09",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7714,6 +7723,10 @@
    "edition": "2026-10-15",
    "id": "tp1",
    "related": [
+    {
+     "link": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+     "match": "vendor"
+    },
     {
      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
      "match": "vendor"
