@@ -1,10 +1,610 @@
 {
- "updated": "2026-10-25T16:54+00:00",
- "edition": "2026-10-25",
+ "updated": "2026-10-26T18:56+00:00",
+ "edition": "2026-10-26",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
+   "source": "Dark Reading",
+   "published": "2026-10-26T18:01+00:00",
+   "summary": "An ongoing supply chain attack is harvesting credentials and sensitive data from thousands of developer repositories.",
+   "categories": [
+    "Cloud & Container",
+    "Identity & Access",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+   "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T17:45+00:00",
+   "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "vendors": [
+    "PHP",
+    "Windows"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Serbian autocrat loses election following widespread reports of digital repression",
+   "link": "https://therecord.media/serbia-election-spyware-vucic",
+   "source": "The Record",
+   "published": "2026-10-26T17:30+00:00",
+   "summary": "Serbian strongman leader Aleksandar Vučić on Sunday admitted defeat in his race for prime minister, a loss that follows a series of incidents of digital repression that galvanized the opposition.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
+   "link": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+   "source": "The Record",
+   "published": "2026-10-26T16:40+00:00",
+   "summary": "Ukrainian Defense Minister Yevhen Khmara said Saturday that Starlink and Starshield connectivity had been restored.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+   "link": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+   "source": "The Record",
+   "published": "2026-10-26T16:37+00:00",
+   "summary": "44-year-old Zheng Zhao was allegedly a key money-launderer working with a group of scammers who called U.S.-based victims and urged them to invest in fictitious businesses.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "source": "BleepingComputer",
+   "published": "2026-10-26T16:27+00:00",
+   "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Node.js"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+   "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T15:52+00:00",
+   "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+   "source": "BleepingComputer",
+   "published": "2026-10-26T15:38+00:00",
+   "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+   "link": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+   "source": "The Record",
+   "published": "2026-10-26T14:21+00:00",
+   "summary": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+   "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T14:06+00:00",
+   "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+   "link": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "source": "BleepingComputer",
+   "published": "2026-10-26T14:00+00:00",
+   "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+   "categories": [
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "10 Software Security Practices Built for the Next 250 Years",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
+   "source": "Dark Reading",
+   "published": "2026-10-26T14:00+00:00",
+   "summary": "This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for generations.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+   "link": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+   "source": "BleepingComputer",
+   "published": "2026-10-26T13:56+00:00",
+   "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Kali Linux 2026.3 ships kernel 7.1.5, brings wardriving to the TicWatch Pro 3",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/kali-linux-2026-3-released/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T13:24+00:00",
+   "summary": "The Kali Linux team released version 2026.3 after overhauling the public build scripts it uses to produce every official image. The refreshed scripts share the same features, command-line arguments and, where possible, the same layout, so a pipeline written against an older…",
+   "categories": [
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Docker",
+    "Linux"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Security pros reckon the biggest AI risk comes with an employee badge",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T13:16+00:00",
+   "summary": "Employees pasting company data into AI tools worry security teams more than AI-powered attacks do. Most-concerning risks of AI agents (Source: O’Reilly) AI-generated phishing, the attack they run into most often, made the list of top concerns for only a quarter of the 209…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
+   "link": "https://therecord.media/litellm-hackers-ai-malware",
+   "source": "The Record",
+   "published": "2026-10-26T12:00+00:00",
+   "summary": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+   "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T11:52+00:00",
+   "summary": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI coding agents fall for malicious instructions planted in the Downloads folder",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T11:26+00:00",
+   "summary": "A file that a website saves to the Downloads folder without approval can trick AI coding agents into installing a malicious npm package or handing over the user’s login token when they’re opened in that folder, Forever Security has found. The file is called AGENTS.md, a plain…",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+   "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T11:23+00:00",
+   "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fortinet patches critical FortiOS flaws found with AI help",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T11:22+00:00",
+   "summary": "Fortinet rolled out security hardening updates for FortiOS, FortiManager, FortiAnalyzer, FortiMail, and FortiAuthenticator last week, but is keeping the details about the fixed vulnerabilities under wraps until November 10, 2026. The vulnerabilities were uncovered with the help…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "FortiOS",
+    "Fortinet"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic details what stops Claude Duet from going rogue",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/anthropic-claude-duet-security-safeguards/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T10:41+00:00",
+   "summary": "Anthropic has outlined the security and privacy protections behind Claude Duet, its proactive AI agent that can monitor connected accounts and complete tasks while users are away. The safeguards include approval requirements, checks for sensitive information and infrastructure…",
+   "categories": [
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+   "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+   "source": "BleepingComputer",
+   "published": "2026-10-26T10:26+00:00",
+   "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+   "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T09:54+00:00",
+   "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who…",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+   "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+   "source": "BleepingComputer",
+   "published": "2026-10-26T09:19+00:00",
+   "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+   "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T08:35+00:00",
+   "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed…",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+   "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T07:49+00:00",
+   "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Witness: Open-source framework for verifying how your software was built",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/witness-open-source-software-supply-chain-tool/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T07:00+00:00",
+   "summary": "Witness is an open-source command-line tool that records how software gets built, signs that record, and checks it against a policy before the software ships. TestifySec built Witness and donated it to the in-toto ecosystem within the Cloud Native Computing Foundation, and an…",
+   "categories": [
+    "Cloud & Container",
+    "Supply Chain",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI slop is piling up highest on the biggest open-source projects",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T06:30+00:00",
+   "summary": "The maintainers of large open source projects are taking the worst of the AI slop. In a Linux Foundation survey of 234 open source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+   "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+   "source": "The Hacker News",
+   "published": "2026-10-26T06:03+00:00",
+   "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and…",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Product showcase: Stellar Cyber’s ISOC platform provides full-cycle architecture",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/product-showcase-stellar-cyber-isoc-platform/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T06:00+00:00",
+   "summary": "An AI SOC that starts with somebody else’s alert is already too late. Stellar Cyber collects and normalizes telemetry, detects suspicious activity, correlates evidence, builds cases, investigates incidents, triages findings, and drives response from the same security…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Forgotten AI agents may still access sensitive company data",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T05:30+00:00",
+   "summary": "AI agents that have not run recently retain credentials and connections to company systems, according to Arrakis Security’s 2026 Autonomous Agents Threat Report. About 76% of enabled agents examined had not run in 60 days, leaving access available through inactive software…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Synthetic identities leave US lenders with $2.4 billion in fraud exposure",
+   "link": "https://www.helpnetsecurity.com/2026/10/26/transunion-synthetic-identity-fraud-risks-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T05:00+00:00",
+   "summary": "Criminals are exploiting established customer accounts and familiar brands to steal money and personal information, according to TransUnion’s Fraud in the Age of Continuous Trust report. Eighty-one percent of suspected digital fraud in its network during the first half of 2026…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Can’t Patch PHP2Shell Yet? Build a Stopgap with the Controls You Own",
+   "link": "https://blog.qualys.com/product-tech/2026/10/25/cant-patch-php2shell-yet-build-a-stopgap-with-the-controls-you-own",
+   "source": "Qualys Blog",
+   "published": "2026-10-26T04:31+00:00",
+   "summary": "Executive Summary PHP2Shell’s fix is to update PHP, but patching at scale is slow. Only 199,000 of 156 million PHP installations were patched in the first 12 hours after disclosure. In the meantime, Qualys’s configuration-level mitigation reduces exposure to the confirmed attack…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "PHP"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "source": "The Hacker News",
+   "published": "2026-10-25T17:44+00:00",
+   "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-26",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+   "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "source": "The Hacker News",
+   "published": "2026-10-25T17:19+00:00",
+   "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "PHP",
+    "Palo Alto"
+   ],
+   "edition": "2026-10-26",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Palo Alto"
+     ]
+    }
+   ],
+   "kev": {}
+  },
   {
    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
    "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
@@ -84,7 +684,7 @@
    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
    "source": "The Hacker News",
    "published": "2026-10-24T11:09+00:00",
-   "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed…",
+   "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows…",
    "categories": [
     "Vulnerability Management"
    ],
@@ -93,6 +693,7 @@
    ],
    "vendors": [
     "Google",
+    "Microsoft",
     "Node.js",
     "Python"
    ],
@@ -198,7 +799,7 @@
    "kev": {}
   },
   {
-   "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+   "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
    "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
    "source": "Dark Reading",
    "published": "2026-10-23T20:57+00:00",
@@ -7200,455 +7801,6 @@
    "edition": "2026-10-12",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-   "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T18:51+00:00",
-   "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
-   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
-   "source": "Dark Reading",
-   "published": "2026-10-12T18:27+00:00",
-   "summary": "The proliferation of enterprise apps and the centrality of cloud identity providers requires an identity security rethink.",
-   "categories": [
-    "Cloud & Container",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-   "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T16:27+00:00",
-   "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattacks hit European grocers: French supermarket freezers hijacked, Dutch and Belgian stores disrupted",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T16:07+00:00",
-   "summary": "European food retailers have been affected by two separate disruptive cyberattacks: In France, several supermarket chains have had their freezers tampered with and chilled/frozen products destroyed, while in the Netherlands and Belgium workers at stores owned by Dutch…",
-   "categories": [
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack shuts down refrigerators at French supermarkets",
-   "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T15:23+00:00",
-   "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-   "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-   "source": "The Hacker News",
-   "published": "2026-10-12T15:16+00:00",
-   "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure…",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-   "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T14:00+00:00",
-   "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Windows"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T13:51+00:00",
-   "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "GitLab warns of max severity code execution vulnerability",
-   "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T13:09+00:00",
-   "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitLab"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Passing the Baton: Dark Reading Names New Editor-in-Chief",
-   "link": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
-   "source": "Dark Reading",
-   "published": "2026-10-12T12:30+00:00",
-   "summary": "Fahmida Y Rashid will keep the momentum going as she leads Dark Reading.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ukraine strikes third Yandex data center, disrupting digital services across Russia",
-   "link": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
-   "source": "The Record",
-   "published": "2026-10-12T12:00+00:00",
-   "summary": "A third Yandex data center in Russia was hit by Ukrainian drones over the weekend, forcing it to shut down and causing further disruptions to cloud services, payments, deliveries and other online services across the country.",
-   "categories": [
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-   "source": "BleepingComputer",
-   "published": "2026-10-12T11:58+00:00",
-   "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
-   "categories": [
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-   "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-   "source": "The Hacker News",
-   "published": "2026-10-12T11:55+00:00",
-   "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling…",
-   "categories": [
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-   "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-   "source": "The Hacker News",
-   "published": "2026-10-12T11:21+00:00",
-   "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft’s new model helps AI agents judge their next move",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/microsoft-decision-1-model/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T11:02+00:00",
-   "summary": "Microsoft-Decision-1 is a small decision-scoring model. Given a situation, a question and a fixed set of answer options, it returns a calibrated probability for each option. “This model is designed for routing, classification, prioritization, verification, and workflow control…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Office"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Low-cost Android phones are arriving with malware that owners can’t uninstall",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T10:53+00:00",
-   "summary": "People who buy low-cost Android phones from online marketplaces may be carrying malware that was placed on the device before it reached them, Bitdefender has found. The campaign, dubbed Midnight Mimosa, runs on budget Android devices from different brands built on MediaTek…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-   "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-   "source": "The Hacker News",
-   "published": "2026-10-12T10:36+00:00",
-   "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-102255"
-   ],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hidden implant in Ledger hardware wallets linked to $93M theft",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T09:46+00:00",
-   "summary": "Three days after customers in Southeast Asia began reporting drained wallets, Ledger says the damage is limited. In its 72-hour update on X on October 11, the Paris-based hardware wallet maker said “all confirmed cases related to the disclosed draining incident of Oct 9th, 2026…",
-   "categories": [
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-   "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-   "source": "The Hacker News",
-   "published": "2026-10-12T09:02+00:00",
-   "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-85097"
-   ],
-   "vendors": [
-    "PHP",
-    "WordPress"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Windows PCs missing key updates could lose security fixes in 2027",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/microsoft-windows-update-certificate-rotation/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T07:39+00:00",
-   "summary": "Microsoft is advising users and businesses to update Windows devices before digital certificates used to verify Windows Update servers expire in May and June 2027. The certificates expire on May 17 or June 19, depending on the Windows version. Devices without replacement…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-   "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-   "source": "The Hacker News",
-   "published": "2026-10-12T07:26+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity…",
-   "categories": [
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Let’s Encrypt TLS certificate lifetimes to drop from 90 to 64 days starting February 2027",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/lets-encrypt-64-day-certificate-lifetime/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T07:23+00:00",
-   "summary": "Websites that rely on Let’s Encrypt will soon have to renew their TLS certificates more often. Starting February 10, 2027, the certificate authority will issue certificates valid for 64 days by default, down from 90 days. Subscribers who already use Let’s Encrypt’s optional…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Geopolitics and the cyber resilience gap belong in your threat model",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/akshay-joshi-wef-cyber-resilience-gap/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T06:00+00:00",
-   "summary": "In this Help Net Security interview, Akshay Joshi, Head of the Centre for Cybersecurity at the World Economic Forum, talks about how AI, geopolitics and industrialized fraud are changing cyber risk. He discusses findings from the Global Cybersecurity Outlook 2026, including that…",
-   "categories": [
-    "Ransomware & Malware",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Outlook"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Strands Box: Open-source sandbox for AI agents",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T05:30+00:00",
-   "summary": "AWS released Strands Box, an open source sandbox for AI agents that pairs operating-system isolation with rules that can weigh what an agent has already done before letting it act again. Box is in developer preview and runs on Macs with Apple silicon, with Linux support planned…",
-   "categories": [
-    "Cloud & Container",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Apple",
-    "Linux"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI vulnerability patching has a grading problem",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T04:45+00:00",
-   "summary": "Researchers at Northwestern University tested AI coding agents on 112 real security bugs. They found that a patch which stops a crash often fails the checks the project’s maintainers wrote for the fix. With Claude Opus 4.7, third of the patches that made the crash go away still…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "What makes some open source updates so difficult?",
-   "link": "https://www.helpnetsecurity.com/2026/10/12/google-open-source-maintenance-costs-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-12T04:00+00:00",
-   "summary": "Many organizations adopt open source software because they see it as a cheaper alternative to proprietary development. Maintaining it, however, still requires engineering effort, according to Google’s case study, “How much does it cost to maintain a copy of an open source…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack disrupts refrigeration at hundreds of French supermarkets",
-   "link": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
-   "source": "The Record",
-   "published": "2026-10-11T23:00+00:00",
-   "summary": "A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets, spoiling fresh food at stores run by some of the country’s largest grocery chains.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-12",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -7723,6 +7875,10 @@
    "edition": "2026-10-15",
    "id": "tp1",
    "related": [
+    {
+     "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+     "match": "vendor"
+    },
     {
      "link": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
      "match": "vendor"
