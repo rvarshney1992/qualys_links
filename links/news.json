@@ -1,10 +1,231 @@
 {
- "updated": "2026-10-30T18:19+00:00",
- "edition": "2026-10-30",
+ "updated": "2026-10-31T17:25+00:00",
+ "edition": "2026-10-31",
  "errors": [
   "CISA Advisories: Command '['curl', '-sfL', '--max-time', '40', '-A', 'Mozilla/5.0', 'https://www.cisa.gov/cybersecurity-advisories/all.xml']' returned non-zero exit status 22."
  ],
  "news": [
+  {
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T15:35+00:00",
+   "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-58882"
+   ],
+   "vendors": [
+    "Android"
+   ],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T14:05+00:00",
+   "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T13:10+00:00",
+   "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T12:50+00:00",
+   "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T12:01+00:00",
+   "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T08:27+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below -…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-111357": {
+     "added": "2026-10-30",
+     "due": "2026-11-02",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T05:33+00:00",
+   "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T04:56+00:00",
+   "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion…",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-30T21:09+00:00",
+   "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux",
+    "Linux kernel"
+   ],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+   "link": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+   "source": "The Record",
+   "published": "2026-10-30T20:45+00:00",
+   "summary": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Office"
+   ],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+   "source": "Dark Reading",
+   "published": "2026-10-30T20:05+00:00",
+   "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Behind the Scenes of How Operation Blackout Went Down",
+   "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+   "source": "Dark Reading",
+   "published": "2026-10-30T19:46+00:00",
+   "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fashion retailer Resolve says hackers stole payment card information",
+   "link": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+   "source": "The Record",
+   "published": "2026-10-30T19:00+00:00",
+   "summary": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-10-31",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
@@ -7765,184 +7986,6 @@
     "Linux"
    ],
    "edition": "2026-10-18",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-   "source": "BleepingComputer",
-   "published": "2026-10-17T15:18+00:00",
-   "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
-   "categories": [
-    "Data Breach",
-    "Cloud & Container",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "ConnectWise",
-    "Microsoft"
-   ],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-   "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-   "source": "BleepingComputer",
-   "published": "2026-10-17T14:32+00:00",
-   "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Drupal"
-   ],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-   "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-   "source": "The Hacker News",
-   "published": "2026-10-17T11:11+00:00",
-   "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\"…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "Windows"
-   ],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-   "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-   "source": "The Hacker News",
-   "published": "2026-10-17T06:16+00:00",
-   "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Cloud & Container",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "ConnectWise",
-    "Microsoft"
-   ],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
-   "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
-   "source": "Dark Reading",
-   "published": "2026-10-16T20:34+00:00",
-   "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco",
-    "Ivanti",
-    "Palo Alto"
-   ],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-   "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-   "source": "BleepingComputer",
-   "published": "2026-10-16T20:00+00:00",
-   "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-103849"
-   ],
-   "vendors": [
-    "Adobe",
-    "PHP"
-   ],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-   "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-   "source": "Dark Reading",
-   "published": "2026-10-16T19:49+00:00",
-   "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
-   "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
-   "source": "Dark Reading",
-   "published": "2026-10-16T19:22+00:00",
-   "summary": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-   "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
-   "source": "Dark Reading",
-   "published": "2026-10-16T19:13+00:00",
-   "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-17",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
-   "link": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
-   "source": "Dark Reading",
-   "published": "2026-10-16T18:37+00:00",
-   "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
-   "categories": [
-    "AI Security",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Arm"
-   ],
-   "edition": "2026-10-17",
    "advisories": [],
    "kev": {}
   }
