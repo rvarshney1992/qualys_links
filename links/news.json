@@ -1,8 +1,126 @@
 {
- "updated": "2026-11-06T20:13+00:00",
- "edition": "2026-11-06",
+ "updated": "2026-11-07T18:26+00:00",
+ "edition": "2026-11-07",
  "errors": [],
  "news": [
+  {
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "source": "BleepingComputer",
+   "published": "2026-11-07T15:25+00:00",
+   "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "source": "BleepingComputer",
+   "published": "2026-11-07T14:10+00:00",
+   "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate…",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "source": "The Hacker News",
+   "published": "2026-11-07T06:44+00:00",
+   "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-07T00:00+00:00",
+   "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "SonicWall"
+   ],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "source": "BleepingComputer",
+   "published": "2026-11-06T22:27+00:00",
+   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+   "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+   "source": "Dark Reading",
+   "published": "2026-11-06T21:27+00:00",
+   "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late.",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "source": "BleepingComputer",
+   "published": "2026-11-06T20:24+00:00",
+   "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Firefox",
+    "Linux",
+    "Linux kernel"
+   ],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
    "link": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
@@ -316,6 +434,33 @@
    "kev": {}
   },
   {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-06T12:00+00:00",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "vendors": [
+    "SonicWall"
+   ],
+   "edition": "2026-11-07",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-19868": {
+     "added": "2026-11-06",
+     "due": "2026-11-20",
+     "ransomware": false
+    }
+   }
+  },
+  {
    "title": "The Flood is Coming And The Pipes Were Already Full",
    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
    "source": "The Hacker News",
@@ -592,6 +737,21 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-11-06",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Operação de influência russa tem como alvo generalizado a América Latina",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
+   "source": "Dark Reading",
+   "published": "2026-11-05T22:13+00:00",
+   "summary": "A operação, que contou com o uso de inteligência artificial, utilizou e-mails falsos, documentos governamentais falsificados e a criação de uma organização local para atacar escolas no Peru e no Equador, entre outras ações.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-07",
    "advisories": [],
    "kev": {}
   },
@@ -7652,179 +7812,6 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-10-25",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-   "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-   "source": "BleepingComputer",
-   "published": "2026-10-24T14:17+00:00",
-   "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-   "source": "The Hacker News",
-   "published": "2026-10-24T11:09+00:00",
-   "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "vendors": [
-    "Google",
-    "Microsoft",
-    "Node.js",
-    "Python"
-   ],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-111497": {
-     "added": "2026-10-27",
-     "due": "2026-11-10",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-   "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-   "source": "The Hacker News",
-   "published": "2026-10-24T11:03+00:00",
-   "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub",
-    "Python"
-   ],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-   "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-   "source": "The Hacker News",
-   "published": "2026-10-24T10:36+00:00",
-   "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow…",
-   "categories": [
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-   "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-   "source": "The Hacker News",
-   "published": "2026-10-24T09:04+00:00",
-   "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-   "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-   "source": "The Hacker News",
-   "published": "2026-10-24T06:25+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-110447"
-   ],
-   "vendors": [],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-110447": {
-     "added": "2026-10-23",
-     "due": "2026-10-26",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "How to Identify Compromised eMudhra Certificates With Qualys (CVE-2026-111943 and CVE-2026-111944)",
-   "link": "https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944",
-   "source": "Qualys Blog",
-   "published": "2026-10-24T02:03+00:00",
-   "summary": "Executive Summary A critical certificate authority incident disclosed on October 17, 2026, impacts eight eMudhra intermediate CA certificates. A flaw in the key generation process could allow attackers to recover private keys and issue fraudulent TLS or code-signing…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-111943",
-    "CVE-2026-111944"
-   ],
-   "vendors": [
-    "Apple",
-    "Chrome",
-    "Mozilla"
-   ],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
-   "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-   "source": "Dark Reading",
-   "published": "2026-10-23T20:57+00:00",
-   "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-24",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-23T20:55+00:00",
-   "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-24",
    "advisories": [],
    "kev": {}
   }
