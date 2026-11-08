@@ -1,8 +1,45 @@
 {
- "updated": "2026-11-07T18:26+00:00",
- "edition": "2026-11-07",
+ "updated": "2026-11-08T18:37+00:00",
+ "edition": "2026-11-08",
  "errors": [],
  "news": [
+  {
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "source": "BleepingComputer",
+   "published": "2026-11-08T15:43+00:00",
+   "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+   "categories": [
+    "Data Breach",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-08",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",
+   "link": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
+   "source": "Help Net Security",
+   "published": "2026-11-08T09:00+00:00",
+   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: The first ten lines of a command policy for AI coding agents In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-08",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Hackers pull off $133 million French bank heist via service provider",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -7731,89 +7768,6 @@
      "ransomware": false
     }
    }
-  },
-  {
-   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-   "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "source": "The Hacker News",
-   "published": "2026-10-25T17:44+00:00",
-   "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-26",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-   "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-   "source": "The Hacker News",
-   "published": "2026-10-25T17:19+00:00",
-   "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "PHP",
-    "Palo Alto"
-   ],
-   "edition": "2026-10-26",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-   "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "source": "BleepingComputer",
-   "published": "2026-10-25T15:49+00:00",
-   "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
-   "categories": [
-    "AI Security",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-25",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
-   "link": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
-   "source": "Help Net Security",
-   "published": "2026-10-25T09:00+00:00",
-   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "GlobalProtect",
-    "PHP",
-    "Palo Alto"
-   ],
-   "edition": "2026-10-25",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-   "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-   "source": "The Hacker News",
-   "published": "2026-10-25T06:54+00:00",
-   "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-25",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
