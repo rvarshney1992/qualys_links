@@ -1,8 +1,874 @@
 {
- "updated": "2026-11-09T23:15+00:00",
- "edition": "2026-11-09",
+ "updated": "2026-11-10T20:41+00:00",
+ "edition": "2026-11-10",
  "errors": [],
  "news": [
+  {
+   "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+   "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+   "source": "Dark Reading",
+   "published": "2026-11-10T20:35+00:00",
+   "summary": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "How to Assess OT Incident Response Preparedness",
+   "link": "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness",
+   "source": "Dark Reading",
+   "published": "2026-11-10T20:18+00:00",
+   "summary": "Cloud Range's free 28-question OT Cyber Readiness Assessment helps organizations identify gaps in operational technology (OT) incident response.",
+   "categories": [
+    "Cloud & Container",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T20:04+00:00",
+   "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T19:31+00:00",
+   "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Data Breach",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+   "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T19:23+00:00",
+   "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-111760"
+   ],
+   "vendors": [
+    "Git"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T19:19+00:00",
+   "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T19:07+00:00",
+   "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Outlook"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+   "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+   "source": "Dark Reading",
+   "published": "2026-11-10T18:46+00:00",
+   "summary": "A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations.",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Git",
+    "GitHub"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T18:33+00:00",
+   "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T18:12+00:00",
+   "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Firefox free VPN drops its 50GB launch cap until January 31",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/firefox-free-vpn-data/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T18:05+00:00",
+   "summary": "Mozilla has removed the data limit on the free VPN built into Firefox. Firefox users in supported regions get unlimited browsing on desktop and Android once they sign in with a Mozilla account. The VPN shipped with Firefox 149 in March with a 50GB monthly cap. That is plenty for…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Firefox",
+    "Mozilla"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+   "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T17:43+00:00",
+   "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Check Point"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T16:17+00:00",
+   "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "X.Org patches eight server vulnerabilities a month after fixing 12 others",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/x-org-server-vulnerabilities-november-2026/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T16:15+00:00",
+   "summary": "X.Org has fixed eight vulnerabilities in the X.Org X server and Xwayland, including one in the Xorg server that lets a malicious monitor corrupt its memory. The fixes ship in xorg-server 21.1.26 and xwayland 24.1.15, and each of the eight affects versions before those two…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+   "link": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+   "source": "The Record",
+   "published": "2026-11-10T16:08+00:00",
+   "summary": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T16:00+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware"
+   ],
+   "cves": [
+    "CVE-2026-105133",
+    "CVE-2026-105134"
+   ],
+   "vendors": [
+    "Python"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-105133": {
+     "added": "2026-10-14",
+     "due": "2026-10-17",
+     "ransomware": false
+    },
+    "CVE-2026-105134": {
+     "added": "2026-10-14",
+     "due": "2026-10-17",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T15:59+00:00",
+   "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "iOS"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T15:58+00:00",
+   "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cybercriminals are increasingly infecting regular people with spyware",
+   "link": "https://therecord.media/spyware-cyber-crime-iverify",
+   "source": "The Record",
+   "published": "2026-11-10T15:45+00:00",
+   "summary": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+   "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T15:33+00:00",
+   "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"…",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ransomware recovery is now a client retention metric",
+   "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T15:01+00:00",
+   "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Kaseya"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI reverse engineering let researchers add a new feature to Slack",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T14:45+00:00",
+   "summary": "Intezer researchers used AI agents to rebuild source code for Slack, Apple’s Finder and a TinyTurla-NG sample, from a backdoor family Cisco Talos attributes to the Turla group. They worked from the shipped programs and vendor documentation. The rebuilt Slack ran well enough that…",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Cisco"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+   "link": "https://therecord.media/michael-losapio-cisa-director-nomination",
+   "source": "The Record",
+   "published": "2026-11-10T14:31+00:00",
+   "summary": "Michael LoSapio, Palantir's chief information security officer, is officially President Donald Trump's pick to lead the Cybersecurity and Infrastructure Security Agency.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Dreeze raises $33 million to automate recovery of entire cloud applications",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/dreeze-application-revival-33-million-funding/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T14:00+00:00",
+   "summary": "Dreeze emerged from stealth with $33 million in seed funding and announced the general availability of its Application Revival platform for Amazon Web Services (AWS). Norwest and Bessemer Venture Partners led the round, with participation from Claltech. The platform helps…",
+   "categories": [
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA tweaks cyber incident form to spot attacks that might be linked",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/cisa-incident-reporting-form-update/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T13:17+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated its online incident reporting form to help analysts spot when attacks on different organizations may be part of the same campaign. The revised questionnaire asks more specific questions and removes…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+   "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+   "source": "Dark Reading",
+   "published": "2026-11-10T13:00+00:00",
+   "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts.",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
+   "link": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+   "source": "The Record",
+   "published": "2026-11-10T13:00+00:00",
+   "summary": "Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "IRISSCON 2026 puts preparedness for cyberattacks and hybrid threats in focus",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/irisscon-2026-dublin/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T12:16+00:00",
+   "summary": "Ireland risks being dangerously unprepared for increasingly sophisticated cyberattacks and hybrid threats unless the Government acts urgently to strengthen the country’s national security capabilities, according to Brian Honan, head of the Irish Reporting and Information…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+   "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T12:15+00:00",
+   "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "GitHub",
+    "iOS"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T12:07+00:00",
+   "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "NetWeaver",
+    "SAP"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Claude Mythos 5.2 arrives with stronger bug hunting and less sandbox-breaking behavior",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/anthropic-claude-fable-and-mythos-5-2-safeguards/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T11:40+00:00",
+   "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2. The two versions share an underlying model, with stricter safeguards for cybersecurity and biology tasks in the broadly available Fable. Fable blocks fewer requests Fable’s safety classifiers block high-risk…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Beyond the Alert: The Case for Rich Network Data",
+   "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T11:38+00:00",
+   "summary": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+   "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T10:16+00:00",
+   "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of…",
+   "categories": [
+    "Vulnerability Management",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T10:10+00:00",
+   "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T10:07+00:00",
+   "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange",
+    "Microsoft"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+   "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T10:04+00:00",
+   "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange",
+    "Microsoft"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Windows settings backup is on by default starting with Windows 11 26H2",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/windows-settings-backup-default/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T10:03+00:00",
+   "summary": "Starting with Windows 11, version 26H2, Windows settings backup will switch on by default on eligible devices. The company renamed the feature, which launched in August 2025 as Windows Backup for Organizations, and moved the management of roaming settings into the same policy…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T10:02+00:00",
+   "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "NetWeaver",
+    "SAP"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Turla’s Cereal malware turns victims’ Exchange servers into spy hubs",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T10:00+00:00",
+   "summary": "Russia-aligned group Turla planted a modular .NET toolset on Microsoft Exchange servers at two government organizations, one in Kazakhstan and one in Romania, and used it to copy selected email straight out of the mail flow. ESET researchers found the malware and named it…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange",
+    "Microsoft",
+    "Outlook"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+   "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T09:08+00:00",
+   "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+   "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T08:51+00:00",
+   "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chrome",
+    "Google"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+   "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T08:16+00:00",
+   "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fireworks AI discloses new breach after cloud provider hack",
+   "link": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T07:49+00:00",
+   "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
+   "categories": [
+    "Data Breach",
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "What a security leader should tell the CEO about leaked credentials",
+   "link": "https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/",
+   "source": "Help Net Security",
+   "published": "2026-11-10T07:40+00:00",
+   "summary": "In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Progress"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+   "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T06:52+00:00",
+   "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "vendors": [
+    "Chrome",
+    "Google"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-125350": {
+     "added": "2026-11-10",
+     "due": "2026-11-24",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+   "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T06:44+00:00",
+   "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+   "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+   "source": "The Hacker News",
+   "published": "2026-11-10T06:31+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-123218"
+   ],
+   "vendors": [
+    "IBM",
+    "OpenSSH"
+   ],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-123218": {
+     "added": "2026-11-09",
+     "due": "2026-11-12",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+   "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+   "source": "BleepingComputer",
+   "published": "2026-11-09T23:52+00:00",
+   "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "People Are Getting Weird About AI",
+   "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+   "source": "Dark Reading",
+   "published": "2026-11-09T23:06+00:00",
+   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-10",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
    "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
@@ -1511,7 +2377,13 @@
    "vendors": [],
    "edition": "2026-11-06",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-116606": {
+     "added": "2026-11-10",
+     "due": "2026-11-13",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "99% of repository access tokens never expire",
@@ -3316,7 +4188,13 @@
    "vendors": [],
    "edition": "2026-11-03",
    "advisories": [],
-   "kev": {}
+   "kev": {
+    "CVE-2026-116606": {
+     "added": "2026-11-10",
+     "due": "2026-11-13",
+     "ransomware": false
+    }
+   }
   },
   {
    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
@@ -7249,626 +8127,6 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-10-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
-   "link": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
-   "source": "Dark Reading",
-   "published": "2026-10-27T19:58+00:00",
-   "summary": "A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.",
-   "categories": [
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-   "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T18:26+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments…",
-   "categories": [
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-28",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T18:20+00:00",
-   "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
-   "link": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
-   "source": "Dark Reading",
-   "published": "2026-10-27T17:43+00:00",
-   "summary": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T17:38+00:00",
-   "summary": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "vendors": [
-    "Google",
-    "Node.js"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-111497": {
-     "added": "2026-10-27",
-     "due": "2026-11-10",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' & AI Assistants",
-   "link": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
-   "source": "Dark Reading",
-   "published": "2026-10-27T16:47+00:00",
-   "summary": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
-   "categories": [
-    "Ransomware & Malware",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-   "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T16:15+00:00",
-   "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers repeatedly breached suppliers holding UK police data, watchdog finds",
-   "link": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
-   "source": "The Record",
-   "published": "2026-10-27T15:07+00:00",
-   "summary": "His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers.",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "University of New Mexico hospital diverts ambulances after cyberattack",
-   "link": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
-   "source": "The Record",
-   "published": "2026-10-27T14:57+00:00",
-   "summary": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T14:16+00:00",
-   "summary": "Threat actors are flooding employees’ inboxes with spam and then contacting them on Microsoft Teams as IT support, offering to fix the problem they created, Arctic Wolf has found. The security company documented more than 400 incidents in which the external chat feature in Teams…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-   "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T14:09+00:00",
-   "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-   "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T14:01+00:00",
-   "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-   "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T13:59+00:00",
-   "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "OpenSSL"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-   "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T13:59+00:00",
-   "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-86950"
-   ],
-   "vendors": [
-    "Apple"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-86950": {
-     "added": "2026-09-29",
-     "due": "2026-10-13",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
-   "link": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
-   "source": "The Record",
-   "published": "2026-10-27T13:36+00:00",
-   "summary": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said.",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Socure links AI agents to verified people and businesses",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/socure-agent-intelligence/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T13:28+00:00",
-   "summary": "Socure has launched Agent Intelligence, a suite that detects AI agents, scores whether they should be trusted, and ties each agent to the verified person or business that authorized it. Agent Intelligence includes three layers in one platform designed to go beyond simple Know…",
-   "categories": [
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Moscow faces internet disruptions as foreign leaders gather for summits",
-   "link": "https://therecord.media/moscow-faces-internet-disruptions-as-foreign-leaders-gather",
-   "source": "The Record",
-   "published": "2026-10-27T13:20+00:00",
-   "summary": "The restrictions will be in place from October 27 to 29, coinciding with the Gas Exporting Countries Forum summit and the Russia-Africa summit, Russia's Ministry of Digital Development said Monday.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
-   "link": "https://therecord.media/php-vulnerabilities-cisa-kev",
-   "source": "The Record",
-   "published": "2026-10-27T13:16+00:00",
-   "summary": "CISA added the widely publicized PHP vulnerabilities to the KEV, but didn't specify what kind of exploitation it was observing.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "PHP"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Sekoia introduces self-hosted deployment for organizations with strict data controls",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/sekoia-self-hosted/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T13:11+00:00",
-   "summary": "Sekoia has introduced Sekoia Self-Hosted, a deployment model that brings the Sekoia SOC platform into the customer’s own infrastructure. Designed for large organizations, including government agencies, defense organizations, critical infrastructure operators and highly regulated…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/dnsfilter-luminate/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T13:00+00:00",
-   "summary": "DNSFilter has launched LUMINATE by DNSFilter, a security platform that allows organizations to deliver five security solutions from one agent, one console and one policy. Shadow AI is now one of the fastest-growing risks in business. Employees are adopting AI tools and agents…",
-   "categories": [
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FireMon Agentic AI helps teams investigate access and prepare policy changes",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/firemon-agentic-ai/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T12:51+00:00",
-   "summary": "FireMon has announced FireMon Agentic AI, changing how enterprises investigate network access, make policy decisions, and prepare security changes. Built into FireMon’s network security management solutions, the new agentic AI capabilities makes agents first-class citizens…",
-   "categories": [
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Exeon expands threat detection to shadow AI and autonomous agents",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/exeon-expands-threat-detection-to-shadow-ai-and-autonomous-agents/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T12:36+00:00",
-   "summary": "Exeon Analytics has introduced Exeon.AgentGuard, a new AI security solution designed to give organizations visibility into approved and shadow AI use, autonomous agent activity and the data flows created through connected tools and external services. Building on its expertise in…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T12:24+00:00",
-   "summary": "University of New Mexico (UNM) Health Sciences Center (HSC), the academic medical arm of the University of New Mexico, has suffered a cyberattack that has temporarily disrupted the operation of its hospitals and may have resulted in a substantial data breach. Hospitals diverted…",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "Arm"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA lays out plan to push cyber adversaries out of US critical infrastructure",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/cisa-2030-cyber-resilience-strategy/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T12:14+00:00",
-   "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has released CISA 2030: Defend, Harden, Prevail, a strategy to strengthen national security and the resilience of critical infrastructure. It addresses intersecting cyber, physical, and geopolitical threats that can…",
-   "categories": [
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ThreatAware brings governance to AI-built security applications",
-   "link": "https://www.helpnetsecurity.com/2026/10/27/threataware-dimension-governed-workspace/",
-   "source": "Help Net Security",
-   "published": "2026-10-27T12:13+00:00",
-   "summary": "ThreatAware has announced the launch of Dimension, its governed workspace that provides organisations with a foundation for building, running and managing their own customised security applications. Dimension gives security teams the flexibility to develop applications tailored…",
-   "categories": [
-    "Identity & Access",
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-   "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T12:09+00:00",
-   "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-80097"
-   ],
-   "vendors": [
-    "Android",
-    "Microsoft"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-   "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T11:46+00:00",
-   "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-   "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T11:32+00:00",
-   "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond…",
-   "categories": [
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-   "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T11:32+00:00",
-   "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-   "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T10:36+00:00",
-   "summary": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Apple",
-    "iOS"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-   "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T09:33+00:00",
-   "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Energy giant ENGIE discloses data breach affecting customers",
-   "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T09:25+00:00",
-   "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-   "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T08:22+00:00",
-   "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-27T08:20+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-   "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T06:34+00:00",
-   "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-   "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-   "source": "The Hacker News",
-   "published": "2026-10-27T04:37+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-109618"
-   ],
-   "vendors": [
-    "PHP"
-   ],
-   "edition": "2026-10-27",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-109618": {
-     "added": "2026-10-26",
-     "due": "2026-10-29",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
-   "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-   "source": "Dark Reading",
-   "published": "2026-10-27T00:26+00:00",
-   "summary": "Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-27",
    "advisories": [],
    "kev": {}
   }
