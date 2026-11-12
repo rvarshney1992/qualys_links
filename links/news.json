@@ -1,8 +1,1072 @@
 {
- "updated": "2026-11-11T21:01+00:00",
- "edition": "2026-11-11",
+ "updated": "2026-11-12T21:16+00:00",
+ "edition": "2026-11-12",
  "errors": [],
  "news": [
+  {
+   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T20:15+00:00",
+   "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Outlook"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+   "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+   "source": "Dark Reading",
+   "published": "2026-11-12T20:09+00:00",
+   "summary": "The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T19:51+00:00",
+   "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "United to block customers from using AI agents, citing cyber threats",
+   "link": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+   "source": "The Record",
+   "published": "2026-11-12T19:20+00:00",
+   "summary": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said.",
+   "categories": [
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T19:12+00:00",
+   "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apache"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
+   "link": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+   "source": "The Record",
+   "published": "2026-11-12T18:28+00:00",
+   "summary": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T18:07+00:00",
+   "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T18:07+00:00",
+   "summary": "Anthropic has released a self-hosted version of Claude Managed Agents. Companies can run the agent harness, sandboxes, credentials, and session history in their cloud or on-premise. The option opened as a private beta on November 12, and customers request access through their…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T18:02+00:00",
+   "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites…",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux",
+    "Linux kernel"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T17:50+00:00",
+   "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+   "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T16:27+00:00",
+   "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Red Hat"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "European authorities take down SteaIC malware servers for second time this year",
+   "link": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+   "source": "The Record",
+   "published": "2026-11-12T16:21+00:00",
+   "summary": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
+   "link": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+   "source": "The Record",
+   "published": "2026-11-12T16:16+00:00",
+   "summary": "Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "ConnectWise",
+    "ScreenConnect"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T16:04+00:00",
+   "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T15:38+00:00",
+   "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-120868"
+   ],
+   "vendors": [
+    "Citrix",
+    "NetScaler"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+   "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T15:15+00:00",
+   "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed…",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T15:07+00:00",
+   "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Picus puts AI agents on the offensive with autonomous pentesting",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/picus-autonomous-penetration-testing/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T15:05+00:00",
+   "summary": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewels, and prove what a breach would look like, under…",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+   "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T15:00+00:00",
+   "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers breached 10 organizations with an open-source AI pentest framework",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/cairn-autonomous-ai-cyberattacks/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T15:00+00:00",
+   "summary": "Chinese-speaking attackers used Cairn, an open-source AI penetration testing framework, to run 25 operations against at least 19 organizations in August and September 2026. Palo Alto Networks’ Unit 42 found that the attackers gained unauthorized access or pulled data at 10 of…",
+   "categories": [
+    "Data Breach",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Palo Alto"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
+   "link": "https://therecord.media/europe-hoax-email-threats",
+   "source": "The Record",
+   "published": "2026-11-12T14:45+00:00",
+   "summary": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+   "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T14:36+00:00",
+   "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Operation Endgame malware takedown turns up over 6 million stolen logins",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T13:34+00:00",
+   "summary": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Identity & Access",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+   "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T13:08+00:00",
+   "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-84869"
+   ],
+   "vendors": [
+    "ConnectWise",
+    "ScreenConnect"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-84869": {
+     "added": "2026-09-11",
+     "due": "2026-09-14",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T12:11+00:00",
+   "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+   "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T12:09+00:00",
+   "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "AMD",
+    "Google"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Siemens Desigo, Gridscale",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "source": "CISA Advisories",
+   "published": "2026-11-12T12:00+00:00",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "vendors": [
+    "Google",
+    "Node.js",
+    "Siemens",
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-111497": {
+     "added": "2026-10-27",
+     "due": "2026-11-10",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+   "source": "CISA Advisories",
+   "published": "2026-11-12T12:00+00:00",
+   "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "PAN-OS",
+    "PHP",
+    "Palo Alto",
+    "Siemens"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-109618": {
+     "added": "2026-10-26",
+     "due": "2026-10-29",
+     "ransomware": false
+    },
+    "CVE-2026-109619": {
+     "added": "2026-10-26",
+     "due": "2026-10-29",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+   "source": "CISA Advisories",
+   "published": "2026-11-12T12:00+00:00",
+   "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "vendors": [
+    "Google",
+    "PAN-OS",
+    "Palo Alto",
+    "Siemens"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-111497": {
+     "added": "2026-10-27",
+     "due": "2026-11-10",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Siemens Building Automation and Energy Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "source": "CISA Advisories",
+   "published": "2026-11-12T12:00+00:00",
+   "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "vendors": [
+    "Linux",
+    "Microsoft",
+    "Office",
+    "PHP",
+    "Red Hat",
+    "Siemens",
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-109618": {
+     "added": "2026-10-26",
+     "due": "2026-10-29",
+     "ransomware": false
+    },
+    "CVE-2026-109619": {
+     "added": "2026-10-26",
+     "due": "2026-10-29",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Siemens Industrial Edge Management",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+   "source": "CISA Advisories",
+   "published": "2026-11-12T12:00+00:00",
+   "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "OT & IoT"
+   ],
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "vendors": [
+    "Google",
+    "Siemens"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-111497": {
+     "added": "2026-10-27",
+     "due": "2026-11-10",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+   "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T11:51+00:00",
+   "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T11:51+00:00",
+   "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T11:33+00:00",
+   "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-126325"
+   ],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T11:04+00:00",
+   "summary": "Microsoft Entra’s Hard Deletion Protection, now in preview, gives administrators a seven-day window to recover selected identities before they can be permanently erased. The feature is designed to help organizations respond to accidental or malicious deletion of critical…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Entra",
+    "Microsoft"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Inside an AI Attack Against a US Retailer",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+   "source": "Dark Reading",
+   "published": "2026-11-12T11:00+00:00",
+   "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Stolen Claude API keys can turn Claude Code into a remote-controlled implant",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/stolen-claude-api-keys-remote-controlled-implant/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T11:00+00:00",
+   "summary": "Darktrace researchers turned Claude Code into a remote-controlled implant in a lab test, steering the coding agent through the memory stores feature of Anthropic’s Claude platform and pulling a 1 GB file out through the Claude Files API. Once the agent was set up, every job and…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft confirms Windows security updates installation issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T10:24+00:00",
+   "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Photos: IRISSCON 2026 cybercrime conference",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/irisscon-2026-photos/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T10:16+00:00",
+   "summary": "IRISSCON 2026, the annual cybercrime conference organized by IRISSCERT, took place at the Aviva Stadium in Dublin on November 11. The all-day event gives attendees a look at the cyber threats businesses are facing right now, along with practical advice on how organizations can…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T09:38+00:00",
+   "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AWS Emulator: Open-source tool for testing AWS apps locally, built by autonomous AI agents",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/aws-ai-agents-built-emulator/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T09:30+00:00",
+   "summary": "Amazon Web Services has released AWS Emulator, a free tool that simulates AWS services on a developer’s laptop, a development server or in a continuous integration (CI) pipeline. The company says autonomous AI agents wrote the tool entirely, with no code written or reviewed by…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+   "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T09:25+00:00",
+   "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-118383"
+   ],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Check your GitHub repos: A secret stealer hit tens of thousands of them",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/wfx-loot-github-actions-secret-stealer/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T09:24+00:00",
+   "summary": "A threat actor using stolen GitHub credentials has pushed a credential-stealing payload into tens of thousands of repositories since November 10. In more than 1,800 of them, the malware ran and shipped GitHub Actions secrets and cloud credentials to the attacker. Aikido spotted…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "Identity & Access",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PHP2Shell and Node2Shell: Find, Fix, and Verify Across Your Web Apps and APIs",
+   "link": "https://blog.qualys.com/product-tech/2026/11/12/php2shell-node2shell-totalappsec-web-apps-apis",
+   "source": "Qualys Blog",
+   "published": "2026-11-12T09:15+00:00",
+   "summary": "Key Takeaways Neither flaw is in your application code. Every app and API on a vulnerable runtime inherits the risk. PHP2Shell (CVE-2026-109618, CVE-2026-109619) is fixed in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Node2Shell (CVE-2026-111497) is fixed in Node.js 22.23.4…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619",
+    "CVE-2026-111497"
+   ],
+   "vendors": [
+    "Node.js",
+    "PHP"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-109618": {
+     "added": "2026-10-26",
+     "due": "2026-10-29",
+     "ransomware": false
+    },
+    "CVE-2026-109619": {
+     "added": "2026-10-26",
+     "due": "2026-10-29",
+     "ransomware": false
+    },
+    "CVE-2026-111497": {
+     "added": "2026-10-27",
+     "due": "2026-11-10",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": ".NET 11 security changes target the software supply chain",
+   "link": "https://www.helpnetsecurity.com/2026/11/12/net-11-security-changes/",
+   "source": "Help Net Security",
+   "published": "2026-11-12T08:23+00:00",
+   "summary": "Microsoft has released .NET 11, a Standard Term Support (STS) release that will receive two years of support. .NET 10 is still the Long Term Support (LTS) option. The release covers C# 15, ASP.NET Core, .NET MAUI, and Windows development. Several of the changes affect software…",
+   "categories": [
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+   "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T08:20+00:00",
+   "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Node.js"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+   "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T06:42+00:00",
+   "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that…",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+   "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T05:12+00:00",
+   "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "vendors": [
+    "Apache",
+    "Linux",
+    "Red Hat"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+   "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+   "source": "The Hacker News",
+   "published": "2026-11-12T04:39+00:00",
+   "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "ConnectWise",
+    "ScreenConnect"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+   "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+   "source": "Dark Reading",
+   "published": "2026-11-12T01:00+00:00",
+   "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+   "source": "Dark Reading",
+   "published": "2026-11-12T00:00+00:00",
+   "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Baker Tilly notifies clients of data breach at third-party provider",
+   "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "source": "BleepingComputer",
+   "published": "2026-11-11T23:01+00:00",
+   "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+   "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "source": "BleepingComputer",
+   "published": "2026-11-11T22:56+00:00",
+   "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "ConnectWise",
+    "ScreenConnect"
+   ],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+   "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+   "source": "Dark Reading",
+   "published": "2026-11-11T21:44+00:00",
+   "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
+   "categories": [
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-11",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "source": "BleepingComputer",
+   "published": "2026-11-11T21:27+00:00",
+   "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Raises the Stakes for Cyber Resilience",
+   "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+   "source": "Dark Reading",
+   "published": "2026-11-11T21:20+00:00",
+   "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-12",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
    "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
@@ -24,7 +1088,7 @@
    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
    "source": "Dark Reading",
    "published": "2026-11-11T20:05+00:00",
-   "summary": "The RMM provider also released a hotfix as one of recommended mitigations to address public exploits for the alleged zero-days that allow for attacker takeover.",
+   "summary": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
    "categories": [
     "Vulnerability Management"
    ],
@@ -747,29 +1811,201 @@
     "Vulnerability Management"
    ],
    "cves": [
+    "CVE-2026-100223",
+    "CVE-2026-102200",
+    "CVE-2026-105492",
     "CVE-2026-105501",
+    "CVE-2026-105503",
+    "CVE-2026-105507",
+    "CVE-2026-105509",
+    "CVE-2026-105510",
+    "CVE-2026-105515",
+    "CVE-2026-105518",
+    "CVE-2026-105520",
     "CVE-2026-105524",
+    "CVE-2026-105527",
+    "CVE-2026-105531",
+    "CVE-2026-105532",
+    "CVE-2026-105540",
+    "CVE-2026-105541",
+    "CVE-2026-105542",
+    "CVE-2026-105543",
+    "CVE-2026-105545",
+    "CVE-2026-105546",
+    "CVE-2026-105549",
+    "CVE-2026-105554",
+    "CVE-2026-105558",
+    "CVE-2026-105561",
+    "CVE-2026-105565",
+    "CVE-2026-105567",
+    "CVE-2026-105569",
+    "CVE-2026-105575",
+    "CVE-2026-105579",
+    "CVE-2026-105580",
+    "CVE-2026-105582",
+    "CVE-2026-105583",
+    "CVE-2026-108401",
+    "CVE-2026-108404",
+    "CVE-2026-108405",
+    "CVE-2026-108408",
+    "CVE-2026-108410",
+    "CVE-2026-108413",
+    "CVE-2026-108414",
+    "CVE-2026-108417",
+    "CVE-2026-108418",
+    "CVE-2026-108419",
+    "CVE-2026-108425",
+    "CVE-2026-109454",
+    "CVE-2026-109455",
+    "CVE-2026-109456",
     "CVE-2026-109459",
+    "CVE-2026-109463",
+    "CVE-2026-109464",
+    "CVE-2026-109466",
+    "CVE-2026-109472",
     "CVE-2026-109473",
+    "CVE-2026-109487",
+    "CVE-2026-109491",
+    "CVE-2026-109493",
+    "CVE-2026-109494",
+    "CVE-2026-109495",
+    "CVE-2026-109496",
+    "CVE-2026-109497",
+    "CVE-2026-109498",
+    "CVE-2026-109499",
+    "CVE-2026-109500",
+    "CVE-2026-109501",
+    "CVE-2026-109502",
+    "CVE-2026-109503",
+    "CVE-2026-109504",
+    "CVE-2026-109505",
     "CVE-2026-110043",
+    "CVE-2026-110044",
+    "CVE-2026-110045",
+    "CVE-2026-110046",
     "CVE-2026-110047",
+    "CVE-2026-110048",
+    "CVE-2026-110049",
+    "CVE-2026-110050",
+    "CVE-2026-110051",
+    "CVE-2026-110052",
+    "CVE-2026-110053",
+    "CVE-2026-110054",
+    "CVE-2026-110055",
+    "CVE-2026-110056",
+    "CVE-2026-110057",
+    "CVE-2026-110058",
+    "CVE-2026-110059",
+    "CVE-2026-110060",
+    "CVE-2026-110061",
+    "CVE-2026-110062",
+    "CVE-2026-110064",
+    "CVE-2026-110065",
+    "CVE-2026-110066",
     "CVE-2026-110067",
     "CVE-2026-110068",
     "CVE-2026-111285",
+    "CVE-2026-111286",
+    "CVE-2026-111287",
+    "CVE-2026-111288",
     "CVE-2026-111289",
+    "CVE-2026-111290",
+    "CVE-2026-111291",
+    "CVE-2026-111292",
+    "CVE-2026-111293",
+    "CVE-2026-111294",
+    "CVE-2026-111295",
+    "CVE-2026-111296",
+    "CVE-2026-111297",
+    "CVE-2026-111298",
+    "CVE-2026-111299",
+    "CVE-2026-111300",
+    "CVE-2026-111301",
+    "CVE-2026-111302",
+    "CVE-2026-111303",
+    "CVE-2026-111304",
+    "CVE-2026-111305",
+    "CVE-2026-111306",
+    "CVE-2026-111307",
+    "CVE-2026-111308",
     "CVE-2026-111309",
+    "CVE-2026-111310",
+    "CVE-2026-112714",
+    "CVE-2026-112715",
+    "CVE-2026-112716",
+    "CVE-2026-112717",
+    "CVE-2026-112718",
+    "CVE-2026-112719",
+    "CVE-2026-112720",
+    "CVE-2026-112721",
+    "CVE-2026-112722",
+    "CVE-2026-112723",
+    "CVE-2026-112724",
+    "CVE-2026-112726",
+    "CVE-2026-112727",
+    "CVE-2026-112728",
+    "CVE-2026-112729",
+    "CVE-2026-112730",
+    "CVE-2026-112731",
+    "CVE-2026-112733",
+    "CVE-2026-112734",
+    "CVE-2026-112735",
+    "CVE-2026-112736",
+    "CVE-2026-112737",
+    "CVE-2026-112738",
+    "CVE-2026-112739",
+    "CVE-2026-112741",
+    "CVE-2026-112743",
     "CVE-2026-112745",
+    "CVE-2026-112752",
+    "CVE-2026-112753",
     "CVE-2026-112759",
+    "CVE-2026-112762",
+    "CVE-2026-112763",
+    "CVE-2026-112764",
+    "CVE-2026-112765",
+    "CVE-2026-112789",
     "CVE-2026-112791",
+    "CVE-2026-112792",
+    "CVE-2026-112794",
+    "CVE-2026-112797",
     "CVE-2026-112798",
+    "CVE-2026-112799",
+    "CVE-2026-112803",
+    "CVE-2026-112806",
+    "CVE-2026-112808",
+    "CVE-2026-112810",
     "CVE-2026-112811",
+    "CVE-2026-112812",
+    "CVE-2026-112814",
+    "CVE-2026-112965",
     "CVE-2026-112967",
     "CVE-2026-112970",
+    "CVE-2026-112971",
+    "CVE-2026-112972",
+    "CVE-2026-112976",
+    "CVE-2026-112977",
+    "CVE-2026-112978",
+    "CVE-2026-112980",
+    "CVE-2026-112981",
+    "CVE-2026-112984",
+    "CVE-2026-112986",
+    "CVE-2026-112990",
     "CVE-2026-113749",
     "CVE-2026-113752",
     "CVE-2026-113753",
+    "CVE-2026-113759",
+    "CVE-2026-113764",
+    "CVE-2026-113770",
+    "CVE-2026-113771",
+    "CVE-2026-113818",
     "CVE-2026-113819",
     "CVE-2026-113825",
+    "CVE-2026-113843",
+    "CVE-2026-113844",
+    "CVE-2026-113847",
+    "CVE-2026-113848",
+    "CVE-2026-113855",
     "CVE-2026-113856",
     "CVE-2026-113859",
     "CVE-2026-113860",
@@ -778,36 +2014,182 @@
     "CVE-2026-113864",
     "CVE-2026-113865",
     "CVE-2026-114160",
+    "CVE-2026-114164",
+    "CVE-2026-114165",
+    "CVE-2026-114167",
     "CVE-2026-114169",
+    "CVE-2026-116697",
+    "CVE-2026-116700",
     "CVE-2026-116710",
     "CVE-2026-116714",
+    "CVE-2026-116717",
+    "CVE-2026-116718",
+    "CVE-2026-116719",
+    "CVE-2026-116720",
+    "CVE-2026-116721",
+    "CVE-2026-116722",
+    "CVE-2026-116922",
+    "CVE-2026-116923",
+    "CVE-2026-116925",
+    "CVE-2026-116927",
     "CVE-2026-116928",
+    "CVE-2026-118124",
+    "CVE-2026-118125",
+    "CVE-2026-118126",
+    "CVE-2026-118137",
+    "CVE-2026-118138",
+    "CVE-2026-118141",
+    "CVE-2026-118144",
     "CVE-2026-118145",
     "CVE-2026-118146",
     "CVE-2026-118148",
+    "CVE-2026-118149",
+    "CVE-2026-118150",
+    "CVE-2026-118151",
+    "CVE-2026-118152",
+    "CVE-2026-118153",
+    "CVE-2026-118154",
+    "CVE-2026-118157",
     "CVE-2026-118207",
+    "CVE-2026-118208",
+    "CVE-2026-118213",
     "CVE-2026-118292",
+    "CVE-2026-118293",
+    "CVE-2026-118294",
+    "CVE-2026-118295",
     "CVE-2026-118296",
     "CVE-2026-118297",
+    "CVE-2026-118298",
+    "CVE-2026-118299",
+    "CVE-2026-118300",
+    "CVE-2026-118301",
+    "CVE-2026-118302",
+    "CVE-2026-118309",
+    "CVE-2026-118314",
+    "CVE-2026-118321",
+    "CVE-2026-118700",
     "CVE-2026-118701",
     "CVE-2026-118702",
+    "CVE-2026-118703",
+    "CVE-2026-118704",
+    "CVE-2026-118705",
+    "CVE-2026-118706",
+    "CVE-2026-118707",
+    "CVE-2026-118708",
+    "CVE-2026-118709",
+    "CVE-2026-118710",
     "CVE-2026-118711",
+    "CVE-2026-118712",
     "CVE-2026-118713",
+    "CVE-2026-118714",
+    "CVE-2026-118715",
+    "CVE-2026-118716",
+    "CVE-2026-118717",
+    "CVE-2026-118718",
+    "CVE-2026-118719",
+    "CVE-2026-118720",
+    "CVE-2026-118721",
+    "CVE-2026-118722",
+    "CVE-2026-118723",
+    "CVE-2026-118724",
+    "CVE-2026-118725",
+    "CVE-2026-118726",
+    "CVE-2026-118727",
+    "CVE-2026-118728",
+    "CVE-2026-118729",
     "CVE-2026-118730",
+    "CVE-2026-118731",
+    "CVE-2026-118732",
     "CVE-2026-118737",
+    "CVE-2026-119260",
+    "CVE-2026-119261",
+    "CVE-2026-119262",
+    "CVE-2026-119263",
+    "CVE-2026-119264",
+    "CVE-2026-119265",
+    "CVE-2026-119266",
+    "CVE-2026-119267",
+    "CVE-2026-119268",
+    "CVE-2026-119269",
+    "CVE-2026-119270",
+    "CVE-2026-119271",
+    "CVE-2026-119272",
     "CVE-2026-119382",
+    "CVE-2026-119383",
+    "CVE-2026-119385",
+    "CVE-2026-119386",
+    "CVE-2026-119387",
+    "CVE-2026-119388",
     "CVE-2026-119389",
+    "CVE-2026-119390",
+    "CVE-2026-119391",
+    "CVE-2026-119396",
     "CVE-2026-119398",
+    "CVE-2026-119399",
+    "CVE-2026-119401",
+    "CVE-2026-119402",
+    "CVE-2026-119403",
+    "CVE-2026-119404",
     "CVE-2026-119818",
+    "CVE-2026-119824",
+    "CVE-2026-119826",
+    "CVE-2026-119829",
+    "CVE-2026-119831",
+    "CVE-2026-119833",
+    "CVE-2026-119834",
+    "CVE-2026-119835",
+    "CVE-2026-119837",
+    "CVE-2026-119838",
+    "CVE-2026-119839",
+    "CVE-2026-119840",
+    "CVE-2026-119844",
+    "CVE-2026-119846",
+    "CVE-2026-119848",
+    "CVE-2026-119852",
     "CVE-2026-119853",
+    "CVE-2026-119858",
+    "CVE-2026-119859",
+    "CVE-2026-119860",
+    "CVE-2026-119861",
+    "CVE-2026-119865",
+    "CVE-2026-119866",
+    "CVE-2026-119867",
+    "CVE-2026-119870",
+    "CVE-2026-119874",
+    "CVE-2026-119882",
+    "CVE-2026-119883",
     "CVE-2026-119886",
+    "CVE-2026-119887",
+    "CVE-2026-119888",
     "CVE-2026-119892",
+    "CVE-2026-119893",
+    "CVE-2026-119894",
+    "CVE-2026-119895",
+    "CVE-2026-119898",
+    "CVE-2026-119900",
     "CVE-2026-119903",
+    "CVE-2026-119904",
+    "CVE-2026-119905",
+    "CVE-2026-119913",
+    "CVE-2026-119928",
+    "CVE-2026-119929",
+    "CVE-2026-119932",
+    "CVE-2026-119933",
+    "CVE-2026-119934",
+    "CVE-2026-119939",
+    "CVE-2026-119942",
+    "CVE-2026-119943",
+    "CVE-2026-119946",
     "CVE-2026-119947",
+    "CVE-2026-119950",
     "CVE-2026-119951",
     "CVE-2026-119952",
+    "CVE-2026-119953",
+    "CVE-2026-119954",
+    "CVE-2026-119955",
     "CVE-2026-119957",
     "CVE-2026-119958",
+    "CVE-2026-119959",
     "CVE-2026-119960",
     "CVE-2026-119961",
     "CVE-2026-119962",
@@ -816,37 +2198,200 @@
     "CVE-2026-119966",
     "CVE-2026-119967",
     "CVE-2026-119969",
+    "CVE-2026-119970",
+    "CVE-2026-119971",
+    "CVE-2026-119974",
+    "CVE-2026-119986",
+    "CVE-2026-119988",
     "CVE-2026-119990",
     "CVE-2026-119992",
+    "CVE-2026-119993",
+    "CVE-2026-119995",
+    "CVE-2026-119996",
+    "CVE-2026-119997",
+    "CVE-2026-119998",
+    "CVE-2026-119999",
+    "CVE-2026-120000",
+    "CVE-2026-120001",
+    "CVE-2026-120002",
     "CVE-2026-120003",
     "CVE-2026-120005",
+    "CVE-2026-120785",
     "CVE-2026-120786",
     "CVE-2026-120788",
     "CVE-2026-120789",
+    "CVE-2026-120790",
+    "CVE-2026-120791",
     "CVE-2026-121662",
     "CVE-2026-121663",
+    "CVE-2026-121671",
+    "CVE-2026-122165",
+    "CVE-2026-122166",
+    "CVE-2026-122167",
     "CVE-2026-122175",
+    "CVE-2026-122176",
+    "CVE-2026-122177",
+    "CVE-2026-122182",
     "CVE-2026-122194",
+    "CVE-2026-122198",
+    "CVE-2026-122518",
+    "CVE-2026-122984",
+    "CVE-2026-123375",
+    "CVE-2026-123376",
+    "CVE-2026-123377",
+    "CVE-2026-123378",
+    "CVE-2026-123379",
+    "CVE-2026-123380",
+    "CVE-2026-123381",
+    "CVE-2026-123382",
+    "CVE-2026-123383",
+    "CVE-2026-123384",
+    "CVE-2026-123385",
+    "CVE-2026-123388",
+    "CVE-2026-123389",
+    "CVE-2026-123390",
+    "CVE-2026-123391",
+    "CVE-2026-123394",
+    "CVE-2026-123395",
     "CVE-2026-124170",
+    "CVE-2026-124174",
+    "CVE-2026-124176",
+    "CVE-2026-124178",
+    "CVE-2026-124179",
+    "CVE-2026-124183",
     "CVE-2026-124185",
+    "CVE-2026-124187",
     "CVE-2026-124194",
+    "CVE-2026-124210",
+    "CVE-2026-124227",
+    "CVE-2026-124228",
+    "CVE-2026-124229",
+    "CVE-2026-124233",
     "CVE-2026-125134",
     "CVE-2026-125136",
     "CVE-2026-125137",
+    "CVE-2026-69327",
+    "CVE-2026-69565",
+    "CVE-2026-70120",
+    "CVE-2026-76024",
+    "CVE-2026-76025",
+    "CVE-2026-76026",
+    "CVE-2026-76027",
+    "CVE-2026-76028",
+    "CVE-2026-76029",
+    "CVE-2026-76030",
+    "CVE-2026-76031",
+    "CVE-2026-80094",
+    "CVE-2026-80095",
+    "CVE-2026-81384",
     "CVE-2026-83563",
+    "CVE-2026-83684",
+    "CVE-2026-83953",
+    "CVE-2026-85862",
+    "CVE-2026-85907",
+    "CVE-2026-85942",
+    "CVE-2026-88176",
+    "CVE-2026-88187",
+    "CVE-2026-88213",
+    "CVE-2026-88218",
+    "CVE-2026-88224",
     "CVE-2026-88230",
+    "CVE-2026-88231",
+    "CVE-2026-88232",
+    "CVE-2026-88234",
     "CVE-2026-88235",
+    "CVE-2026-88237",
     "CVE-2026-88238",
+    "CVE-2026-88239",
+    "CVE-2026-88241",
     "CVE-2026-88242",
+    "CVE-2026-88247",
+    "CVE-2026-88249",
     "CVE-2026-94514",
+    "CVE-2026-94525",
+    "CVE-2026-95872",
     "CVE-2026-95874",
+    "CVE-2026-95877",
+    "CVE-2026-95881",
+    "CVE-2026-95885",
+    "CVE-2026-95898",
+    "CVE-2026-95908",
+    "CVE-2026-95910",
+    "CVE-2026-95913",
+    "CVE-2026-95920",
+    "CVE-2026-95923",
     "CVE-2026-95935",
+    "CVE-2026-95947",
+    "CVE-2026-95951",
+    "CVE-2026-95961",
     "CVE-2026-95963",
+    "CVE-2026-95964",
+    "CVE-2026-95965",
+    "CVE-2026-95968",
     "CVE-2026-95983",
     "CVE-2026-95988",
     "CVE-2026-95989",
+    "CVE-2026-95996",
+    "CVE-2026-96001",
+    "CVE-2026-96002",
+    "CVE-2026-96004",
+    "CVE-2026-96005",
+    "CVE-2026-96007",
+    "CVE-2026-96008",
+    "CVE-2026-96017",
+    "CVE-2026-96019",
+    "CVE-2026-96020",
+    "CVE-2026-96023",
+    "CVE-2026-96026",
+    "CVE-2026-96027",
+    "CVE-2026-96028",
+    "CVE-2026-96029",
+    "CVE-2026-96035",
+    "CVE-2026-96036",
+    "CVE-2026-96038",
+    "CVE-2026-96046",
+    "CVE-2026-96047",
+    "CVE-2026-96051",
+    "CVE-2026-96055",
+    "CVE-2026-96056",
+    "CVE-2026-96057",
+    "CVE-2026-96060",
+    "CVE-2026-96061",
+    "CVE-2026-96062",
+    "CVE-2026-96064",
+    "CVE-2026-96072",
+    "CVE-2026-96073",
     "CVE-2026-96077",
+    "CVE-2026-96085",
+    "CVE-2026-96088",
+    "CVE-2026-96092",
+    "CVE-2026-96101",
+    "CVE-2026-96112",
     "CVE-2026-96126",
+    "CVE-2026-96127",
+    "CVE-2026-96150",
+    "CVE-2026-96152",
+    "CVE-2026-96153",
+    "CVE-2026-96155",
+    "CVE-2026-96158",
+    "CVE-2026-96176",
+    "CVE-2026-96177",
+    "CVE-2026-96179",
+    "CVE-2026-96965",
+    "CVE-2026-96970",
+    "CVE-2026-96972",
+    "CVE-2026-96973",
+    "CVE-2026-96975",
+    "CVE-2026-96976",
+    "CVE-2026-96980",
+    "CVE-2026-96983",
+    "CVE-2026-96984",
+    "CVE-2026-96985",
+    "CVE-2026-96986",
+    "CVE-2026-96987",
+    "CVE-2026-96988",
+    "CVE-2026-96989",
+    "CVE-2026-97006",
     "CVE-2026-97013"
    ],
    "vendors": [
@@ -1807,7 +3352,7 @@
    "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
    "source": "Dark Reading",
    "published": "2026-11-09T23:06+00:00",
-   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into potential delusion.",
    "categories": [
     "AI Security"
    ],
@@ -1911,21 +3456,6 @@
     "Arm"
    ],
    "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
-   "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
-   "source": "Dark Reading",
-   "published": "2026-11-09T20:38+00:00",
-   "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
-   "categories": [
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
    "advisories": [],
    "kev": {}
   },
@@ -7430,781 +8960,6 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Rethinking Cybersecurity Awareness in the AI Era",
-   "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-   "source": "Dark Reading",
-   "published": "2026-10-29T20:15+00:00",
-   "summary": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern risks and emerging threats.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Why CTF Competitions May Be More Important Than Ever",
-   "link": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
-   "source": "Dark Reading",
-   "published": "2026-10-29T19:56+00:00",
-   "summary": "As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-   "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T19:23+00:00",
-   "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Apple",
-    "iOS"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-   "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T19:11+00:00",
-   "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are…",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T18:38+00:00",
-   "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-20127"
-   ],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-20127": {
-     "added": "2026-02-25",
-     "due": "2026-02-27",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
-   "link": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
-   "source": "Dark Reading",
-   "published": "2026-10-29T18:15+00:00",
-   "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Chrome",
-    "Linux",
-    "Safari",
-    "Windows"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Chinese hackers used VMware ESX zero-day; PHP2Shell and Fragnesia chained to root firewalls",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/php2shell-fragnesia-vmware-esx-zero-day/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T16:25+00:00",
-   "summary": "China-nexus threat actors have exploited a VMware ESX zero-day to hide their tracks and chained PHP2Shell flaws with the “Fragnesia” Linux kernel bug to root servers and firewalls, cybersecurity researchers claim. Cisco has also confirmed that attackers are crashing its…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-41709"
-   ],
-   "vendors": [
-    "Broadcom",
-    "Cisco",
-    "Linux",
-    "Linux kernel",
-    "VMware"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-41709": {
-     "added": "2026-10-28",
-     "due": "2026-11-11",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
-   "link": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
-   "source": "The Record",
-   "published": "2026-10-29T16:13+00:00",
-   "summary": "\"No data was extracted,” a spokesperson for BAE Systems, a federal contractor, told Recorded Future News about its probe into a cyberattack against its systems for federal bankruptcy courts.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-   "link": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T16:10+00:00",
-   "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...]",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Chrome"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-   "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T15:57+00:00",
-   "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit…",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "vendors": [
-    "Linux",
-    "Linux kernel",
-    "Red Hat",
-    "Ubuntu"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Threat Modeling With 4 Simple Questions on a White Board",
-   "link": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
-   "source": "Dark Reading",
-   "published": "2026-10-29T15:44+00:00",
-   "summary": "A four-question exercise that CISOs can use to create a threat model that promises results, without a big spend.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-   "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T15:20+00:00",
-   "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T14:49+00:00",
-   "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Check Point",
-    "GitHub"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T14:35+00:00",
-   "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Researchers broke the browsers built into VS Code, Cursor, Copilot, Codex and Claude Desktop",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T14:10+00:00",
-   "summary": "Forever Security found ways out of the built-in browsers in five AI coding assistants: Cursor, GitHub Copilot, OpenAI’s Codex, Microsoft’s VS Code and Anthropic’s Claude Desktop. In all five, a web page or a local file reached the computer behind the browser. Cursor ran attacker…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub",
-    "Microsoft"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "3 Ways AI Agents Already Operate in Your Browser",
-   "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T14:00+00:00",
-   "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T13:59+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux",
-    "Linux kernel"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FTC to probe major companies over personalized pricing and pay",
-   "link": "https://therecord.media/ftc-rideshare-airlines-data",
-   "source": "The Record",
-   "published": "2026-10-29T13:45+00:00",
-   "summary": "The Federal Trade Commission ordered nine food delivery, airline and ride-sharing companies to turn over detailed information on how they harness personal data to set individual consumer prices and employee compensation.",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-   "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T13:42+00:00",
-   "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Volt Typhoon targeted enterprise control planes via ever-changing “Silent Train” relay network",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T13:42+00:00",
-   "summary": "Volt Typhoon, a Chinese state-sponsored APT group that’s focused on cyberespionage and United States’ critical infrastructure, has been using a covert, constantly rotating relay network to hide its most sensitive intrusions, Lumen’s Black Lotus Labs revealed on Wednesday. This…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco",
-    "Fortinet",
-    "Netgear",
-    "TP-Link"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack disrupts Belgian tax services before filing deadline",
-   "link": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
-   "source": "The Record",
-   "published": "2026-10-29T13:31+00:00",
-   "summary": "The Federal Public Service Finance (FPS Finance), which oversees taxation and other financial administration, said Wednesday that it was investigating the extent of the attack and had temporarily suspended access to MyMinfin, the country's main online platform for managing tax…",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
-   "link": "https://therecord.media/new-mexico-cyberattack-hospital",
-   "source": "The Record",
-   "published": "2026-10-29T13:30+00:00",
-   "summary": "The University of New Mexico was able to restore systems used by its healthcare facilities after a cyberattack forced it to divert ambulances and cancel classes at its medical school.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Exploitation attempts against recently patched Oracle EBS flaw have begun (CVE-2026-101767)",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/oracle-e-business-suite-cve-2026-101767-exploitation/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T13:12+00:00",
-   "summary": "Exploitation attempts have started against CVE-2026-101767, a recently patched Oracle E-Business Suite (EBS) flaw. “Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS’s Thin Client Framework servlet…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-101767"
-   ],
-   "vendors": [
-    "Oracle"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google says Gemini 4 Carbon beats its predecessors at finding and fixing security flaws",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/google-gemini-4-carbon-model/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T12:44+00:00",
-   "summary": "Google’s Gemini 4 Carbon is a frontier AI model designed for software engineering and cybersecurity tasks, with safeguards built on those of its predecessor, Argon. SEC-bench Pro (Source: Google) Google says its teams have seen Carbon spend days investigating and fixing bugs…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ubuntu Core Desktop returns as Canonical’s plan for an immutable default desktop",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/canonical-ubuntu-core-desktop/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T12:24+00:00",
-   "summary": "Canonical has restarted work on Ubuntu Core Desktop, the immutable and attestable version of Ubuntu that the company says will over time become the default Ubuntu desktop. Jon Seager, Canonical’s VP of engineering, laid out the plan and admitted that the 2023 developer preview…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Ubuntu"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T12:00+00:00",
-   "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
-   "categories": [
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-   "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T11:39+00:00",
-   "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-   "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T11:39+00:00",
-   "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-   "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T11:33+00:00",
-   "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-   "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T11:33+00:00",
-   "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public…",
-   "categories": [
-    "Cloud & Container",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-   "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T11:10+00:00",
-   "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-   "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T10:44+00:00",
-   "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-76418"
-   ],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-76418": {
-     "added": "2026-10-29",
-     "due": "2026-11-01",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-   "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T10:26+00:00",
-   "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an…",
-   "categories": [
-    "Supply Chain",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hacktivists leak 41,000 DHS staff records, revealing undercover ICE agents",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T10:16+00:00",
-   "summary": "Names, offices, contact details and assignments of more than 41,000 U.S. Department of Homeland Security (DHS) employees have been leaked by a hacktivist group calling itself the Department of Peace. The group handed the data to the transparency collective Distributed Denial of…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Data Breach",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "Okta"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-   "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-   "source": "Dark Reading",
-   "published": "2026-10-29T10:00+00:00",
-   "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-   "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T09:05+00:00",
-   "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "vendors": [
-    "GitLab",
-    "Linux"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-97229": {
-     "added": "2026-10-29",
-     "due": "2026-11-01",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-   "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T08:24+00:00",
-   "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for…",
-   "categories": [
-    "Vulnerability Management",
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-   "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
-   "source": "Dark Reading",
-   "published": "2026-10-29T08:00+00:00",
-   "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Qualys CISO on what security teams can do as exploit campaigns grow",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T06:30+00:00",
-   "summary": "In this Help Net Security interview, Nathan Smolenski, CISO at Qualys, talks about how security teams can handle the growing volume of AI-discovered vulnerabilities. He explains why CISOs should track the average window of exposure instead of standard MTTR, and why only a small…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-   "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T06:22+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-41709"
-   ],
-   "vendors": [
-    "Broadcom",
-    "CrowdStrike",
-    "VMware"
-   ],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-41709": {
-     "added": "2026-10-28",
-     "due": "2026-11-11",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "IT bosses are confident they’ve found the certificates they don’t know about",
-   "link": "https://www.helpnetsecurity.com/2026/10/29/tls-certificate-automation-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-29T06:00+00:00",
-   "summary": "Forty percent of 500 senior IT and security leaders surveyed for certificate authority Sectigo said they are very prepared for monthly TLS certificate renewals because automated systems are already in place. Their more specific answers point elsewhere. Only 4% said their…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-29",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-   "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-   "source": "The Hacker News",
-   "published": "2026-10-29T05:50+00:00",
-   "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Palo Alto"
-   ],
-   "edition": "2026-10-29",
    "advisories": [],
    "kev": {}
   }
