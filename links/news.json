@@ -1,8 +1,708 @@
 {
- "updated": "2026-11-12T21:16+00:00",
- "edition": "2026-11-12",
+ "updated": "2026-11-13T20:44+00:00",
+ "edition": "2026-11-13",
  "errors": [],
  "news": [
+  {
+   "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+   "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+   "source": "The Record",
+   "published": "2026-11-13T19:43+00:00",
+   "summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+   "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T19:38+00:00",
+   "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+   "link": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+   "source": "The Record",
+   "published": "2026-11-13T18:35+00:00",
+   "summary": "The New York City government will be able to fine companies $1,000 for each verified instance of surveillance pricing.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "German military drone operations disrupted by cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T17:31+00:00",
+   "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+   "link": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+   "source": "The Record",
+   "published": "2026-11-13T17:26+00:00",
+   "summary": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
+   "categories": [
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T16:53+00:00",
+   "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-6460"
+   ],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+   "link": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+   "source": "The Record",
+   "published": "2026-11-13T16:32+00:00",
+   "summary": "In the biggest overhaul of the country’s spy laws of the postwar era, the Bundestag approved the bill by 308 votes to 190 — with 71 abstentions — months after Chancellor Friedrich Merz’s cabinet signed off on the draft.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T16:21+00:00",
+   "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Check Point",
+    "ESXi",
+    "VMware"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ChatGPT Wallet lets agents pay without seeing your card number",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T16:15+00:00",
+   "summary": "OpenAI began rolling out ChatGPT Wallet, which lets ChatGPT agents pay for purchases with a stand-in card number, so the user’s card details are not shared with the agent or the merchant. OpenAI built it with American Express, Mastercard, and Visa. It runs inside dots, where a…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018",
+   "link": "https://therecord.media/gootloader-ransomware-doj-details",
+   "source": "The Record",
+   "published": "2026-11-13T15:59+00:00",
+   "summary": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T15:27+00:00",
+   "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it…",
+   "categories": [
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "AMD"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "November Patch Tuesday: How to Sort Through the Patches",
+   "link": "https://blog.qualys.com/product-tech/2026/11/13/november-patch-tuesday-how-to-sort-through-the-patches",
+   "source": "Qualys Blog",
+   "published": "2026-11-13T15:23+00:00",
+   "summary": "Key Takeaways At 1,252 CVEs this month, “patch everything now” isn’t a plan; teams need to decide what to patch first, what to test, and what to mitigate. Know your exposure early: Qualys InstaScan flagged affected assets about 40 minutes before Microsoft’s release notes page…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-118146",
+    "CVE-2026-118207",
+    "CVE-2026-119892",
+    "CVE-2026-124194"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-124194": {
+     "added": "2026-11-10",
+     "due": "2026-11-24",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T15:01+00:00",
+   "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fake GTA 6 download goes after Steam logins and crypto wallet data",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/fake-gta-6-download-scam/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T15:00+00:00",
+   "summary": "Cynet researchers followed a “GTA 6 EXE file download” link from a Google Colab notebook to a ZIP archive and found a WARDEN Stealer loader inside. The malware takes saved passwords, browser cookies, Steam and Roblox credentials, and cryptocurrency wallet data from the machine…",
+   "categories": [
+    "Ransomware & Malware",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T14:28+00:00",
+   "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in…",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T13:54+00:00",
+   "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+   "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+   "source": "Dark Reading",
+   "published": "2026-11-13T13:00+00:00",
+   "summary": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Exchange"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft says November security updates cause printing issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T12:27+00:00",
+   "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-13T12:00+00:00",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [
+    "CVE-2026-114713",
+    "CVE-2026-123039"
+   ],
+   "vendors": [
+    "Check Point"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-114713": {
+     "added": "2026-11-13",
+     "due": "2026-11-16",
+     "ransomware": false
+    },
+    "CVE-2026-123039": {
+     "added": "2026-11-13",
+     "due": "2026-11-16",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+   "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T11:52+00:00",
+   "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected…",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apple details Secure Exclaves, isolated runtimes for camera and microphone data",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/apple-secure-exclaves-security-architecture/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T11:27+00:00",
+   "summary": "Apple published details of Secure Exclaves, a security architecture designed to protect camera and microphone data during background processing. Apple says data processed and analyzed within Secure Exclaves cannot be accessed by the main operating system, apps, or the company…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T11:10+00:00",
+   "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "354 dark web vendors and buyers arrested in Operation TorNado",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T11:06+00:00",
+   "summary": "Europol and police in 14 countries arrested 354 dark web vendors and buyers in Operation TorNado, which ran from May 2025 to October 2026. Investigators went after people who had traded on five marketplaces that were already offline: Archetyp, Bohemia, Nemesis, Kingdom and…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+   "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T10:55+00:00",
+   "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging…",
+   "categories": [
+    "Ransomware & Malware",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Office"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Check Point warns of zero-day flaw exploited for root access",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T10:44+00:00",
+   "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Check Point"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft confirms Windows activation failures after November updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T09:36+00:00",
+   "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T09:31+00:00",
+   "summary": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+   "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T08:34+00:00",
+   "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T08:05+00:00",
+   "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Check Point",
+    "ESXi"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T06:30+00:00",
+   "summary": "North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls filled with webcam footage of earlier victims. The FBI calls the scheme FaceStealer. It has seized more than 900 of those…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Zoom"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "How attackers turned a Teams meeting booking into a device code phishing trap",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T06:15+00:00",
+   "summary": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee at a construction company into approving a device code sign-in. They got a valid session token before Huntress’s security operations center identified the incident. Device code phishing abuses a real…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Suspected North Korean IT workers reached onboarding at companies with open data",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T06:00+00:00",
+   "summary": "Material Security followed suspected North Korean fake IT workers through the hiring pipelines of organizations it monitors and counted 27 personas that reached onboarding over one year. At one company where a persona got that far in the past month, about 277,000 files…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T05:43+00:00",
+   "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Your pinned MCP server may not be as pinned as you think",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/corelight-mcp-server-supply-chain/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T05:30+00:00",
+   "summary": "An MCP server configured to run one fixed release on an administrator’s workstation ran with 15 different sets of dependencies over five weeks, with its configuration untouched. James Lagermann, Director of Technical Alliances at Corelight, found the drift in his company’s lab…",
+   "categories": [
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Digital sovereignty leaves enterprises chasing their own audit trails",
+   "link": "https://www.helpnetsecurity.com/2026/11/13/ibm-digital-sovereignty-challenges-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T05:00+00:00",
+   "summary": "94% of surveyed enterprises experienced at least one digital sovereignty challenge in the past three years, according to IBM’s Digital Sovereignty Index. Of those affected, 91% were required to demonstrate that they retained control during their most challenging event, and 81%…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "IBM"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Didn’t Create a New Kind of Risk. It Removed the Time You Had to Fix the Old One.",
+   "link": "https://blog.qualys.com/product-tech/2026/11/12/ai-didnt-create-a-new-kind-of-risk-it-removed-the-time-you-had-to-fix-the-old-one",
+   "source": "Qualys Blog",
+   "published": "2026-11-13T01:37+00:00",
+   "summary": "Mandiant’s AI Risk and Resilience 2026 report shows attackers putting agentic AI to work across the intrusion. Vulnerability exploitation is still the leading way in, and the window to fix it is closing. Executive Summary Mandiant and Google Threat Intelligence Group (GTIG)…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [
+    "CVE-2025-23266",
+    "CVE-2025-6514",
+    "CVE-2026-124194",
+    "CVE-2026-28400",
+    "CVE-2026-96951"
+   ],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-124194": {
+     "added": "2026-11-10",
+     "due": "2026-11-24",
+     "ransomware": false
+    },
+    "CVE-2026-96951": {
+     "added": "2026-10-13",
+     "due": "2026-10-16",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T22:53+00:00",
+   "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "ScreenConnect"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+   "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+   "source": "Dark Reading",
+   "published": "2026-11-12T22:46+00:00",
+   "summary": "Most organizations haven't sorted out their cryptographic estate enough to even know where they'd start with post-quantum cryptography (PQC).",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+   "source": "BleepingComputer",
+   "published": "2026-11-12T22:25+00:00",
+   "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+   "source": "Dark Reading",
+   "published": "2026-11-12T21:18+00:00",
+   "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.",
+   "categories": [
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
    "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
@@ -1023,6 +1723,21 @@
    "kev": {}
   },
   {
+   "title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
+   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
+   "source": "Dark Reading",
+   "published": "2026-11-11T22:14+00:00",
+   "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
+   "advisories": [],
+   "kev": {}
+  },
+  {
    "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
    "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
    "source": "Dark Reading",
@@ -1080,6 +1795,21 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-11-11",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
+   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "source": "Dark Reading",
+   "published": "2026-11-11T20:27+00:00",
+   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-13",
    "advisories": [],
    "kev": {}
   },
@@ -8198,770 +8928,6 @@
    "edition": "2026-10-31",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-   "source": "Dark Reading",
-   "published": "2026-10-30T20:05+00:00",
-   "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-31",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Behind the Scenes of How Operation Blackout Went Down",
-   "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
-   "source": "Dark Reading",
-   "published": "2026-10-30T19:46+00:00",
-   "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-31",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fashion retailer Resolve says hackers stole payment card information",
-   "link": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
-   "source": "The Record",
-   "published": "2026-10-30T19:00+00:00",
-   "summary": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-31",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-   "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T16:58+00:00",
-   "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based…",
-   "categories": [
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "CrowdStrike"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-   "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T15:58+00:00",
-   "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
-   "link": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
-   "source": "The Record",
-   "published": "2026-10-30T15:54+00:00",
-   "summary": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
-   "categories": [
-    "Data Breach",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara",
-   "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
-   "source": "Dark Reading",
-   "published": "2026-10-30T15:39+00:00",
-   "summary": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-   "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T15:17+00:00",
-   "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Operationalizing CISA AA26-194A: Automating Cisco Router Security Assessments with Qualys Policy Audit",
-   "link": "https://blog.qualys.com/product-tech/2026/10/30/cisa-aa26-194a-cisco-router-policy-audit",
-   "source": "Qualys Blog",
-   "published": "2026-10-30T15:00+00:00",
-   "summary": "Key Takeaways CISA AA26-194A provides actionable guidance to improve the security of Internet-facing Cisco routers against real-world attack techniques. The advisory focuses on configuration hardening and security hygiene, rather than a single vulnerability or CVE. Manually…",
-   "categories": [
-    "Vulnerability Management",
-    "Compliance & Policy"
-   ],
-   "cves": [
-    "CVE-2008-4128",
-    "CVE-2018-0171"
-   ],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {
-    "CVE-2008-4128": {
-     "added": "2026-07-13",
-     "due": "2026-07-16",
-     "ransomware": false
-    },
-    "CVE-2018-0171": {
-     "added": "2021-11-03",
-     "due": "2022-05-03",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-   "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T14:36+00:00",
-   "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
-   "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
-   "source": "The Record",
-   "published": "2026-10-30T14:24+00:00",
-   "summary": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Undead Software Projects Continue to Raise Security Risks",
-   "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
-   "source": "Dark Reading",
-   "published": "2026-10-30T14:10+00:00",
-   "summary": "A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-   "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T14:08+00:00",
-   "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [
-    {
-     "id": "tp2",
-     "match": "vendor",
-     "on": [
-      "WordPress"
-     ]
-    }
-   ],
-   "kev": {}
-  },
-  {
-   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-   "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T14:00+00:00",
-   "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA says max severity GitLab flaw now exploited in the wild",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T13:00+00:00",
-   "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitLab"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Assad regime hacker who caused $136 billion market drop sentenced to 42 months",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T13:00+00:00",
-   "summary": "A Syrian man who used a hijacked news agency Twitter account to post a fake report of explosions at the White House has been sentenced to 42 months in prison, the US Department of Justice has announced. Ahmad Umar Agha, also known as “Th3Pr0”, was sentenced on Thursday by a…",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Shufti ties AI agent actions to verified owners and permissions",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T12:53+00:00",
-   "summary": "Shufti launches Know Your Agent (KYA), an AI agent verification solution designed to verify autonomous AI agents acting on behalf of individuals and businesses. Agentic commerce enables AI agents to open accounts, place orders, and move funds for their owners. A business…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
-   "link": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-   "source": "The Record",
-   "published": "2026-10-30T12:52+00:00",
-   "summary": "The Investigatory Powers Commissioner’s Office (IPCO) in its annual report for 2025, published Thursday, said it was “very concerned” and “disappointed with the time it has taken GCHQ to investigate” the issue.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Office"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Bedrock Data routes data exposure fixes to owners and verifies results",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T12:39+00:00",
-   "summary": "Bedrock Data has announced AI-assisted remediation, which federates the work of fixing data exposure to the data owners across the enterprise. Bedrock Data discovers who owns each exposed dataset, opens a ticket for that owner in the Jira or ServiceNow workflow the enterprise…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Jira",
-    "ServiceNow"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers target government Windows systems in Asia with new malware",
-   "link": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
-   "source": "The Record",
-   "published": "2026-10-30T12:36+00:00",
-   "summary": "The previously unknown malware, dubbed NetamLoader, uses legitimate Microsoft software components to execute malicious code, evade security tools and download additional programs onto infected computers.",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-   "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T12:21+00:00",
-   "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-   "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T11:58+00:00",
-   "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block…",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Polymarket confirms cyberattack on third-party provider after outages",
-   "link": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
-   "source": "The Record",
-   "published": "2026-10-30T11:33+00:00",
-   "summary": "The company suffered outages starting at 2 p.m. Eastern U.S. time on Thursday and eventually attributed the downtime to a compromise involving an unnamed provider.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft finally fixes VPN issues caused by September updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T11:20+00:00",
-   "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Claude Code extension poisoned with persistent SSH backdoor",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T11:15+00:00",
-   "summary": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicious package, version 2.1.313, on Open VSX, an open-source…",
-   "categories": [
-    "Ransomware & Malware",
-    "AI Security",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "macOS"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-   "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T10:40+00:00",
-   "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T10:16+00:00",
-   "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Drupal"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Open-weight AI model GLM-5.3 cheated its way to correct answers",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T09:23+00:00",
-   "summary": "Irregular evaluated Zhipu AI’s open-weight model GLM-5.3 across 13 offensive cyber scenarios using CyScenarioBench, the company’s framework for measuring an LLM’s ability to plan and execute multistage attacks under realistic constraints. The model refused none of the tasks and…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-   "source": "BleepingComputer",
-   "published": "2026-10-30T09:18+00:00",
-   "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-   "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T08:55+00:00",
-   "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update…",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Binance hit by $6.3 billion theft in what could be the biggest crypto heist on record",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T08:26+00:00",
-   "summary": "About $6.3 billion in cryptocurrency was stolen from Binance in what might be the biggest crypto hack in history. “Binance’s initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to…",
-   "categories": [
-    "Vulnerability Management",
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-   "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
-   "source": "Dark Reading",
-   "published": "2026-10-30T08:00+00:00",
-   "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-   "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T07:45+00:00",
-   "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [
-    "CVE-2026-118539"
-   ],
-   "vendors": [
-    "Drupal"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-   "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T07:27+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "vendors": [
-    "Cisco",
-    "GitLab"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-97229": {
-     "added": "2026-10-29",
-     "due": "2026-11-01",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Fake IT help desk callers got by on little more than names and email addresses",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T06:30+00:00",
-   "summary": "Attackers posing as IT help desk staff contacted employees by phone, email and Microsoft Teams in the third quarter of 2026 and talked them into opening remote access sessions, Cisco Talos Incident Response (Talos IR) found across several engagements. In one case, that access…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco",
-    "Microsoft"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "What exactly is ISOC? And what does it mean for you?",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/stellar-cyber-integrated-security-operations-center/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T06:00+00:00",
-   "summary": "Gartner recently released a new category of assessing security tools: the Integrated Security Operations Center (ISOC). Even though SIEM isn’t going anywhere, a rapidly evolving threat landscape is forcing a shift in industry logic that is reflected in the emergence of this new…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Scammers rebuild fake shopping sites within hours of a takedown",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T05:30+00:00",
-   "summary": "One retail scam used more than 1,200 look-alike .shop domains sharing a single IP address. The sites reused HTML, JavaScript and payment-page designs intended to harvest card numbers, expiry dates and security codes, according Akamai’s Fraud and Abuse Report 2026. A ticket scam…",
-   "categories": [
-    "Data Breach",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Smart TVs can harbor unpatched security flaws and track what you watch",
-   "link": "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/",
-   "source": "Help Net Security",
-   "published": "2026-10-30T05:00+00:00",
-   "summary": "Smart TVs and connected plugs accounted for a large share of recorded security weaknesses in household devices, according to Bitdefender’s 2026 IoT Security Landscape Report. The analysis covered approximately 10.4 million protected home routers between January and September…",
-   "categories": [
-    "Vulnerability Management",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-   "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-   "source": "The Hacker News",
-   "published": "2026-10-30T04:14+00:00",
-   "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said…",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T23:35+00:00",
-   "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Binance probes potential $5.8 billion crypto-theft hack",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T22:45+00:00",
-   "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-   "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T22:09+00:00",
-   "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub"
-   ],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-   "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T22:08+00:00",
-   "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-   "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-   "source": "BleepingComputer",
-   "published": "2026-10-29T21:47+00:00",
-   "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. [...]",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-   "source": "Dark Reading",
-   "published": "2026-10-29T21:21+00:00",
-   "summary": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
-   "categories": [
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-10-30",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -9063,10 +9029,6 @@
     },
     {
      "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-     "match": "vendor"
-    },
-    {
-     "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
      "match": "vendor"
     }
    ],
