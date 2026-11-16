@@ -1,8 +1,689 @@
 {
- "updated": "2026-11-15T19:31+00:00",
- "edition": "2026-11-15",
+ "updated": "2026-11-16T23:10+00:00",
+ "edition": "2026-11-16",
  "errors": [],
  "news": [
+  {
+   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T22:54+00:00",
+   "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
+   "source": "Dark Reading",
+   "published": "2026-11-16T22:08+00:00",
+   "summary": "One of the oldest running bug disclosure programs announced it would shorten public disclosure timelines to vendors from 120 days to 30 over the next 14 months.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
+   "link": "https://therecord.media/california-sues-openai-hugging-face",
+   "source": "The Record",
+   "published": "2026-11-16T21:40+00:00",
+   "summary": "\"OpenAI thwarted the Attorney General’s efforts to investigate these incidents, including by refusing to provide detailed information about the full universe of incidents known to the company,” California alleges in a new lawsuit.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+   "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T21:31+00:00",
+   "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T20:59+00:00",
+   "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Match fined $10 million for alleged Tinder privacy violations",
+   "link": "https://therecord.media/ireland-tinder-privacy-fine",
+   "source": "The Record",
+   "published": "2026-11-16T20:15+00:00",
+   "summary": "Ireland’s data protection regulator will fine the Match Group as a result of the dating app Tinder allegedly failing to provide users with their personal data held by the company upon request.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T19:57+00:00",
+   "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
+   "categories": [
+    "Data Breach",
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+   "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+   "source": "Dark Reading",
+   "published": "2026-11-16T19:56+00:00",
+   "summary": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
+   "categories": [
+    "Ransomware & Malware",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+   "source": "Dark Reading",
+   "published": "2026-11-16T19:10+00:00",
+   "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Italian regulator fines Meta $886 million for violating data privacy law",
+   "link": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
+   "source": "The Record",
+   "published": "2026-11-16T18:05+00:00",
+   "summary": "The crackdown on Meta’s Facebook platform involved the company’s alleged use of its “camera roll” suggestions option, launched in 2023, to browse Android users’ photo galleries to recommend posts they could enhance with personal photos and videos.",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit",
+   "link": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
+   "source": "The Record",
+   "published": "2026-11-16T17:22+00:00",
+   "summary": "A building near the Lancashire village of Samlesbury in northwest England is officially the headquarters for the secretive unit that runs the Britain's offensive cyber operations.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russia denies intercepting Romanian government emails",
+   "link": "https://therecord.media/romania-russia-cyberattack-espionage",
+   "source": "The Record",
+   "published": "2026-11-16T17:00+00:00",
+   "summary": "Russia has denied accusations that its state-backed hackers targeted a Romanian government institution in an attempt to intercept emails exchanged with NATO and the European Union.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T16:43+00:00",
+   "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+   "source": "Dark Reading",
+   "published": "2026-11-16T16:36+00:00",
+   "summary": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations.",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fandango says hackers stole payment card details from checkout pages",
+   "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T15:44+00:00",
+   "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+   "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T15:01+00:00",
+   "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and…",
+   "categories": [
+    "Identity & Access",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T14:00+00:00",
+   "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google warns that fully-automated AI attacks are coming soon",
+   "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T14:00+00:00",
+   "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T13:27+00:00",
+   "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chrome",
+    "Windows"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Chrome"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T13:03+00:00",
+   "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who…",
+   "categories": [
+    "Ransomware & Malware",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T12:53+00:00",
+   "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T12:34+00:00",
+   "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0…",
+   "categories": [
+    "Vulnerability Management",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T12:33+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft previews remote lock for lost or stolen Windows devices",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T11:57+00:00",
+   "summary": "Microsoft’s Remote lock allows IT administrators to lock a lost, stolen or compromised Windows device through Intune without wiping it. The feature is currently in preview for devices running Windows 11, Windows 10, Windows Server 2022, Windows Server 2019 and Windows Server…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Australian retail giant Coles investigates cybersecurity incident",
+   "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T11:18+00:00",
+   "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T11:00+00:00",
+   "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Unpatched GeoVision camera software gave cryptojackers a side door into 13 organizations",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/geovision-camera-software-vulnerabilities/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T10:07+00:00",
+   "summary": "Attackers used GeoVision camera management software to break into Windows machines at 13 organizations and turn them into cryptocurrency miners, Huntress warned in a threat advisory. GeoVision is a Taiwanese surveillance and access control company with customers in 110…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+   "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T09:32+00:00",
+   "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Linux",
+    "NVIDIA"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+   "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T09:30+00:00",
+   "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apache",
+    "Linux",
+    "Linux kernel"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Rspamd 4.3.0 stops forwarded mail from softening DMARC rejects",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/rspamd-4-3-0-released/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T09:27+00:00",
+   "summary": "Rspamd 4.3.0 fixes bugs that let an unauthenticated attacker crash the spam filter’s workers or slip forged authentication results through it. The worst crash took one HTTP request. A header line without a colon was enough to stop a worker, and an empty Deliver-To header could…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+   "source": "BleepingComputer",
+   "published": "2026-11-16T08:26+00:00",
+   "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "The Hidden Cost of Identity Technical Debt",
+   "link": "https://blog.qualys.com/product-tech/2026/11/16/identity-technical-debt-hidden-costs-and-fixes",
+   "source": "Qualys Blog",
+   "published": "2026-11-16T08:25+00:00",
+   "summary": "Key Takeaways Identity technical debt is the accumulated security, governance, and operational burden created by unmanaged identities, excessive permissions, outdated access, and fragmented controls. It’s caused by identity sprawl, privilege creep, dormant and orphaned accounts…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+   "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T07:34+00:00",
+   "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy…",
+   "categories": [
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "You can now self-host Kitesurf, Cloudflare’s open-source browser for AI agents",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/cloudflare-kitesurf-open-source/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T07:00+00:00",
+   "summary": "Kitesurf is Cloudflare’s browser for AI agents, built to load web pages and run their JavaScript on Cloudflare Workers without starting up a full desktop browser. Cloudflare has published its source code so developers can inspect it, modify it, test it on their own machines, and…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Chromium"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+   "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+   "source": "The Hacker News",
+   "published": "2026-11-16T06:53+00:00",
+   "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by…",
+   "categories": [
+    "Threat Intel & Actors",
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [
+    "VMware",
+    "vCenter"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Google Project Zero will disclose bugs after 90 days, fixed or not",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T06:30+00:00",
+   "summary": "Google’s Project Zero will disclose the vulnerabilities it finds 90 days after reporting them to a vendor, whether or not the vendor has shipped a fix. The deadline drops to 60 days on February 2, 2027, and to 30 days on January 3, 2028. Project Zero calls the new policy “Full…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T06:00+00:00",
+   "summary": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider. Ory built it to issue and validate tokens, register client applications, and manage the keys that sign those tokens. Hydra stores no usernames or passwords, so logins stay with whatever identity system an…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ARTEX Moves at Machine Speed: What Risk Owners Need to Change",
+   "link": "https://blog.qualys.com/misc/2026/11/15/artex-moves-at-machine-speed-what-risk-owners-need-to-change",
+   "source": "Qualys Blog",
+   "published": "2026-11-16T05:56+00:00",
+   "summary": "Key Takeaways ARTEX, an AI-driven penetration-testing framework released in July 2026, doesn’t exploit new kinds of vulnerabilities. It automates the discovery, chaining, and retrying of existing weaknesses, often across many targets at once. In observed campaigns, attackers…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Product showcase: ESET Mobile Security brings phishing protection and security checks to iOS",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/product-showcase-eset-mobile-security-ios/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T05:30+00:00",
+   "summary": "ESET Mobile Security for iOS helps iPhone users identify suspicious links, review device security settings, and assess Wi-Fi connections. ESET Mobile Security is available for iPhones running iOS 18.0 or later. Free features can be used without creating an account. Device…",
+   "categories": [
+    "Identity & Access",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "iOS"
+   ],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI uncovers flaws in discontinued devices with no vendor left to patch them",
+   "link": "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T05:00+00:00",
+   "summary": "Forescout researchers built a tool to test if generally available AI models could find security flaws on a limited budget. They examined both open-source code and compiled software whose source code was unavailable, testing an approach attackers could also use. The team…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
    "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
@@ -8153,652 +8834,6 @@
    "edition": "2026-11-03",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-   "source": "Dark Reading",
-   "published": "2026-11-02T22:27+00:00",
-   "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-03",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
-   "link": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
-   "source": "The Record",
-   "published": "2026-11-02T21:42+00:00",
-   "summary": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T21:40+00:00",
-   "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
-   "link": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-   "source": "The Record",
-   "published": "2026-11-02T19:54+00:00",
-   "summary": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T19:00+00:00",
-   "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-   "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T18:16+00:00",
-   "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
-   "link": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
-   "source": "The Record",
-   "published": "2026-11-02T17:05+00:00",
-   "summary": "In a post-mortem about an October 29 incident, prediction market Polymarket said it will pay people back what they lost, as well as compensate them for the site's downtime.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T16:57+00:00",
-   "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions…",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Linux"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
-   "link": "https://therecord.media/hackers-ukraine-belarus-russia",
-   "source": "The Record",
-   "published": "2026-11-02T16:30+00:00",
-   "summary": "An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T15:58+00:00",
-   "summary": "CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-111357",
-    "CVE-2026-118527"
-   ],
-   "vendors": [
-    "Ivanti"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-111357": {
-     "added": "2026-10-30",
-     "due": "2026-11-02",
-     "ransomware": false
-    },
-    "CVE-2026-118527": {
-     "added": "2026-10-30",
-     "due": "2026-11-13",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T15:50+00:00",
-   "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google disrupts XCPE botnet, bans the company behind it",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T15:50+00:00",
-   "summary": "Google shut down the servers behind XCPE, a backdoor hidden in the firmware of Android TV set-top boxes. Google’s Threat Intelligence Group attributes the operation with high confidence to Videostrong Technology, the company that manufactured many of those boxes. More than 1.3…",
-   "categories": [
-    "Ransomware & Malware",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-   "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T15:03+00:00",
-   "summary": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-   "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T15:01+00:00",
-   "summary": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data retention and how its mobile service reduces exposure by…",
-   "categories": [
-    "Data Breach",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft's AI Risk Report Misses This Key Detail",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
-   "source": "Dark Reading",
-   "published": "2026-11-02T15:00+00:00",
-   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI-powered infostealer picks out the most profitable parts of your stolen data",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T14:47+00:00",
-   "summary": "A new Windows infostealer sends the data it steals to an AI model and asks it to rank the victim’s assets by how much money they could bring in, Cisco Talos has found. “There is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the…",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco",
-    "Windows"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-   "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T14:46+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Apple warns users in 99 countries of mercenary spyware",
-   "link": "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware",
-   "source": "The Record",
-   "published": "2026-11-02T14:42+00:00",
-   "summary": "Apple does not attribute attacks or the notices to specific malicious actors or geographical regions, the notification said, due to the “extreme cost, sophistication, and worldwide nature of mercenary spyware attacks [which] make them some of the most advanced digital threats in…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Apple"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers disrupt refrigeration systems at European supermarkets",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T14:28+00:00",
-   "summary": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Second wave of refrigeration cyberattacks hits European supermarkets",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T14:28+00:00",
-   "summary": "Three weeks after the attack that turned refrigeration units in French supermarkets into ovens overnight, similar cyberattacks have hit shops in other European countries and again caused refrigerated food to be spoiled. Belgium, Luxembourg and Sweden affected “[In Belgium,]…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
-   "source": "Dark Reading",
-   "published": "2026-11-02T14:00+00:00",
-   "summary": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Windows"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft fixes Smart App Control broken by October Windows update",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T13:57+00:00",
-   "summary": "Microsoft has resolved a known issue that prevented some users from activating the Smart App Control security feature after installing the October 2026 KB5127648 Windows 11 security update. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Trezor warns some of its wallets may hide a seed-stealing implant",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/trezor-hardware-wallet-implant-cryptobilis/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T12:48+00:00",
-   "summary": "A Trezor Safe 5 sold by CryptoBilis, the reseller linked to the recent Ledger wallet drains, may contain a hidden implant that steals the owner’s recovery phrase, Trezor has warned. Trezor is a Czech company and part of SatoshiLabs Group. It has made hardware wallets since 2014…",
-   "categories": [
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T12:47+00:00",
-   "summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitLab"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-   "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T11:50+00:00",
-   "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "IBM"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Chainalysis breached using “offensive agentic techniques”",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/chainalysis-breached-using-offensive-agentic-techniques/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T11:40+00:00",
-   "summary": "Blockchain analytics firm Chainalysis has suffered a cybersecurity incident that led to a data breach. According to the company’s Friday announcement, the incident is unrelated to the recent Binance hack. What was accessed? In October, the company detected external attackers…",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-   "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T11:30+00:00",
-   "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-   "link": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T11:28+00:00",
-   "summary": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [
-    "Synology"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-   "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T11:08+00:00",
-   "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain…",
-   "categories": [
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-   "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T10:49+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux",
-    "Palo Alto"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FBI pins $6.3 billion Binance crypto heist on North Korea while scammers circle anxious users",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T10:12+00:00",
-   "summary": "North Korea was behind the theft of more than $6 billion in cryptocurrency from Binance, the FBI has confirmed. “The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People’s Republic of Korea (North Korea) was responsible for the theft of…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-02T09:33+00:00",
-   "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Ivanti"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T07:09+00:00",
-   "summary": "Deepseek released a research prototype of dsh-superagent, a coding agent that does work on a GitHub repository for you. Who can ask for work The agent gets to work in two situations: an allowed user asks for something, or a rule your team wrote covers it. You can also open up a…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "GitHub"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The first ten lines of a command policy for AI coding agents",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/vinay-thakker-kloudstax-ai-agent-access-control/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T06:30+00:00",
-   "summary": "In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that agents should run under their own identity, with the person’s identity attached when acting on someone’s behalf. He…",
-   "categories": [
-    "Identity & Access",
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Byoky: Open-source wallet for AI API keys",
-   "link": "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/",
-   "source": "Help Net Security",
-   "published": "2026-11-02T06:00+00:00",
-   "summary": "Byoky is an open-source wallet for AI API keys, available as a Chrome and Firefox extension and as iOS and Android apps. Users store their keys for OpenAI, Anthropic, Google Gemini and other providers in it, encrypted on their own device. Apps that want those keys ask the wallet…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Chrome",
-    "Firefox",
-    "Google",
-    "iOS"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [
-    {
-     "id": "tp1",
-     "match": "vendor",
-     "on": [
-      "Chrome",
-      "Google"
-     ]
-    }
-   ],
-   "kev": {}
-  },
-  {
-   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-   "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-   "source": "The Hacker News",
-   "published": "2026-11-02T05:51+00:00",
-   "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to…",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Outlook",
-    "Windows"
-   ],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-   "source": "BleepingComputer",
-   "published": "2026-11-01T19:57+00:00",
-   "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-02",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -8840,6 +8875,10 @@
    "id": "tp1",
    "related": [
     {
+     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+     "match": "vendor"
+    },
+    {
      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
      "match": "cve"
     },
@@ -8854,10 +8893,6 @@
     {
      "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
      "match": "cve"
-    },
-    {
-     "link": "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/",
-     "match": "vendor"
     }
    ],
    "kev": {
