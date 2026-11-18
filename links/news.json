@@ -1,8 +1,907 @@
 {
- "updated": "2026-11-17T21:59+00:00",
- "edition": "2026-11-17",
+ "updated": "2026-11-18T21:41+00:00",
+ "edition": "2026-11-18",
  "errors": [],
  "news": [
+  {
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T20:49+00:00",
+   "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+   "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+   "source": "Dark Reading",
+   "published": "2026-11-18T20:45+00:00",
+   "summary": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
+   "link": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
+   "source": "The Record",
+   "published": "2026-11-18T20:39+00:00",
+   "summary": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+   "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+   "source": "Dark Reading",
+   "published": "2026-11-18T20:38+00:00",
+   "summary": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Trump administration officials size-up a bad stretch for tech",
+   "link": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
+   "source": "The Record",
+   "published": "2026-11-18T20:00+00:00",
+   "summary": "Homeland Security Secretary Markwayne Mullin said the administration will reach out to industry to get companies to share more information about big patches before they take effect.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+   "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T19:39+00:00",
+   "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+   "link": "https://therecord.media/ai-cyber-white-house",
+   "source": "The Record",
+   "published": "2026-11-18T19:00+00:00",
+   "summary": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+   "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T18:31+00:00",
+   "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-123007"
+   ],
+   "vendors": [
+    "F5"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+   "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T18:15+00:00",
+   "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM…",
+   "categories": [
+    "Vulnerability Management",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "BIG-IP",
+    "F5"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T17:10+00:00",
+   "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-129448"
+   ],
+   "vendors": [
+    "Apache"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T16:58+00:00",
+   "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
+   "categories": [
+    "Cloud & Container",
+    "Identity & Access",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Python"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+   "source": "Dark Reading",
+   "published": "2026-11-18T16:54+00:00",
+   "summary": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Why AI-ROC Is the Future of Exposure Management",
+   "link": "https://blog.qualys.com/product-tech/2026/11/18/ai-roc-future-of-exposure-management",
+   "source": "Qualys Blog",
+   "published": "2026-11-18T16:52+00:00",
+   "summary": "Executive Summary Security teams have never had better visibility into their assets, vulnerabilities, and threats. What they lack is the speed to act on it. Frontier AI models are surfacing vulnerabilities faster than ever, attackers are using the same models to exploit them…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [
+    "CVE-2026-81963"
+   ],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-81963": {
+     "added": "2026-09-08",
+     "due": "2026-09-22",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "NSA continues response to interruptions in classified internal network",
+   "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+   "source": "The Record",
+   "published": "2026-11-18T16:19+00:00",
+   "summary": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+   "link": "https://therecord.media/russia-cyber-espionage-google",
+   "source": "The Record",
+   "published": "2026-11-18T15:15+00:00",
+   "summary": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
+   "categories": [
+    "Threat Intel & Actors",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+   "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T15:00+00:00",
+   "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Oracle Critical Security Patch Update, November 2026 Review",
+   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/18/oracle-critical-security-patch-update-november-2026-review",
+   "source": "Qualys Blog",
+   "published": "2026-11-18T14:21+00:00",
+   "summary": "Oracle released its November edition of Critical Security Patch Update. The update received patches for 655 security vulnerabilities. Some of the vulnerabilities addressed in this update impact more than one product. These patches address vulnerabilities in various product…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-101356",
+    "CVE-2026-101691",
+    "CVE-2026-111497",
+    "CVE-2026-114820",
+    "CVE-2026-114863",
+    "CVE-2026-114880",
+    "CVE-2026-114881",
+    "CVE-2026-114924",
+    "CVE-2026-114925",
+    "CVE-2026-114980",
+    "CVE-2026-1229",
+    "CVE-2026-127324",
+    "CVE-2026-127325",
+    "CVE-2026-127326",
+    "CVE-2026-127327",
+    "CVE-2026-41889"
+   ],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-111497": {
+     "added": "2026-10-27",
+     "due": "2026-11-10",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+   "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T14:11+00:00",
+   "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Major Brazilian Signature Apps Enable RCE & Fraud",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+   "source": "Dark Reading",
+   "published": "2026-11-18T14:00+00:00",
+   "summary": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cognizant and Qualys Redefine AI-Era Managed Security Service",
+   "link": "https://blog.qualys.com/product-tech/2026/11/18/cognizant-and-qualys-redefine-ai-era-managed-security-service",
+   "source": "Qualys Blog",
+   "published": "2026-11-18T13:45+00:00",
+   "summary": "Cognizant will use the full Qualys portfolio to bring its clients what the frontier AI era demands: AI-speed detection, hyper-prioritization, and confident remediation for every zero-day. When a critical zero-day goes public, security leaders ask two questions: which assets are…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+   "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T12:28+00:00",
+   "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "AMD",
+    "Intel",
+    "Windows"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+   "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T12:15+00:00",
+   "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-18T12:00+00:00",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [
+    "CVE-2024-10441",
+    "CVE-2026-40217",
+    "CVE-2026-90436",
+    "CVE-2026-90817"
+   ],
+   "vendors": [
+    "Apache",
+    "Synology"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {
+    "CVE-2024-10441": {
+     "added": "2026-11-18",
+     "due": "2026-11-21",
+     "ransomware": false
+    },
+    "CVE-2026-40217": {
+     "added": "2026-11-18",
+     "due": "2026-12-02",
+     "ransomware": false
+    },
+    "CVE-2026-90436": {
+     "added": "2026-11-18",
+     "due": "2026-11-21",
+     "ransomware": false
+    },
+    "CVE-2026-90817": {
+     "added": "2026-11-18",
+     "due": "2026-11-21",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T11:55+00:00",
+   "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "vendors": [
+    "AMD",
+    "Intel",
+    "Jenkins",
+    "Jira"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-114938"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+   "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T11:50+00:00",
+   "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T11:12+00:00",
+   "summary": "CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow unauthenticated attackers to run code on servers hosting widely used Java applications. Nicknamed “Java4Shell” by Calif, the company whose researchers found it, CVE-2026-114938 was…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-114938"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+   "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T11:03+00:00",
+   "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T10:35+00:00",
+   "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apache"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft announces Windows Server 2028 with hardened security",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T09:24+00:00",
+   "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/ubuntu-ai-security-patches-edge-archive/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T08:47+00:00",
+   "summary": "Canonical is letting Ubuntu Pro customers install security patches written by AI agents before its engineers finish reviewing and testing them. The patches come from Surge, a system Canonical built to fix known vulnerabilities in Ubuntu’s userspace software, meaning everything…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Ubuntu"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+   "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T08:24+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-115731"
+   ],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-115731": {
+     "added": "2026-11-17",
+     "due": "2026-12-01",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T08:24+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-114938"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "source": "BleepingComputer",
+   "published": "2026-11-18T08:24+00:00",
+   "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Deutsche Telekom IoT’s CEO on securing devices that run for 20 years",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/christian-schwalbe-deutsche-telekom-iot-security/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T07:30+00:00",
+   "summary": "In this Help Net Security interview, Christian Schwalbe, CEO of Deutsche Telekom IoT, talks about the forgotten devices that create the most risk in IoT deployments. He explains what the EU Cyber Resilience Act means for manufacturers whose products stay in the field for 15 or…",
+   "categories": [
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Once a scam ends the victim blaming begins",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/nicola-fox-hamilton-victim-blaming-scams-phishing/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T07:00+00:00",
+   "summary": "Blaming people who fall for scams deepens the harm and teaches them to stay silent the next time, cyberpsychologist Dr. Nicola Fox Hamilton told the audience at IRISSCON 2026 in Dublin. Dr. Nicola Fox Hamilton, cyberpsychology researcher and lecturer in IADT, talked about the…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T06:45+00:00",
+   "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "Identity & Access",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Python"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "TapMap: Free, open-source network map",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/tapmap-network-map-open-source/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T06:30+00:00",
+   "summary": "TapMap is a free, open-source desktop app that plots a computer’s active network connections on an interactive world map. It scans open sockets, pulls out the remote IP addresses and looks each one up in a local GeoIP database. Then it draws the result in the browser, with the…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "BubbleLoader malware turns copies of WinRAR and Windows Media Player into carriers",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/winrar-bubbleloader-malware/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T06:00+00:00",
+   "summary": "ReversingLabs has taken apart BubbleLoader, a loader that turns ordinary Windows programs into carriers for other malware. The attackers rewrite a handful of instructions at a program’s entry point, the spot where Windows begins running it, and add two PNG images that hold the…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [
+    "Firefox",
+    "WinRAR",
+    "Windows"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T05:58+00:00",
+   "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence…",
+   "categories": [
+    "Threat Intel & Actors",
+    "Data Breach",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Google"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Product showcase: iVerify Basic helps users check device security and improve privacy",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/product-showcase-iverify-basic/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T05:30+00:00",
+   "summary": "iVerify Basic is a mobile security app for individuals who want to check their devices for signs of compromise and improve their security settings. It is available for iOS and Android, including tablets. Device security checks The Device tab puts scan controls and security…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "iOS"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Fraudsters feed the right face into identity checks through virtual cameras",
+   "link": "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T05:00+00:00",
+   "summary": "Document fraud remains the largest attack category in Entrust’s The Professionalization of Fraud: 2027 Identity Fraud Report, with criminals combining physical counterfeits, digital manipulation and impersonation to target online services. The document fraud rate fell 19% year…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "source": "Krebs on Security",
+   "published": "2026-11-18T02:52+00:00",
+   "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Zoom"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "source": "BleepingComputer",
+   "published": "2026-11-17T23:04+00:00",
+   "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Atlassian",
+    "Confluence",
+    "Jenkins",
+    "Jira"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "How to Find, Mitigate, and Patch the Critical Java4Shell Flaw (CVE-2026-114938) Now",
+   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/17/how-to-find-mitigate-and-patch-the-critical-java4shell-flaw-cve-2026-114938-now",
+   "source": "Qualys Blog",
+   "published": "2026-11-17T23:00+00:00",
+   "summary": "Executive Summary This information is current as of November 18, 2026. We will update this post as vendors release fixes, Qualys releases new detections, and more information becomes available. Java4Shell (CVE-2026-114938) is a critical memory-corruption vulnerability in…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-114938"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+   "link": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+   "source": "Dark Reading",
+   "published": "2026-11-17T22:34+00:00",
+   "summary": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
    "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
@@ -138,7 +1037,7 @@
    "kev": {}
   },
   {
-   "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+   "title": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
    "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
    "source": "Dark Reading",
    "published": "2026-11-17T18:38+00:00",
@@ -290,7 +1189,22 @@
     "Oracle"
    ],
    "edition": "2026-11-17",
-   "advisories": [],
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-114938"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
    "kev": {}
   },
   {
@@ -444,7 +1358,7 @@
    "link": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
    "source": "Dark Reading",
    "published": "2026-11-17T13:12+00:00",
-   "summary": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval.",
+   "summary": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner permission.",
    "categories": [
     "AI Security"
    ],
@@ -767,6 +1681,41 @@
    ],
    "edition": "2026-11-17",
    "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Java Vulnerability Requires Immediate Patching",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+   "source": "CISA Advisories",
+   "published": "2026-11-17T12:00+00:00",
+   "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM)…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-11-18",
+   "advisories": [
+    {
+     "id": "tp1",
+     "match": "cve",
+     "on": [
+      "CVE-2026-114938"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Oracle"
+     ]
+    }
+   ],
    "kev": {}
   },
   {
@@ -1332,7 +2281,7 @@
    "edition": "2026-11-16",
    "advisories": [
     {
-     "id": "tp1",
+     "id": "tp3",
      "match": "vendor",
      "on": [
       "Chrome"
@@ -1659,6 +2608,22 @@
    "cves": [],
    "vendors": [],
    "edition": "2026-11-16",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "ARTEX Moves at Machine Speed: What Risk Owners Need to Change",
+   "link": "https://blog.qualys.com/product-tech/2026/11/15/artex-moves-at-machine-speed-what-risk-owners-need-to-change",
+   "source": "Qualys Blog",
+   "published": "2026-11-16T05:56+00:00",
+   "summary": "Key Takeaways ARTEX, an AI-driven penetration-testing framework released in July 2026, doesn’t exploit new kinds of vulnerabilities. It automates the discovery, chaining, and retrying of existing weaknesses, often across many targets at once. In observed campaigns, attackers…",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-18",
    "advisories": [],
    "kev": {}
   },
@@ -4301,7 +5266,7 @@
    "edition": "2026-11-11",
    "advisories": [
     {
-     "id": "tp1",
+     "id": "tp3",
      "match": "cve",
      "on": [
       "CVE-2026-125350"
@@ -5566,7 +6531,7 @@
    "edition": "2026-11-11",
    "advisories": [
     {
-     "id": "tp1",
+     "id": "tp3",
      "match": "cve",
      "on": [
       "CVE-2026-125350"
@@ -5794,7 +6759,7 @@
    "edition": "2026-11-10",
    "advisories": [
     {
-     "id": "tp1",
+     "id": "tp3",
      "match": "vendor",
      "on": [
       "Chrome",
@@ -5874,7 +6839,7 @@
    "edition": "2026-11-10",
    "advisories": [
     {
-     "id": "tp1",
+     "id": "tp3",
      "match": "cve",
      "on": [
       "CVE-2026-125350"
@@ -7010,15 +7975,7 @@
     "WordPress"
    ],
    "edition": "2026-11-06",
-   "advisories": [
-    {
-     "id": "tp2",
-     "match": "vendor",
-     "on": [
-      "WordPress"
-     ]
-    }
-   ],
+   "advisories": [],
    "kev": {}
   },
   {
@@ -8248,822 +9205,95 @@
    "edition": "2026-11-05",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "Vercel rolls out new protection against stolen session cookie attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T21:31+00:00",
-   "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-05",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T20:58+00:00",
-   "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "Zyxel"
-   ],
-   "edition": "2026-11-05",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
-   "link": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
-   "source": "The Record",
-   "published": "2026-11-04T19:17+00:00",
-   "summary": "The Department of Justice said it identified two suspects in a case that dates back to 2016 and involved illicit cryptomining on the computers of U.S. educational institutions.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-   "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T19:05+00:00",
-   "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-   "categories": [
-    "Data Breach",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
-   "link": "https://therecord.media/french-bank-confirms-cyber-heist",
-   "source": "The Record",
-   "published": "2026-11-04T18:58+00:00",
-   "summary": "Crédit Mutuel Arkéa said in a press notice that the attackers were able to make transfers using the bank’s own account after compromising an unnamed supplier.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-   "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T18:02+00:00",
-   "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-   "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T17:00+00:00",
-   "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Ubuntu"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-   "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T17:00+00:00",
-   "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-109593"
-   ],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-   "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T16:58+00:00",
-   "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
-   "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
-   "source": "Dark Reading",
-   "published": "2026-11-04T16:24+00:00",
-   "summary": "Android device manufacturer Videostrong allegedly ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
-   "categories": [
-    "Ransomware & Malware",
-    "OT & IoT"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
-   "link": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
-   "source": "The Record",
-   "published": "2026-11-04T16:15+00:00",
-   "summary": "A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-   "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T16:06+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Check Point"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "mSecure password manager hack prompts password reset warnings",
-   "link": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T16:00+00:00",
-   "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
-   "categories": [
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",
-   "link": "https://blog.qualys.com/product-tech/2026/11/04/cloud-agent-now-in-a-container-host-security-for-nodes-you-cant-touch",
-   "source": "Qualys Blog",
-   "published": "2026-11-04T16:00+00:00",
-   "summary": "A single container image that brings Vulnerability Management and Policy Audit to every Kubernetes node, on immutable and mutable Linux alike, deployed the way your container workloads already are. Key Takeaways The Qualys Cloud Agent is now available as a container image on…",
-   "categories": [
-    "Vulnerability Management",
-    "Cloud & Container",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Docker",
-    "Kubernetes",
-    "Linux"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-   "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T15:00+00:00",
-   "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "Google"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T14:42+00:00",
-   "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cycurion Habit verifies threats and validates fixes before closing cases",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/cycurion-habit/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T14:40+00:00",
-   "summary": "Cycurion has launched Habit, an AI-driven security operations center (SOC) built to identify threats before they disrupt operations. The launch also marks Cycurion’s repositioning as a predictive cybersecurity company, built around a newly assembled team of former U.S…",
-   "categories": [
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Russian hackers target iOS and Android users with n-day exploits",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/apt29-watering-hole-mobile-devices-n-day-exploits/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T14:38+00:00",
-   "summary": "Russia’s APT29 has been using compromised websites, lookalike domains and a hijacked web analytics service to target iOS and Android users with exploits for patched flaws and steal their cookies, messages and Wi-Fi passwords, according to Sekoia. APT29 watering holes target…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "iOS"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Descope Envoy brings AI agent authentication to consumer apps",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/descope-envoy/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T14:31+00:00",
-   "summary": "Descope has announced Envoy, a set of capabilities that gives personal AI agents a delegated sign-in path alongside a consumer app’s existing authentication flows. Consumer companies can now accept agents as first-class users—with their own identities, permissions, and approval…",
-   "categories": [
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T14:27+00:00",
-   "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "iOS"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "BlueFlag Security adds controls for AI agents working under developer identities",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/blueflag-ai-agent-governance/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T14:22+00:00",
-   "summary": "BlueFlag Security has expanded AI Agent Governance that fully maps the access, behavior and oversight of both approved and shadow AI agents, including options for automated risk remediation. Activated within BlueFlag’s pioneering platform, customers can now govern all aspects of…",
-   "categories": [
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Incidents Move Too Fast for Pen & Paper",
-   "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
-   "source": "Dark Reading",
-   "published": "2026-11-04T14:17+00:00",
-   "summary": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Citrix expands oversight of autonomous browsing and AI agent activity",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/citrix-ai-governance-capabilities/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T14:13+00:00",
-   "summary": "Citrix has announced new capabilities across Citrix SecurSpaces, Citrix SecurAccess and Citrix Platform Flex designed to help organizations securely deploy AI agents, govern AI-powered work and scale adoption across the enterprise. These updates include an expansion of Citrix…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Citrix"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Live Q&A: CISSP exam prep with ISC2 experts",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/isc2-cissp-exam-prep-webinar/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T14:00+00:00",
-   "summary": "Join ISC2 on November 6, 2026 at 7:00pm CET for a live Q&A about the CISSP exam. A panel of experts will answer your questions, explain what it takes to earn the certification, and walk through the exam domains. You’ll also learn about self-study resources and training options…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget",
-   "link": "https://therecord.media/russia-cyberattack-beget-cloud",
-   "source": "The Record",
-   "published": "2026-11-04T14:00+00:00",
-   "summary": "A major Russian web hosting provider is struggling to restore its services after a cyberattack destroyed data across its cloud infrastructure and disrupted hundreds of websites.",
-   "categories": [
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "French blood service hit by Europe-wide cyberattacks on refrigeration",
-   "link": "https://therecord.media/france-cyberattack-blood-refrigeration",
-   "source": "The Record",
-   "published": "2026-11-04T13:45+00:00",
-   "summary": "Temperature controls were altered at three of France’s national blood service sites this week amid a wave of cyberattacks affecting refrigeration systems across Europe.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cyberattack hits French blood banks",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T13:36+00:00",
-   "summary": "Three blood banks have detected and reversed a potentially destructive temperature spike in their cold rooms, following a cyberattack that targeted a refrigeration equipment provider of the French Blood Establishment (EFS), the only civilian blood collection and transfusion…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "US charges two Canadians accused of hacking US universities",
-   "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T13:13+00:00",
-   "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Impart uses AI to build virtual patches without putting models in the traffic path",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/impart-security-runtime-defense-harness/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T12:48+00:00",
-   "summary": "Impart Security has launched the Runtime Defense Harness, a controlled environment where AI agents write and test virtual patches for new vulnerabilities without putting AI in the traffic path. The launch comes as exploits increasingly outpace fixes. In the harness, agents build…",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T12:11+00:00",
-   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [
-    {
-     "id": "tp2",
-     "match": "vendor",
-     "on": [
-      "WordPress"
-     ]
-    }
-   ],
-   "kev": {}
-  },
-  {
-   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-   "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T12:07+00:00",
-   "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "source": "CISA Advisories",
-   "published": "2026-11-04T12:00+00:00",
-   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "Compliance & Policy"
-   ],
-   "cves": [
-    "CVE-2024-27834"
-   ],
-   "vendors": [
-    "Apple"
-   ],
-   "edition": "2026-11-06",
-   "advisories": [],
-   "kev": {
-    "CVE-2024-27834": {
-     "added": "2026-11-04",
-     "due": "2026-11-18",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-   "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T11:46+00:00",
-   "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-   "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T11:34+00:00",
-   "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-   "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T11:24+00:00",
-   "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Windows"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Poisoned cPGuard update hits thousands of web hosting servers",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/cpguard-update-supply-chain-compromised/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T11:18+00:00",
-   "summary": "An attacker has compromised the update infrastructure of cPGuard, a security suite for Linux web hosting servers, and pushed out a malicious update to nearly 3,000 customer servers. OPSShield, the company behind the security suite, also confirmed that the attacker made off with…",
-   "categories": [
-    "Data Breach",
-    "Identity & Access",
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fake job interview opened the door to $6.34 billion Binance heist",
-   "link": "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/",
-   "source": "Help Net Security",
-   "published": "2026-11-04T10:29+00:00",
-   "summary": "A tampered software installer and a fake job interview gave attackers the access they needed to steal about $6.34 billion in digital assets from Binance. “It was not a single isolated breach or a simple phishing incident,” Binance wrote in its incident report. “The attackers…",
-   "categories": [
-    "Data Breach",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "source": "BleepingComputer",
-   "published": "2026-11-04T09:39+00:00",
-   "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Android",
-    "iOS"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PHP2Shell on Windows and macOS: Automating the PHP Upgrade, With or Without an Agent",
-   "link": "https://blog.qualys.com/product-tech/2026/11/04/php2shell-windows-macos-car-upgrade-scripts",
-   "source": "Qualys Blog",
-   "published": "2026-11-04T09:20+00:00",
-   "summary": "Executive Summary PHP2Shell (CVE-2026-109618 and CVE-2026-109619) allows unauthenticated remote code execution on exposed PHP servers. PHP has released fixed versions. On Linux, distribution packages carry the fix. On Windows and macOS, they don’t: Microsoft and Apple don’t ship…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "vendors": [
-    "Apple",
-    "Linux",
-    "Microsoft",
-    "PHP",
-    "Windows",
-    "macOS"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-109618": {
-     "added": "2026-10-26",
-     "due": "2026-10-29",
-     "ransomware": false
-    },
-    "CVE-2026-109619": {
-     "added": "2026-10-26",
-     "due": "2026-10-29",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-   "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T08:17+00:00",
-   "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-   "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T07:46+00:00",
-   "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-58868"
-   ],
-   "vendors": [
-    "Android",
-    "Google"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-   "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-   "source": "The Hacker News",
-   "published": "2026-11-04T05:43+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-11-04",
-   "advisories": [
-    {
-     "id": "tp2",
-     "match": "cve",
-     "on": [
-      "CVE-2026-119977"
-     ]
-    }
-   ],
-   "kev": {
-    "CVE-2026-119977": {
-     "added": "2026-11-03",
-     "due": "2026-11-06",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-   "source": "Dark Reading",
-   "published": "2026-11-04T02:00+00:00",
-   "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-   "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-   "source": "Dark Reading",
-   "published": "2026-11-04T01:05+00:00",
-   "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
-   "categories": [
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-   "source": "BleepingComputer",
-   "published": "2026-11-03T22:18+00:00",
-   "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
-   "link": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
-   "source": "Dark Reading",
-   "published": "2026-11-03T22:16+00:00",
-   "summary": "Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-04",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
+  {
+   "title": "Oracle Critical Security Patch Update, November 2026 Review",
+   "link": "https://threatprotect.qualys.com/2026/11/18/oracle-critical-security-patch-update-november-2026-review/",
+   "source": "ThreatPROTECT",
+   "published": "2026-11-18T14:21+00:00",
+   "summary": "Oracle released its November edition of the Critical Security Patch Update. The update received patches for 655 security vulnerabilities. Some of the vulnerabilities addressed in this update impact more than one product. These patches address vulnerabilities in various product…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "edition": "2026-11-18",
+   "id": "tp0",
+   "related": [
+    {
+     "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/18/oracle-critical-security-patch-update-november-2026-review",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/17/how-to-find-mitigate-and-patch-the-critical-java4shell-flaw-cve-2026-114938-now",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+     "match": "vendor"
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "OpenJDK Remote Code Execution Vulnerability (CVE-2026-114938) (Java4Shell)",
+   "link": "https://threatprotect.qualys.com/2026/11/18/threat-actors-exploit-critical-java4shell-in-attacks-cve-2026-114938/",
+   "source": "ThreatPROTECT",
+   "published": "2026-11-18T13:28+00:00",
+   "summary": "A critical Java flaw, Java4Shell, exists in OpenJDK, the open-source implementation of Java. Tracked as CVE-2026-114938, the vulnerability can allow unauthenticated attackers to execute code remotely. Java4Shell is a part of the Java runtime itself, so no application or library…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "vendors": [],
+   "edition": "2026-11-18",
+   "id": "tp1",
+   "related": [
+    {
+     "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+     "match": "cve"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/17/how-to-find-mitigate-and-patch-the-critical-java4shell-flaw-cve-2026-114938-now",
+     "match": "cve"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+     "match": "cve"
+    }
+   ],
+   "kev": {}
+  },
   {
    "title": "Microsoft Patch Tuesday, November 2026 Security Update Review",
    "link": "https://threatprotect.qualys.com/2026/11/11/microsoft-patch-tuesday-november-2026-security-update-review/",
@@ -9078,7 +9308,7 @@
     "Microsoft"
    ],
    "edition": "2026-11-11",
-   "id": "tp0",
+   "id": "tp2",
    "related": [],
    "kev": {}
   },
@@ -9099,7 +9329,7 @@
     "Google"
    ],
    "edition": "2026-11-11",
-   "id": "tp1",
+   "id": "tp3",
    "related": [
     {
      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
@@ -9126,45 +9356,6 @@
     "CVE-2026-125350": {
      "added": "2026-11-10",
      "due": "2026-11-24",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "CISA Warns of WordPress Vulnerability Exploited in the Wild (CVE-2026-119977)",
-   "link": "https://threatprotect.qualys.com/2026/11/04/cisa-warns-of-wordpress-vulnerability-exploited-in-the-wild-cve-2026-119977/",
-   "source": "ThreatPROTECT",
-   "published": "2026-11-04T11:53+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a WordPress core vulnerability to the Known Exploited Vulnerabilities catalog. CISA urges users to patch the vulnerability before November 6, 2026. Tracked as CVE-2026-119977, the vulnerability in…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "vendors": [
-    "WordPress"
-   ],
-   "edition": "2026-11-04",
-   "id": "tp2",
-   "related": [
-    {
-     "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-     "match": "vendor"
-    },
-    {
-     "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-     "match": "vendor"
-    },
-    {
-     "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-     "match": "cve"
-    }
-   ],
-   "kev": {
-    "CVE-2026-119977": {
-     "added": "2026-11-03",
-     "due": "2026-11-06",
      "ransomware": false
     }
    }
