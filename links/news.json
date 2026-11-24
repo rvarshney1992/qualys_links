@@ -1,8 +1,763 @@
 {
- "updated": "2026-11-22T20:33+00:00",
- "edition": "2026-11-22",
+ "updated": "2026-11-24T01:28+00:00",
+ "edition": "2026-11-24",
  "errors": [],
  "news": [
+  {
+   "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+   "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+   "source": "The Record",
+   "published": "2026-11-24T00:00+00:00",
+   "summary": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cybersecurity jobs available right now: November 24, 2026",
+   "link": "https://www.helpnetsecurity.com/2026/11/24/cybersecurity-jobs-available-right-now-november-24-2026/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T23:30+00:00",
+   "summary": "Applied Cyber, Detections Doppel | USA | Remote – View job details As an Applied Cyber, Detections, you will support customer detection operations, implement and optimize detection logic, and automate alert triage across web domains, social media, and other digital channels. You…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Industrial Serial Gateways Broadcast That They're Insecure",
+   "link": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+   "source": "Dark Reading",
+   "published": "2026-11-23T22:02+00:00",
+   "summary": "Critical OT access devices will often tell you, and anyone else, whether they're protected by authentication — and many aren't.",
+   "categories": [
+    "OT & IoT"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
+   "link": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+   "source": "Dark Reading",
+   "published": "2026-11-23T21:21+00:00",
+   "summary": "CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "CrowdStrike"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+   "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T20:54+00:00",
+   "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+   "categories": [
+    "Threat Intel & Actors",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "US Cyber Director Pick Signals Shift Toward Expertise",
+   "link": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+   "source": "Dark Reading",
+   "published": "2026-11-23T20:13+00:00",
+   "summary": "Trump named Kirsten Davies as Acting National Cyber Director, bringing greater industry experience to the role amid recent outages and rising geopolitical tensions.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T20:00+00:00",
+   "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+   "categories": [
+    "Data Breach",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T19:42+00:00",
+   "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Azure",
+    "Microsoft"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+   "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T18:38+00:00",
+   "summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+   "link": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+   "source": "The Record",
+   "published": "2026-11-23T18:37+00:00",
+   "summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Google"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+   "link": "https://therecord.media/fbi-cyberattack-data-breach",
+   "source": "The Record",
+   "published": "2026-11-23T18:30+00:00",
+   "summary": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
+   "categories": [
+    "Data Breach",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+   "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T17:45+00:00",
+   "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote…",
+   "categories": [
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+   "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+   "source": "Dark Reading",
+   "published": "2026-11-23T17:45+00:00",
+   "summary": "Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CrowdStrike to purchase Zscaler for $43.9 billion",
+   "link": "https://therecord.media/crowdstrike-zscaler",
+   "source": "The Record",
+   "published": "2026-11-23T17:14+00:00",
+   "summary": "“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "CrowdStrike"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+   "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T16:50+00:00",
+   "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+   "source": "Dark Reading",
+   "published": "2026-11-23T16:17+00:00",
+   "summary": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
+   "categories": [
+    "Vulnerability Management",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+   "link": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+   "source": "The Record",
+   "published": "2026-11-23T15:45+00:00",
+   "summary": "Norwegian energy companies Equinor and Skagerak Energi were affected by a Microsoft cloud security vulnerability that hackers have exploited to target sensitive credentials, Norway's cybersecurity authorities said.",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "LiteLLM 1.107.0 Supply Chain Attack: How to Secure AI Gateways Beyond Code Signatures",
+   "link": "https://blog.qualys.com/product-tech/2026/11/23/litellm-1-107-0-supply-chain-attack-ai-gateway-security-primary-keyword-litellm-1-107-0-supply-chain-attack-litellm-1-10",
+   "source": "Qualys Blog",
+   "published": "2026-11-23T15:27+00:00",
+   "summary": "On October 21, 2026, LiteLLM’s official release pipeline built, signed, and published version 1.107.0 from an attacker-controlled lookalike fork. The v1.107.0 source tag on GitHub was clean, and the compromised images carried a valid signature. The maintainers have since…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T15:10+00:00",
+   "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "VMware"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "VMware"
+     ]
+    }
+   ],
+   "kev": {}
+  },
+  {
+   "title": "GL.iNet cloud compromise hits routers and KVMs, older backdoors also found",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T15:05+00:00",
+   "summary": "Attackers compromised GoodCloud, GL.iNet’s cloud remote management service, and used it to install malware on routers and KVM (keyboard, video and mouse) devices connected to it. The Chinese company, best known for its small travel routers, is still investigating, and it’s not…",
+   "categories": [
+    "Ransomware & Malware",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI Agents Are Creating a Shared Responsibility Gap",
+   "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T15:00+00:00",
+   "summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Upgrade to Qualys’ Learning Management System (LMS)",
+   "link": "https://blog.qualys.com/product-tech/2026/11/23/upgrade-to-qualys-learning-management-system-lms",
+   "source": "Qualys Blog",
+   "published": "2026-11-23T13:49+00:00",
+   "summary": "Key Takeaways Plan around the downtime: The learning platform will be unavailable from 7 AM PT on November 29, 2026, to 12 PM PT on December 1, 2026. Instructor-led training will continue as scheduled. Finish self-paced courses early: Complete any self-paced training you’ve…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access",
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T13:28+00:00",
+   "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+   "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T13:22+00:00",
+   "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-134814"
+   ],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T13:00+00:00",
+   "summary": "Hackers breached e-commerce platform Cleverbridge and made off with payment card data stored on it, the company has confirmed. Cleverbridge handles purchases, payments and subscriptions for other businesses, and its website lists Red Hat, Sony, SUSE, Veeam, Tenable and Jamf…",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "Red Hat",
+    "Veeam"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T12:41+00:00",
+   "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-84869"
+   ],
+   "vendors": [
+    "ConnectWise",
+    "ScreenConnect"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-84869": {
+     "added": "2026-09-11",
+     "due": "2026-09-14",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "CrowdStrike to acquire Zscaler for $43.9 billion",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T12:41+00:00",
+   "summary": "CrowdStrike has agreed to acquire Zscaler in an all-stock deal with an enterprise value of about $43.9 billion. Deal terms Zscaler shareholders will receive 1.135 CrowdStrike shares for each Zscaler share. Based on CrowdStrike’s November 20, 2026 closing price, that implies…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "CrowdStrike"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+   "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T12:28+00:00",
+   "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF)…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "Cloud & Container"
+   ],
+   "cves": [
+    "CVE-2026-134624"
+   ],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-134624": {
+     "added": "2026-11-23",
+     "due": "2026-11-26",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T12:26+00:00",
+   "summary": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-123890",
+    "CVE-2026-76466"
+   ],
+   "vendors": [
+    "Cisco",
+    "VMware",
+    "vCenter"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [
+    {
+     "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-123890"
+     ]
+    }
+   ],
+   "kev": {
+    "CVE-2026-123890": {
+     "added": "2026-11-20",
+     "due": "2026-11-23",
+     "ransomware": false
+    },
+    "CVE-2026-76466": {
+     "added": "2026-11-20",
+     "due": "2026-11-23",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+   "link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T12:02+00:00",
+   "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-23T12:00+00:00",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [
+    "CVE-2026-133968",
+    "CVE-2026-134624"
+   ],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-133968": {
+     "added": "2026-11-23",
+     "due": "2026-11-26",
+     "ransomware": false
+    },
+    "CVE-2026-134624": {
+     "added": "2026-11-23",
+     "due": "2026-11-26",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Open-source AI pentesting framework Cairn keeps turning up in real-world attacks",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/cairn-ai-agents-autonomous-attacks/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T10:49+00:00",
+   "summary": "Autonomous AI agents run by a Chinese-nexus threat actor spent nearly a full day failing to break into university servers, then found and exploited a zero-day in an open-source medical imaging AI application and gained a foothold. The agents ran on Cairn, an open-source AI…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T10:34+00:00",
+   "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based monitoring service…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [
+    "Entra",
+    "Microsoft"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T09:11+00:00",
+   "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-131914"
+   ],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T09:11+00:00",
+   "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Windows"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+   "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T09:04+00:00",
+   "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed…",
+   "categories": [
+    "Vulnerability Management",
+    "Ransomware & Malware",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Signal blocks AI assistants from peeking at your private messages",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/signal-blocks-ai-assistants-screenshots/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T08:53+00:00",
+   "summary": "Signal, the encrypted messaging app, is restricting AI assistants built into mobile operating systems from capturing the content of users’ conversations. The protections target Siri AI on iOS 27 and AI assistants on supported Android devices, including Google’s Gemini. These…",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [
+    "Android",
+    "Google",
+    "iOS"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+   "source": "The Hacker News",
+   "published": "2026-11-23T08:24+00:00",
+   "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in…",
+   "categories": [
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Infected TV boxes in BADBOX 3.0 rent out their owners’ home internet",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T08:06+00:00",
+   "summary": "HUMAN’s Satori Threat Intelligence and Research Team has disrupted BADBOX 3.0, an operation run mainly from infected low-cost TV boxes that generated roughly 40 billion ad bid requests a day at its peak. That was more than 4% of all connected TV (CTV) traffic HUMAN observed and…",
+   "categories": [
+    "Ransomware & Malware"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "source": "BleepingComputer",
+   "published": "2026-11-23T07:44+00:00",
+   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Yes, but securely: A cancer institute’s answer to shadow IT in research",
+   "link": "https://www.helpnetsecurity.com/2026/11/23/rocco-saviano-istituto-nazionale-tumori-int-hospital-microsegmentation/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T07:00+00:00",
+   "summary": "In this interview with Help Net Security, Rocco Saviano, Director of Digital Transformation, Istituto Nazionale Tumori (INT), talks about keeping a cancer hospital running while protecting it from cyberattacks. He explains what happens when a nurse can’t open a chemotherapy…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
@@ -292,6 +1047,22 @@
      "ransomware": false
     }
    }
+  },
+  {
+   "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+   "link": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
+   "source": "Dark Reading",
+   "published": "2026-11-21T01:31+00:00",
+   "summary": "Identity, runtime, and development controls are converging as enterprises look for ways to keep agents within their assigned tasks. But vendors' approaches vary, so CISOs face a choice.",
+   "categories": [
+    "Identity & Access",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-24",
+   "advisories": [],
+   "kev": {}
   },
   {
    "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -2430,7 +3201,7 @@
     "CVE-2024-10441": {
      "added": "2026-11-18",
      "due": "2026-11-21",
-     "ransomware": false
+     "ransomware": true
     },
     "CVE-2026-40217": {
      "added": "2026-11-18",
@@ -8908,822 +9679,6 @@
      "ransomware": false
     }
    }
-  },
-  {
-   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-   "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T23:52+00:00",
-   "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "People Are Getting Weird About AI",
-   "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
-   "source": "Dark Reading",
-   "published": "2026-11-09T23:06+00:00",
-   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into potential delusion.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-10",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-   "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T22:09+00:00",
-   "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
-   "source": "Dark Reading",
-   "published": "2026-11-09T21:38+00:00",
-   "summary": "New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-   "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T21:26+00:00",
-   "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable…",
-   "categories": [
-    "Vulnerability Management",
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "York University breach exposed personal information dating to 2007",
-   "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T21:22+00:00",
-   "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-   "categories": [
-    "Threat Intel & Actors",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
-   "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
-   "source": "Dark Reading",
-   "published": "2026-11-09T21:12+00:00",
-   "summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Data breach at hearing aid giant Amplifon impacts thousands",
-   "link": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
-   "source": "The Record",
-   "published": "2026-11-09T20:44+00:00",
-   "summary": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
-   "categories": [
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "Arm"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
-   "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
-   "source": "Dark Reading",
-   "published": "2026-11-09T20:19+00:00",
-   "summary": "Inaugural edition by Informa Markets in India brings together leading researchers, security practitioners and industry decision makers for four days of cutting-edge research, technical exchange and strategic dialogue.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "France blames Iran for fridge cyberattacks, says some caused fires",
-   "link": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
-   "source": "The Record",
-   "published": "2026-11-09T18:45+00:00",
-   "summary": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-   "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T18:32+00:00",
-   "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
-   "link": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
-   "source": "The Record",
-   "published": "2026-11-09T18:30+00:00",
-   "summary": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
-   "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
-   "source": "Dark Reading",
-   "published": "2026-11-09T18:08+00:00",
-   "summary": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.",
-   "categories": [
-    "Vulnerability Management",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux",
-    "Office"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T17:51+00:00",
-   "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those…",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach",
-    "Cloud & Container",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T17:50+00:00",
-   "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-   "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T17:36+00:00",
-   "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm…",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PwC's CISO on AI, Robots & What's Next for Security",
-   "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
-   "source": "Dark Reading",
-   "published": "2026-11-09T17:17+00:00",
-   "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Binance denies data breach after alleged ShinyHunters claims",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T16:12+00:00",
-   "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-   "categories": [
-    "Threat Intel & Actors",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T16:04+00:00",
-   "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach",
-    "Identity & Access"
-   ],
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "vendors": [
-    "Linux",
-    "OpenSSH"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-123158": {
-     "added": "2026-11-09",
-     "due": "2026-11-12",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "NIST: Solo Shouldn't Mean Less Secure",
-   "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
-   "source": "Dark Reading",
-   "published": "2026-11-09T15:46+00:00",
-   "summary": "New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ukraine arrests four in $5 million crypto scam targeting Germans",
-   "link": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
-   "source": "The Record",
-   "published": "2026-11-09T15:24+00:00",
-   "summary": "Ukraine's cyber police said the four arrested men included the alleged leader of the scam call centers.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
-   "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T15:05+00:00",
-   "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC workplace: data literacy, agent governance, and communication. [...]",
-   "categories": [
-    "AI Security",
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "ARTEX goes from pentesting tool to attacker staple in three months",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/artex-goes-from-pentesting-tool-to-attacker-staple-in-three-months/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T14:57+00:00",
-   "summary": "A security researcher’s AI agent breached an internal sales application used by WorkOS’s go-to-market teams, the developer platform provider confirmed on Friday. “The researcher was conducting cybersecurity benchmark evaluations using ARTEX when their agent escaped its isolated…",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers abuse refrigeration controllers to send spam and route proxy traffic",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/copeland-xweb-refrigeration-controllers-spam-botnet/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T14:54+00:00",
-   "summary": "Internet-exposed refrigeration controllers used in supermarkets and cold storage facilities are being hijacked and turned into infrastructure for a suspected spam botnet and proxy services, SecurityScorecard has found. The report follows a string of attacks against European…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T14:34+00:00",
-   "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-   "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T14:31+00:00",
-   "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Fortinet"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
-   "link": "https://therecord.media/cyberattack-germany-ai-mittwald",
-   "source": "The Record",
-   "published": "2026-11-09T14:15+00:00",
-   "summary": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed.",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "The Expanding Attack Surface Demands a New Operating Model",
-   "link": "https://blog.qualys.com/qualys-insights/2026/11/09/the-expanding-attack-surface-demands-a-new-operating-model",
-   "source": "Qualys Blog",
-   "published": "2026-11-09T13:45+00:00",
-   "summary": "Why the Risk Operations Center Is Becoming the System of Record for Proactive Enterprise Risk Reduction The cybersecurity industry has spent years improving how we discover vulnerabilities. The challenge now is no longer finding risk. It is reducing risk faster than adversaries…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T13:28+00:00",
-   "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-   "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T13:28+00:00",
-   "summary": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "PyPI makes release attestations easier to find with new security tab",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/pypi-security-tab-release-attestations/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T13:23+00:00",
-   "summary": "The Python Package Index (PyPI) has added a security tab to its project pages, giving developers a place to check where individual release files came from. How PyPI shows where release files came from The Security tab shows whether release files have digital attestations, which…",
-   "categories": [
-    "Supply Chain"
-   ],
-   "cves": [],
-   "vendors": [
-    "Python"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-   "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-   "source": "BleepingComputer",
-   "published": "2026-11-09T12:16+00:00",
-   "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "source": "CISA Advisories",
-   "published": "2026-11-09T12:00+00:00",
-   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnerability…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors",
-    "Compliance & Policy"
-   ],
-   "cves": [
-    "CVE-2026-102895",
-    "CVE-2026-116779",
-    "CVE-2026-123158",
-    "CVE-2026-123218"
-   ],
-   "vendors": [
-    "IBM",
-    "OpenSSH"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-102895": {
-     "added": "2026-11-09",
-     "due": "2026-11-12",
-     "ransomware": false
-    },
-    "CVE-2026-116779": {
-     "added": "2026-11-09",
-     "due": "2026-11-12",
-     "ransomware": false
-    },
-    "CVE-2026-123158": {
-     "added": "2026-11-09",
-     "due": "2026-11-12",
-     "ransomware": false
-    },
-    "CVE-2026-123218": {
-     "added": "2026-11-09",
-     "due": "2026-11-12",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T11:47+00:00",
-   "summary": "Three men allegedly used deepfakes of company CEOs and law firm attorneys to trick employees into wiring more than $129 million to accounts the group controlled, the Justice Department said. The indictment names the three as Jacob Soall, 41, Sharon Hazan, 54, and Guy Sheetrit…",
-   "categories": [
-    "Compliance & Policy"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-   "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T11:27+00:00",
-   "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in…",
-   "categories": [
-    "Identity & Access"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-   "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T10:56+00:00",
-   "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Apple",
-    "Google"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T10:30+00:00",
-   "summary": "SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. About CVE-2026-19868…",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
-   ],
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-19868": {
-     "added": "2026-11-06",
-     "due": "2026-11-20",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "$133 million stolen from French bank via exploited service provider",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/credit-mutuel-arkea-cyberattack-133-million/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T10:03+00:00",
-   "summary": "Attackers siphoned an estimated $133 million from Crédit Mutuel Arkéa by using the bank’s own account to wire money to other banks, from where it was possibly converted into cryptocurrency. The French cooperative banking group, which has €211.5 billion in total assets and more…",
-   "categories": [
-    "Vulnerability Management",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-   "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T10:01+00:00",
-   "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Product showcase: What the Malwarebytes Claude connector reveals about unexpected texts",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/product-showcase-malwarebytes-claude-scam-detection/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T09:31+00:00",
-   "summary": "The Malwarebytes connector for Claude checks suspicious links, phone numbers, and email addresses without leaving the chat. You can paste a link or upload a screenshot of a message, then ask Claude to check the details against Malwarebytes’ threat database. The connector works…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-   "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T09:01+00:00",
-   "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-   "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T07:05+00:00",
-   "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Office"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-   "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T06:15+00:00",
-   "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses…",
-   "categories": [
-    "Vulnerability Management",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-   "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-   "source": "The Hacker News",
-   "published": "2026-11-09T06:05+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The…",
-   "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
-   ],
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "vendors": [
-    "SonicWall"
-   ],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-19868": {
-     "added": "2026-11-06",
-     "due": "2026-11-20",
-     "ransomware": false
-    }
-   }
-  },
-  {
-   "title": "Wirken: Open-source AI agent gateway",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/wirken-open-source-ai-agent-gateway/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T06:00+00:00",
-   "summary": "Wirken is an open-source gateway that sits between messaging apps and AI agents. It assumes any agent can be turned against its owner and limits what a compromised one can reach. Take an agent that reads your chats and email, holds the keys to your accounts and can run commands…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Companies seeking an MSP doubt their ability to spot cyberattacks",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/barracuda-msp-cybersecurity-services-expectations-report/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T06:00+00:00",
-   "summary": "Businesses looking to outsource cybersecurity want providers that can help them recover from attacks, manage AI risks, and explain what security problems mean for their operations, according to Barracuda What MSP Customers Need Next report. What MSP customers need next (Source…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "An average of 8 minutes is all hackers need to log in with stolen credentials",
-   "link": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
-   "source": "Help Net Security",
-   "published": "2026-11-09T05:00+00:00",
-   "summary": "Attackers used stolen credentials to log in an average of eight minutes after infection across 27 confirmed infostealer cases, according to a report from Elastic Security Threat Command. Researchers also documented misuse of AI applications to execute commands and digitally…",
-   "categories": [
-    "Ransomware & Malware",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-09",
-   "advisories": [],
-   "kev": {}
   }
  ],
  "advisories": [
@@ -9734,8 +9689,7 @@
    "published": "2026-11-20T14:47+00:00",
    "summary": "Broadcom has released security updates to address five vulnerabilities impacting VMware vCenter, Tools, and SDDC Manager. The following is the list of CVEs: CVE Severity CVSS CVE-2026-123890 Critical 9.8 CVE-2026-123891 Important 8.1 CVE-2026-123892 Important 7.2 CVE-2026-123893…",
    "categories": [
-    "Vulnerability Management",
-    "Identity & Access"
+    "Vulnerability Management"
    ],
    "cves": [
     "CVE-2026-123890",
@@ -9752,6 +9706,14 @@
    "edition": "2026-11-20",
    "id": "tp0",
    "related": [
+    {
+     "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+     "match": "cve"
+    },
     {
      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
      "match": "vendor"
