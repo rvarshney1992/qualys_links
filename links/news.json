@@ -1,8 +1,676 @@
 {
- "updated": "2026-11-24T23:21+00:00",
- "edition": "2026-11-24",
- "errors": [],
+ "updated": "2026-11-25T22:54+00:00",
+ "edition": "2026-11-25",
+ "errors": [
+  "The Record: HTTP Error 520: <none>"
+ ],
  "news": [
+  {
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T22:05+00:00",
+   "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [
+    "PAN-OS",
+    "Palo Alto"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T21:33+00:00",
+   "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T19:39+00:00",
+   "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T16:13+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
+   "link": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+   "source": "Dark Reading",
+   "published": "2026-11-25T15:48+00:00",
+   "summary": "Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers' machines.",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "It's a Bot World. We're Just Living in It",
+   "link": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+   "source": "Dark Reading",
+   "published": "2026-11-25T15:20+00:00",
+   "summary": "Bot detection has become a losing game. Security teams need to limit privileged access for humans and their machine counterparts equally.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+   "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T15:00+00:00",
+   "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+   "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T15:00+00:00",
+   "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
+   "categories": [
+    "Vulnerability Management",
+    "Supply Chain"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+   "source": "Dark Reading",
+   "published": "2026-11-25T15:00+00:00",
+   "summary": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
+   "categories": [
+    "AI Security",
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Shufti Fraud Hub exposes suspicious links between seemingly legitimate accounts",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/shufti-fraud-hub/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T14:45+00:00",
+   "summary": "Shufti has announced the launch of its Fraud Hub, a connected fraud intelligence layer designed to detect suspicious verification attempts, identify coordinated fraud networks and monitor emerging risks across the user lifecycle. Shufti Fraud Hub connects identity, device…",
+   "categories": [
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+   "source": "Dark Reading",
+   "published": "2026-11-25T14:00+00:00",
+   "summary": "From the Port of Santos in Brazil to a pipeline in Argentina, cyberattacks are increasingly affecting industrial systems throughout the region.",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T13:37+00:00",
+   "summary": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "vendors": [
+    "Drupal"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-132165": {
+     "added": "2026-11-24",
+     "due": "2026-11-27",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T12:48+00:00",
+   "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors"
+   ],
+   "cves": [
+    "CVE-2026-120705",
+    "CVE-2026-129243"
+   ],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+   "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T12:30+00:00",
+   "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline. The…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-25T12:00+00:00",
+   "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation…",
+   "categories": [
+    "Vulnerability Management",
+    "Threat Intel & Actors",
+    "Compliance & Policy"
+   ],
+   "cves": [
+    "CVE-2023-25914",
+    "CVE-2023-25915",
+    "CVE-2025-41450",
+    "CVE-2026-103406",
+    "CVE-2026-133275",
+    "CVE-2026-133303",
+    "CVE-2026-133311",
+    "CVE-2026-133323",
+    "CVE-2026-133324",
+    "CVE-2026-133469"
+   ],
+   "vendors": [
+    "HPE",
+    "Juniper"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {
+    "CVE-2023-25914": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2023-25915": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2025-41450": {
+     "added": "2026-11-25",
+     "due": "2026-12-09",
+     "ransomware": false
+    },
+    "CVE-2026-103406": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2026-133275": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2026-133303": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2026-133311": {
+     "added": "2026-11-25",
+     "due": "2026-12-09",
+     "ransomware": false
+    },
+    "CVE-2026-133323": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2026-133324": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    },
+    "CVE-2026-133469": {
+     "added": "2026-11-25",
+     "due": "2026-11-28",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+   "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T11:51+00:00",
+   "summary": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets…",
+   "categories": [
+    "Data Breach",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+   "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T11:23+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "vendors": [
+    "Drupal"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-132165": {
+     "added": "2026-11-24",
+     "due": "2026-11-27",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Bots exploited leaked AWS key from Docker image in under 8 seconds",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T11:22+00:00",
+   "summary": "A cloud access key left inside a newly published Docker image can be found and used by bots in less than eight seconds, Billy Tsouvalas and Nick Nikiforakis of Stony Brook University discovered after planting 300 decoy images on public container registries. Docker images are…",
+   "categories": [
+    "Vulnerability Management",
+    "Data Breach",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Docker"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T11:16+00:00",
+   "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft",
+    "Office"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+   "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T10:43+00:00",
+   "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T10:10+00:00",
+   "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Anthropic wants to catch rogue AI activity without retaining your data",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T09:20+00:00",
+   "summary": "Anthropic has launched a public beta of Enterprise Frontier Safeguards (EFS), enabling organizations to detect potentially harmful AI activity across multiple interactions while maintaining zero data retention (ZDR). The capability uses automated safety systems to analyze…",
+   "categories": [
+    "Cloud & Container",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+   "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T09:06+00:00",
+   "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that…",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Erlang"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Microsoft confirms authentication issues after November updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T09:02+00:00",
+   "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+   "categories": [
+    "Vulnerability Management"
+   ],
+   "cves": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Police disrupt 57 illegal IPTV services and trace €26 million in crypto",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/illegal-iptv-disrupted-europol-crypto/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T08:59+00:00",
+   "summary": "A crackdown involving police from 11 countries has disrupted 57 illegal IPTV services and identified 321 pirate websites that draw more than 7.3 million visits a year. Europol coordinated the five-day operation in Seville, Spain, where investigators worked with the…",
+   "categories": [
+    "Compliance & Policy"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Hackers reportedly breached CIA intelligence analysis system",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T07:45+00:00",
+   "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+   "categories": [
+    "Data Breach"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T07:22+00:00",
+   "summary": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container"
+   ],
+   "cves": [
+    "CVE-2026-131914",
+    "CVE-2026-132165",
+    "CVE-2026-132224"
+   ],
+   "vendors": [
+    "Drupal"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {
+    "CVE-2026-131914": {
+     "added": "2026-11-24",
+     "due": "2026-11-27",
+     "ransomware": false
+    },
+    "CVE-2026-132165": {
+     "added": "2026-11-24",
+     "due": "2026-11-27",
+     "ransomware": false
+    },
+    "CVE-2026-132224": {
+     "added": "2026-11-24",
+     "due": "2026-11-27",
+     "ransomware": false
+    }
+   }
+  },
+  {
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T06:50+00:00",
+   "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker…",
+   "categories": [
+    "Threat Intel & Actors",
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Check Point"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+   "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T06:37+00:00",
+   "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services…",
+   "categories": [
+    "Ransomware & Malware",
+    "Threat Intel & Actors",
+    "Data Breach",
+    "Cloud & Container"
+   ],
+   "cves": [],
+   "vendors": [
+    "Palo Alto"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Credential harvesting goes from fringe activity to major exploitation trend",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/vulncheck-credential-harvesting-exploitat-records/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T06:30+00:00",
+   "summary": "Requests to steal credentials made up 13% of all vulnerability exploitation recorded between January and November 2026. Their monthly share climbed from about 1% in January to between 25% and 35% in September and October, data from VulnCheck’s canary network shows. The company…",
+   "categories": [
+    "Vulnerability Management",
+    "Cloud & Container",
+    "Identity & Access"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+   "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+   "source": "The Hacker News",
+   "published": "2026-11-25T06:21+00:00",
+   "summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "gputaskman: Open-source task manager for GPUs",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/gputaskman-open-source-gpu-task-manager/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T06:00+00:00",
+   "summary": "gputaskman is an open-source task manager for GPUs that runs in a terminal on Windows, Linux, WSL, and Apple Silicon Macs. It shows which process is holding a machine’s GPU memory, how busy each process keeps the card, and which AI model sits behind the numbers, where it can…",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Apple",
+    "Linux",
+    "Windows"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Security+ builds the foundation. SSCP proves you can execute",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/isc2-systems-security-certified-practitioner-sscp-certification/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T05:30+00:00",
+   "summary": "Cybersecurity knowledge and operational readiness: why both matter Consider this threat scenario: Systems go down, alerts escalate, response windows shrink. In today’s high-stakes world, cybersecurity professionals need more than theoretical knowledge — they need operational…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [
+    "Windows"
+   ],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
+   "title": "Holiday scam losses force some victims to cut back on essentials",
+   "link": "https://www.helpnetsecurity.com/2026/11/25/mcafee-holiday-shopping-scams-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-25T05:00+00:00",
+   "summary": "The proportion of Americans who say they have fallen victim to a holiday shopping scam has nearly doubled since last year, according to new research from McAfee. Forty-two percent say they have fallen for one, up from 22% in 2025. Confidence in spotting scams drops Shoppers are…",
+   "categories": [
+    "General Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
   {
    "title": "Satellites Have a Ground-Level Cybersecurity Problem",
    "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
@@ -243,6 +911,21 @@
    "kev": {}
   },
   {
+   "title": "How Southeastern University Got a Handle on Its Data",
+   "link": "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
+   "source": "Dark Reading",
+   "published": "2026-11-24T15:46+00:00",
+   "summary": "Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption.",
+   "categories": [
+    "AI Security"
+   ],
+   "cves": [],
+   "vendors": [],
+   "edition": "2026-11-25",
+   "advisories": [],
+   "kev": {}
+  },
+  {
    "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
    "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
    "source": "BleepingComputer",
@@ -393,6 +1076,13 @@
    "advisories": [
     {
      "id": "tp0",
+     "match": "cve",
+     "on": [
+      "CVE-2026-123903"
+     ]
+    },
+    {
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Broadcom",
@@ -531,7 +1221,7 @@
    "edition": "2026-11-24",
    "advisories": [
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -1103,6 +1793,13 @@
      "on": [
       "VMware"
      ]
+    },
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "VMware"
+     ]
     }
    ],
    "kev": {}
@@ -1302,10 +1999,18 @@
    "edition": "2026-11-24",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-123890"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "VMware",
+      "vCenter"
      ]
     }
    ],
@@ -1616,7 +2321,7 @@
    "edition": "2026-11-22",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
@@ -1827,6 +2532,15 @@
       "VMware",
       "vCenter"
      ]
+    },
+    {
+     "id": "tp1",
+     "match": "vendor",
+     "on": [
+      "Broadcom",
+      "VMware",
+      "vCenter"
+     ]
     }
    ],
    "kev": {
@@ -1901,6 +2615,14 @@
    "advisories": [
     {
      "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "VMware",
+      "vCenter"
+     ]
+    },
+    {
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "VMware",
@@ -2046,7 +2768,7 @@
    "edition": "2026-11-20",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
@@ -2190,10 +2912,19 @@
    "edition": "2026-11-20",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-123890"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Broadcom",
+      "VMware",
+      "vCenter"
      ]
     }
    ],
@@ -2288,10 +3019,17 @@
    "edition": "2026-11-20",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-123890"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "vCenter"
      ]
     }
    ],
@@ -2335,7 +3073,7 @@
    "edition": "2026-11-20",
    "advisories": [
     {
-     "id": "tp2",
+     "id": "tp3",
      "match": "vendor",
      "on": [
       "F5"
@@ -2425,10 +3163,18 @@
    "edition": "2026-11-20",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "cve",
      "on": [
       "CVE-2026-123890"
+     ]
+    },
+    {
+     "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "VMware",
+      "vCenter"
      ]
     }
    ],
@@ -2587,6 +3333,15 @@
    "advisories": [
     {
      "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Broadcom",
+      "VMware",
+      "vCenter"
+     ]
+    },
+    {
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Broadcom",
@@ -2778,7 +3533,7 @@
    "edition": "2026-11-19",
    "advisories": [
     {
-     "id": "tp2",
+     "id": "tp3",
      "match": "cve",
      "on": [
       "CVE-2026-123007",
@@ -2957,6 +3712,15 @@
    "advisories": [
     {
      "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "Broadcom",
+      "VMware",
+      "vCenter"
+     ]
+    },
+    {
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "Broadcom",
@@ -3403,7 +4167,7 @@
    "edition": "2026-11-19",
    "advisories": [
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -3491,7 +4255,7 @@
    "edition": "2026-11-19",
    "advisories": [
     {
-     "id": "tp2",
+     "id": "tp3",
      "match": "cve",
      "on": [
       "CVE-2026-113425",
@@ -3664,7 +4428,7 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp2",
+     "id": "tp3",
      "match": "cve",
      "on": [
       "CVE-2026-123007"
@@ -3691,7 +4455,7 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp2",
+     "id": "tp3",
      "match": "vendor",
      "on": [
       "F5"
@@ -3866,7 +4630,7 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -4030,7 +4794,7 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
@@ -4072,14 +4836,14 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
      ]
     },
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -4200,14 +4964,14 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
      ]
     },
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -4427,14 +5191,14 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
      ]
     },
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -4747,14 +5511,14 @@
    "edition": "2026-11-17",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
      ]
     },
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -5241,14 +6005,14 @@
    "edition": "2026-11-18",
    "advisories": [
     {
-     "id": "tp4",
+     "id": "tp5",
      "match": "cve",
      "on": [
       "CVE-2026-114938"
      ]
     },
     {
-     "id": "tp3",
+     "id": "tp4",
      "match": "vendor",
      "on": [
       "Oracle"
@@ -5818,15 +6582,7 @@
     "Windows"
    ],
    "edition": "2026-11-16",
-   "advisories": [
-    {
-     "id": "tp6",
-     "match": "vendor",
-     "on": [
-      "Chrome"
-     ]
-    }
-   ],
+   "advisories": [],
    "kev": {}
   },
   {
@@ -6100,6 +6856,14 @@
    "advisories": [
     {
      "id": "tp0",
+     "match": "vendor",
+     "on": [
+      "VMware",
+      "vCenter"
+     ]
+    },
+    {
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "VMware",
@@ -6512,7 +7276,7 @@
    "edition": "2026-11-13",
    "advisories": [
     {
-     "id": "tp0",
+     "id": "tp1",
      "match": "vendor",
      "on": [
       "VMware"
@@ -8112,653 +8876,79 @@
    "edition": "2026-11-12",
    "advisories": [],
    "kev": {}
-  },
-  {
-   "title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
-   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
-   "source": "Dark Reading",
-   "published": "2026-11-11T22:14+00:00",
-   "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-13",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
-   "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
-   "source": "Dark Reading",
-   "published": "2026-11-11T21:44+00:00",
-   "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
-   "categories": [
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-   "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T21:27+00:00",
-   "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AI Raises the Stakes for Cyber Resilience",
-   "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
-   "source": "Dark Reading",
-   "published": "2026-11-11T21:20+00:00",
-   "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-12",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-   "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T20:54+00:00",
-   "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
-   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
-   "source": "Dark Reading",
-   "published": "2026-11-11T20:27+00:00",
-   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-13",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-   "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-   "source": "Dark Reading",
-   "published": "2026-11-11T20:05+00:00",
-   "summary": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Who Runs the Ransomware Group Qilin?",
-   "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-   "source": "Krebs on Security",
-   "published": "2026-11-11T18:06+00:00",
-   "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a…",
-   "categories": [
-    "Ransomware & Malware"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
-   "link": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
-   "source": "The Record",
-   "published": "2026-11-11T16:57+00:00",
-   "summary": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-   "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T16:24+00:00",
-   "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "Data Breach"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-   "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T16:12+00:00",
-   "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-108186"
-   ],
-   "vendors": [
-    "Windows",
-    "Zoom"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-   "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T15:34+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed…",
-   "categories": [
-    "Threat Intel & Actors",
-    "Cloud & Container",
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T15:12+00:00",
-   "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-   "categories": [
-    "Cloud & Container",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-   "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T15:01+00:00",
-   "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Linux"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Kai extends Autonomous Defense Platform visibility to internet-facing assets",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/kai-autonomous-defense-platform/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T14:55+00:00",
-   "summary": "Kai has announced External Attack Surface Management (EASM), now available on the Kai Autonomous Defense Platform. The company also launched Kai Labs, an expanded research team focused on the hardest open problems where AI meets security. Most exposure management programs only…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Git fixes six vulnerabilities, including code execution during recursive clones",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T14:26+00:00",
-   "summary": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-111760"
-   ],
-   "vendors": [
-    "Git"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-   "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T14:01+00:00",
-   "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several…",
-   "categories": [
-    "Threat Intel & Actors"
-   ],
-   "cves": [],
-   "vendors": [
-    "Veeam"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T13:54+00:00",
-   "summary": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Poland shuts down government services platform ePUAP following cyberattack",
-   "link": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
-   "source": "The Record",
-   "published": "2026-11-11T13:18+00:00",
-   "summary": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Britain, France set out first guidelines for commercial hacking firms",
-   "link": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
-   "source": "The Record",
-   "published": "2026-11-11T13:11+00:00",
-   "summary": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses.",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-   "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T12:32+00:00",
-   "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-   "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T12:19+00:00",
-   "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most…",
-   "categories": [
-    "Identity & Access",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-   "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T12:01+00:00",
-   "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default…",
-   "categories": [
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Rubrik enhances DevOps Protection to preserve legitimate work during recovery",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/rubrik-devops-protection/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T12:01+00:00",
-   "summary": "Rubrik has announced cyber recovery capabilities for DevOps platforms Microsoft Azure DevOps and GitHub. With built-in anomaly detection, blast radius investigation, and surgical recovery, organizations will be able to detect suspicious activity on their code, instantly scope…",
-   "categories": [
-    "Cloud & Container"
-   ],
-   "cves": [],
-   "vendors": [
-    "Azure",
-    "GitHub",
-    "Microsoft"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-   "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T12:00+00:00",
-   "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Python"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft fixes audio issues caused by September security updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T11:18+00:00",
-   "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Windows"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft researchers demonstrate hidden backdoor technique for AI agents",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T10:55+00:00",
-   "summary": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave…",
-   "categories": [
-    "Ransomware & Malware",
-    "Threat Intel & Actors",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T10:12+00:00",
-   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Ubuntu certificate revocation checks arrive in curl, OpenSSL is next",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/ubuntu-certificate-revocation-curl-openssl/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T09:46+00:00",
-   "summary": "Ubuntu 26.10 ships curl with certificate revocation checking built in. The check comes from upki, a project from the rustls developers. Ubuntu’s developers ran the same curl command on both releases: Ubuntu 26.04 accepted a revoked certificate and connected, while 26.10 refused…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "OpenSSL",
-    "Ubuntu"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Red Hat OpenShift 5 brings autonomous troubleshooting to hybrid clouds",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/red-hat-openshift-5/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T09:31+00:00",
-   "summary": "Red Hat has announced the general availability of Red Hat OpenShift 5, bringing built-in operational intelligence, zero trust security and a longer, predictable lifecycle to the hybrid cloud application platform powered by Kubernetes. Purpose-built to streamline complex…",
-   "categories": [
-    "Cloud & Container",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Kubernetes",
-    "Red Hat"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Druva helps restore AI agents without rolling back entire environments",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/druva-agent-recovery/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T09:23+00:00",
-   "summary": "Druva has announced Druva Agent Recovery, a new set of AI Resilience capabilities that keep the business running by quickly restoring AI agents when they are deleted or unexpectedly changed. Support begins with Microsoft Copilot Studio, Microsoft’s platform for building custom…",
-   "categories": [
-    "Cloud & Container",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Azure",
-    "Microsoft"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Fingerprint trains specialized models to detect distinct fraud types",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/fingerprint-fraud-score/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T09:12+00:00",
-   "summary": "Fingerprint has launched Fraud Score, a predictive fraud signal trained directly on customers’ own fraud outcomes and powered by Fingerprint’s device intelligence and machine learning models. Fraud Score learns the fraud types at each organization to help them identify fraud…",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-   "source": "BleepingComputer",
-   "published": "2026-11-11T09:07+00:00",
-   "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
-   "categories": [
-    "General Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Exchange",
-    "Microsoft",
-    "Outlook",
-    "Windows"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Orca Security adds visibility into AI-generated code and agent risks",
-   "link": "https://www.helpnetsecurity.com/2026/11/11/orca-security-ai-security/",
-   "source": "Help Net Security",
-   "published": "2026-11-11T09:05+00:00",
-   "summary": "Orca Security has announced new capabilities to help organizations discover and secure AI-generated applications and autonomous agents across their cloud environments. The expansion builds on Orca’s AI Security offering, enabling security teams to uncover previously unknown AI…",
-   "categories": [
-    "Cloud & Container",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-   "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T08:17+00:00",
-   "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft",
-    "Office",
-    "Outlook",
-    "SharePoint",
-    "Windows"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-   "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T07:49+00:00",
-   "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not…",
-   "categories": [
-    "Data Breach",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-   "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T07:21+00:00",
-   "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with…",
-   "categories": [
-    "Ransomware & Malware",
-    "AI Security"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {}
-  },
-  {
-   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-   "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-   "source": "The Hacker News",
-   "published": "2026-11-11T06:04+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-20320"
-   ],
-   "vendors": [
-    "Cisco"
-   ],
-   "edition": "2026-11-11",
-   "advisories": [],
-   "kev": {
-    "CVE-2026-20320": {
-     "added": "2026-11-10",
-     "due": "2026-11-24",
-     "ransomware": false
-    }
-   }
   }
  ],
  "advisories": [
+  {
+   "title": "Multiple Vulnerabilities Impacting VMware ESX, vCenter, Workstation, Fusion, Tools, and Avi Load Balancer",
+   "link": "https://threatprotect.qualys.com/2026/11/25/multiple-vulnerabilities-impacting-vmware-esx-vcenter-workstation-fusion-tools-and-avi-load-balancer/",
+   "source": "ThreatPROTECT",
+   "published": "2026-11-25T14:10+00:00",
+   "summary": "Broadcom has released security updates to address 22 vulnerabilities affecting VMware ESX, vCenter, Workstation, Fusion, Tools, and Avi Load Balancer. Only three vulnerabilities were given critical severity ratings, tracked as CVE-2026-123903, CVE-2026-123910, and…",
+   "categories": [
+    "Vulnerability Management",
+    "Identity & Access"
+   ],
+   "cves": [
+    "CVE-2026-123903",
+    "CVE-2026-123910",
+    "CVE-2026-123911"
+   ],
+   "vendors": [
+    "Broadcom",
+    "VMware",
+    "vCenter"
+   ],
+   "edition": "2026-11-25",
+   "id": "tp0",
+   "related": [
+    {
+     "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+     "match": "cve"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+     "match": "vendor"
+    },
+    {
+     "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+     "match": "vendor"
+    }
+   ],
+   "kev": {}
+  },
   {
    "title": "VMware vCenter, Tools, and SDDC Manager Multiple Vulnerabilities (CVE-2026-123890, CVE-2026-123891, CVE-2026-123892, CVE-2026-123893, & CVE-2026-123894)",
    "link": "https://threatprotect.qualys.com/2026/11/20/vmware-vcenter-tools-and-sddc-manager-multiple-vulnerabilities-cve-2026-123890-cve-2026-123891-cve-2026-123892-cve-2026-123893-cve-2026-123894/",
@@ -8781,7 +8971,7 @@
     "vCenter"
    ],
    "edition": "2026-11-20",
-   "id": "tp0",
+   "id": "tp1",
    "related": [
     {
      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
@@ -8854,7 +9044,7 @@
     "PHP"
    ],
    "edition": "2026-11-20",
-   "id": "tp1",
+   "id": "tp2",
    "related": [],
    "kev": {}
   },
@@ -8879,7 +9069,7 @@
     "F5"
    ],
    "edition": "2026-11-19",
-   "id": "tp2",
+   "id": "tp3",
    "related": [
     {
      "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
@@ -8918,7 +9108,7 @@
     "Oracle"
    ],
    "edition": "2026-11-18",
-   "id": "tp3",
+   "id": "tp4",
    "related": [
     {
      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
@@ -8969,7 +9159,7 @@
    ],
    "vendors": [],
    "edition": "2026-11-18",
-   "id": "tp4",
+   "id": "tp5",
    "related": [
     {
      "link": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
@@ -9005,56 +9195,6 @@
     }
    ],
    "kev": {}
-  },
-  {
-   "title": "Microsoft Patch Tuesday, November 2026 Security Update Review",
-   "link": "https://threatprotect.qualys.com/2026/11/11/microsoft-patch-tuesday-november-2026-security-update-review/",
-   "source": "ThreatPROTECT",
-   "published": "2026-11-11T08:08+00:00",
-   "summary": "As the year approaches its final stretch, Microsoft’s November 2026 Patch Tuesday highlights the continued importance of proactive vulnerability management. This month’s security updates address vulnerabilities across the Microsoft ecosystem, reinforcing the need for…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [],
-   "vendors": [
-    "Microsoft"
-   ],
-   "edition": "2026-11-11",
-   "id": "tp5",
-   "related": [],
-   "kev": {}
-  },
-  {
-   "title": "Google Chrome Patches Eighth Zero-day Vulnerability of the Year (CVE-2026-125350)",
-   "link": "https://threatprotect.qualys.com/2026/11/10/google-chrome-patches-eighth-zero-day-vulnerability-of-the-year-cve-2026-125350/",
-   "source": "ThreatPROTECT",
-   "published": "2026-11-11T06:21+00:00",
-   "summary": "Google released security updates to address nine vulnerabilities impacting the Chrome browser. One of these vulnerabilities, tracked as CVE-2026-125350, is being exploited in the wild. This is a use-after-free flaw affecting the XML component. A use-after-free flaw occurs when…",
-   "categories": [
-    "Vulnerability Management"
-   ],
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "vendors": [
-    "Chrome",
-    "Google"
-   ],
-   "edition": "2026-11-11",
-   "id": "tp6",
-   "related": [
-    {
-     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-     "match": "vendor"
-    }
-   ],
-   "kev": {
-    "CVE-2026-125350": {
-     "added": "2026-11-10",
-     "due": "2026-11-24",
-     "ransomware": false
-    }
-   }
   }
  ]
 }
