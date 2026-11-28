@@ -249,3 +249,4 @@ Release Notification: Deprecation of the “qcs-sensor” Helm Chart in Qualys C
 Exploitability Needs Runtime Evidence: Understanding Runtime Vulnerability Reachability for Containers,https://blog.qualys.com/product-tech/2026/10/12/runtime-vulnerability-reachability-containers,Blog
 "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",https://blog.qualys.com/product-tech/2026/11/04/cloud-agent-now-in-a-container-host-security-for-nodes-you-cant-touch,Blog
 Qualys Enterprise TruRisk Platform (Container Security Release 1.46) API Notification,https://notifications.qualys.com/api/2026/11/20/qualys-enterprise-trurisk-platform-container-security-release-1-46-api-notification,API
+LiteLLM 1.107.0 Supply Chain Attack: How to Secure AI Gateways Beyond Code Signatures,https://blog.qualys.com/product-tech/2026/11/23/litellm-1-107-0-supply-chain-attack-ai-gateway-security-primary-keyword-litellm-1-107-0-supply-chain-attack-litellm-1-10,Blog
